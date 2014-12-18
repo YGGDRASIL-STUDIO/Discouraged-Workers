@@ -35,12 +35,14 @@
 <li>그래픽 카드 : DirectX 호환 카드</li>
 <li>사운드 카드 : DirectX 호환 카드</li></ul>
 
+<a href="https://mega.co.nz/#!Xl5HkT4a!dYb1gB1LC8XPqzHoEMEjewTQt1cx81PPMMhCHmUBw6w">Download Win(70.4MB)</a> <a href="https://mega.co.nz/#!mgZ2RCYB!Qjw_-i8B0kJSUlCcTCdZOwpa-RcWumLD27OJmey8RPo">Download Mac(69.2MB)</a> <a href="https://mega.co.nz/#!DwxGXI4Q!DtNpiXMTqiKd1FLYMATEMpL7r9cRkIufWUMXqL6JZJw">Download Linuz(72.4MB)</a>
+
 
 시스템 요구사항 (모바일) -현재 미공개.
 ===================
 <ul><li>OS : Android 2.2(Froyo) / iOS 5.0(9A334)</li>
 <li>OpenGL : 2.0 또는 그 이상</li>
-<li>SD카드 : 130MB</li></ul>
+<li>SD카드 : 68.9MB</li></ul>
 
 
 라이선스
