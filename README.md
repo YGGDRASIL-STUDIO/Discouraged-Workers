@@ -22,7 +22,7 @@ Features
 <li>Cinematic transition effects.</li>
 <li>The actual photo retouching background.</li>
 <li>Over 30+ achievements and rewards -Currently not implemented.</li>
-<li>Most powerful compression technology used -Will be compressed into half again.</li></ul>
+<li>Most powerful compression technology used.</li></ul>
 
 
 System Requirements (PC)
