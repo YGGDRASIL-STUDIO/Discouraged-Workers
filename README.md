@@ -30,7 +30,7 @@ System Requirements (PC)
 <ul><li>OS : Windows XP / Mac OS X Version Leopard 10.5.8 / Linux x86</li>
 <li>CPU : Pentium 4 1.66Ghz</li>
 <li>RAM : 1GB</li>
-<li>HDD : 140MB</li>
+<li>HDD : 128MB -Comprehensive Version</li>
 <li>DirectX : DirectX 9.0</li>
 <li>Resolution : HD(1280*720) or higher</li>
 <li>Graphic Card : DirectX compatible card</li>
