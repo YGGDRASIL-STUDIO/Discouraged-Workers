@@ -11,7 +11,7 @@ Discouraged Workers is an episode that takes the korean trend <strong>"The end o
 Description
 ===================
 <ul><li>The game is not game, this is an Kinetic Novel.</li>
-<li>The episode is <strong>adult content.</strong> Children, seniors or pregnants, Feeble-minded person are not allowed to play this game.</li>
+<li>The episode is <strong>adult content.</strong> Children, Seniors or Pregnants, Feeble-Minded Person are not allowed to play this game.</li>
 <li>You do not need to intervene in the game. Only watching, Reading, Listening, Feeling.</li></ul>
 
 
