@@ -43,6 +43,12 @@
 <li>SD카드 : 130MB</li></ul>
 
 
-크리에이티브 커먼즈 라이선스
+라이선스
 ===================
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">실망실업자</span>의 저작권은 <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">YGGDRASIL STUDIO</span>에 있으며 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">크리에이티브 커먼즈 저작자표시-비영리-변경금지 4.0 국제 라이선스</a>에 따라 이용할 수 있습니다..
+Discouraged Workers ⓒ YGGDRASIL STUDIO All Rights Reserved.
+Powered by Korea Indie Game Shop, Co.
+
+이 프로그램은 저작권법과 국제 협약에 의해 보호를 받고 있습니다.
+이 프로그램의 전체 또는 일부를 무단으로 복제하거나 배포하면,
+민/형사상의 벌금형을 받게 되며, 최고형의 법적 처벌을 받을 수도 있습니다.
+모든 리소스는 해당하는 저작권자의 재산입니다.
