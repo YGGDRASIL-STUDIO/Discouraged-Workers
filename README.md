@@ -35,12 +35,14 @@ System Requirements (PC)
 <li>Graphic Card : DirectX compatible card</li>
 <li>Sound Card : DirectX compatible card</li></ul>
 
+<a href="https://mega.co.nz/#!Xl5HkT4a!dYb1gB1LC8XPqzHoEMEjewTQt1cx81PPMMhCHmUBw6w" class="button info"><i class="fa fa-windows"></i> Download zip(70.4MB)</a> <a href="https://mega.co.nz/#!mgZ2RCYB!Qjw_-i8B0kJSUlCcTCdZOwpa-RcWumLD27OJmey8RPo" class="button default"><i class="fa fa-apple"></i> Download zip(69.2MB)</a> <a href="https://mega.co.nz/#!DwxGXI4Q!DtNpiXMTqiKd1FLYMATEMpL7r9cRkIufWUMXqL6JZJw" class="button default"><i class="fa fa-linux"></i> Download tar.bz2(72.4MB)</a>
+
 
 System Requirements (Mobile) -Currently not distributed
 ===================
 <ul><li>OS : Android 2.2(Froyo) / iOS 5.0(9A334)</li>
 <li>OpenGL : 2.0 or higher</li>
-<li>SD Card : 130MB</li></ul>
+<li>SD Card : 68.9MB</li></ul>
 
 
 License
