@@ -36,7 +36,7 @@ System Requirements (PC)
 <li>Graphic Card : DirectX compatible card</li>
 <li>Sound Card : DirectX compatible card</li></ul>
 
-<a href="https://mega.co.nz/#!Xl5HkT4a!dYb1gB1LC8XPqzHoEMEjewTQt1cx81PPMMhCHmUBw6w" target="_blank">Download Win(70.4MB)</a> <a href="https://mega.co.nz/#!mgZ2RCYB!Qjw_-i8B0kJSUlCcTCdZOwpa-RcWumLD27OJmey8RPo" target="_blank">Download Mac(69.2MB)</a> <a href="https://mega.co.nz/#!DwxGXI4Q!DtNpiXMTqiKd1FLYMATEMpL7r9cRkIufWUMXqL6JZJw" target="_blank">Download Linux(72.4MB)</a>
+<a href="https://mega.co.nz/#!6gQWnLRQ!W85ywx2c9x1oWixj6kOpbMb1mSCnsWaMirMuCYd9zCU" target="_blank">Download Win(70.4MB)</a> <a href="https://mega.co.nz/#!384k1CRB!zMyfMUbls156HSszw0AKlncrpCMdCqsyJ5s7YcZqRR0" target="_blank">Download Mac(69.2MB)</a> <a href="https://mega.co.nz/#!6tYDTDBA!NGQWkesZAmS7CHTjLUIXcnV3md-45v6_y3-3omQ_1b4" target="_blank">Download Linux(72.4MB)</a>
 
 
 System Requirements (Mobile) -Currently not distributed
