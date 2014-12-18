@@ -21,7 +21,7 @@ Features
 <li>Short but intense 75 minutes.</li>
 <li>Cinematic transition effects.</li>
 <li>The actual photo retouching background.</li>
-<li>Over 30+ Steamworks achievements and rewards -Currently not implemented.</li>
+<li>Over 30+ achievements and rewards -Currently not implemented.</li>
 <li>Most powerful compression technology used -Will be compressed into half again.</li></ul>
 
 
@@ -43,6 +43,10 @@ System Requirements (Mobile) -Currently not distributed
 <li>SD Card : 130MB</li></ul>
 
 
-Creative Commons License
+License
 ===================
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Discouraged Workers</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">YGGDRASIL STUDIO</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+Discouraged Workers ⓒ YGGDRASIL STUDIO All Rights Reserved.
+All trademarks are property of their respective owners.
+Do not distribute our program or any alterations of our program files.
+
+Powered by Korea Indie Game Shop, Co.
