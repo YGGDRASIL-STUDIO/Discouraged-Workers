@@ -1,6 +1,6 @@
 Discouraged-Workers-DEMO-0.3.5.0
 ===================
-Discouraged Workers was developing by YGGDRASIL STUDIO, korean indiegame creators. The game is a 4th story of Project DW. <strong>Currently supported only Korean. If you Korean, read this <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/README-ko_KR.md">DOCUMENT</a></strong>
+Discouraged Workers was developing by YGGDRASIL STUDIO, korean indiegame creators. The game is a 4th story of Project DW. <strong>Currently supported only Korean. If you Korean, please read <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/README-ko_KR.md">this DOCUMENT</a></strong>
 
 
 Introduce
