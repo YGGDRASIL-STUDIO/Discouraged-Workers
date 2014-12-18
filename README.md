@@ -54,3 +54,5 @@ All trademarks are property of their respective owners.
 Do not distribute our program or any alterations of our program files.
 
 Powered by Korea Indie Game Shop, Co.
+
+<a href="https://www.paypal.com/kr/cgi-bin/webscr?cmd=_flow&SESSION=gU2ioOsJn2GvzB3qDUzfchqCZn7bPwclWL8QaYzVTuafpEnqBOnBzcdmoNK&dispatch=5885d80a13c0db1f8e263663d3faee8d66f31424b43e9a70645c907a6cbd8fb4" target="_blank">Donate with Paypal</a>
