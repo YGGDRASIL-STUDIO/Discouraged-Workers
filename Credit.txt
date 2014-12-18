@@ -45,6 +45,7 @@ Lee Yun-Seok:
 
 
 PyTom(http://renpy.org/)
+George Winston
 Baekansi(http://askance.tistory.com/)
 Ren'Py Peoples
 And YOU
