@@ -32,6 +32,7 @@
 <li>RAM : 1GB</li>
 <li>HDD : 140MB</li>
 <li>DirectX : DirectX 9.0</li>
+<li>해상도 : HD(1280*720) 이상</li>
 <li>그래픽 카드 : DirectX 호환 카드</li>
 <li>사운드 카드 : DirectX 호환 카드</li></ul>
 
@@ -41,7 +42,8 @@
 시스템 요구사항 (모바일) -현재 미공개.
 ===================
 <ul><li>OS : Android 2.2(Froyo) / iOS 5.0(9A334)</li>
-<li>OpenGL : 2.0 또는 그 이상</li>
+<li>OpenGL : OpelGL 2.0 이상</li>
+<li>해상도 : WVGA(800*480) 이상</li>
 <li>SD카드 : 68.9MB</li></ul>
 
 
