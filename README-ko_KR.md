@@ -1,6 +1,6 @@
 실망실업자 데모-0.3.5.0
 ===================
-실망실업자는 한국의 독립게임 창작팀 YGGDRASIL STUDIO에서 제작하고 있습니다. 이 게임은 Project DW의 네 번째 이야기입니다.
+실망실업자는 한국의 1인 독립게임 창작자 YGGDRASIL STUDIO에서 제작하고 있습니다. 이 게임은 Project DW의 네 번째 이야기입니다.
 
 
 소개
@@ -50,7 +50,6 @@
 라이선스
 ===================
 Discouraged Workers ⓒ YGGDRASIL STUDIO All Rights Reserved.
-Powered by Korea Indie Game Shop, Co.
 
 이 프로그램은 저작권법과 국제 협약에 의해 보호를 받고 있습니다.
 이 프로그램의 전체 또는 일부를 무단으로 복제하거나 배포하면,
