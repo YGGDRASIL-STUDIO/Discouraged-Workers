@@ -56,3 +56,5 @@ Powered by Korea Indie Game Shop, Co.
 이 프로그램의 전체 또는 일부를 무단으로 복제하거나 배포하면,
 민/형사상의 벌금형을 받게 되며, 최고형의 법적 처벌을 받을 수도 있습니다.
 모든 리소스는 해당하는 저작권자의 재산입니다.
+
+<a href="https://www.paypal.com/kr/cgi-bin/webscr?cmd=_flow&SESSION=gU2ioOsJn2GvzB3qDUzfchqCZn7bPwclWL8QaYzVTuafpEnqBOnBzcdmoNK&dispatch=5885d80a13c0db1f8e263663d3faee8d66f31424b43e9a70645c907a6cbd8fb4" target="_blank">페이팔로 후원하기</a>
