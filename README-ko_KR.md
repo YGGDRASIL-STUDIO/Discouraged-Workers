@@ -44,7 +44,7 @@
 <ul><li>OS : Android 2.2(Froyo) / iOS 5.0(9A334)</li>
 <li>OpenGL : OpelGL 2.0 이상</li>
 <li>해상도 : WVGA(800*480) 이상</li>
-<li>SD카드 : 68.9MB</li></ul>
+<li>SD카드 : 68.9MB -1/3으로 더 압축할 예정</li></ul>
 
 
 라이선스
