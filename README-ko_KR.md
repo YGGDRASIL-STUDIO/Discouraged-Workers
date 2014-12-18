@@ -30,7 +30,7 @@
 <ul><li>OS : Windows XP / Mac OS X Version Leopard 10.5.8 / Linux x86</li>
 <li>CPU : Pentium 4 1.66Ghz</li>
 <li>RAM : 1GB</li>
-<li>HDD : 140MB</li>
+<li>HDD : 128MB(통합본)</li>
 <li>DirectX : DirectX 9.0</li>
 <li>해상도 : HD(1280*720) 이상</li>
 <li>그래픽 카드 : DirectX 호환 카드</li>
