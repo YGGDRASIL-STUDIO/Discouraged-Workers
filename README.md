@@ -2,6 +2,9 @@ Discouraged-Workers-DEMO-0.4.X
 ===================
 Discouraged Workers is developing by YGGDRASIL STUDIO, korean indiegame creator. The game is a 4th story of Project DW. <strong>Currently supported only Korean. If you Korean, please read <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/README-ko_KR.md">THIS DOCUMENT.</a></strong>
 
+If you want to download for your OS, checkout link below that currently V.0.4.1. After download, please checkout the newest resource files-Maybe game/**.rpa
+<a href="https://mega.co.nz/#!75pT3JJa!sk5R-meng8qaGLgMbbF_ZnblboGSBxnFS1X9l5VpGkc" target="_blank">Download Linux(72MB)</a> <a href="https://mega.co.nz/#!ik4g0bxD!YmzlCJ99-AB-hWizLXaWO6rnRCEpANZF4wAaZvrygSE" target="_blank">Download Mac(68.8MB)</a> <a href="https://mega.co.nz/#!WxJVELKZ!bBisHi_ONxEJJil96tkWcz_oOylpDqc90osupisr3xk" target="_blank">Download Win(70.1MB)</a>
+
 
 Introduce
 ===================
@@ -35,8 +38,6 @@ System Requirements (PC)
 <li>Resolution : HD(1280*720) or higher</li>
 <li>Graphic Card : DirectX compatible card</li>
 <li>Sound Card : DirectX compatible card</li></ul>
-
-<a href="https://mega.co.nz/#!6tYDTDBA!NGQWkesZAmS7CHTjLUIXcnV3md-45v6_y3-3omQ_1b4" target="_blank">Download Linux(72.4MB)</a> <a href="https://mega.co.nz/#!384k1CRB!zMyfMUbls156HSszw0AKlncrpCMdCqsyJ5s7YcZqRR0" target="_blank">Download Mac(69.2MB)</a> <a href="https://mega.co.nz/#!6gQWnLRQ!W85ywx2c9x1oWixj6kOpbMb1mSCnsWaMirMuCYd9zCU" target="_blank">Download Win(70.4MB)</a>
 
 
 System Requirements (Mobile) -Currently not distributed
