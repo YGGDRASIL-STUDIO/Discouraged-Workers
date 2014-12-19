@@ -17,7 +17,7 @@ Description
 <ul><li>The game is not game, this is an Kinetic Novel.</li>
 <li>The episode is <strong>adult content.</strong> Children, Seniors or Pregnants, Feeble-Minded Person are not allowed to play this game.</li>
 <li>You do not need to intervene in the game. Only Watching, Reading, Listening, Feeling.</li>
-<li>Discouraged Workers are playing to automatically.</li></ul>
+<li>Discouraged Workers are playing to automatically. You can toggle this function.</li></ul>
 
 
 Features
