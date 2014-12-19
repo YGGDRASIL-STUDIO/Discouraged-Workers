@@ -43,12 +43,13 @@ System Requirements (PC)
 <li>Sound Card : DirectX compatible card</li></ul>
 
 
-System Requirements (Mobile) -Currently not distributed
+System Requirements (Mobile)
 ===================
 <ul><li>OS : Android 2.2(Froyo) / iOS 5.0(9A334)</li>
 <li>OpenGL : 2.0 or higher</li>
 <li>Resolution : WVGA(800*480) or higher</li>
-<li>SD Card : 68.5MB -Will be compressed into a 3rd again.</li></ul>
+<li>SD Card : 68.5MB -Will be compressed into a 3rd again.</li>
+<li>Currently not distributed.</li></ul>
 
 
 Distribution Platform -Is Expected
