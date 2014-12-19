@@ -2,7 +2,7 @@
 ===================
 실망실업자는 한국의 1인 독립게임 창작자 YGGDRASIL STUDIO에서 제작하고 있습니다. 이 게임은 Project DW의 네 번째 이야기입니다.
 
-당신의 OS에 맞는 버전만을 다운로드하고 싶다면 아래 2014년 12월 20일자 <strong>V0.4.1</strong>을 이용하십시오. 다운로드한 후, 우리의 <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/master/game" target="_blank">GitHUB</a>에서 최신 리소스 파일을 체크하십시오. 아마도 <strong>'game/**.rpa'</strong>일 겁니다.
+당신의 OS에 맞는 버전만을 다운로드하고 싶다면 아래 2014년 12월 20일자 <strong>V0.4.1</strong>을 이용하십시오. 다운로드한 후, 우리의 <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/master/game" target="_blank"><strong>GitHUB</strong></a>에서 최신 리소스 파일을 체크하십시오. 아마도 <strong>'game/**.rpa'</strong>일 겁니다.
 
 <a href="https://mega.co.nz/#!75pT3JJa!sk5R-meng8qaGLgMbbF_ZnblboGSBxnFS1X9l5VpGkc" target="_blank">Download for Linux(72MB)</a> <a href="https://mega.co.nz/#!ik4g0bxD!YmzlCJ99-AB-hWizLXaWO6rnRCEpANZF4wAaZvrygSE" target="_blank">Download for Mac(68.8MB)</a> <a href="https://mega.co.nz/#!WxJVELKZ!bBisHi_ONxEJJil96tkWcz_oOylpDqc90osupisr3xk" target="_blank">Download for Win(70.1MB)</a>
 
