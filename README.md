@@ -27,7 +27,7 @@ Features
 <li>Autoplay speed like a humans speech.</li>
 <li>Cinematic transition effects.</li>
 <li>The actual photo retouching background.</li>
-<li>Over 30+ achievements and rewards -Currently not implemented.</li>
+<li>Over 30+ achievements and rewards -Currently not included.</li>
 <li>Most powerful compression technology used.</li></ul>
 
 
