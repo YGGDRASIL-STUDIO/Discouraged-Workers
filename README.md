@@ -4,7 +4,7 @@ Discouraged Workers is developing by YGGDRASIL STUDIO, korean indiegame creator.
 
 If you want to download for only your OS, checkout link below that currently <strong>V.0.4.1</strong>. After download, please checkout the latest resource files that maybe <strong>'game/**.rpa'</strong>
 
-<a href="https://mega.co.nz/#!75pT3JJa!sk5R-meng8qaGLgMbbF_ZnblboGSBxnFS1X9l5VpGkc" target="_blank">Download for Linux(72MB)</a> <a href="https://mega.co.nz/#!ik4g0bxD!YmzlCJ99-AB-hWizLXaWO6rnRCEpANZF4wAaZvrygSE" target="_blank">Download for Mac(68.8MB)</a> <a href="https://mega.co.nz/#!WxJVELKZ!bBisHi_ONxEJJil96tkWcz_oOylpDqc90osupisr3xk" target="_blank">Download for Win(70.1MB)</a>
+<a href="https://mega.co.nz/#!75pT3JJa!sk5R-meng8qaGLgMbbF_ZnblboGSBxnFS1X9l5VpGkc" target="_blank">Download for Linux(72MB)</a> <a href="https://mega.co.nz/#!ik4g0bxD!YmzlCJ99-AB-hWizLXaWO6rnRCEpANZF4wAaZvrygSE" target="_blank">Download for Mac(68.8MB)</a> <a href="https://mega.co.nz/#!WxJVELKZ!bBisHi_ONxEJJil96tkWcz_oOylpDqc90osupisr3xk" target="_blank">Download for Win(70.1MB)</a> <a href="https://www.paypal.com/kr/cgi-bin/webscr?cmd=_flow&SESSION=gU2ioOsJn2GvzB3qDUzfchqCZn7bPwclWL8QaYzVTuafpEnqBOnBzcdmoNK&dispatch=5885d80a13c0db1f8e263663d3faee8d66f31424b43e9a70645c907a6cbd8fb4" target="_blank">Donate with Paypal</a>
 
 
 Introduce
@@ -46,7 +46,7 @@ System Requirements (Mobile) -Currently not distributed
 <ul><li>OS : Android 2.2(Froyo) / iOS 5.0(9A334)</li>
 <li>OpenGL : 2.0 or higher</li>
 <li>Resolution : WVGA(800*480) or higher</li>
-<li>SD Card : 68.9MB -Will be compressed into a 3rd again.</li></ul>
+<li>SD Card : 68.5MB -Will be compressed into a 3rd again.</li></ul>
 
 
 Distribution Platform -Is Expected
@@ -68,5 +68,3 @@ License
 Discouraged Workers ⓒ YGGDRASIL STUDIO All Rights Reserved.
 All trademarks are property of their respective owners.
 Do not distribute our program or any alterations of our program files.
-
-<a href="https://www.paypal.com/kr/cgi-bin/webscr?cmd=_flow&SESSION=gU2ioOsJn2GvzB3qDUzfchqCZn7bPwclWL8QaYzVTuafpEnqBOnBzcdmoNK&dispatch=5885d80a13c0db1f8e263663d3faee8d66f31424b43e9a70645c907a6cbd8fb4" target="_blank">Donate with Paypal</a>
