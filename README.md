@@ -49,7 +49,7 @@ System Requirements (Mobile) -Currently not distributed
 
 Distribution Platform -Is Expected
 ===================
-<ul><li>Package : 11st, Amazon, Auction, eBay, GMarket, Interpark, KIGS, Naver Shopping</li>
+<ul><li>Package : 11st, Amazon, Auction, eBay, GMarket, Interpark, KIGS, Naver Shopping, Naver Storefarm</li>
 <li>PC Platform : Amazon, Mac AppStore, D2D, Desura, Gamers Gate, Game Jolt, GOG.com, Green Man Gaming, Humble, IndieGameStand, INDOMOG, itch.io, Playism, Steam, Windows Store</li>
 <li>Mobile Platform : Amazon, Alleh Market, Appbrain, AppLiv, AppStore, Facebook Appcenter, GooglePlay, NStore, SlideME, TStore,  Windows Store
 <li>Console Platform : OUYA, PSP, PS Vita</li></ul>
