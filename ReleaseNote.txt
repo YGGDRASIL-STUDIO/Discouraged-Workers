@@ -4,8 +4,10 @@
 ■██▓▒░ Latest Update Version 0.4.X Released ░▒▓███████████████████■
 
 
+V0.4.1: Remove Vibrate Function on PC
 V0.4.1: Fixed Padding in Dialogue Window
 V0.4.1: Fixed Label Scene in Each Part
+V0.4.1: Fixed Quick Menu
 V0.4.1: Fixed Main Menu
 V0.4.1: Fixed System Menu
 V0.4.1: Fixed Configration Menu
@@ -24,14 +26,14 @@ V0.4.0: Archives Division
 V0.5.0: Update Release Distribution
 V0.5.0: Fix README.html
 V0.5.0: Remove License.txt
-V0.5.0: Remove Credits.txt
+V0.5.0: Remove Credit.txt
 V0.5.0: Add Hotkey Function
 V0.4.9: Add BGM -Love Song
 V0.4.9: Add Ending Credits
 V0.4.8: Add Credits Menu
 V0.4.7: Change Configration Menu
 V0.4.4: Fix SE -All
-V0.4.3: Fix BGM -Canon in C, Nyx, Unknown Mist
+V0.4.3: Fix BGM -Canon in C, Nyx, Peace, Unknown Mist
 V0.4.2: Fix Warning Screen
 
 
