@@ -47,6 +47,13 @@
 <li>SD카드 : 68.9MB -1/3으로 더 압축할 예정</li></ul>
 
 
+유통 플랫폼 -예상
+===================
+<ul><li>PC Platform : 11st, Amazon, Auction, Mac AppStore, D2D, Desura, eBay, Gamers Gate, Game Jolt, GMarket, GOG.com, Green Man Gaming, Humble, IndieGameStand, INDOMOG, itch.io, Interpark, Naver Shopping, Playism, Steam, Windows Store</li>
+<li>Mobile Platform : Amazon, Appbrain, AppLiv, AppStore, Facebook Appcenter, GooglePlay, NStore, SlideME, TStore,  Windows Store
+<li>Console Platform : OUYA, PSP, PS Vita</li></ul>
+
+
 라이선스
 ===================
 Discouraged Workers ⓒ YGGDRASIL STUDIO All Rights Reserved.
