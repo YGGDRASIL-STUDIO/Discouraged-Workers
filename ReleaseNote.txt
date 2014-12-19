@@ -1,7 +1,7 @@
 ﻿Last Modified on December 20, 2014.
 
 
-■██▓▒░ Latest Version 0.3.5 Released ░▒▓███████████████████■
+■██▓▒░ Latest Version 0.4 Released ░▒▓███████████████████■
 
 
 Resource Change - BCG, BGM, Font, SCG, SE, UI
