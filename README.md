@@ -24,7 +24,7 @@ Features
 ===================
 <ul><li>Meticulous storytelling with <strong>gloomy</strong> theme.</li>
 <li>Short but intense 75 minutes.</li>
-<li>Autoplay speed is like a humans speech.</li>
+<li>Autoplay speed like a humans speech.</li>
 <li>Cinematic transition effects.</li>
 <li>The actual photo retouching background.</li>
 <li>Over 30+ achievements and rewards -Currently not implemented.</li>
