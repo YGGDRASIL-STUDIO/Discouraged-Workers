@@ -1,12 +1,38 @@
 ﻿Last Modified on December 20, 2014.
 
 
-■██▓▒░ Latest Version 0.4 Released ░▒▓███████████████████■
+■██▓▒░ Latest Update Version 0.4.X Released ░▒▓███████████████████■
 
 
-Resource Change - BCG, BGM, Font, SCG, SE, UI
-Resource Compression
-Archives Division
+V0.4.1: Fixed Padding in Dialogue Window
+V0.4.1: Fixed Label Scene in Each Part
+V0.4.1: Fixed Main Menu
+V0.4.1: Fixed System Menu
+V0.4.1: Fixed Configration Menu
+V0.4.0: Remove Ending Credits
+V0.4.0: Resource Change -BCG, BGM, Font, SCG, SE, UI
+V0.4.0: Resource Compression
+V0.4.0: Archives Division
+
+
+
+
+
+■██▓▒░ Scheduled Next Version 0.5.0 Releases ░▒▓███████████████████■
+
+
+V0.5.0: Update Release Distribution
+V0.5.0: Fix README.html
+V0.5.0: Remove License.txt
+V0.5.0: Remove Credits.txt
+V0.5.0: Add Hotkey Function
+V0.4.9: Add BGM -Love Song
+V0.4.9: Add Ending Credits
+V0.4.8: Add Credits Menu
+V0.4.7: Change Configration Menu
+V0.4.4: Fix SE -All
+V0.4.3: Fix BGM -Canon in C, Nyx, Unknown Mist
+V0.4.2: Fix Warning Screen
 
 
 
@@ -19,16 +45,18 @@ Archives Division
 The game contains 1,431 dialogue blocks, containing 8,968 words and 42,280
 characters, for an average of 6.3 words and 30 characters per block.
 
-The game contains 0 menus, 65 images, and 11 screens.
+The game contains 0 menus, 88 images, and 11 screens.
 
 
 
 
 
-■██▓▒░ Other Release History ░▒▓███████████████████████████■
+■██▓▒░ Project History ░▒▓███████████████████████████■
 
 
-Ver 0.3.1 Released - September 02, 2014
-Ver 0.3 Released - August 29, 2014
-Ver 0.1 Released - July 14, 2013
-Project Started - April 21, 2013
+Ver 0.4.1 Released -December 20, 2014
+Ver 0.4.0 Released -December 19, 2014
+Ver 0.3.1 Released -September 02, 2014
+Ver 0.3.0 Released -August 29, 2014
+Ver 0.1.0 Released -July 14, 2013
+Project Started -April 21, 2013
