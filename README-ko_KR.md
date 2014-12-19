@@ -55,6 +55,12 @@
 <li>Console Platform : OUYA, PSP, PS Vita</li></ul>
 
 
+상품화 계획 -가능 예상
+===================
+<ul><li>실물 - 초상사진, 달력, 코드팩, 콘셉트북, 일기장, 다키마쿠라, 게임 패키지, 동영상, 음악공책, 라이트 노블, 공책, OST 음반, 리소스팩, TCG팩</li> 
+<li>디지털 - 코드 팩, 콘셉트북, 게임, 동영상, 라이트 노블, 라인 스티커, OST 음반, 리소스팩</li></ul>
+
+
 라이선스
 ===================
 Discouraged Workers ⓒ YGGDRASIL STUDIO All Rights Reserved.
