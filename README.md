@@ -47,6 +47,13 @@ System Requirements (Mobile) -Currently not distributed
 <li>SD Card : 68.9MB -Will be compressed into a 3rd again.</li></ul>
 
 
+Distribution Platform -Is Expected
+===================
+<ul><li>PC Platform : Amazon, Mac AppStore, D2D, Desura, eBay, Gamers Gate, Game Jolt, GOG.com, Green Man Gaming, Humble, IndieGameStand, INDOMOG, itch.io, KIGS, Playism, Steam, Windows Store</li>
+<li>Mobile Platform : Amazon, Appbrain, AppLiv, AppStore, Facebook Appcenter, GooglePlay, NStore, SlideME, TStore,  Windows Store
+<li>Console Platform : OUYA, PSP, PS Vita</li></ul>
+
+
 License
 ===================
 Discouraged Workers ⓒ YGGDRASIL STUDIO All Rights Reserved.
