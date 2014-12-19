@@ -71,3 +71,6 @@ License
 Discouraged Workers ⓒ YGGDRASIL STUDIO All Rights Reserved.
 All trademarks are property of their respective owners.
 Do not distribute our program or any alterations of our program files.
+
+
+<a href="http://www.indiedb.com/company/yggdrasil-studio" title="View YGGDRASIL STUDIO on Indie DB" target="_blank"><img src="http://button.indiedb.com/popularity/medium/groups/16898.png" alt="YGGDRASIL STUDIO" /></a> <a href="http://www.indiedb.com/company/korea-indie-game-shop" title="View Korea Indie Game Shop on Indie DB" target="_blank"><img src="http://button.indiedb.com/popularity/medium/groups/16897.png" alt="Korea Indie Game Shop" /></a>
