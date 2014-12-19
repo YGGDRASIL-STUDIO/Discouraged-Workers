@@ -49,7 +49,7 @@
 
 유통 플랫폼 -가능 예상
 ===================
-<ul><li>Package : 11st, Amazon, Auction, eBay, GMarket, Interpark, Naver Shopping, KIGS</li>
+<ul><li>Package : 11st, Amazon, Auction, eBay, GMarket, Interpark, KIGS, Naver Shopping</li>
 <li>PC Platform : Amazon, Mac AppStore, D2D, Desura, Gamers Gate, Game Jolt, GOG.com, Green Man Gaming, Humble, IndieGameStand, INDOMOG, itch.io, Playism, Steam, Windows Store</li>
 <li>Mobile Platform : Amazon, Alleh Market, Appbrain, AppLiv, AppStore, Facebook Appcenter, GooglePlay, NStore, SlideME, TStore,  Windows Store
 <li>Console Platform : OUYA, PSP, PS Vita</li></ul>
