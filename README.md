@@ -5,7 +5,7 @@ Discouraged Workers is developing by YGGDRASIL STUDIO, korean indiegame creator.
 
 Introduce
 ===================
-Discouraged Workers is an episode that takes the korean trend <strong>"The end of the end drama"</strong>. Parable of youth's dark and Ga-Yeon's daily.
+Discouraged Workers is an episode that takes the korean trend <strong>"The end of the end drama"</strong>. Parable of youth's dark and Ga-Yeon's gloomy everyday.
 
 
 Description
