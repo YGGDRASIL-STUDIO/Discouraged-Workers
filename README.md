@@ -9,7 +9,7 @@ If you want to download for only your OS, checkout link below that currently <st
 
 Introduce
 ===================
-Discouraged Workers is an episode that takes the korean trend <strong>"The end of the end drama"</strong>. Parable of youth's dark and Ga-Yeon's gloomy everyday.
+Discouraged Workers is an episode that takes the korean trend <strong>"The end of the end drama"</strong>. Parable of youth's darkside and Ga-Yeon's gloomy everyday.
 
 
 Description
