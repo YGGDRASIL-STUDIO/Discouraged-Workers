@@ -1,6 +1,6 @@
 Discouraged-Workers-DEMO-V0.4.X
 ===================
-Discouraged Workers is developing by YGGDRASIL STUDIO, korean indiegame creator. The game is a 4th story of Project DW. <strong>Currently supported only Korean. If you Korean, please read <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/README-ko_KR.md" target="_blank">THIS DOCUMENT.</a></strong>
+Discouraged Workers are developing by YGGDRASIL STUDIO, korean indiegame creator. The game is a 4th story of Project DW. <strong>Currently supported only Korean. If you Korean, please read <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/README-ko_KR.md" target="_blank">THIS DOCUMENT.</a></strong>
 
 If you want to download for only your OS, checkout link below that currently <strong>V0.4.1</strong> released on Dec 20, 2014. After download, please checkout the latest resource files on <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/master/game" target="_blank"><strong>GitHUB</strong></a> that maybe <strong>'game/**.rpa'</strong>.
 
@@ -9,20 +9,22 @@ If you want to download for only your OS, checkout link below that currently <st
 
 Introduce
 ===================
-Discouraged Workers is an episode that takes the korean trend <strong>"The end of the end drama"</strong>. Parable of youth's dark and Ga-Yeon's gloomy everyday.
+Discouraged Workers are an episode that takes the korean trend <strong>"The end of the end drama"</strong>. Parable of youth's dark and Ga-Yeon's gloomy everyday.
 
 
 Description
 ===================
 <ul><li>The game is not game, this is an Kinetic Novel.</li>
 <li>The episode is <strong>adult content.</strong> Children, Seniors or Pregnants, Feeble-Minded Person are not allowed to play this game.</li>
-<li>You do not need to intervene in the game. Only Watching, Reading, Listening, Feeling.</li></ul>
+<li>You do not need to intervene in the game. Only Watching, Reading, Listening, Feeling.</li>
+<li>Discouraged Workers are playing to automatically.</li></ul>
 
 
 Features
 ===================
 <ul><li>Meticulous storytelling with <strong>gloomy</strong> theme.</li>
 <li>Short but intense 75 minutes.</li>
+<li>Autoplay that's like a humans speech speed.</li>
 <li>Cinematic transition effects.</li>
 <li>The actual photo retouching background.</li>
 <li>Over 30+ achievements and rewards -Currently not implemented.</li>
