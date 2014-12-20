@@ -71,3 +71,6 @@ License
 Discouraged Workers ⓒ YGGDRASIL STUDIO All Rights Reserved.
 All trademarks are property of their respective owners.
 Do not distribute our program or any alterations of our program files.
+
+
+<a href="http://www.indiedb.com/games/discouraged-workers" title="View Discouraged Workers on Indie DB" target="_blank"><img src="http://button.indiedb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a>
