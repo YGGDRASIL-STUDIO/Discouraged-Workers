@@ -74,3 +74,6 @@ Discouraged Workers ⓒ YGGDRASIL STUDIO All Rights Reserved.
 이 프로그램의 전체 또는 일부를 무단으로 복제하거나 배포하면,
 민/형사상의 벌금형을 받게 되며, 최고형의 법적 처벌을 받을 수도 있습니다.
 모든 리소스는 해당하는 저작권자의 재산입니다.
+
+
+<a href="http://www.indiedb.com/games/discouraged-workers" title="View Discouraged Workers on Indie DB" target="_blank"><img src="http://button.indiedb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a>
