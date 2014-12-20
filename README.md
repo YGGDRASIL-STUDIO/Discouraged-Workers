@@ -62,7 +62,7 @@ Distribution Platform -Is Expected
 
 Product Planned -Is Expected
 ===================
-<ul><li>Physical - Bromide, Calender, Code Pack, Concept book, Diary, Dakimakura, Game Package, Movie, Music Notebook, Light Novel, Notebook, OST Album, Resource Pack, TCG Pack</li> 
+<ul><li>Physical - Bromide, Calendar, Code Pack, Concept book, Diary, Dakimakura, Game Package, Movie, Music Notebook, Light Novel, Notebook, OST Album, Resource Pack, TCG Pack</li> 
 <li>Digital - Code Pack, Concept book, Game, Movie, Light Novel, Line Sticker, OST Album, Resource Pack</li></ul>
 
 
