@@ -36,9 +36,9 @@
 <ul><li>OS : Windows XP / Mac OS X Version Leopard 10.5.8 / Linux x86</li>
 <li>CPU : Pentium 4 1.66Ghz</li>
 <li>RAM : 1GB</li>
-<li>HDD : 128MB -통합본</li>
+<li>HDD : 72MB</li>
 <li>DirectX : DirectX 9.0</li>
-<li>해상도 : HD(1280*720) 이상</li>
+<li>해상도 : 와이드 스크린</li>
 <li>그래픽 카드 : DirectX 호환 카드</li>
 <li>사운드 카드 : DirectX 호환 카드</li></ul>
 
@@ -46,8 +46,8 @@
 시스템 요구사항 (모바일)
 ===================
 <ul><li>OS : Android 2.2(Froyo) / iOS 5.0(9A334)</li>
-<li>OpenGL : OpelGL 2.0 이상</li>
-<li>해상도 : WVGA(800*480) 이상</li>
+<li>OpenGL : OpelGL 2.0</li>
+<li>해상도 : 와이드 스크린</li>
 <li>SD카드 : 68.5MB -1/3으로 압축예정</li>
 <li>현재 배포하지 않습니다.</li></ul>
 
