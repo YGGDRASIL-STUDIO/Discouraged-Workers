@@ -66,7 +66,7 @@
 <li>Digital - Code Pack, Concept book, Game, Movie, Light Novel, Line Sticker, OST Album, Resource Pack</li></ul>
 
 
-라이선스
+카피라이트
 ===================
 Discouraged Workers ⓒ YGGDRASIL STUDIO All Rights Reserved.
 
