@@ -38,7 +38,7 @@ System Requirements (PC)
 <li>RAM : 1GB</li>
 <li>HDD : 128MB -Comprehensive Version</li>
 <li>DirectX : DirectX 9.0</li>
-<li>Resolution : HD(1280*720) or higher</li>
+<li>Resolution : Wide Screen</li>
 <li>Graphic Card : DirectX compatible card</li>
 <li>Sound Card : DirectX compatible card</li></ul>
 
@@ -47,7 +47,7 @@ System Requirements (Mobile)
 ===================
 <ul><li>OS : Android 2.2(Froyo) / iOS 5.0(9A334)</li>
 <li>OpenGL : 2.0 or higher</li>
-<li>Resolution : WVGA(800*480) or higher</li>
+<li>Resolution : Wide Screen</li>
 <li>SD Card : 68.5MB -Will be compressed into a 3rd again.</li>
 <li>Currently not distributed.</li></ul>
 
