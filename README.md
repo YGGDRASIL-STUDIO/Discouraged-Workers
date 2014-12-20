@@ -66,7 +66,7 @@ Product Planned -Is Expected
 <li>Digital - Code Pack, Concept book, Game, Movie, Light Novel, Line Sticker, OST Album, Resource Pack</li></ul>
 
 
-License
+Copyright
 ===================
 Discouraged Workers ⓒ YGGDRASIL STUDIO All Rights Reserved.
 All trademarks are property of their respective owners.
