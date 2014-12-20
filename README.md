@@ -36,7 +36,7 @@ System Requirements (PC)
 <ul><li>OS : Windows XP / Mac OS X Version Leopard 10.5.8 / Linux x86</li>
 <li>CPU : Pentium 4 1.66Ghz</li>
 <li>RAM : 1GB</li>
-<li>HDD : 72MB</li>
+<li>HDD : 72MB Currently</li>
 <li>DirectX : DirectX 9.0</li>
 <li>Resolution : Wide Screen</li>
 <li>Graphic Card : DirectX compatible card</li>
@@ -48,7 +48,7 @@ System Requirements (Mobile)
 <ul><li>OS : Android 2.2(Froyo) / iOS 5.0(9A334)</li>
 <li>OpenGL : 2.0 or higher</li>
 <li>Resolution : Wide Screen</li>
-<li>SD Card : 68.5MB -Will be compressed into a 3rd again.</li>
+<li>SD Card : 68.5MB Currently-Will be compressed into a 3rd again.</li>
 <li>Currently not distributed.</li></ul>
 
 
