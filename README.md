@@ -46,7 +46,7 @@ System Requirements (PC)
 System Requirements (Mobile)
 ===================
 <ul><li>OS : Android 2.2(Froyo) / iOS 5.0(9A334)</li>
-<li>OpenGL : 2.0</li>
+<li>OpenGL : OpenGL 2.0</li>
 <li>Resolution : Wide Screen</li>
 <li>SD Card : 68.5MB Currently-Will be compressed into a 3rd again.</li>
 <li>Currently not distributed.</li></ul>
