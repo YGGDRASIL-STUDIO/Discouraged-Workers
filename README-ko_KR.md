@@ -77,4 +77,5 @@ Discouraged Workers ⓒ YGGDRASIL STUDIO All Rights Reserved.
 
 
 <a href="http://www.indiedb.com/games/discouraged-workers" title="View Discouraged Workers on Indie DB" target="_blank"><img src="http://button.indiedb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a> <a href="http://www.slidedb.com/games/discouraged-workers" title="View Discouraged Workers on Slide DB" target="_blank"><img src="http://button.slidedb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a>
+
 <a href="http://www.indiedb.com/company/yggdrasil-studio" title="View YGGDRASIL STUDIO on Indie DB" target="_blank"><img src="http://button.indiedb.com/popularity/medium/groups/16898.png" alt="YGGDRASIL STUDIO" /></a> <a href="http://www.indiedb.com/company/korea-indie-game-shop" title="View Korea Indie Game Shop on Indie DB" target="_blank"><img src="http://button.indiedb.com/popularity/medium/groups/16897.png" alt="Korea Indie Game Shop" /></a>
