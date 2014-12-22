@@ -26,7 +26,9 @@ V0.4.2: Fixed Warning Screen
 ■██▓▒░ Scheduled Next Version 0.6.0 Releases ░▒▓███████████████████■
 
 
-V0.6.0: Add Language -English
+V0.6.0: Update Release Distribution
+V0.5.9: Fixed translate error
+V0.5.8: Add Language -English
 
 
 
