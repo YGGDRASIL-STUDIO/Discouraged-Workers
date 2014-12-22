@@ -29,6 +29,7 @@ V0.4.2: Fixed Warning Screen
 V0.6.0: Update Release Distribution
 V0.5.9: Fixed translate error
 V0.5.8: Add Language -English
+V0.5.1: Fixed BGM -Days of sighs
 
 
 
