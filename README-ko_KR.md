@@ -52,20 +52,6 @@
 <li>현재 배포하지 않습니다.</li></ul>
 
 
-유통 플랫폼 -가능 예상
-===================
-<ul><li>Package : 11st, Alibaba, Amazon, Auction, eBay, GMarket, Interpark, KIGS, Naver Shopping, Naver Storefarm</li>
-<li>PC Platform : Amazon, Mac AppStore, D2D, Desura, Gamers Gate, Game Jolt, GOG.com, Green Man Gaming, Humble, IndieGameStand, INDOMOG, itch.io, Playism, Steam, Windows Store</li>
-<li>Mobile Platform : Amazon, Alleh Market, Appbrain, AppLiv, AppStore, Facebook Appcenter, GooglePlay, NStore, SlideME, TStore,  Windows Store
-<li>Console Platform : OUYA, PSP, PS Vita</li></ul>
-
-
-상품화 계획 -가능 예상
-===================
-<ul><li>Physical - Bromide, Calendar, Code Pack, Concept book, Diary, Dakimakura, Game Package, Movie, Music Notebook, Light Novel, Notebook, OST Album, Resource Pack, TCG Pack</li> 
-<li>Digital - Code Pack, Concept book, Game, Movie, Light Novel, Line Sticker, OST Album, Resource Pack</li></ul>
-
-
 카피라이트
 ===================
 Discouraged Workers ⓒ YGGDRASIL STUDIO All Rights Reserved.
