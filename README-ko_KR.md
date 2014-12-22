@@ -38,7 +38,7 @@
 <li>RAM : 1GB</li>
 <li>HDD : 72MB</li>
 <li>DirectX : DirectX 9.0</li>
-<li>해상도 : 와이드 스크린</li>
+<li>해상도 : 와이드 스크린 -FHD 최적화</li>
 <li>그래픽 카드 : DirectX 호환 카드</li>
 <li>사운드 카드 : DirectX 호환 카드</li></ul>
 
@@ -47,7 +47,7 @@
 ===================
 <ul><li>OS : Android 2.2(Froyo) / iOS 5.0(9A334)</li>
 <li>OpenGL : OpelGL 2.0</li>
-<li>해상도 : 와이드 스크린</li>
+<li>해상도 : 와이드 스크린 -HD 최적화</li>
 <li>SD카드 : 68.5MB -1/3으로 압축예정</li>
 <li>현재 배포하지 않습니다.</li></ul>
 
