@@ -1,40 +1,33 @@
-﻿Last Modified on December 20, 2014.
+﻿Last Modified on December 23, 2014.
 
 
-■██▓▒░ Latest Update Version 0.4.X Released ░▒▓███████████████████■
-
-
-V0.4.1: Remove Vibrate Function on PC
-V0.4.1: Fixed Padding in Dialogue Window
-V0.4.1: Fixed Label Scene in Each Part
-V0.4.1: Fixed Quick Menu
-V0.4.1: Fixed Main Menu
-V0.4.1: Fixed System Menu
-V0.4.1: Fixed Configration Menu
-V0.4.0: Remove Ending Credits
-V0.4.0: Resource Change -BCG, BGM, Font, SCG, SE, UI
-V0.4.0: Resource Compression
-V0.4.0: Archives Division
-
-
-
-
-
-■██▓▒░ Scheduled Next Version 0.5.0 Releases ░▒▓███████████████████■
+■██▓▒░ Latest Released from Ver 0.4.1 ░▒▓███████████████████■
 
 
 V0.5.0: Update Release Distribution
-V0.5.0: Fix README.html
-V0.5.0: Remove License.txt
-V0.5.0: Remove Credit.txt
-V0.5.0: Add Hotkey Function
-V0.4.9: Add BGM -Love Song
-V0.4.9: Add Ending Credits
-V0.4.8: Add Credits Menu
-V0.4.7: Change Configration Menu
-V0.4.4: Fix SE -All
-V0.4.3: Fix BGM -Canon in C, Nyx, Peace, Unknown Mist
-V0.4.2: Fix Warning Screen
+V0.5.0: Fixed README.html
+V0.5.0: Removed License.txt
+V0.5.0: Removed Credit.txt
+V0.5.0: Added Hotkey Function
+V0.4.9: Compressed All BGM, SE
+V0.4.7: Added BGM -Love Song
+V0.4.6: Added Ending Credits
+V0.4.6: Added Credits Menu
+V0.4.5: Fixed Configration Menu
+V0.4.5: Fixed Read Continue Menu
+V0.4.4: Fixed SE -All
+V0.4.3: Fixed BGM -Canon in C, Nyx, Peace, Unknown Mist
+V0.4.2: Fixed Warning Screen
+
+
+
+
+
+■██▓▒░ Scheduled Next Version 0.6.0 Releases ░▒▓███████████████████■
+
+
+V0.6.0: Add Language -English
+
 
 
 
@@ -47,7 +40,7 @@ V0.4.2: Fix Warning Screen
 The game contains 1,431 dialogue blocks, containing 8,968 words and 42,280
 characters, for an average of 6.3 words and 30 characters per block.
 
-The game contains 0 menus, 88 images, and 11 screens.
+The game contains 0 menus, 88 images, and 13 screens.
 
 
 
@@ -56,6 +49,7 @@ The game contains 0 menus, 88 images, and 11 screens.
 ■██▓▒░ Project History ░▒▓███████████████████████████■
 
 
+Ver 0.5.0 Released -December 23, 2014
 Ver 0.4.1 Released -December 20, 2014
 Ver 0.4.0 Released -December 19, 2014
 Ver 0.3.1 Released -September 02, 2014
