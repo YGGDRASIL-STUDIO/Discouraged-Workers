@@ -5,6 +5,7 @@
 
 
 V0.5.0: Update Release Distribution
+V0.5.0: Remove game/music.rpa
 V0.5.0: Fixed Some Translate Output Error for Korean
 V0.5.0: Fixed README.html
 V0.5.0: Removed License.txt
