@@ -2,57 +2,57 @@
 ===================
 실망실업자는 한국의 1인 독립게임 창작자 YGGDRASIL STUDIO가 제작하고 있습니다. 이 게임은 Project DW의 네 번째 이야기입니다.
 
-당신의 OS에 맞는 버전만을 다운로드하고 싶다면 아래 2014년 12월 23일자 <strong>V0.5.0</strong>을 이용하십시오. 다운로드한 후, 우리의 <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/master/game" target="_blank"><strong>GitHUB</strong></a>에서 최신 리소스 파일을 체크-기존 유저들과 신규 유저도 체크-하십시오. 아마도 <strong>'game/**.rpa'</strong>일 겁니다. 그리고 여기, <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/ReleaseNote.txt" target="_blank"><strong>ReleaseNote.txt</strong></a>를 확인하십시오.
+당신의 OS에 맞는 버전만을 다운로드하고 싶다면 아래 2014년 12월 23일자 **V0.5.0**을 이용하십시오. 다운로드한 후, 우리의 **<a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/master/game" target="_blank">:link:GitHub</a>**에서 최신 리소스 파일을 체크`-기존 유저들과 신규 유저도 권장-`하십시오. 아마도 **'game/*.rpa'**일 겁니다. 그리고 여기, **<a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/ReleaseNote.txt" target="_blank">:ballot_box_with_check:ReleaseNote.txt</a>**를 확인하십시오.
 
-<a href="https://mega.co.nz/#!WtJBgKRK!XVtfelQthA3vW5GrFZt3AaKT4yfdeY43wG5f2P33Dh0" target="_blank">Download for Linux(49MB)</a> <a href="https://mega.co.nz/#!f1IECLpJ!OIeBS2_YubTLQzNVDxq7Gvv9edKYWambc1PmPG04GRA" target="_blank">Download for Mac(45.8MB)</a> <a href="https://mega.co.nz/#!TshURLQQ!A3rd6z5v9CKCwL6bPaqqWnbgNlVHzovN6fj4109q9bk" target="_blank">Download for Win(47.1MB)</a>
+<a href="https://mega.co.nz/#!WtJBgKRK!XVtfelQthA3vW5GrFZt3AaKT4yfdeY43wG5f2P33Dh0" target="_blank">:floppy_disk:Download for Linux(49MB)</a> <a href="https://mega.co.nz/#!f1IECLpJ!OIeBS2_YubTLQzNVDxq7Gvv9edKYWambc1PmPG04GRA" target="_blank">:floppy_disk:Download for Mac(45.8MB)</a> <a href="https://mega.co.nz/#!TshURLQQ!A3rd6z5v9CKCwL6bPaqqWnbgNlVHzovN6fj4109q9bk" target="_blank">:floppy_disk:Download for Win(47.1MB)</a>
 
 
 소개
 ===================
-실망실업자는 언젠가부터 안방을 차지한 <b>‘짜집기가 범람하는 막장 드라마’</b>를 표본으로 하는 에피소드입니다. 이 시대를 살아가는 청춘들의 어두운 단면과 가연의 암울한 일상을 비유합니다.
+실망실업자는 언젠가부터 안방을 차지한 **‘짜집기가 범람하는 막장 드라마’**를 표본으로 하는 에피소드입니다. 이 시대를 살아가는 청춘들의 어두운 단면과 가연의 암울한 일상을 비유합니다.
 
 
 설명
 ===================
-<ul><li>이 게임은 게임이 아닌, 키네틱 노블입니다.</li>
-<li>이 에피소드는 <strong>미성년자 관람불가</strong>입니다. 어린이(청소년), 노약자나 임산부, 심신미약자는 플레이하지 마십시오.</li>
-<li>당신은 게임에 개입할 필요가 없습니다. 오직 보고, 듣고, 읽고, 느끼십시오.</li>
-<li>실망실업자는 자동으로 재생됩니다. 당신은 이 기능을 전환할 수 있습니다.</ul>
+- 이 게임은 게임이 아닌, 키네틱 노블입니다.
+- 이 에피소드는 **미성년자 관람불가**입니다. 어린이(청소년), 노약자나 임산부, 심신미약자는 플레이하지 마십시오.
+- 당신은 게임에 개입할 필요가 없습니다. 오직 보고, 듣고, 읽고, 느끼십시오.
+- 실망실업자는 자동으로 재생됩니다. 당신은 이 기능을 전환할 수 있습니다.
 
 
 특징
 ===================
-<ul><li><strong>암울한</strong> 테마와 치밀한 스토리텔링.</li>
-<li>짧지만 강렬한 75분.</li>
-<li>사람이 말하는 것과 같은 자동진행속도.</li>
-<li>영화같은 연출 효과.</li>
-<li>실제 사진을 보정한 배경.</li>
-<li>30개 이상의 도전과제와 보상 -현재 미구현.</li>
-<li>강력한 데이터 압축 기술 사용.</li></ul>
+- **암울한** 테마와 치밀한 스토리텔링.
+- 짧지만 강렬한 75분.
+- 사람이 말하는 것과 같은 자동진행속도.
+- 영화같은 연출 효과.
+- 실제 사진을 보정한 배경.
+- 30개 이상의 도전과제와 보상 *-현재 미구현.*
+- 강력한 데이터 압축 기술 사용.
 
 
-시스템 요구사항 (PC)
+시스템 요구사항
 ===================
-<ul><li>OS : Windows XP / Mac OS X Version Leopard 10.5.8 / Linux x86</li>
-<li>CPU : Pentium 4 1.66Ghz</li>
-<li>RAM : 1GB</li>
-<li>HDD : 47.1MB / 45.8MB / 49MB</li>
-<li>DirectX : DirectX 9.0</li>
-<li>해상도 : 와이드 스크린 -FHD 최적화</li>
-<li>그래픽 카드 : DirectX 호환 카드</li>
-<li>사운드 카드 : DirectX 호환 카드</li></ul>
+PC 플랫폼 | 요구사항
+------------ | -------------
+OS | Windows XP / Mac OS X Version Leopard 10.5.8 / Linux x86
+CPU | Pentium 4 1.66Ghz
+RAM | 1GB
+HDD | 47.1MB / 45.8MB / 49MB
+DirectX | DirectX 9.0c
+해상도 | 와이드 스크린 *-FHD 최적화*
+그래픽 카드 | DirectX 호환 카드
+사운드 카드 | DirectX 호환 카드
+
+모바일 플랫폼 | 요구사항 *-현재 배포하지 않습니다.*
+------------ | -------------
+OS | Android 2.2(Froyo) / iOS 5.0(9A334)
+OpenGL | OpelGL 2.0
+해상도 | 와이드 스크린 *-HD 최적화*
+SD카드 | 45MB *-1/4로 압축예정*
 
 
-시스템 요구사항 (모바일)
-===================
-<ul><li>OS : Android 2.2(Froyo) / iOS 5.0(9A334)</li>
-<li>OpenGL : OpelGL 2.0</li>
-<li>해상도 : 와이드 스크린 -HD 최적화</li>
-<li>SD카드 : 45MB -1/4로 압축예정</li>
-<li>현재 배포하지 않습니다.</li></ul>
-
-
-카피라이트
+법적 고지
 ===================
 Discouraged Workers ⓒ YGGDRASIL STUDIO All Rights Reserved.
 
