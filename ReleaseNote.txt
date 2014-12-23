@@ -5,6 +5,7 @@
 
 
 V0.5.0: Update Release Distribution
+V0.5.0: Fixed Some Translate Output Error for Korean
 V0.5.0: Fixed README.html
 V0.5.0: Removed License.txt
 V0.5.0: Removed Credit.txt
@@ -27,8 +28,10 @@ V0.4.2: Fixed Warning Screen
 
 
 V0.6.0: Update Release Distribution
-V0.5.9: Fixed translate error
+V0.5.9: Add Some Transtision Detail
+V0.5.9: Fixed Some Transition Error
 V0.5.8: Add Language -English
+V0.5.1: Fixed BGM Output Error-Days of sighs
 
 
 
