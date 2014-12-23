@@ -4,7 +4,7 @@
 
 당신의 OS에 맞는 버전만을 다운로드하고 싶다면 아래 2014년 12월 23일자 <strong>V0.5.0</strong>을 이용하십시오. 다운로드한 후, 우리의 <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/master/game" target="_blank"><strong>GitHUB</strong></a>에서 최신 리소스 파일을 체크-기존 유저들과 신규 유저도 체크-하십시오. 아마도 <strong>'game/**.rpa'</strong>일 겁니다. 그리고 여기, <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/ReleaseNote.txt" target="_blank"><strong>ReleaseNote.txt</strong></a>를 확인하십시오.
 
-<a href="https://mega.co.nz/#!TshURLQQ!A3rd6z5v9CKCwL6bPaqqWnbgNlVHzovN6fj4109q9bk" target="_blank">Download for Linux(49MB)</a> <a href="https://mega.co.nz/#!f1IECLpJ!OIeBS2_YubTLQzNVDxq7Gvv9edKYWambc1PmPG04GRA" target="_blank">Download for Mac(45.8MB)</a> <a href="https://mega.co.nz/#!WtJBgKRK!XVtfelQthA3vW5GrFZt3AaKT4yfdeY43wG5f2P33Dh0" target="_blank">Download for Win(47.1MB)</a>
+<a href="https://mega.co.nz/#!WtJBgKRK!XVtfelQthA3vW5GrFZt3AaKT4yfdeY43wG5f2P33Dh0" target="_blank">Download for Linux(49MB)</a> <a href="https://mega.co.nz/#!f1IECLpJ!OIeBS2_YubTLQzNVDxq7Gvv9edKYWambc1PmPG04GRA" target="_blank">Download for Mac(45.8MB)</a> <a href="https://mega.co.nz/#!TshURLQQ!A3rd6z5v9CKCwL6bPaqqWnbgNlVHzovN6fj4109q9bk" target="_blank">Download for Win(47.1MB)</a>
 
 
 소개
