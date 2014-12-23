@@ -54,7 +54,7 @@ SD카드 | 45MB *-1/4로 압축예정*
 
 법적 고지
 ===================
-Discouraged Workers ⓒ YGGDRASIL STUDIO All Rights Reserved.
+Discouraged Workers :copyright: GGDRASIL STUDIO All Rights Reserved.
 
 이 프로그램은 저작권법과 국제 협약에 의해 보호를 받고 있습니다.
 이 프로그램의 전체 또는 일부를 무단으로 복제하거나 배포하면,
