@@ -4,7 +4,7 @@ Discouraged Workers is creating by YGGDRASIL STUDIO, a korean indiegame creator.
 
 If you want to download for only your OS, checkout link below that currently <strong>V0.5.0</strong> released on Dec 23, 2014. After download, please checkout the latest resource files-This same is true for existing users and new user- on <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers" target="_blank"><strong>GitHUB</strong></a> that maybe <strong>'game/**.rpa'</strong>.  And here, you can check the <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/ReleaseNote.txt" target="_blank"><strong>ReleaseNote.txt</strong></a>
 
-<a href="https://mega.co.nz/#!vsIgCLqA!heDOkoJ4jwU9bwmHo00siTr0Q09Y_BZcgiMC1sEaSnE" target="_blank">Download for Linux(49MB)</a> <a href="https://mega.co.nz/#!35ZwALLJ!UmTB83WUn2tq4juDcJxSMxhR2FrQuOvlj1uxQCspr1E" target="_blank">Download for Mac(45.8MB)</a> <a href="https://mega.co.nz/#!OxAjhDZA!grRJI2Pyy46TX1HFmuLxC4Y2--XuTO2pA8_EUEbM9nE" target="_blank">Download for Win(47.1MB)</a>
+<a href="https://mega.co.nz/#!TshURLQQ!A3rd6z5v9CKCwL6bPaqqWnbgNlVHzovN6fj4109q9bk" target="_blank">Download for Linux(49MB)</a> <a href="https://mega.co.nz/#!f1IECLpJ!OIeBS2_YubTLQzNVDxq7Gvv9edKYWambc1PmPG04GRA" target="_blank">Download for Mac(45.8MB)</a> <a href="https://mega.co.nz/#!WtJBgKRK!XVtfelQthA3vW5GrFZt3AaKT4yfdeY43wG5f2P33Dh0" target="_blank">Download for Win(47.1MB)</a>
 
 
 Introduce
