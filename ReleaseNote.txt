@@ -31,7 +31,7 @@ V0.6.0: Update Release Distribution
 V0.5.9: Add Some Transition Detail
 V0.5.9: Fix Some Transition Error
 V0.5.9: Fix Text Effect size
-V0.5.8: Add Language -English
+V0.5.8: Add Scenario Contents
 V0.5.1: Fix BGM Output Error-Days of sighs
 
 
