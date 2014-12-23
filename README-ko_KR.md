@@ -1,8 +1,8 @@
-실망실업자 데모-V0.4.X
+실망실업자 데모-V0.5.X
 ===================
 실망실업자는 한국의 1인 독립게임 창작자 YGGDRASIL STUDIO가 제작하고 있습니다. 이 게임은 Project DW의 네 번째 이야기입니다.
 
-당신의 OS에 맞는 버전만을 다운로드하고 싶다면 아래 2014년 12월 20일자 <strong>V0.4.1</strong>을 이용하십시오. 다운로드한 후, 우리의 <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/master/game" target="_blank"><strong>GitHUB</strong></a>에서 최신 리소스 파일을 체크하십시오. 아마도 <strong>'game/**.rpa'</strong>일 겁니다. 그리고 여기, <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/ReleaseNote.txt" target="_blank"><strong>ReleaseNote.txt</strong></a>를 확인하십시오.
+당신의 OS에 맞는 버전만을 다운로드하고 싶다면 아래 2014년 12월 23일자 <strong>V0.5.0</strong>을 이용하십시오. 다운로드한 후, 우리의 <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/master/game" target="_blank"><strong>GitHUB</strong></a>에서 최신 리소스 파일을 체크-기존 유저들과 신규 유저도 체크-하십시오. 아마도 <strong>'game/**.rpa'</strong>일 겁니다. 그리고 여기, <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/ReleaseNote.txt" target="_blank"><strong>ReleaseNote.txt</strong></a>를 확인하십시오.
 
 <a href="https://mega.co.nz/#!vsIgCLqA!heDOkoJ4jwU9bwmHo00siTr0Q09Y_BZcgiMC1sEaSnE" target="_blank">Download for Linux(49MB)</a> <a href="https://mega.co.nz/#!35ZwALLJ!UmTB83WUn2tq4juDcJxSMxhR2FrQuOvlj1uxQCspr1E" target="_blank">Download for Mac(45.8MB)</a> <a href="https://mega.co.nz/#!OxAjhDZA!grRJI2Pyy46TX1HFmuLxC4Y2--XuTO2pA8_EUEbM9nE" target="_blank">Download for Win(47.1MB)</a>
 
