@@ -28,7 +28,7 @@ V0.4.2: Fixed Warning Screen
 
 
 V0.6.0: Update Release Distribution
-V0.5.9: Add Some Transtision Detail
+V0.5.9: Add Some Transition Detail
 V0.5.9: Fix Some Transition Error
 V0.5.8: Add Language -English
 V0.5.1: Fix BGM Output Error-Days of sighs
