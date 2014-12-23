@@ -44,10 +44,10 @@ V0.5.1: Fix BGM Output Error-Days of sighs
 
 
 
-The game contains 1,431 dialogue blocks, containing 8,968 words and 42,280
+The game contains 1,431 dialogue blocks, containing 8,968 words and 42,284
 characters, for an average of 6.3 words and 30 characters per block.
 
-The game contains 0 menus, 88 images, and 13 screens.
+The game contains 0 menus, 76 images, and 13 screens.
 
 
 
