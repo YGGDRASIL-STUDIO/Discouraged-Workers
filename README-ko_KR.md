@@ -4,7 +4,7 @@
 
 당신의 OS에 맞는 버전만을 다운로드하고 싶다면 아래 2014년 12월 20일자 <strong>V0.4.1</strong>을 이용하십시오. 다운로드한 후, 우리의 <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/master/game" target="_blank"><strong>GitHUB</strong></a>에서 최신 리소스 파일을 체크하십시오. 아마도 <strong>'game/**.rpa'</strong>일 겁니다. 그리고 여기, <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/ReleaseNote.txt" target="_blank"><strong>ReleaseNote.txt</strong></a>를 확인하십시오.
 
-<a href="https://mega.co.nz/#!75pT3JJa!sk5R-meng8qaGLgMbbF_ZnblboGSBxnFS1X9l5VpGkc" target="_blank">Download for Linux(72MB)</a> <a href="https://mega.co.nz/#!ik4g0bxD!YmzlCJ99-AB-hWizLXaWO6rnRCEpANZF4wAaZvrygSE" target="_blank">Download for Mac(68.8MB)</a> <a href="https://mega.co.nz/#!WxJVELKZ!bBisHi_ONxEJJil96tkWcz_oOylpDqc90osupisr3xk" target="_blank">Download for Win(70.1MB)</a>
+<a href="https://mega.co.nz/#!vsIgCLqA!heDOkoJ4jwU9bwmHo00siTr0Q09Y_BZcgiMC1sEaSnE" target="_blank">Download for Linux(49MB)</a> <a href="https://mega.co.nz/#!35ZwALLJ!UmTB83WUn2tq4juDcJxSMxhR2FrQuOvlj1uxQCspr1E" target="_blank">Download for Mac(45.8MB)</a> <a href="https://mega.co.nz/#!OxAjhDZA!grRJI2Pyy46TX1HFmuLxC4Y2--XuTO2pA8_EUEbM9nE" target="_blank">Download for Win(47.1MB)</a>
 
 
 소개
@@ -36,7 +36,7 @@
 <ul><li>OS : Windows XP / Mac OS X Version Leopard 10.5.8 / Linux x86</li>
 <li>CPU : Pentium 4 1.66Ghz</li>
 <li>RAM : 1GB</li>
-<li>HDD : 72MB</li>
+<li>HDD : 47.1MB / 45.8MB / 49MB</li>
 <li>DirectX : DirectX 9.0</li>
 <li>해상도 : 와이드 스크린 -FHD 최적화</li>
 <li>그래픽 카드 : DirectX 호환 카드</li>
@@ -48,7 +48,7 @@
 <ul><li>OS : Android 2.2(Froyo) / iOS 5.0(9A334)</li>
 <li>OpenGL : OpelGL 2.0</li>
 <li>해상도 : 와이드 스크린 -HD 최적화</li>
-<li>SD카드 : 68.5MB -1/3으로 압축예정</li>
+<li>SD카드 : 45MB -1/4로 압축예정</li>
 <li>현재 배포하지 않습니다.</li></ul>
 
 
