@@ -1,25 +1,16 @@
-﻿Last Modified on December 23, 2014.
+﻿Last Modified on December 25, 2014.
 
 
-■██▓▒░ Latest Released from Ver 0.4.1 ░▒▓███████████████████■
+■██▓▒░ Latest Released from Ver 0.5.0 ░▒▓███████████████████■
 
 
-V0.5.0: Update Release Distribution
-V0.5.0: Removed game/music.rpa
-V0.5.0: Fixed Some Translate Output Error for Korean
-V0.5.0: Fixed README.html
-V0.5.0: Removed License.txt
-V0.5.0: Removed Credit.txt
-V0.5.0: Added Hotkey Function
-V0.4.9: Compressed All BGM, SE
-V0.4.7: Added BGM -Love Song
-V0.4.6: Added Ending Credits
-V0.4.6: Added Credits Menu
-V0.4.5: Fixed Configration Menu
-V0.4.5: Fixed Read Continue Menu
-V0.4.4: Fixed SE -All
-V0.4.3: Fixed BGM -Canon in C, Nyx, Peace, Unknown Mist
-V0.4.2: Fixed Warning Screen
+V0.5.2: Add Some Transition Detail
+V0.5.2: Fix Some Transition Error
+V0.5.2: Fix Text Effect size
+V0.5.1: Add ID3Tag to BGM
+V0.5.1: Fix BGM Output Error-Days of sighs
+
+You should download this files from GitHub - README.html, game/ko_KR.rpa, game/script.rpa, game/sound.rpa
 
 
 
@@ -29,13 +20,7 @@ V0.4.2: Fixed Warning Screen
 
 
 V0.6.0: Update Release Distribution
-V0.5.9: Add Some Transition Detail
-V0.5.9: Fix Some Transition Error
-V0.5.9: Fix Text Effect size
-V0.5.8: Add Scenario Contents
-V0.5.1: Fix BGM Output Error-Days of sighs
-
-
+V0.6.0: Add Translate to English
 
 
 
@@ -43,11 +28,10 @@ V0.5.1: Fix BGM Output Error-Days of sighs
 ■██▓▒░ Statistics ░▒▓██████████████████████████████████████■
 
 
-
 The game contains 1,431 dialogue blocks, containing 8,968 words and 42,284
 characters, for an average of 6.3 words and 30 characters per block.
 
-The game contains 0 menus, 76 images, and 13 screens.
+The game contains 0 menus, 81 images, and 13 screens.
 
 
 
@@ -56,6 +40,7 @@ The game contains 0 menus, 76 images, and 13 screens.
 ■██▓▒░ Project History ░▒▓███████████████████████████■
 
 
+Ver 0.5.2 Released -December 25, 2014
 Ver 0.5.0 Released -December 23, 2014
 Ver 0.4.1 Released -December 20, 2014
 Ver 0.4.0 Released -December 19, 2014
