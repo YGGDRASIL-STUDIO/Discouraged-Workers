@@ -7,7 +7,7 @@
 V0.5.2: Add Some Transition Detail
 V0.5.2: Fix Some Transition Error
 V0.5.2: Fix Text Effect size
-V0.5.1: Add ID3Tag to BGM
+V0.5.1: Fix Read Continue Menu
 V0.5.1: Fix BGM Output Error-Days of sighs
 
 You should download this files from GitHub - README.html, game/ko_KR.rpa, game/script.rpa, game/sound.rpa
@@ -21,6 +21,7 @@ You should download this files from GitHub - README.html, game/ko_KR.rpa, game/s
 
 V0.6.0: Update Release Distribution
 V0.6.0: Add Translate to English
+V0.6.0: Add Main Menu BGM
 
 
 
