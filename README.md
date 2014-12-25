@@ -33,8 +33,7 @@ Features
 
 Testimonials
 ===================
-> Stories seems like rarely but it is common. Stories like drama but it always someone's story. - Lee Yeon
-
+> Stories seems like rarely but it is common. Stories like drama but it always someone's story. - Lee Yeon<br />
 > My heart couldn't stand it was too stuffy. - Various Audiences
 
 
