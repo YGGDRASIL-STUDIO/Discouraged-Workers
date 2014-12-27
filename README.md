@@ -11,7 +11,7 @@ Introduce
 ===================
 Discouraged Workers is an episode that takes the korean trend **"The end of the end drama"**. Parable of youth's darkside and Ga-Yeon's gloomy everyday.
 
-*Ga-Yeon was hospital coordinator and she fell in love with doctor.
+_Ga-Yeon was hospital coordinator and she fell in love with doctor.
 But doctors have a wife, their love is a scandal.
 The hospital director knew it and be dismissed her.
 She was looking for another job, but the mental anxiety and walls of reality did not get a job for a year.
@@ -22,7 +22,7 @@ And her first love Yun-Woo with her younger sister Hye-Na is visit her.
 
 Parable of youth's darkside and Ga-Yeon's gloomy everyday.
 
-Discouraged Workers*
+Discouraged Workers_
 
 
 Description
