@@ -1,6 +1,6 @@
 실망실업자 데모-V0.5.X
 ===================
-실망실업자는 한국의 1인 독립게임 창작자 YGGDRASIL STUDIO가 제작하고 있습니다. 이 게임은 Project DW의 네 번째 이야기입니다.
+실망실업자는 YGGDRASIL STUDIO가 제작하고 있습니다. 이 게임은 Project DW의 네 번째 이야기입니다.
 
 당신의 OS에 맞는 버전만을 다운로드하고 싶다면 아래 2014년 12월 23일자 **V0.5.0**을 이용하십시오. 다운로드한 후, 우리의 **<a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/master/game" target="_blank">:link:GitHub</a>**에서 최신 리소스 파일을 체크`-기존 유저들과 신규 유저도 권장-`하십시오. 아마도 **'game/*.rpa'**일 겁니다. 그리고 여기, **<a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/ReleaseNote.txt" target="_blank">:ballot_box_with_check:ReleaseNote.txt</a>**를 확인하십시오.
 
@@ -13,7 +13,7 @@
 
 > _병원 코디네이터라는 좋은 직업을 가지고 있던 가연은 자신이 근무하는 병원의 의사와 사랑을 하게 되었다. 하지만 의사에게는 아내가 있었고, 둘의 사랑은 불륜이었다. 사실을 알게 된 원장에 의해 해고된 후 다른 직장을 찾아다니지만, 그녀의 정신적인 불안과 현실의 벽으로 1년 동안 직장을 구하지 못하고 결국 취업을 포기한다._
 
-> _그로부터 다시 1년이 지난 2013년 봄, 은둔형 외톨이가 되어버린 그녀에게 찾아온 여동생 혜나와 첫사랑 윤우._
+> _그로부터 다시 1년이 지난 2013년 봄의 대한민국, 은둔형 외톨이가 되어버린 그녀에게 찾아온 여동생 혜나와 첫사랑 윤우._
 
 > _이 시대를 살아가는 청춘들의 어두운 단면과 가연을 중심으로 벌어지는 가볍지 않은 일상._
 
