@@ -1,6 +1,6 @@
 Discouraged Workers Demo-V0.5.X
 ===================
-Discouraged Workers is creating by YGGDRASIL STUDIO, a korean indiegame creator. The game is a 4th story of Project DW. **Currently supported only :kr:, but i will translate to :de::jp::us:. If you Korean, please read <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/README-ko_KR.md" target="_blank">:link:THIS DOCUMENT</a>**.
+Discouraged Workers is creating by YGGDRASIL STUDIO. The game is a 4th story of Project DW. **Currently supported only :kr:, but we will translate to :us::de::jp::ru:. If you Korean, please read <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/README-ko_KR.md" target="_blank">:link:THIS DOCUMENT</a>**.
 
 If you want to download for only your OS, checkout link below that currently <strong>V0.5.0</strong> released on Dec 23, 2014. After download, please checkout the latest resource files`-This same is true for existing users and new user-` from **<a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers" target="_blank">:link:GitHub</a>** that maybe **'game/*.rpa'**. And here, you can check the **<a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/ReleaseNote.txt" target="_blank">:ballot_box_with_check:ReleaseNote.txt</a>**
 
@@ -13,7 +13,7 @@ Discouraged Workers is an episode that takes the korean trend **"The end of the 
 
 > _Ga-Yeon was hospital coordinator and she fell in love with doctor. But doctors have a wife, their love is a scandal. The hospital director knew it and be dismissed her. She was looking for another job, but the mental anxiety and walls of reality did not get a job for a year. In the end, she gave up herself._
 
-> _When is last spring 2013, she was an socially withdrawaler(hikikomori). And her first love Yun-Woo with her younger sister Hye-Na is visit her._
+> _When is spring 2013 in Korea, Republic of. she was an socially withdrawaler(hikikomori). And her first love Yun-Woo with her younger sister Hye-Na is visit her._
 
 > _Parable of youth's darkside and Ga-Yeon's gloomy everyday._
 
