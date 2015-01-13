@@ -1,8 +1,8 @@
-Discouraged Workers Demo-V0.5.X
+Discouraged Workers Demo-V0.6.0
 ===================
 Discouraged Workers is creating by YGGDRASIL STUDIO. The game is a 4th story of Project DW. **Currently supported only :kr:, but we will translate to :us::de::jp::ru:. If you Korean, please read <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/README-ko_KR.md" target="_blank">:link:THIS DOCUMENT</a>**.
 
-If you want to download for only your OS, checkout link below that currently <strong>V0.5.0</strong> released on Dec 23, 2014. After download, please checkout the latest resource files`-This same is true for existing users and new user-` from **<a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers" target="_blank">:link:GitHub</a>** that maybe **'game/*.rpa'**. And here, you can check the **<a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/ReleaseNote.txt" target="_blank">:ballot_box_with_check:ReleaseNote.txt</a>**
+If you want to download for only your OS, checkout link below that currently <strong>V0.6.0</strong> released on Jan 13, 2015. And here, you can check the **<a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/ReleaseNote.txt" target="_blank">:ballot_box_with_check:ReleaseNote.txt</a>**
 
 <a href="https://mega.co.nz/#!Www2nBgZ!2KzkWm72V330KQ8SQ58keXojdujH730iFYhzrZiC-R4" target="_blank">:floppy_disk:Download for Linux(46MB)</a> <a href="https://mega.co.nz/#!6pAmTK5A!R1fMWTdgjQvqOU3t6F0U1kPJ1vFzFVnofpREDpIVlOA" target="_blank">:floppy_disk:Download for Mac(42.9MB)</a> <a href="https://mega.co.nz/#!6oBQlaKI!xFm-uvci7RtdqW5Oo0cVWr2YLWhe9LJPq3CqJc_IyXI" target="_blank">:floppy_disk:Download for Win(44.1MB)</a>
 
