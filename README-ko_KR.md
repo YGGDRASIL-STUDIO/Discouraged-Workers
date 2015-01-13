@@ -1,10 +1,10 @@
-실망실업자 데모-V0.5.X
+실망실업자 데모-V0.6.0
 ===================
 실망실업자는 YGGDRASIL STUDIO가 제작하고 있습니다. 이 게임은 Project DW의 네 번째 이야기입니다.
 
-당신의 OS에 맞는 버전만을 다운로드하고 싶다면 아래 2014년 12월 23일자 **V0.5.0**을 이용하십시오. 다운로드한 후, 우리의 **<a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/master/game" target="_blank">:link:GitHub</a>**에서 최신 리소스 파일을 체크`-기존 유저들과 신규 유저도 권장-`하십시오. 아마도 **'game/*.rpa'**일 겁니다. 그리고 여기, **<a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/ReleaseNote.txt" target="_blank">:ballot_box_with_check:ReleaseNote.txt</a>**를 확인하십시오.
+당신의 OS에 맞는 버전만을 다운로드하고 싶다면 아래 2054년 01월 13일자 **V0.6.0**을 이용하십시오. 그리고 여기, **<a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/ReleaseNote.txt" target="_blank">:ballot_box_with_check:ReleaseNote.txt</a>**를 확인하십시오.
 
-<a href="https://mega.co.nz/#!WtJBgKRK!XVtfelQthA3vW5GrFZt3AaKT4yfdeY43wG5f2P33Dh0" target="_blank">:floppy_disk:Download for Linux(49MB)</a> <a href="https://mega.co.nz/#!f1IECLpJ!OIeBS2_YubTLQzNVDxq7Gvv9edKYWambc1PmPG04GRA" target="_blank">:floppy_disk:Download for Mac(45.8MB)</a> <a href="https://mega.co.nz/#!TshURLQQ!A3rd6z5v9CKCwL6bPaqqWnbgNlVHzovN6fj4109q9bk" target="_blank">:floppy_disk:Download for Win(47.1MB)</a>
+<a href="https://mega.co.nz/#!Www2nBgZ!2KzkWm72V330KQ8SQ58keXojdujH730iFYhzrZiC-R4" target="_blank">:floppy_disk:Download for Linux(46MB)</a> <a href="https://mega.co.nz/#!6pAmTK5A!R1fMWTdgjQvqOU3t6F0U1kPJ1vFzFVnofpREDpIVlOA" target="_blank">:floppy_disk:Download for Mac(42.9MB)</a> <a href="https://mega.co.nz/#!6oBQlaKI!xFm-uvci7RtdqW5Oo0cVWr2YLWhe9LJPq3CqJc_IyXI" target="_blank">:floppy_disk:Download for Win(44.1MB)</a>
 
 
 소개
@@ -51,7 +51,7 @@ PC 플랫폼 | 요구사항
 OS | Windows XP / Mac OS X Version Leopard 10.5.8 / Linux x86
 CPU | Pentium 4 1.66Ghz
 RAM | 1GB
-HDD | 47.1MB / 45.8MB / 49MB
+HDD | 44.1MB / 42.9MB / 46MB
 DirectX | DirectX 9.0c
 해상도 | 와이드 스크린 *-FHD 최적화*
 그래픽 카드 | DirectX 호환 카드
@@ -62,7 +62,7 @@ DirectX | DirectX 9.0c
 OS | Android 2.2(Froyo) / iOS 5.0(9A334)
 OpenGL | OpenGL 2.0
 해상도 | 와이드 스크린 *-HD 최적화*
-SD카드 | 45MB *-1/4로 압축예정*
+SD카드 | 38MB *-1/4로 압축예정*
 
 
 법적 고지
