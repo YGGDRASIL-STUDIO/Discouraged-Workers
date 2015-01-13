@@ -1,6 +1,6 @@
 Discouraged Workers Demo-V0.6.0
 ===================
-Discouraged Workers is creating by YGGDRASIL STUDIO. The game is a 4th story of Project DW. **Currently supported :us::kr:, and we will translate to :ru::de::jp:. If you Korean, please read <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/README-ko_KR.md" target="_blank">:link:THIS DOCUMENT</a>**.
+Discouraged Workers is creating by YGGDRASIL STUDIO. The game is a 4th story of Project DW. **Currently supported :us::kr:, and we will translate to :ru::de::jp:. If you Korean, please read <a href="http://yggdrasil-studio.github.io/Discouraged-Workers/index_ko.html" target="_blank">:link:THIS DOCUMENT</a>**.
 
 If you want to download for only your OS, <a href="https://mega.co.nz/#F!2oxW2Zqb!ho0Gpgt2mea3-epbvM7Wuw" target="_blank">:floppy_disk:checkout this link that currently <strong>V0.6.0</strong></a> released on Jan 13, 2015. And here, you can check the **<a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/ReleaseNote.txt" target="_blank">:ballot_box_with_check:ReleaseNote.txt</a>**
 
