@@ -62,7 +62,7 @@ Mobile Platforms | Requirements *-Currently not distributed.*
 OS | Android 2.2(Froyo) / iOS 5.0(9A334)
 OpenGL | OpenGL 2.0
 Resolution | Wide Screen *-Optimized with HD*
-SD Card | 38MB Currently *-Will be compressed into a 4th again.*
+SD Card | 42.7MB Currently *-Will be compressed into a 4th again.*
 
 
 Legal Notice
