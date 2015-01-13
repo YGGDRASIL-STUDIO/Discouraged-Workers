@@ -2,9 +2,7 @@
 ===================
 실망실업자는 YGGDRASIL STUDIO가 제작하고 있습니다. 이 게임은 Project DW의 네 번째 이야기입니다.
 
-당신의 OS에 맞는 버전만을 다운로드하고 싶다면 아래 2054년 01월 13일자 **V0.6.0**을 이용하십시오. 그리고 여기, **<a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/ReleaseNote.txt" target="_blank">:ballot_box_with_check:ReleaseNote.txt</a>**를 확인하십시오.
-
-<a href="https://mega.co.nz/#!Www2nBgZ!2KzkWm72V330KQ8SQ58keXojdujH730iFYhzrZiC-R4" target="_blank">:floppy_disk:Download for Linux(46MB)</a> <a href="https://mega.co.nz/#!6pAmTK5A!R1fMWTdgjQvqOU3t6F0U1kPJ1vFzFVnofpREDpIVlOA" target="_blank">:floppy_disk:Download for Mac(42.9MB)</a> <a href="https://mega.co.nz/#!6oBQlaKI!xFm-uvci7RtdqW5Oo0cVWr2YLWhe9LJPq3CqJc_IyXI" target="_blank">:floppy_disk:Download for Win(44.1MB)</a>
+당신의 OS에 맞는 버전만을 다운로드하고 싶다면 <a href="https://mega.co.nz/#F!2oxW2Zqb!ho0Gpgt2mea3-epbvM7Wuw" target="_blank">:floppy_disk:여기 2015년 01월 13일자 **V0.6.0**을 이용</a>하십시오. 그리고 여기, **<a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/ReleaseNote.txt" target="_blank">:ballot_box_with_check:ReleaseNote.txt</a>**를 확인하십시오.
 
 
 소개
