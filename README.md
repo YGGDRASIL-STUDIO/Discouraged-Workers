@@ -4,7 +4,7 @@ Discouraged Workers is creating by YGGDRASIL STUDIO. The game is a 4th story of 
 
 If you want to download for only your OS, checkout link below that currently <strong>V0.5.0</strong> released on Dec 23, 2014. After download, please checkout the latest resource files`-This same is true for existing users and new user-` from **<a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers" target="_blank">:link:GitHub</a>** that maybe **'game/*.rpa'**. And here, you can check the **<a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/ReleaseNote.txt" target="_blank">:ballot_box_with_check:ReleaseNote.txt</a>**
 
-<a href="https://mega.co.nz/#!WtJBgKRK!XVtfelQthA3vW5GrFZt3AaKT4yfdeY43wG5f2P33Dh0" target="_blank">:floppy_disk:Download for Linux(49MB)</a> <a href="https://mega.co.nz/#!f1IECLpJ!OIeBS2_YubTLQzNVDxq7Gvv9edKYWambc1PmPG04GRA" target="_blank">:floppy_disk:Download for Mac(45.8MB)</a> <a href="https://mega.co.nz/#!TshURLQQ!A3rd6z5v9CKCwL6bPaqqWnbgNlVHzovN6fj4109q9bk" target="_blank">:floppy_disk:Download for Win(47.1MB)</a>
+<a href="https://mega.co.nz/#!Www2nBgZ!2KzkWm72V330KQ8SQ58keXojdujH730iFYhzrZiC-R4" target="_blank">:floppy_disk:Download for Linux(46MB)</a> <a href="https://mega.co.nz/#!6pAmTK5A!R1fMWTdgjQvqOU3t6F0U1kPJ1vFzFVnofpREDpIVlOA" target="_blank">:floppy_disk:Download for Mac(42.9MB)</a> <a href="https://mega.co.nz/#!6oBQlaKI!xFm-uvci7RtdqW5Oo0cVWr2YLWhe9LJPq3CqJc_IyXI" target="_blank">:floppy_disk:Download for Win(44.1MB)</a>
 
 
 Introduce
@@ -52,7 +52,7 @@ PC Platforms | Requirements
 OS | Windows XP / Mac OS X Version Leopard 10.5.8 / Linux x86
 CPU | Pentium 4 1.66Ghz
 RAM | 1GB
-HDD | 47.1MB / 45.8MB / 49MB Currently
+HDD | 44.1MB / 42.9MB / 46MB Currently
 DirectX | DirectX 9.0c
 Resolution | Wide Screen *-Optimized with FHD*
 Graphic Card | DirectX compatible card
@@ -64,7 +64,7 @@ Mobile Platforms | Requirements *-Currently not distributed.*
 OS | Android 2.2(Froyo) / iOS 5.0(9A334)
 OpenGL | OpenGL 2.0
 Resolution | Wide Screen *-Optimized with HD*
-SD Card | 45MB Currently *-Will be compressed into a 4th again.*
+SD Card | 38MB Currently *-Will be compressed into a 4th again.*
 
 
 Legal Notice
