@@ -29,7 +29,7 @@ Description
 Features
 ===================
 - Meticulous storytelling with **gloomy** theme.
-- Short but intense 75 minutes.
+- Short but intense 135 minutes.
 - Autoplay speed like a humans speech.
 - Cinematic transition effects.
 - The actual photo retouching background.
