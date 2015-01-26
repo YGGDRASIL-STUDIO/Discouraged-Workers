@@ -28,12 +28,13 @@ Description
 
 Features
 ===================
-- Meticulous storytelling with **gloomy** theme.
+- Meticulous storytelling with **gloomy** theme based in **korea**.
 - Short but intense 135 minutes.
+- Old school cartoon style sprites and CGs.
+- Actual photo retouching background.
+- Dramatic transition effects.
 - Autoplay speed like a humans speech.
-- Cinematic transition effects.
-- The actual photo retouching background.
-- Over 30+ archives and rewards *-Currently not included.*
+- Over 60+ archives.
 - Most powerful compression technology used.
 
 
