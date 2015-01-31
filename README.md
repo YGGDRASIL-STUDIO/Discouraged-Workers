@@ -30,7 +30,7 @@ Features
 ===================
 - Meticulous storytelling with **gloomy** theme based in **korea**.
 - Short but intense 135 minutes.
-- Old school cartoon style sprites and CGs.
+- Cartoon style sprites and CGs.
 - Actual photo retouching background.
 - Dramatic transition effects.
 - Autoplay speed like a humans speech.
