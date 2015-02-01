@@ -70,7 +70,7 @@ SD카드 | 42.7MB *-1/4로 압축예정*
 * [Ver 0.6.0 공개](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/releases/tag/V0.6.0) -January 13, 2015
 * [Ver 0.5.2 공개](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/releases/tag/V0.5.2) -December 25, 2014
 * Ver 0.5.0 공개 -December 23, 2014
-* IndieDB, SlideDB, ModDB 등재 -December 20, 2014
+* IndieDB, SlideDB, ModDB 등록 -December 20, 2014
 * GitHub 등록 -December 20, 2014
 * [Ver 0.4.1 공개](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/releases/tag/V0.4.1) -December 20, 2014
 * [Ver 0.4.0 공개](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/releases/tag/V0.4.0) -December 19, 2014
