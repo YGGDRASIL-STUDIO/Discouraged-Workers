@@ -68,7 +68,7 @@ SD Card | 42.7MB Currently *-Will be compressed into a 4th again.*
 
 History
 ===================
-* Popularity Ranked #31 on IndieDB, #45 on ModDB, #11 on SlideDB -January 13, 2015
+* Popularity Ranked #31 on IndieDB, #11 on SlideDB, #45 on ModDB -January 13, 2015
 * [Ver 0.6.0 Released](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/releases/tag/V0.6.0) -January 13, 2015
 * [Ver 0.5.2 Released](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/releases/tag/V0.5.2) -December 25, 2014
 * Ver 0.5.0 Released -December 23, 2014
