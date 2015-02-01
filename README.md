@@ -66,6 +66,22 @@ Resolution | Wide Screen *-Optimized with HD*
 SD Card | 42.7MB Currently *-Will be compressed into a 4th again.*
 
 
+History
+===================
+* Popularity Ranked #31 on IndieDB, #45 on ModDB, #11 on SlideDB -January 13, 2015
+* [Ver 0.6.0 Released](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/releases/tag/V0.6.0) -January 13, 2015
+* [Ver 0.5.2 Released](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/releases/tag/V0.5.2) -December 25, 2014
+* Ver 0.5.0 Released -December 23, 2014
+* Registered in the IndieDB, SlideDB, ModDB -December 20, 2014
+* Registered in the GitHub -December 20, 2014
+* [Ver 0.4.1 Released](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/releases/tag/V0.4.1) -December 20, 2014
+* [Ver 0.4.0 Released](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/releases/tag/V0.4.0) -December 19, 2014
+* Ver 0.3.1 Released -September 02, 2014
+* Ver 0.3.0 Released -August 29, 2014
+* Ver 0.1.0 Released -July 14, 2013
+* Project Started -April 21, 2013
+ 
+
 Legal Notice
 ===================
 Discouraged Workers :copyright: YGGDRASIL STUDIO All Rights Reserved.
