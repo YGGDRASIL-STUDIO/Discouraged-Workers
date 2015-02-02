@@ -108,6 +108,7 @@ The game contains 0 menus, 120 images, and 26 screens.
 
 
 Ver 0.7.6 Released -February 02, 2015
+Popular Videos, Popular Images on SlideDB -January 13, 2015
 Popularity Ranked #31 on IndieDB, #11 on SlideDB, #45 on ModDB -January 13, 2015
 Ver 0.6.0 Released -January 12, 2015
 Ver 0.5.2 Released -December 25, 2014
