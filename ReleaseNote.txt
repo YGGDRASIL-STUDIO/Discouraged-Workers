@@ -4,7 +4,6 @@
 ■██▓▒░ Latest Released from Ver 0.6.0 ░▒▓███████████████████■
 
 
-Add translate additional dialogue
 Add additional scenario dialogue
 Add Archives screen
 Add SNS icons to Archives screen
@@ -12,6 +11,7 @@ Add Sound track archive
 Add some variable to Sound track archive
 Add Characters archive
 Add characters description in Characters archive
+Add korean tranlation to additional dialogue
 Add korean translation to main menu screen
 Add korean translation tp Characters archive
 Add Korean translation to quick menu
@@ -72,7 +72,7 @@ Fix BGM-Love Song
 Fix BGM-Unknown Mist
 Fix Mastering BGM
 Fix README.html
-Remove Quick menu screem in expression
+Remove Quick menu screen in expression
 Remove 6219 annotation script lines in korean
 Remove red dialogue image
 Remove BGs-roomn, rooml
