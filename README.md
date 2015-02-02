@@ -1,4 +1,4 @@
-Discouraged Workers Demo-V0.6.0
+Discouraged Workers Demo-V0.7.6(Nightly)
 ===================
 Discouraged Workers is creating by YGGDRASIL STUDIO. The game is a 4th story of Project DW. **Supported :us::kr:. If you Korean, please read <a href="http://yggdrasil-studio.github.io/Discouraged-Workers/index_ko.html" target="_blank">:link:THIS DOCUMENT</a>**.
 
@@ -51,7 +51,7 @@ PC Platforms | Requirements
 OS | Windows XP / Mac OS X Version Leopard 10.5.8 / Linux x86
 CPU | Pentium 4 1.66Ghz
 RAM | 1GB
-HDD | 44.1MB / 42.9MB / 46MB Currently
+HDD | 33.7MB / 32.2MB / 35.6MB Currently
 DirectX | DirectX 9.0c
 Resolution | Wide Screen *-Optimized with FHD*
 Graphic Card | DirectX compatible card
@@ -63,7 +63,7 @@ Mobile Platforms | Requirements *-Currently not distributed.*
 OS | Android 2.2(Froyo) / iOS 5.0(9A334)
 OpenGL | OpenGL 2.0
 Resolution | Wide Screen *-Optimized with HD*
-SD Card | 42.7MB Currently *-Will be compressed into a 4th again.*
+SD Card | 34MB Currently *-Will be compressed into a 5th again.*
 
 
 History
