@@ -61,7 +61,7 @@ DirectX | DirectX 9.0c
 OS | Android 2.2(Froyo) / iOS 5.0(9A334)
 OpenGL | OpenGL 2.0
 해상도 | 와이드 스크린 *-HD 최적화*
-SD카드 | 34MB *-1/5로 압축예정*
+SD카드 | 32.2MB *-1/5로 압축예정*
 
 
 연혁
