@@ -1,4 +1,4 @@
-실망실업자 데모-V0.6.0
+실망실업자 데모-V0.7.6(Nightly)
 ===================
 실망실업자는 YGGDRASIL STUDIO가 제작하고 있습니다. 이 게임은 Project DW의 네 번째 이야기입니다.
 
@@ -50,7 +50,7 @@ PC 플랫폼 | 요구사항
 OS | Windows XP / Mac OS X Version Leopard 10.5.8 / Linux x86
 CPU | Pentium 4 1.66Ghz
 RAM | 1GB
-HDD | 44.1MB / 42.9MB / 46MB
+HDD | 33.7MB / 32.2MB / 35.6MB
 DirectX | DirectX 9.0c
 해상도 | 와이드 스크린 *-FHD 최적화*
 그래픽 카드 | DirectX 호환 카드
@@ -61,7 +61,7 @@ DirectX | DirectX 9.0c
 OS | Android 2.2(Froyo) / iOS 5.0(9A334)
 OpenGL | OpenGL 2.0
 해상도 | 와이드 스크린 *-HD 최적화*
-SD카드 | 42.7MB *-1/4로 압축예정*
+SD카드 | 34MB *-1/5로 압축예정*
 
 
 연혁
