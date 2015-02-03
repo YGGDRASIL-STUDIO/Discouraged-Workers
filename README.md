@@ -63,11 +63,12 @@ Mobile Platforms | Requirements *-Currently not distributed.*
 OS | Android 2.2(Froyo) / iOS 5.0(9A334)
 OpenGL | OpenGL 2.0
 Resolution | Wide Screen *-Optimized with HD*
-SD Card | 34MB Currently *-Will be compressed into a 5th again.*
+SD Card | 32.2MB Currently *-Will be compressed into a 5th again.*
 
 
 History
 ===================
+* Popular Videos, Popular Images on SlideDB -January 13, 2015
 * Popularity Ranked #31 on IndieDB, #11 on SlideDB, #45 on ModDB -January 13, 2015
 * [Ver 0.6.0 Released](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/releases/tag/V0.6.0) -January 13, 2015
 * [Ver 0.5.2 Released](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/releases/tag/V0.5.2) -December 25, 2014

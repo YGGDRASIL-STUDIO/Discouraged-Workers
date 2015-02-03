@@ -4,7 +4,6 @@
 ■██▓▒░ Latest Released from Ver 0.6.0 ░▒▓███████████████████■
 
 
-Add translate additional dialogue
 Add additional scenario dialogue
 Add Archives screen
 Add SNS icons to Archives screen
@@ -12,6 +11,7 @@ Add Sound track archive
 Add some variable to Sound track archive
 Add Characters archive
 Add characters description in Characters archive
+Add korean tranlation to additional dialogue
 Add korean translation to main menu screen
 Add korean translation tp Characters archive
 Add Korean translation to quick menu
@@ -72,7 +72,7 @@ Fix BGM-Love Song
 Fix BGM-Unknown Mist
 Fix Mastering BGM
 Fix README.html
-Remove Quick menu screem in expression
+Remove Quick menu screen in expression
 Remove 6219 annotation script lines in korean
 Remove red dialogue image
 Remove BGs-roomn, rooml
@@ -108,6 +108,7 @@ The game contains 0 menus, 120 images, and 26 screens.
 
 
 Ver 0.7.6 Released -February 02, 2015
+Popular Videos, Popular Images on SlideDB -January 13, 2015
 Popularity Ranked #31 on IndieDB, #11 on SlideDB, #45 on ModDB -January 13, 2015
 Ver 0.6.0 Released -January 12, 2015
 Ver 0.5.2 Released -December 25, 2014
