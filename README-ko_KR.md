@@ -66,7 +66,7 @@ SD카드 | 32.2MB *-1/5로 압축예정*
 
 연혁
 ===================
-* SlideDB 인기 비디오, 인기 이미지 톱5 -January 13, 2015
+* SlideDB 인기 비디오 톱4, 인기 이미지 톱2 -January 13, 2015
 * IndieDB #31, SlideDB #11, ModDB #45 인기순위 기록 -January 13, 2015
 * [Ver 0.6.0 공개](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/releases/tag/V0.6.0) -January 13, 2015
 * [Ver 0.5.2 공개](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/releases/tag/V0.5.2) -December 25, 2014
