@@ -34,7 +34,7 @@ Features
 - Actual photo retouching background.
 - Dramatic transition effects.
 - Autoplay speed like a humans speech.
-- Over 60+ archives.
+- Over 60+ archives and hidden archive that can be obtained by clicking point on the unique objects.
 - Most powerful compression technology used.
 
 
