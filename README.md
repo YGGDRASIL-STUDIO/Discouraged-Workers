@@ -23,6 +23,7 @@ Description
 - The game is not game, this is an Kinetic Novel.
 - The episode is **adult content.** Children, Seniors or Pregnant, Feeble-Minded Person are not allowed to play this game.
 - You do not need to intervene in the game. Only Watching, Reading, Listening, Feeling.
+- But some event and collecting Archives, you'll trying to something and found it.
 - Discouraged Workers are playing to automatically. You can toggle this function.
 
 
