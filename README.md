@@ -29,9 +29,9 @@ Description
 Features
 ===================
 - Meticulous storytelling with **gloomy** theme based in **korea**.
-- Short but intense 135 minutes and dramatic transition effects.
-- Cartoon style sprites and CGs and actual photo retouching background.
-- Over 60+ archives and hidden archive that can be obtained by clicking point on the unique objects.
+- Short but intense 135 minutes and Dramatic transition effects.
+- Cartoon style sprites and CGs and Actual photo retouching background.
+- Over 60+ archives and Hidden archives that can be obtained by clicking point on the unique objects.
 - Over 30+ Steam Achievements.
 - Most powerful compression technology used.
 
