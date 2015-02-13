@@ -70,14 +70,11 @@ History
 ===================
 * Popular Videos #4, Popular Images #2 on SlideDB -January 13, 2015
 * Popularity Ranked #31 on IndieDB, #11 on SlideDB, #45 on ModDB -January 13, 2015
-* Ver 0.6.0 Released -January 13, 2015
-* Ver 0.5.2 Released -December 25, 2014
+* Ver 0.6.0 Released on IndieDB, ModDB -January 13, 2015
 * Ver 0.5.0 Released -December 23, 2014
 * Registered in the IndieDB, SlideDB, ModDB -December 20, 2014
 * Registered in the GitHub -December 20, 2014
-* Ver 0.4.1 Released -December 20, 2014
 * Ver 0.4.0 Released -December 19, 2014
-* Ver 0.3.1 Released -September 02, 2014
 * Ver 0.3.0 Released -August 29, 2014
 * Ver 0.1.0 Released -July 14, 2013
 * Project Started -April 21, 2013
