@@ -1,8 +1,6 @@
-Discouraged Workers Demo-V0.7.6(Nightly)
+Discouraged Workers Demo
 ===================
-Discouraged Workers is creating by YGGDRASIL STUDIO. The game is a 5th story of Project DW. **Supported :us::kr:. If you Korean, please read <a href="http://yggdrasil-studio.github.io/Discouraged-Workers/index_ko.html" target="_blank">:link:THIS DOCUMENT</a>**.
-
-If you want to download for only your OS, <a href="https://mega.co.nz/#F!2oxW2Zqb!ho0Gpgt2mea3-epbvM7Wuw" target="_blank">:floppy_disk:checkout this link that currently <strong>V0.6.0</strong></a> released on Jan 13, 2015. And here, you can check the **<a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/ReleaseNote.txt" target="_blank">:ballot_box_with_check:ReleaseNote.txt</a>**
+Discouraged Workers is creating by YGGDRASIL STUDIO. The game is a 5th story of Project DW. **Supported :us::kr:
 
 
 Introduce
@@ -78,12 +76,5 @@ History
 * Ver 0.3.0 Released -August 29, 2014
 * Ver 0.1.0 Released -July 14, 2013
 * Project Started -April 21, 2013
- 
-
-Legal Notice
-===================
-Discouraged Workers :copyright: YGGDRASIL STUDIO All Rights Reserved.
-All trademarks are property of their respective owners.
-Do not distribute our program or any alterations of our program files.
 
 <a href="http://www.indiedb.com/games/discouraged-workers" title="View Discouraged Workers on Indie DB" target="_blank"><img src="http://button.indiedb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a> <a href="http://www.slidedb.com/games/discouraged-workers" title="View Discouraged Workers on Slide DB" target="_blank"><img src="http://button.slidedb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a> <a href="http://www.moddb.com/games/discouraged-workers" title="View Discouraged Workers on Mod DB" target="_blank"><img src="http://button.moddb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a>
