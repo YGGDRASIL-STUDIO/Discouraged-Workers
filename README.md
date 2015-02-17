@@ -1,4 +1,4 @@
-Discouraged Workers Demo
+Discouraged Workers
 ===================
 Discouraged Workers is creating by YGGDRASIL STUDIO. The game is a 5th story of Project DW. **Supported :us::kr:**
 
