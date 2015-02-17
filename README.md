@@ -46,24 +46,22 @@ System Requirements
 ===================
 PC Platforms | Requirements
 ------------ | -------------
-OS | Windows XP / Mac OS X Version Leopard 10.5.8 / Linux x86
+OS | Windows XP x86 / Mac OS X 10.6 Snow Leopard x86 / Linux x86 / SteamOS
 CPU | Pentium 4 1.66Ghz
-RAM | 1GB
+RAM | 128MB
 HDD | 33.7MB / 32.2MB / 35.6MB Currently
 DirectX | DirectX 9.0c
 Resolution | Wide Screen *-Optimized with FHD*
 Graphic Card | DirectX compatible card
 Sound Card | DirectX compatible card
-OpenGL | OpenGL 2.0
-
 
 Mobile Platforms | Requirements
 ------------ | -------------
 OS | Android 2.2(Froyo) / iOS 5.0(9A334)
 Resolution | Wide Screen *-Optimized with HD*
-RAM | 1GB
+RAM | 128MB
 SD Card | 32.2MB Currently
-OpenGL | OpenGL 2.0
+OpenGL | OpenGL ES 2.0
 
 
 History
