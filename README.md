@@ -54,14 +54,16 @@ DirectX | DirectX 9.0c
 Resolution | Wide Screen *-Optimized with FHD*
 Graphic Card | DirectX compatible card
 Sound Card | DirectX compatible card
+OpenGL | OpenGL 2.0
 
 
-Mobile Platforms | Requirements *-Currently not distributed.*
+Mobile Platforms | Requirements
 ------------ | -------------
 OS | Android 2.2(Froyo) / iOS 5.0(9A334)
-OpenGL | OpenGL 2.0
 Resolution | Wide Screen *-Optimized with HD*
-SD Card | 32.2MB Currently *-Will be compressed into a 5th again.*
+RAM | 1GB
+SD Card | 32.2MB Currently
+OpenGL | OpenGL 2.0
 
 
 History
