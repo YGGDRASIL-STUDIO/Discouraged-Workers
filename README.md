@@ -58,9 +58,9 @@ Sound Card | DirectX compatible card
 Mobile Platforms | Requirements
 ------------ | -------------
 OS | Android 2.2(Froyo) / iOS 5.0(9A334)
-Resolution | Wide Screen *-Optimized with HD*
 RAM | 128MB
 SD Card | 32.2MB Currently
+Resolution | Wide Screen *-Optimized with HD*
 OpenGL | OpenGL ES 2.0
 
 
