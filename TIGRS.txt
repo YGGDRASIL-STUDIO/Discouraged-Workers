@@ -1,0 +1,69 @@
+TIGRS(tm) Do-It-Yourself Pack README
+======================================================================
+
+The contents of this archive are
+Copyright 2005-2007 Daniel Kinney. All rights reserved.
+The TIGRS?name, logo, and ratings are trademarks of Daniel Kinney.
+Their use is prohibited except as outlined in the usage guidelines.
+
+Usage Guidelines: http://www.tigrs.org/?page=specs
+
+======================================================================
+
+Hello!
+
+Welcome to the TIGRS(tm) family! If you want to use the free TIGRS
+service for your gaming product, you've come to the right place!
+
+If you are self-publishing and need large, print accessible graphics,
+you are using the right package. If you need your rating on your website,
+it is best you use the TIGRS generator to create all the HTML code
+necessary for proper integration into your site. You can find the TIGRS
+generator at the following URL:
+
+http://www.tigrs.org/?page=generate
+
+
+======================================================================
+GETTING STARTED
+======================================================================
+
+You can find all the graphics you need for large, print accessible
+TIGRS ratings in this archive. For your convenience, several different
+styles have been rendered, depending on your needs. The file structure
+is self-explanatory, so just browse the files until you find one you
+need!
+
+In addition to the default TIGRS rating icons, you can extend them to
+include TIGRS approved content descriptors. For a list of descriptors,
+please visit the following URL:
+
+http://www.tigrs.org/?page=ratings
+
+Additionally, for a list of the specifications you must follow, visit:
+
+http://www.tigrs.org/?page=specs
+
+Finally, using a graphics editing and layout program (such as Adobe
+Photoshop or Corel Paint Shop Pro, trademarks of their respective
+owners) composite the appropriate descriptor box
+(tigrs-descriptor-box-horizontal.png or tigrs-descriptor-box-vertical.png)
+behind your selected TIGRS rating. You may have to crop the descriptor
+box to comfortably fit all descriptors. You must use the text settings
+present on either descriptor box image. (Black, bold, Arial and of that
+size.)
+
+If there is any question regarding what the box is supposed to look like,
+please pre-generate a box on the TIGRS website and use it as a reference:
+
+http://www.tigrs.org/?page=generate
+
+Additionally, you may contact me with any questions or concerns at the
+following URL:
+
+http://www.tigrs.org/?page=contact
+
+Thank you for choosing the free TIGRS rating service!
+
+~Daniel Kinney
+Founder, TIGRS
