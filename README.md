@@ -1,6 +1,6 @@
 Discouraged Workers
 ===================
-Discouraged Workers is created by YGGDRASIL STUDIO. The game is a 5th story of Project DW. **Supported :us::kr:**.  Multiplatforms supported PC(Win/Mac/Linux/SteamOS), Mobile(iOS/Android/BlackBerry), OUYA, PS Vita.
+Discouraged Workers is created by YGGDRASIL STUDIO. The game is a 5th story of Project DW, **Supported English and Korean**,  Multiplatforms supported PC(Win/Mac/Linux/SteamOS), Mobile(iOS/Android/BlackBerry), OUYA, PS Vita.
 
 
 Introduce
