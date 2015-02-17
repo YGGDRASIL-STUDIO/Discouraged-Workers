@@ -1,123 +1,16 @@
-﻿Discouraged Workers Demo V.0.7.6, Last Modified on February 02, 2015.
-
-
-■██▓▒░ Latest Released from Ver 0.6.0 ░▒▓███████████████████■
-
-
-Add additional scenario dialogue
-Add Archives screen
-Add SNS icons to Archives screen
-Add Sound track archive
-Add some variable to Sound track archive
-Add Characters archive
-Add characters description in Characters archive
-Add korean tranlation to additional dialogue
-Add korean translation to main menu screen
-Add korean translation tp Characters archive
-Add Korean translation to quick menu
-Add archives button to quick menu
-Add interviewer's expression in script
-Add Hye-Na's one expression sprite
-Add sound channels
-Add SE-Flash transition
-Add key repeat control
-Add GitHub Wiki
-Add wiki contents-Home
-Add wiki contents-Introduce
-Add wiki contents-Scenario
-Add wiki contents-Characters
-Add EULA License to License.txt
-Add EULA License to README.html
-Change the SCG of Interviewer
-Change the SCG of Tae-Jin
-Change the SCG of Angel
-Change the SCG of Hye-Na
-Change the SCG of Yun-Woo
-Change the SCG of Ga-Yeon
-Change the game icon
-Change the Tae-Jin's sprite
-Change the main menu image to font
-Fix critical bug in screens
-Fix yesno screen
-Fix Preferences screen
-Fix Credits screen
-Fix Language select screen
-Fix Load screen
-Fix Quick menu screen
-Fix quick menu image to text
-Fix characters icons in Characters archive
-Fix common widget style
-Fix some menu buttons align
-Fix part expression text as integrated style
-Fix expression text as integrated style
-Fix yesno prompt error
-Fix variable error
-Fix sayer name font issue
-Fix keymap for PC, Mobile, OUYA, PS Vita
-Fix some korean translation error
-Fix some lines spacing in centered for korean
-Fix some korean dialogue
-Fix Characters archive screen layout to korean
-Fix screen translation in korean
-Fix common translation in korean
-Fix red dialogue to default_matrix
-Fix Angels position at phone market
-Fix Angel's sprite
-Fix Ga-Yeon's sprite
-Fix integrate BGs and rating image as sprites
-Fix integrate characters and system image as sprites
-Fix BGs, SCGs, GUIs call script
-Fix Album art
-Fix BGM-Love Song
-Fix BGM-Unknown Mist
-Fix Mastering BGM
-Fix README.html
-Remove Quick menu screen in expression
-Remove 6219 annotation script lines in korean
-Remove red dialogue image
-Remove BGs-roomn, rooml
-
-
-■██▓▒░ Scheduled Next Version 0.7.7 Releases ░▒▓███████████████████■
-
-
-Change the Boxshot
-Change the Splash image
-
-
-
-
-
-■██▓▒░ Statistics ░▒▓██████████████████████████████████████■
-
-
-The game contains 1,567 dialogue blocks, containing 13,887 words and 79,799
-characters, for an average of 8.9 words and 51 characters per block.
-
-The Korean translation contains 1,553 dialogue blocks, containing 10,137 words
-and 46,838 characters, for an average of 6.5 words and 30 characters per
-block.
-
-The game contains 0 menus, 120 images, and 26 screens.
-
-
-
+﻿Discouraged Workers Demo, Last Modified on February 02, 2015.
 
 
 ■██▓▒░ Project History ░▒▓███████████████████████████■
 
 
-Ver 0.7.6 Released -February 02, 2015
-Popular Videos, Popular Images on SlideDB -January 13, 2015
+Popular Videos #4, Popular Images #2 on SlideDB -January 13, 2015
 Popularity Ranked #31 on IndieDB, #11 on SlideDB, #45 on ModDB -January 13, 2015
-Ver 0.6.0 Released -January 12, 2015
-Ver 0.5.2 Released -December 25, 2014
+Ver 0.6.0 Released on IndieDB, ModDB -January 13, 2015
 Ver 0.5.0 Released -December 23, 2014
 Registered in the IndieDB, SlideDB, ModDB -December 20, 2014
 Registered in the GitHub -December 20, 2014
-Ver 0.4.1 Released -December 20, 2014
 Ver 0.4.0 Released -December 19, 2014
-Ver 0.3.1 Released -September 02, 2014
 Ver 0.3.0 Released -August 29, 2014
 Ver 0.1.0 Released -July 14, 2013
 Project Started -April 21, 2013
