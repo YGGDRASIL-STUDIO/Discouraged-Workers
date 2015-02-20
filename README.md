@@ -1,6 +1,6 @@
 Discouraged Workers
 ===================
-Discouraged Workers is creating by YGGDRASIL STUDIO. The game is a 5th story of Project DW. **Supported :us::kr:**
+Discouraged Workers is created by YGGDRASIL STUDIO. The game is a 5th story of Project DW, **Supported English and Korean**,  Multiplatforms supported PC(Win/Mac/Linux/SteamOS), Mobile(iOS/Android/BlackBerry), OUYA, PS Vita.
 
 
 Introduce
@@ -57,7 +57,7 @@ Sound Card | DirectX compatible card
 
 Mobile Platforms | Requirements
 ------------ | -------------
-OS | Android 2.2(Froyo) / iOS 5.0(9A334)
+OS | Android 2.2(Froyo) / iOS 5.0(9A334) / BlackBerry 10
 RAM | 128MB
 SD Card | 32.2MB Currently
 Resolution | Wide Screen *-Optimized with HD*
@@ -69,6 +69,7 @@ History
 * Popular Videos #4, Popular Images #2 on SlideDB -January 13, 2015
 * Popularity Ranked #31 on IndieDB, #11 on SlideDB, #45 on ModDB -January 13, 2015
 * Ver 0.6.0 Released on IndieDB, ModDB -January 13, 2015
+* Manhwa Artist joined -January 05, 2015
 * Ver 0.5.0 Released -December 23, 2014
 * Registered in the IndieDB, SlideDB, ModDB -December 20, 2014
 * Registered in the GitHub -December 20, 2014
