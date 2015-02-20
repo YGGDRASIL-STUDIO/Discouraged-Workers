@@ -1,3 +1,5 @@
+<img src="https://yggdrasil-studio.github.io/Discouraged-Workers/mages/presplash.png" width="600px" /><a href="http://steamcommunity.com/sharedfiles/filedetails/?id=386260212" target="_blank"><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/mages/presplash.pngimages/steam_greenlight.png" /></a>
+
 Discouraged Workers
 ===================
 Discouraged Workers is created by YGGDRASIL STUDIO. The game is a 5th story of Project DW, **Supported English and Korean**,  Multiplatforms supported PC(Win/Mac/Linux/SteamOS), Mobile(iOS/Android/BlackBerry), OUYA, PS Vita.
