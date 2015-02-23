@@ -1,3 +1,5 @@
+<img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/presplash.png" width="600px" /><a href="http://www.steamcommunity.com/sharedfiles/filedetails/?id=395688876" target="_blank"><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/steam_greenlight.png" /></a>
+
 Discouraged Workers
 ===================
 Discouraged Workers is created by YGGDRASIL STUDIO. The game is a 5th story of Project DW, **Supported English and Korean**,  Multiplatforms supported PC(Win/Mac/Linux/SteamOS), Mobile(iOS/Android/BlackBerry), OUYA, PS Vita.
@@ -66,6 +68,7 @@ OpenGL | OpenGL ES 2.0
 
 History
 ===================
+* Popularity Ranked #9 on SlideDB -February 20, 2015
 * Popular Videos #4, Popular Images #2 on SlideDB -January 13, 2015
 * Popularity Ranked #31 on IndieDB, #11 on SlideDB, #45 on ModDB -January 13, 2015
 * Ver 0.6.0 Released on IndieDB, ModDB -January 13, 2015
