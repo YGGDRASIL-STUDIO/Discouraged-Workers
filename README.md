@@ -2,40 +2,40 @@
 
 Discouraged Workers
 ===================
-Discouraged Workers is created by YGGDRASIL STUDIO. The game is a 5th story of Project DW, **Supported English and Korean**,  Multiplatforms supported PC(Win/Mac/Linux/SteamOS), Mobile(iOS/Android/BlackBerry), OUYA, PS Vita.
+Discouraged Workers is the indie kinetic novel. It was created by YGGDRASIL STUDIO. This game is 5th story of Project DW. It supports English and Korean and supports PC(Win/Mac/Linux/SteamOS), Mobile(iOS/Android/BlackBerry), OUYA, PS Vita.
 
 
 Introduce
 ===================
-Discouraged Workers is an episode that takes the korean trend **"The end of the end drama"**. Parable of youth's darkside and Ga-Yeon's gloomy days.
+Discouraged Workers is an episode based on a Korean **"obstinate drama"**. It compares the youths' dark aspect to Ga-Yeon's gloomy daily life.
 
-> _Ga-Yeon was hospital coordinator and she fell in love with doctor. But doctors have a wife, their love is a scandal. The hospital director knew it and be dismissed her. She was looking for another job, but the mental anxiety and walls of reality did not get a job for a year. In the end, she gave up herself._
+> _Ga-Yeon having a job of hospital coordinator fell in love with a doctor in the hospital she worked for. but the doctor had a wife and their love was the affair. Although looking for another job after being dismissed by a director who realized this fact, she couldn't find the job for a year due to the mental anxiety and the wall of reality, in the end she gave up finding the job._
 
-> _When is spring 2013 in Korea, Republic of. she was an socially withdrawaler(hikikomori). And her first love Yun-Woo with her younger sister Hye-Na is visit her._
+> _Korea in the spring, 2013 after 1 year from that, a younger sister Hye-Na and her first lover Yun-Woo came to her who became a reclusive outsider._
 
-> _Parable of youth's darkside and Ga-Yeon's gloomy days._
+> _Not light daily life that happened focusing on the dark aspect of the youths living in this time and Ga-Yeon._
 
 > _Discouraged Workers_
 
 
 Description
 ===================
-- The game is not game, this is an Kinetic Novel.
+- This game is not the game but the kinetic novel.
 - The episode is **adult content.** Children, Seniors or Pregnant, Feeble-Minded Person are not allowed to play this game.
-- Most are playing in the Ga-Yeon's first person, and Archives help you understanding of the episode.
-- You do not need to intervene in the game. Only Watching, Reading, Listening, Feeling.
-- But some event and collecting Archives, you'll trying to something and found it.
+- Most parts proceed from Ga-Yeon's first-person point of view and Archives will help with understanding the episode.
+- You don't need to intervene in the game. Only Watching, Reading, Listening, Feeling.
+- But you may have to do something for certain scene or Archives collection.
 - Discouraged Workers are playing to automatically. You can toggle this function.
 
 
 Features
 ===================
-- Meticulous storytelling with **gloomy** theme based in **korea**.
-- Short but intense 135 minutes and Dramatic transition effects.
-- Cartoon style sprites and CGs, Actual photo retouching background.
-- Over 60+ archives and Hidden Archives that can be obtained by clicking point on the unique objects.
+- **Gloomy** theme and close story organization based on **korea**.
+- Short but powerful 135 minutes, drama-like transition effect.
+- Cartoon style sprites and CGs, actual photo retouching background.
+- Over 60+ Archives and hidden Archives obtained from the inherent object.
 - Over 30+ Steam Achievements.
-- Most powerful compression technology used.
+- Borrowed the powerful data-compressing skill.
 
 
 Testimonials
