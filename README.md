@@ -33,15 +33,9 @@ Features
 - **Gloomy** theme and close story organization based on **korea**.
 - Short but powerful 135 minutes, drama-like transition effect.
 - Cartoon style sprites and CGs, actual photo retouching background.
-- Over 60+ Archives and hidden record obtained from the inherent object.
-- Over 30+ Steam Achievements.
+- 60+ Archives and hidden record obtained from the inherent object.
+- 30+ Steam Achievements.
 - Borrowed the powerful data-compressing skill.
-
-
-Testimonials
-===================
-> _Stories seems like rarely but it is common. Stories like drama but it always someone's. - Re-Yeon_<br />
-> _My heart was too stuffy and couldn't stand it. - Various Audiences_
 
 
 System Requirements
