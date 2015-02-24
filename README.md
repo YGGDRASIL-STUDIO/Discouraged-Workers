@@ -24,7 +24,7 @@ Description
 - The episode is **adult content.** Children, Seniors or Pregnant, Feeble-Minded Person are not allowed to play this game.
 - Most parts proceed from Ga-Yeon's first-person point of view and Archives will help with understanding the episode.
 - You don't need to intervene in the game. Only Watching, Reading, Listening, Feeling.
-- But you may have to do something for certain scene or Archives collection.
+- But you may have to do something for certain scene or record collection.
 - Discouraged Workers are playing to automatically. You can toggle this function.
 
 
@@ -33,7 +33,7 @@ Features
 - **Gloomy** theme and close story organization based on **korea**.
 - Short but powerful 135 minutes, drama-like transition effect.
 - Cartoon style sprites and CGs, actual photo retouching background.
-- Over 60+ Archives and hidden Archives obtained from the inherent object.
+- Over 60+ Archives and hidden record obtained from the inherent object.
 - Over 30+ Steam Achievements.
 - Borrowed the powerful data-compressing skill.
 
