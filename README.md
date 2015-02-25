@@ -2,7 +2,7 @@
 
 Discouraged Workers
 ===================
-Discouraged Workers is the indie kinetic novel. It was created by YGGDRASIL STUDIO. This game is 5th story of Project DW. It supports English and Korean and supports PC(Win/Mac/Linux/SteamOS), Mobile(iOS/Android/BlackBerry), OUYA, PS Vita.
+Discouraged Workers is the indie kinetic novel. It was created by YGGDRASIL STUDIO. This game is 5th story of Project DW. It supports English and Korean and supports PC(Win/Mac/Linux/SteamOS), Mobile(iOS/Android/BlackBerry), OUYA and PS Vita platforms.
 
 
 Introduce
