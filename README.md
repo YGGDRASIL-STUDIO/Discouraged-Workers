@@ -53,7 +53,7 @@ Sound Card | DirectX compatible card
 
 Mobile Platforms | Requirements
 ------------ | -------------
-OS | Android 2.2(Froyo) / iOS 5.0(9A334) / BlackBerry 10
+OS | Android 2.3.3(Gingerbread) / iOS 5.0(9A334) / BlackBerry 10
 RAM | 128MB
 SD Card | 32.2MB Currently
 Resolution | Wide Screen *-Optimized with HD*
