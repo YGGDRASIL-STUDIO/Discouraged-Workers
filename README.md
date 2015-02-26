@@ -7,7 +7,7 @@ Discouraged Workers
 
 Introduce
 ===================
-『Discouraged Workers』 is a story based on the Korea’s **"obstinate drama"**. It likens Ga-Yeon’s bleak everyday to the shadow of youth.
+『Discouraged Workers』 is a story based on the Korea’s **"crappy soap operas"**. It likens Ga-Yeon’s bleak everyday to the shadow of youth.
 
 > _Ga-Yeon, a hospital coordinator, fell in love with a doctor in the hospital where she was working. But he’s already married and they had an affair. Then fired by a hospital director after he found out about it, she tried to find another job. But because of her mental uneasiness and reality barrier, she had failed to get a new job for over a year and at the end, just gave up trying to find a job._
 
