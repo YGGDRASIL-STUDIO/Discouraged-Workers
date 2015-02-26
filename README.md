@@ -2,18 +2,18 @@
 
 Discouraged Workers
 ===================
-Discouraged Workers is the indie kinetic novel. It was created by YGGDRASIL STUDIO. This game is 5th story of Project DW. It supports English and Korean and supports PC(Win/Mac/Linux/SteamOS), Mobile(iOS/Android/BlackBerry), OUYA and PS Vita platforms.
+『Discouraged Workers』 is an indie kinetic novel produced by YGGDRASIL STUDIO. The game is the fifth in the Project DW series. It supports English/Korean, and also PC(Win/Mac/Linux/SteamOS), Mobile(iOS/Android/BlackBerry), OUYA and PS Vita.
 
 
 Introduce
 ===================
-Discouraged Workers is an episode based on a Korean **"obstinate drama"**. It compares the youths' dark aspect to Ga-Yeon's gloomy daily life.
+『Discouraged Workers』 is a story based on the Korea’s **"obstinate drama"**. It likens Ga-Yeon’s bleak everyday to the shadow of youth.
 
-> _Ga-Yeon having a job of hospital coordinator fell in love with a doctor in the hospital she worked for. but the doctor had a wife and their love was the affair. Although looking for another job after being dismissed by a director who realized this fact, she couldn't find the job for a year due to the mental anxiety and the wall of reality, in the end she gave up finding the job._
+> _Ga-Yeon, a hospital coordinator, fell in love with a doctor in the hospital where she was working. But he’s already married and they had an affair. Then fired by a hospital director after he found out about it, she tried to find another job. But because of her mental uneasiness and reality barrier, she had failed to get a new job for over a year and at the end, just gave up trying to find a job._
 
-> _Korea in the spring, 2013 after 1 year from that, a younger sister Hye-Na and her first lover Yun-Woo came to her who became a reclusive outsider._
+> _A year later since then, in the spring of 2013 in Korea, her younger sister Hye-Na and her first love Yun-Woo came to her who became a reclusive outsider._
 
-> _Not light daily life that happened focusing on the dark aspect of the youths living in this time and Ga-Yeon._
+> _A Story about Not-Light-Everyday Life Happening Around Ga-Yeon and a Gloomy Face of the Youth Living Today._
 
 > _Discouraged Workers_
 
