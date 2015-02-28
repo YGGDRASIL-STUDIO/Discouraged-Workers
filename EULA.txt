@@ -1,4 +1,4 @@
-End User License Agreement for Discouraged Workers-Demo
+End User License Agreement for Discouraged Workers
 
 License Under this End User License Agreement (the "Agreement"), YGGDRASIL STUDIO (the "Vendor") grants to the user (the "Licensee") a non-exclusive and non-transferable license (the "License") to use Discouraged Workers (the "Software").
 "Software" includes the executable computer programs, the source code and any related printed, electronic and online documentation and any other files that may accompany the product.
