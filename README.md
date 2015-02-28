@@ -7,35 +7,35 @@ Discouraged Workers
 
 Introduce
 ===================
-『Discouraged Workers』 is a story based on the Korea’s **"crappy soap operas"**. It likens Ga-Yeon’s bleak everyday to the shadow of youth.
+『Discouraged Workers』 is a satirical story based on the popular Korean soap operas-styled plot. It compares Ga-Yeon’s bleak everyday life to the dark side of youth.
 
-> _Ga-Yeon, a hospital coordinator, fell in love with a doctor in the hospital where she was working. But he’s already married and they had an affair. Then fired by a hospital director after he found out about it, she tried to find another job. But because of her mental uneasiness and reality barrier, she had failed to get a new job for over a year and at the end, just gave up trying to find a job._
+> _A hospital coordinator, Ga-Yeon, fell in love with a doctor at the hospital she was working in and they had an affair even though the doctor was a married man. But when the director found out, she was fired. For over a year she tried to find another job, but her mental uneasiness eventually made her give up and she became a recluse._
 
-> _A year later since then, in the spring of 2013 in Korea, her younger sister Hye-Na and her first love Yun-Woo came to her who became a reclusive outsider._
+> _A year later, in the spring of 2013, her younger sister, Hye-Na, and her first love Yun-Woo come to her._
 
-> _A Story about Not-Light-Everyday Life Happening Around Ga-Yeon and a Gloomy Face of the Youth Living Today._
+> _A story about the dark side of today’s youth and pretty serious everyday life happening around Ga-Yeon._
 
 > _Discouraged Workers_
 
 
 Description
 ===================
-- This game is not the game but the kinetic novel.
+- The game is actually not a game, but a kinetic novel.
 - The episode is **adult content.** Children, Seniors or Pregnant, Feeble-Minded Person are not allowed to play this game.
-- Most parts proceed from Ga-Yeon's first-person point of view and Archives will help with understanding the episode.
-- You don't need to intervene in the game. Only Watching, Reading, Listening, Feeling.
-- But you may have to do something for certain scene or record collection.
+- The game will be moved on mostly through Ga-Yeon’s point of view and the Archives will be also helpful for you to understand the whole play.
+- You don’t need to be directly involved in the game – just watch, read, listen, and feel it.
+- However sometimes, you may be required to do something to collect some records or scenes.
 - Discouraged Workers is played automatically. You can toggle this function.
 
 
 Features
 ===================
-- **Gloomy** theme and close story organization based on **korea**.
-- Short but powerful 135 minutes, drama-like transition effect.
-- Cartoon style sprites and CGs, the background that amended the actual photo.
-- 60+ Archives and hidden record obtained from the inherent object.
+- A Korean-based densely-plotted story with the **gloomy** theme.
+- The short but intense 135 minutes, with the real soap drama-like directing.
+- The cartoon-style sprites & CGs, and backgrounds based on doctored real pictures.
+- 60+ Archives and hidden records that you could get from individual objects.
 - 30+ Steam Achievements.
-- Borrowed the powerful data-compressing skill.
+- Powerful data compression technology applied!
 
 
 System Requirements
