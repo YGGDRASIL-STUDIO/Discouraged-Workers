@@ -71,8 +71,8 @@ History
 * Ver 0.6.0 Released on IndieDB, ModDB -January 13, 2015
 * Manhwa Artist joined -January 05, 2015
 * Ver 0.5.0 Released -December 23, 2014
-* Registered in the IndieDB, SlideDB, ModDB -December 20, 2014
-* Registered in the GitHub -December 20, 2014
+* Registered on IndieDB, SlideDB, ModDB -December 20, 2014
+* Registered on GitHub -December 20, 2014
 * Ver 0.4.0 Released -December 19, 2014
 * Ver 0.3.0 Released -August 29, 2014
 * Ver 0.1.0 Released -July 14, 2013
