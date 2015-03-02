@@ -31,8 +31,8 @@ Description
 Features
 ===================
 - A Korean-based densely-plotted story with the **gloomy** theme.
-- The short but intense 135 minutes, with the real soap drama-like directing.
-- The cartoon-style sprites & CGs, and backgrounds based on doctored real pictures.
+- The short but intense 135 minutes, with the real soap opera-like directing.
+- The cartoon-style sprites & CGs, and backgrounds based on retouched real pictures.
 - 60+ Archives and hidden records that you could get from unique objects.
 - 30+ Steam Achievements.
 - Powerful data compression technology applied!
