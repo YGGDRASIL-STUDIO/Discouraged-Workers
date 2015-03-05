@@ -45,7 +45,7 @@ PC Platforms | Requirements
 OS | Windows XP x86 / Mac OS X 10.6 Snow Leopard x86 / Linux x86 / SteamOS
 CPU | Pentium 4 1.66Ghz
 RAM | 128MB
-HDD | 33.7MB / 32.2MB / 35.6MB (V0.8.78)
+HDD | 35.7MB / 34.2MB / 37.6MB (V0.8.78)
 DirectX | DirectX 9.0c
 Resolution | Wide Screen *-Optimized with FHD*
 Graphic Card | DirectX compatible card
@@ -55,7 +55,7 @@ Mobile Platforms | Requirements
 ------------ | -------------
 OS | Android 2.3.3(Gingerbread) / iOS 5.0(9A334) / BlackBerry 10
 RAM | 128MB
-SD Card | 32.2MB / 61.1MB / 36.1MB (V0.8.78)
+SD Card | 34.2MB / 61.1MB / 36.1MB (V0.8.78)
 Resolution | Wide Screen *-Optimized with HD*
 OpenGL | OpenGL ES 2.0
 
