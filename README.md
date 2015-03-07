@@ -62,6 +62,8 @@ OpenGL | OpenGL ES 2.0
 
 History
 ===================
+* Popularity Ranked #2, Popular Videos #3 on SlideDB -March 07, 2015 
+* Registered on IndieGoGo, Steam Greenlight -March 07, 2015 
 * Popularity Ranked #5 on SlideDB -March 03, 2015
 * Selection of Latest articles on SlideDB -March 02, 2015
 * English Translator joined -February 25, 2015
