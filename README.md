@@ -60,12 +60,11 @@ Resolution | Wide Screen *-Optimized with HD*
 OpenGL | OpenGL ES 2.0
 
 
-History
+Dev History
 ===================
 * Popularity Ranked #2, Popular Videos #3 on SlideDB -March 07, 2015 
 * Registered on IndieGoGo, Steam Greenlight -March 07, 2015 
 * Popularity Ranked #5 on SlideDB -March 03, 2015
-* Selection of Latest articles on SlideDB -March 02, 2015
 * English Translator joined -February 25, 2015
 * Popularity Ranked #9 on SlideDB -February 20, 2015
 * Popular Videos #4, Popular Images #2 on SlideDB -January 13, 2015
@@ -79,5 +78,11 @@ History
 * Ver 0.3.0 Released -August 29, 2014
 * Ver 0.1.0 Released -July 14, 2013
 * Project Started -April 21, 2013
+
+Covered History
+===================
+* Covered by Kutark, korean blog -March 09, 2015
+* Selection of Latest articles on SlideDB -March 02, 2015
+* Reviewed by Reyeon, korean blog -September 16, 2014
 
 <a href="http://www.indiedb.com/games/discouraged-workers" title="View Discouraged Workers on Indie DB" target="_blank"><img src="http://button.indiedb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a> <a href="http://www.slidedb.com/games/discouraged-workers" title="View Discouraged Workers on Slide DB" target="_blank"><img src="http://button.slidedb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a> <a href="http://www.moddb.com/games/discouraged-workers" title="View Discouraged Workers on Mod DB" target="_blank"><img src="http://button.moddb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a>
