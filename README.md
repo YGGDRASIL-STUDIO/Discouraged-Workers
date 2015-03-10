@@ -80,7 +80,7 @@ Dev History
 * Ver 0.1.0 Released -July 14, 2013
 * Project Started -April 21, 2013
 
-Covered History
+Press History
 ===================
 * <a href="http://www.hungryapp.co.kr/news/news_view.php?bcode=news&pid=19573&catecode=010" target="_blank">Covered by Hungryapp, korean popular mobile game community -March 10, 2015</a>
 * <a href="http://blog.naver.com/kitpage/220295062670" target="_blank">Covered by Kutark, korean blog -March 09, 2015</a>
