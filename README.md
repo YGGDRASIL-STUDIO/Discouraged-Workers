@@ -82,8 +82,8 @@ Dev History
 
 Press History
 ===================
-* Covered by Naver, korean most popular web portal -March 11, 2015</a>
-* <a href="http://www.hungryapp.co.kr/news/news_view.php?bcode=news&pid=19573&catecode=010" target="_blank">Covered by Hungryapp, korean popular mobile game community -March 10, 2015</a>
+* Covered by Naver, korean web portal -March 11, 2015</a>
+* <a href="http://www.hungryapp.co.kr/news/news_view.php?bcode=news&pid=19573&catecode=010" target="_blank">Covered by Yonhapnews, korean news federation -March 10, 2015</a>
 * <a href="http://blog.naver.com/kitpage/220295062670" target="_blank">Covered by Kutark, korean blogger -March 09, 2015</a>
 * Selection of Latest articles on SlideDB -March 02, 2015
 * <a href="http://mmoo55.blog.me/220123474565" target="_blank">Reviewed by Reyeon, korean blogger -September 16, 2014</a>
