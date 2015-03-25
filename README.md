@@ -88,6 +88,7 @@ Press History
 * Picked of Naver main game section, korean web portal -March 11, 2015
 * <a href="http://www.hungryapp.co.kr/news/news_view.php?bcode=news&pid=19573&catecode=010" target="_blank">Covered by Yonhapnews, korean news federation, original by Hungryapp -March 10, 2015</a>
 * <a href="http://blog.naver.com/kitpage/220295062670" target="_blank">Covered by Kutark, korean blogger -March 09, 2015</a>
+* <a href="http://wraithkal.info/the-greenlight-groove-march-08-2015/" target="_blank">The Greenlight Groove: 40Hz : Forgotten Future, Deathstate and More</a> -March 08, 2015
 * Picked of Latest articles on SlideDB -March 02, 2015
 * <a href="http://mmoo55.blog.me/220123474565" target="_blank">Reviewed by Reyeon, korean blogger -September 16, 2014</a>
 
