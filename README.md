@@ -1,4 +1,4 @@
-<img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/presplash.png" width="600px" /><a href="http://steamcommunity.com/sharedfiles/filedetails/?id=399374348" target="_blank"><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/steam_greenlight.png" /></a>
+<a href="http://steamcommunity.com/sharedfiles/filedetails/?id=399374348" target="_blank"><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/steam_greenlight.png" /></a>
 
 Discouraged Workers
 ===================
