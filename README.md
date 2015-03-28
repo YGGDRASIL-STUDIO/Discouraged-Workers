@@ -62,6 +62,7 @@ OpenGL | OpenGL ES 2.0
 
 Dev History
 ===================
+* Registered on HeadTalker -March 28, 2015
 * chibilis studio joined -March 11, 2015
 * Registered on Tumblbug -March 09, 2015 
 * Popularity Ranked #2, Popular Videos #3 on SlideDB -March 07, 2015 
