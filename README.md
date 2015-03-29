@@ -71,7 +71,7 @@ Dev History
 * English Translator joined, Manhwa Artist withdrew -February 25, 2015
 * Popularity Ranked #9 on SlideDB -February 20, 2015
 * Popular Videos #4, Popular Images #2 on SlideDB -January 13, 2015
-* Popularity Ranked #31 on IndieDB, #11 on SlideDB, #45 on ModDB -January 13, 2015
+* Popularity Ranked #30 on IndieDB, #11 on SlideDB, #45 on ModDB -January 13, 2015
 * Ver 0.6.0 Released on IndieDB, ModDB -January 13, 2015
 * Manhwa Artist joined -January 05, 2015
 * Ver 0.5.0 Released -December 23, 2014
