@@ -84,6 +84,7 @@ Dev History
 
 Press History
 ===================
+* Picked of Latest articles on SlideDB -March 29, 2015
 * Picked of Latest articles on SlideDB -March 21, 2015
 * Picked of Nate main game section, korean web portal -March 12, 2015
 * Picked of Naver main game section, korean web portal -March 11, 2015
