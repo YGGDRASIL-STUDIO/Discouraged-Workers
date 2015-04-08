@@ -62,10 +62,8 @@ OpenGL | OpenGL ES 2.0
 
 Dev History
 ===================
-* Registered on HeadTalker -March 28, 2015
-* Registered on Tumblbug -March 09, 2015 
 * Popularity Ranked #2, Popular Videos #3 on SlideDB -March 07, 2015 
-* Registered on IndieGoGo, Steam Greenlight -March 07, 2015 
+* Registered on Steam Greenlight -March 07, 2015 
 * Popularity Ranked #5 on SlideDB -March 03, 2015
 * Popularity Ranked #9 on SlideDB -February 20, 2015
 * Popular Videos #4, Popular Images #2 on SlideDB -January 13, 2015
