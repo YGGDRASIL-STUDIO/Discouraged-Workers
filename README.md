@@ -63,17 +63,14 @@ OpenGL | OpenGL ES 2.0
 Dev History
 ===================
 * Registered on HeadTalker -March 28, 2015
-* chibilis studio joined -March 11, 2015
 * Registered on Tumblbug -March 09, 2015 
 * Popularity Ranked #2, Popular Videos #3 on SlideDB -March 07, 2015 
 * Registered on IndieGoGo, Steam Greenlight -March 07, 2015 
 * Popularity Ranked #5 on SlideDB -March 03, 2015
-* English Translator joined, Manhwa Artist withdrew -February 25, 2015
 * Popularity Ranked #9 on SlideDB -February 20, 2015
 * Popular Videos #4, Popular Images #2 on SlideDB -January 13, 2015
 * Popularity Ranked #30 on IndieDB, #11 on SlideDB, #45 on ModDB -January 13, 2015
 * Ver 0.6.0 Released on IndieDB, ModDB -January 13, 2015
-* Manhwa Artist joined -January 05, 2015
 * Ver 0.5.0 Released -December 23, 2014
 * Registered on IndieDB, SlideDB, ModDB -December 20, 2014
 * Registered on GitHub -December 20, 2014
