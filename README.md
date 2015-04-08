@@ -20,7 +20,7 @@ Overview
 
 Description
 ===================
-- The game is actually not a game, but a kinetic novel.
+- The game is hybrid of kinetic novel and point-and-click, scenario puzzle.
 - The episode is **adult content.** This game contains Cartoon Violence, Alcohol Use, Tobacco Use, Strong Sexual Themes, Intense Language, Mature Humor. Children, Seniors or Pregnant, Feeble-Minded Person are not allowed to play this game. 
 - The game will be moved on mostly through Ga-Yeon’s point of view and the Archives will be also helpful for you to understand the whole play.
 - You don’t need to be directly involved in the game – just watch, read, listen, and feel it.
