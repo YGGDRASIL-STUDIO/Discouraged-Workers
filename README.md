@@ -79,6 +79,7 @@ Dev History
 
 Press History
 ===================
+* Picked of Latest articles on SlideDB -April 12, 2015
 * Picked of Latest articles on SlideDB -April 05, 2015
 * Picked of Latest articles on SlideDB -March 29, 2015
 * Picked of Latest articles on SlideDB -March 21, 2015
