@@ -62,6 +62,7 @@ OpenGL | OpenGL ES 2.0
 
 Dev History
 ===================
+* Registered on IndieVideoGames -April 09, 2015
 * Popularity Ranked #2, Popular Videos #3 on SlideDB -March 07, 2015 
 * Registered on Steam Greenlight -March 07, 2015 
 * Popularity Ranked #5 on SlideDB -March 03, 2015
@@ -79,11 +80,19 @@ Dev History
 
 Press History
 ===================
+* <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=37676251" target="_blank">Added to Visual Novel collection -April 16, 2015</a>
+* <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=93338297" target="_blank">Added to Anime Faction's Picks collection -April 10, 2015</a> 
+* <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=237657618" target="_blank">Added to Tiruliru's Greenlight Wishlist collection -March 30, 2015</a>
+* <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=392172373" target="_blank">Added to Greenlight Spotlight collection -March 30, 2015</a>
 * Picked of Nate main game section, korean web portal -March 12, 2015
-* Picked of Naver main game section, korean web portal -March 11, 2015
+* Picked of Naver main game section, most popular korean web portal -March 11, 2015
+* <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=370448209" target="_blank">Added to Jomarcenter: Gaming Gear - The GREENLIGHT HIDDEN GEM LIST! collection -March 11, 2015</a>
 * <a href="http://www.hungryapp.co.kr/news/news_view.php?bcode=news&pid=19573&catecode=010" target="_blank">Covered by Yonhapnews, korean news federation, original by Hungryapp -March 10, 2015</a>
+* <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=159440735" target="_blank">Added to Tiffany's Notable Greenlight Picks! collection -March 10, 2015</a>
 * <a href="http://blog.naver.com/kitpage/220295062670" target="_blank">Covered by Kutark, korean blogger -March 09, 2015</a>
 * <a href="http://wraithkal.info/the-greenlight-groove-march-08-2015/" target="_blank">The Greenlight Groove: 40Hz : Forgotten Future, Deathstate and More</a> -March 08, 2015
+* <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=195002500" target="_blank">Added to Greenlight Koreans collection -March 07, 2015</a>
+* <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=176383544" target="_blank">Added to Visual Novels collection -March 07, 2015</a>
 * <a href="http://mmoo55.blog.me/220123474565" target="_blank">Reviewed by Reyeon, korean blogger -September 16, 2014</a>
 
 <a href="http://www.indiedb.com/games/discouraged-workers" title="View Discouraged Workers on Indie DB" target="_blank"><img src="http://button.indiedb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a> <a href="http://www.slidedb.com/games/discouraged-workers" title="View Discouraged Workers on Slide DB" target="_blank"><img src="http://button.slidedb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a> <a href="http://www.moddb.com/games/discouraged-workers" title="View Discouraged Workers on Mod DB" target="_blank"><img src="http://button.moddb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a>
