@@ -66,6 +66,7 @@ Dev History
 * Popularity Ranked #2, Popular Videos #3 on SlideDB -March 07, 2015 
 * Registered on Steam Greenlight -March 07, 2015 
 * Popularity Ranked #5 on SlideDB -March 03, 2015
+* <a href="https://play.google.com/store/apps/details?id=kr.indiegame.dw" target="_blank">Demo Released on Google Play</a> in Korean -February 22, 2015
 * Popularity Ranked #9 on SlideDB -February 20, 2015
 * Popular Videos #4, Popular Images #2 on SlideDB -January 13, 2015
 * Popularity Ranked #30 on IndieDB, #11 on SlideDB, #45 on ModDB -January 13, 2015
@@ -80,20 +81,20 @@ Dev History
 
 Press History
 ===================
-* <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=93428541" target="_blank">Added to NyaH collection -April 18, 2015</a>
-* <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=37676251" target="_blank">Added to Visual Novel collection -April 16, 2015</a>
-* <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=93338297" target="_blank">Added to Anime Faction's Picks collection -April 10, 2015</a> 
-* <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=237657618" target="_blank">Added to Tiruliru's Greenlight Wishlist collection -March 30, 2015</a>
-* <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=392172373" target="_blank">Added to Greenlight Spotlight collection -March 12, 2015</a>
+* Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=93428541" target="_blank">NyaH</a> collection -April 18, 2015
+* Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=37676251" target="_blank">Visual Novel</a> collection -April 16, 2015
+* Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=93338297" target="_blank">Anime Faction's Picks</a> collection -April 10, 2015 
+* Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=237657618" target="_blank">Tiruliru's Greenlight Wishlist</a> collection -March 30, 2015
+* Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=392172373" target="_blank">Greenlight Spotlight</a> collection -March 12, 2015
 * Picked of Nate main game section, korean web portal -March 12, 2015
 * Picked of Naver main game section, most popular korean web portal -March 11, 2015
-* <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=370448209" target="_blank">Added to Jomarcenter: Gaming Gear - The GREENLIGHT HIDDEN GEM LIST! collection -March 11, 2015</a>
-* <a href="http://sports.news.naver.com/sports/index.nhn?category=game_general&ctg=news&mod=read&office_id=479&article_id=0000002284&date=20150310&page=2" target="_blank">Covered by Yonhapnews, korean news federation, original by Hungryapp -March 10, 2015</a>
-* <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=159440735" target="_blank">Added to Tiffany's Notable Greenlight Picks! collection -March 10, 2015</a>
-* <a href="http://blog.naver.com/kitpage/220295062670" target="_blank">Covered by Kutark, korean blogger -March 09, 2015</a>
+* Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=370448209" target="_blank">Jomarcenter: Gaming Gear - The GREENLIGHT HIDDEN GEM LIST!</a> collection -March 11, 2015
+* Covered by <a href="http://sports.news.naver.com/sports/index.nhn?category=game_general&ctg=news&mod=read&office_id=479&article_id=0000002284&date=20150310&page=2" target="_blank">Yonhapnews</a>, korean news federation, original by Hungryapp -March 10, 2015
+* Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=159440735" target="_blank">Tiffany's Notable Greenlight Picks!</a> collection -March 10, 2015
+* Covered by <a href="http://blog.naver.com/kitpage/220295062670" target="_blank">Kutark</a>, korean blogger -March 09, 2015
 * <a href="http://wraithkal.info/the-greenlight-groove-march-08-2015/" target="_blank">The Greenlight Groove: 40Hz : Forgotten Future, Deathstate and More</a> -March 08, 2015
-* <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=195002500" target="_blank">Added to Greenlight Koreans collection -March 07, 2015</a>
-* <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=176383544" target="_blank">Added to Visual Novels collection -March 07, 2015</a>
-* <a href="http://mmoo55.blog.me/220123474565" target="_blank">Reviewed by Reyeon, korean blogger -September 16, 2014</a>
+* Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=195002500" target="_blank">Greenlight Koreans</a> collection -March 07, 2015
+* Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=176383544" target="_blank">Visual Novels</a> collection -March 07, 2015
+* Reviewed by <a href="http://mmoo55.blog.me/220123474565" target="_blank">Reyeon</a>, korean blogger -September 16, 2014
 
 <a href="http://www.indiedb.com/games/discouraged-workers" title="View Discouraged Workers on Indie DB" target="_blank"><img src="http://button.indiedb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a> <a href="http://www.slidedb.com/games/discouraged-workers" title="View Discouraged Workers on Slide DB" target="_blank"><img src="http://button.slidedb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a> <a href="http://www.moddb.com/games/discouraged-workers" title="View Discouraged Workers on Mod DB" target="_blank"><img src="http://button.moddb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a>
