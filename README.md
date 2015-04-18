@@ -80,6 +80,7 @@ Dev History
 
 Press History
 ===================
+* <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=93428541" target="_blank">Added to NyaH collection -April 18, 2015</a>
 * <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=37676251" target="_blank">Added to Visual Novel collection -April 16, 2015</a>
 * <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=93338297" target="_blank">Added to Anime Faction's Picks collection -April 10, 2015</a> 
 * <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=237657618" target="_blank">Added to Tiruliru's Greenlight Wishlist collection -March 30, 2015</a>
