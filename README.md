@@ -82,6 +82,7 @@ Dev History
 
 Press History
 ===================
+* Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=378266976" target="_blank">Visual novel's Collection</a> collection -April 20, 2015
 * Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=93428541" target="_blank">NyaH</a> collection -April 18, 2015
 * Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=37676251" target="_blank">Visual Novel</a> collection -April 16, 2015
 * Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=93338297" target="_blank">Anime Faction's Picks</a> collection -April 10, 2015 
