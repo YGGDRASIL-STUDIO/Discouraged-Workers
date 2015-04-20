@@ -82,6 +82,7 @@ Dev History
 
 Press History
 ===================
+* Added by <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=329035179" target="_blank">Anime collection</a> -April 21, 2015
 * Added by <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=378266976" target="_blank">Visual novel's Collection</a>, <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=171822259" target="_blank">Indie Games</a> -April 20, 2015
 * Added by <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=93428541" target="_blank">NyaH</a> -April 18, 2015
 * Added by <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=37676251" target="_blank">Visual Novel</a> -April 16, 2015
