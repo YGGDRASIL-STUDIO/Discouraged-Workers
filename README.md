@@ -95,7 +95,7 @@ Press History
 * Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=159440735" target="_blank">Tiffany's Notable Greenlight Picks!</a> collection -March 10, 2015
 * Covered by <a href="http://blog.naver.com/kitpage/220295062670" target="_blank">Kutark</a>, korean blogger -March 09, 2015
 * <a href="http://wraithkal.info/the-greenlight-groove-march-08-2015/" target="_blank">The Greenlight Groove: 40Hz : Forgotten Future, Deathstate and More</a> -March 08, 2015
-* Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=195002500" target="_blank">Greenlight Koreans</a> collection -March 07, 2015
+* Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=195002500" target="_blank">Greenlight Korea</a> collection -March 07, 2015
 * Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=176383544" target="_blank">Visual Novels</a> collection -March 07, 2015
 * Reviewed by <a href="http://mmoo55.blog.me/220123474565" target="_blank">Reyeon</a>, korean blogger -September 16, 2014
 
