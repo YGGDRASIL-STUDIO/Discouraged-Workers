@@ -83,7 +83,7 @@ Dev History
 
 Press History
 ===================
-* Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=231854227" target="_blank">Female protagonists</a>, <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=231854227" target="_blank">Manga-/ Anime-/ Otaku-Games</a> Steam Greenlight Collection -April 22, 2015
+* Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=106578306" target="_blank">Female protagonists</a>, <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=231854227" target="_blank">Manga-/ Anime-/ Otaku-Games</a> Steam Greenlight Collection -April 22, 2015
 * Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=329035179" target="_blank">Anime collection</a>, <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=329033728" target="_blank">Anime Collection ~<3</a> Steam Greenlight Collection -April 21, 2015
 * Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=171822259" target="_blank">Indie Games</a>, <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=378266976" target="_blank">Visual novel's Collection</a> Steam Greenlight Collection -April 20, 2015
 * Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=93428541" target="_blank">NyaH</a> Steam Greenlight Collection -April 18, 2015
