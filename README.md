@@ -62,6 +62,7 @@ OpenGL | OpenGL ES 2.0
 
 Dev History
 ===================
+* Popular Images #6 on IndieDB -April 25, 2015
 * Registered on <a href="http://playfield.io/discouraged-workers" target="_blank">Playfield.io</a> -April 22, 2015
 * Popular Features #1 on SlideDB -April 22, 2015
 * Registered on <a href="http://indievideogames.com/discouraged-workers/" target="_blank">IndieVideoGames</a> -April 09, 2015
