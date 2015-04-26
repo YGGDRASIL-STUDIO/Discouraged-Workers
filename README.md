@@ -38,6 +38,11 @@ Features
 - 60+ Archives and 30+ Steam Achievements.
 
 
+Download Demo
+===================
+<a href="http://yggdrasilstudio.itch.io/discouraged-workers" target="_blank"><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/itchio.png" /></a><a href="https://play.google.com/store/apps/details?id=kr.indiegame.dw" target="_blank"><img src="http://yggdrasil-studio.github.io/Discouraged-Workers/images/googleplay.png" /></a>
+
+
 System Requirements
 ===================
 PC Platforms | Requirements
