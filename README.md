@@ -41,6 +41,7 @@ Features
 Download Demo
 ===================
 <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/archive/master.zip" target="_blank"><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/github.png" /></a><a href="http://yggdrasilstudio.itch.io/discouraged-workers" target="_blank"><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/itchio.png" /></a><a href="https://play.google.com/store/apps/details?id=kr.indiegame.dw" target="_blank"><img src="http://yggdrasil-studio.github.io/Discouraged-Workers/images/googleplay.png" /></a>
+<a href="http://www.indiedb.com/games/discouraged-workers/downloads" target="_blank"><img src="http://button.indiedb.com/download/medium/83861.png" alt="" width="260" height="50" /></a><a href="http://www.moddb.com/games/discouraged-workers/downloads" target="_blank"><img src="http://button.moddb.com/download/medium/83861.png" alt="" width="260" height="50" /></a>
 
 
 System Requirements
@@ -55,14 +56,6 @@ DirectX | DirectX 9.0c
 Resolution | Wide Screen *-Optimized with FHD*
 Graphic Card | DirectX compatible card
 Sound Card | DirectX compatible card
-
-Mobile Platforms | Requirements
------------- | -------------
-OS | Android 2.3.3(Gingerbread) / iOS 6.0(10A403) / BlackBerry 10
-RAM | 128MB
-SD Card | 34.2MB / 61.1MB / 36.1MB (V0.8.78)
-Resolution | Wide Screen *-Optimized with HD*
-OpenGL | OpenGL ES 2.0
 
 
 Dev History
