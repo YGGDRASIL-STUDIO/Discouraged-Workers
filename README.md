@@ -62,7 +62,7 @@ OpenGL | OpenGL ES 2.0
 
 Dev History
 ===================
-* Demo Released on <a href="http://yggdrasilstudio.itch.io/discouraged-workers" target="_blank">itch.io</a>, <a href="https://play.google.com/store/apps/details?id=kr.indiegame.dw" target="_blank">Google Play</a> -April 26, 2015
+* Demo Released on <a href="http://yggdrasilstudio.itch.io/discouraged-workers" target="_blank">itch.io</a>, <a href="https://play.google.com/store/apps/details?id=kr.indiegame.dw" target="_blank">Google Play</a>, <a href="http://www.appbrain.com/app/kr.indiegame.dw" target="_blank">AppBrain</a> -April 26, 2015
 * Popular Images #4 on IndieDB -April 25, 2015
 * Registered on <a href="http://playfield.io/discouraged-workers" target="_blank">Playfield.io</a> -April 22, 2015
 * Popular Features #1 on SlideDB -April 22, 2015
