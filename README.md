@@ -40,7 +40,7 @@ Features
 
 Download Demo
 ===================
-<a href="http://yggdrasilstudio.itch.io/discouraged-workers" target="_blank"><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/itchio.png" /></a><a href="https://play.google.com/store/apps/details?id=kr.indiegame.dw" target="_blank"><img src="http://yggdrasil-studio.github.io/Discouraged-Workers/images/googleplay.png" /></a>
+<a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/archive/master.zip" target="_blank"><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/github.png" /></a><a href="http://yggdrasilstudio.itch.io/discouraged-workers" target="_blank"><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/itchio.png" /></a><a href="https://play.google.com/store/apps/details?id=kr.indiegame.dw" target="_blank"><img src="http://yggdrasil-studio.github.io/Discouraged-Workers/images/googleplay.png" /></a>
 
 
 System Requirements
