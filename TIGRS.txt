@@ -3,7 +3,7 @@ TIGRS(tm) Do-It-Yourself Pack README
 
 The contents of this archive are
 Copyright 2005-2007 Daniel Kinney. All rights reserved.
-The TIGRS?name, logo, and ratings are trademarks of Daniel Kinney.
+The TIGRS(tm) name, logo, and ratings are trademarks of Daniel Kinney.
 Their use is prohibited except as outlined in the usage guidelines.
 
 Usage Guidelines: http://www.tigrs.org/?page=specs
