@@ -100,6 +100,7 @@ Press History
  
 Rank History
 ===================
+* Free Android adventure games #4, Android adventure games #5 on itch.io - April 28, 2015
 * Popular Articles #4, Popular News #3 on SlideDB -April 28, 2015
 * Popular Images #4 on IndieDB -April 25, 2015
 * Popular Features #1 on SlideDB -April 22, 2015
@@ -107,7 +108,9 @@ Rank History
 * Popular Games #2, Popular Videos #3 on SlideDB -March 07, 2015
 * Popular Games #5 on SlideDB -March 03, 2015
 * Popular Games #9 on SlideDB -February 20, 2015
-* Popular Games #30 on IndieDB, Popular Games #11, Popular Videos #4, Popular Images #2 on SlideDB, Popular Games #45 on ModDB -January 13, 2015
+* Popular Games #11, Popular Videos #4, Popular Images #2 on SlideDB -January 13, 2015
+* Popular Games #45 on ModDB -January 13, 2015
+* Popular Games #30 on IndieDB -January 13, 2015
 
 
 <a href="http://www.desura.com/games/discouraged-workers" title="View Discouraged Workers on Desura" target="_blank"><img src="http://button.desura.com/popularity/medium/games/32158.png" alt="Discouraged Workers" /></a> <a href="http://www.indiedb.com/games/discouraged-workers" title="View Discouraged Workers on Indie DB" target="_blank"><img src="http://button.indiedb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a> <a href="http://www.slidedb.com/games/discouraged-workers" title="View Discouraged Workers on Slide DB" target="_blank"><img src="http://button.slidedb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a> <a href="http://www.moddb.com/games/discouraged-workers" title="View Discouraged Workers on Mod DB" target="_blank"><img src="http://button.moddb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a>
