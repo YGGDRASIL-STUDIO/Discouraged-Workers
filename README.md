@@ -98,7 +98,7 @@ Press History
 * Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=195002500" target="_blank">Greenlight Korea</a>, <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=176383544" target="_blank">Visual Novels</a> Steam Greenlight Collection -March 07, 2015
 * Reviewed by <a href="http://mmoo55.blog.me/220123474565" target="_blank">Reyeon</a>, korean blogger -September 16, 2014
  
-Ranking History
+Rank History
 ===================
 * Popular Articles #4, Popular News #3 on SlideDB -April 28, 2015
 * Popular Images #4 on IndieDB -April 25, 2015
