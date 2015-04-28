@@ -61,7 +61,7 @@ Sound Card | DirectX compatible card
 
 Dev History
 ===================
-* Popular News #3 on SlideDB -April 28, 2015
+* Popular Articles #4, Popular News #3 on SlideDB -April 28, 2015
 * Demo Released on <a href="http://www.amazon.com/gp/product/B00WQGAGBO" target="_blank">Amazon Appstore</a>, <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers" target="_blank">GitHub</a>, <a href="http://www.indiedb.com/games/discouraged-workers" target="_blank">IndieDB</a>, <a href="http://www.moddb.com/games/discouraged-workers" target="_blank">ModDB</a> -April 27, 2015
 * Demo Released on <a href="http://yggdrasilstudio.itch.io/discouraged-workers" target="_blank">itch.io</a>, <a href="https://play.google.com/store/apps/details?id=kr.indiegame.dw" target="_blank">Google Play</a>, <a href="http://www.appbrain.com/app/kr.indiegame.dw" target="_blank">AppBrain</a> -April 26, 2015
 * Popular Images #4 on IndieDB -April 25, 2015
