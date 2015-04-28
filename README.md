@@ -61,21 +61,13 @@ Sound Card | DirectX compatible card
 
 Dev History
 ===================
-* Popular Articles #4, Popular News #3 on SlideDB -April 28, 2015
 * Demo Released on <a href="http://www.amazon.com/gp/product/B00WQGAGBO" target="_blank">Amazon Appstore</a>, <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers" target="_blank">GitHub</a>, <a href="http://www.indiedb.com/games/discouraged-workers" target="_blank">IndieDB</a>, <a href="http://www.moddb.com/games/discouraged-workers" target="_blank">ModDB</a> -April 27, 2015
 * Demo Released on <a href="http://yggdrasilstudio.itch.io/discouraged-workers" target="_blank">itch.io</a>, <a href="https://play.google.com/store/apps/details?id=kr.indiegame.dw" target="_blank">Google Play</a>, <a href="http://www.appbrain.com/app/kr.indiegame.dw" target="_blank">AppBrain</a> -April 26, 2015
-* Popular Images #4 on IndieDB -April 25, 2015
 * Registered on <a href="http://playfield.io/discouraged-workers" target="_blank">Playfield.io</a> -April 22, 2015
-* Popular Features #1 on SlideDB -April 22, 2015
 * Registered on <a href="http://indievideogames.com/discouraged-workers/" target="_blank">IndieVideoGames</a> -April 09, 2015
-* Popularity Ranked #2, Popular Videos #3 on SlideDB -March 07, 2015 
 * Registered on Steam Greenlight -March 07, 2015 
-* Popularity Ranked #5 on SlideDB -March 03, 2015
 * Demo Released on <a href="http://www.appbrain.com/app/kr.indiegame.dw" target="_blank">AppBrain</a> in Korea -February 25, 2015
 * Demo Released on <a href="https://play.google.com/store/apps/details?id=kr.indiegame.dw" target="_blank">Google Play</a> in Korea -February 22, 2015
-* Popularity Ranked #9 on SlideDB -February 20, 2015
-* Popular Videos #4, Popular Images #2 on SlideDB -January 13, 2015
-* Popularity Ranked #30 on IndieDB, #11 on SlideDB, #45 on ModDB -January 13, 2015
 * Ver 0.6.0 Released on IndieDB, ModDB -January 13, 2015
 * Ver 0.5.0 Released -December 23, 2014
 * Registered on IndieDB, SlideDB, ModDB -December 20, 2014
@@ -105,5 +97,18 @@ Press History
 * <a href="http://wraithkal.info/the-greenlight-groove-march-08-2015/" target="_blank">The Greenlight Groove: 40Hz : Forgotten Future, Deathstate and More</a> -March 08, 2015
 * Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=195002500" target="_blank">Greenlight Korea</a>, <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=176383544" target="_blank">Visual Novels</a> Steam Greenlight Collection -March 07, 2015
 * Reviewed by <a href="http://mmoo55.blog.me/220123474565" target="_blank">Reyeon</a>, korean blogger -September 16, 2014
+ 
+Ranking History
+===================
+* Popular Articles #4, Popular News #3 on SlideDB -April 28, 2015
+* Popular Images #4 on IndieDB -April 25, 2015
+* Popular Features #1 on SlideDB -April 22, 2015
+* Top Free Adventure #121 on GooglePlay in Korea -March 18, 2015
+* Popularity Ranked #2, Popular Videos #3 on SlideDB -March 07, 2015
+* Popularity Ranked #5 on SlideDB -March 03, 2015
+* Popularity Ranked #9 on SlideDB -February 20, 2015
+* Popular Videos #4, Popular Images #2 on SlideDB -January 13, 2015
+* Popularity Ranked #30 on IndieDB, #11 on SlideDB, #45 on ModDB -January 13, 2015
+
 
 <a href="http://www.desura.com/games/discouraged-workers" title="View Discouraged Workers on Desura" target="_blank"><img src="http://button.desura.com/popularity/medium/games/32158.png" alt="Discouraged Workers" /></a> <a href="http://www.indiedb.com/games/discouraged-workers" title="View Discouraged Workers on Indie DB" target="_blank"><img src="http://button.indiedb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a> <a href="http://www.slidedb.com/games/discouraged-workers" title="View Discouraged Workers on Slide DB" target="_blank"><img src="http://button.slidedb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a> <a href="http://www.moddb.com/games/discouraged-workers" title="View Discouraged Workers on Mod DB" target="_blank"><img src="http://button.moddb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a>
