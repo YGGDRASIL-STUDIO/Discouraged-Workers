@@ -107,8 +107,7 @@ Rank History
 * Popularity Ranked #2, Popular Videos #3 on SlideDB -March 07, 2015
 * Popularity Ranked #5 on SlideDB -March 03, 2015
 * Popularity Ranked #9 on SlideDB -February 20, 2015
-* Popular Videos #4, Popular Images #2 on SlideDB -January 13, 2015
-* Popularity Ranked #30 on IndieDB, #11 on SlideDB, #45 on ModDB -January 13, 2015
+* Popular Games #30 on IndieDB, Popularity Rank #31 on IndieDB, Popularity Rank #11, Popular Videos #4, Popular Images #2 on SlideDB, Popularity Rank #45 on ModDB -January 13, 2015
 
 
 <a href="http://www.desura.com/games/discouraged-workers" title="View Discouraged Workers on Desura" target="_blank"><img src="http://button.desura.com/popularity/medium/games/32158.png" alt="Discouraged Workers" /></a> <a href="http://www.indiedb.com/games/discouraged-workers" title="View Discouraged Workers on Indie DB" target="_blank"><img src="http://button.indiedb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a> <a href="http://www.slidedb.com/games/discouraged-workers" title="View Discouraged Workers on Slide DB" target="_blank"><img src="http://button.slidedb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a> <a href="http://www.moddb.com/games/discouraged-workers" title="View Discouraged Workers on Mod DB" target="_blank"><img src="http://button.moddb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a>
