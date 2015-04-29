@@ -100,6 +100,7 @@ Press History
  
 Rank History
 ===================
+* Popular Articles #2, Popular Features #1 on SlideDB -April 29, 2015
 * Adventure games #28, Free adventure games #24 on itch.io -April 28, 2015
 * Popular Articles #4, Popular News #3 on SlideDB -April 28, 2015
 * Popular Images #4 on IndieDB -April 25, 2015
