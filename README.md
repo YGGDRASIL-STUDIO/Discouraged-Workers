@@ -82,6 +82,7 @@ Dev History
 
 Press History
 ===================
+* Picked of Amazon Hot New Releases -May 01, 2015
 * Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=367255613" target="_blank">Visual Novels</a> Steam Greenlight Collection -April 26, 2015
 * Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=273781039" target="_blank">Best Games On Greenlight</a>, <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=106578306" target="_blank">Female protagonists</a>, <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=231854227" target="_blank">Manga-/ Anime-/ Otaku-Games</a> Steam Greenlight Collection -April 22, 2015
 * Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=329035179" target="_blank">Anime collection</a>, <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=329033728" target="_blank">Anime Collection ~<3</a> Steam Greenlight Collection -April 21, 2015
@@ -103,6 +104,8 @@ Press History
  
 Rank History
 ===================
+* Mac Games > Digital Games & DLC #50 on Amazon Best Sellers -May 01, 2015
+* Popular Features #1 on SlideDB -May 01, 2015
 * Adventure games #25, Free adventure games #20 on itch.io -April 30, 2015
 * Popular Articles #2, Popular Features #1 on SlideDB -April 29, 2015
 * Adventure games #28, Free adventure games #24 on itch.io -April 28, 2015
