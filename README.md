@@ -104,6 +104,7 @@ Press History
  
 Rank History
 ===================
+* Adventure games #9, Free adventure games #8 on itch.io -May 03, 2015
 * Adventure games #19, Free adventure games #18 on itch.io -May 02, 2015
 * Mac Games > Digital Games & DLC #50 on Amazon Best Sellers -May 01, 2015
 * Popular Features #1 on SlideDB -May 01, 2015
