@@ -105,7 +105,6 @@ Press History
  
 Rank History
 ===================
-* Popular Games #7 on Top 10 Indie Games of IndieVideoGames -May 04, 2015
 * Popular Articles #1 on SlideDB -May 04, 2015
 * Popular News #1 on SlideDB -May 03, 2015
 * Top games #86, Free games #77, Adventure games #9, Free adventure games #8 on itch.io -May 03, 2015
