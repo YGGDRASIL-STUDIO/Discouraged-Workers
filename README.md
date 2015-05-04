@@ -105,6 +105,7 @@ Press History
  
 Rank History
 ===================
+* Top games #77, Free games #64, Adventure games #8, Free adventure games #6 on itch.io -May 04, 2015
 * Popular Articles #1 on SlideDB -May 04, 2015
 * Popular News #1 on SlideDB -May 03, 2015
 * Top games #86, Free games #77, Adventure games #9, Free adventure games #8 on itch.io -May 03, 2015
