@@ -105,6 +105,7 @@ Press History
  
 Rank History
 ===================
+* Top New Free Adventure #289 on GooglePlay in Indonesia -May 05, 2015
 * Top games #75, Free games #64, Adventure games #7, Free adventure games #5 on itch.io -May 04, 2015
 * Popular Articles #1 on SlideDB -May 04, 2015
 * Popular News #1 on SlideDB -May 03, 2015
