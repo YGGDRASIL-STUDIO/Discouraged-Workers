@@ -1,5 +1,3 @@
-<a href="http://steamcommunity.com/sharedfiles/filedetails/?id=399374348" target="_blank"><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/steam_greenlight.png" /></a>
-
 Discouraged Workers
 ===================
 『Discouraged Workers』 is an indie adventure kinetic novel produced by YGGDRASIL STUDIO. The game is the fifth in the Project DW series. It supports both English and Korean, and is available for PC(Win/Mac/Linux/SteamOS), Mobile(iOS/Android/BlackBerry), OUYA and PS Vita.
@@ -63,6 +61,7 @@ Sound Card | DirectX compatible card
 
 Dev History
 ===================
+* Demo Released on <a href="http://greenlightarcade.com/game/31/discouraged-workers" target="_blank">Greenlight Arcade</a> -May 09, 2015
 * Greenlit on Steam Greenlight -May 09, 2015
 * Demo Released on <a href="http://www.amazon.com/s/ref=bl_sr_videogames-download?_encoding=UTF8&field-brandtextbin=YGGDRASIL%20STUDIO&node=468642" target="_blank">Amazon</a> -April 30, 2015
 * Demo Released on <a href="http://www.amazon.com/gp/product/B00WQGAGBO" target="_blank">Amazon Appstore</a>, <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers" target="_blank">GitHub</a>, <a href="http://www.indiedb.com/games/discouraged-workers" target="_blank">IndieDB</a>, <a href="http://www.moddb.com/games/discouraged-workers" target="_blank">ModDB</a> -April 27, 2015
