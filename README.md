@@ -150,3 +150,6 @@ Rank History
 
 
 <a href="http://www.desura.com/games/discouraged-workers" title="View Discouraged Workers on Desura" target="_blank"><img src="http://button.desura.com/popularity/medium/games/32158.png" alt="Discouraged Workers" /></a> <a href="http://www.indiedb.com/games/discouraged-workers" title="View Discouraged Workers on Indie DB" target="_blank"><img src="http://button.indiedb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a> <a href="http://www.slidedb.com/games/discouraged-workers" title="View Discouraged Workers on Slide DB" target="_blank"><img src="http://button.slidedb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a> <a href="http://www.moddb.com/games/discouraged-workers" title="View Discouraged Workers on Mod DB" target="_blank"><img src="http://button.moddb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a>
+
+Discouraged Workers :copyright: YGGDRASIL STUDIO All Rights Reserved.
+All trademarks are property of their respective owners. Do not distribute our program or any alterations of our program files.
