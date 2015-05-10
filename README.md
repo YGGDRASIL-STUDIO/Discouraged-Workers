@@ -1,6 +1,6 @@
 Demo V1.0.0 Ren'Py Source Code
 ===================
-Welcome to YGGDRASIL STUDIO's GitHub! I'm Lee Yun-Seok, Creator of YGGDRASIL STUDIO. This git is introduce for our game, Discouraged Workers. And I provides our Demo V1.0.0 Ren'Py source code.
+Welcome to YGGDRASIL STUDIO's GitHub! I'm Lee Yun-Seok, Creator of YGGDRASIL STUDIO. This git is introduce for our game, Discouraged Workers. And I provides our Demo V1.0.0 for PC Ren'Py source code.
 
 Discouraged Workers
 ===================
