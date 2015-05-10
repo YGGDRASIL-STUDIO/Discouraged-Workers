@@ -1,3 +1,23 @@
+Demo V1.0.0 Ren'Py Source Code
+===================
+Welcome to YGGDRASIL STUDIO's GitHub! I'm Lee Yun-Seok, Creator of YGGDRASIL STUDIO. This git is introduce for our game, Discouraged Workers. And I provides our Demo V1.0.0 Ren'Py source code.
+
+<p xmlns:dct="http://purl.org/dc/terms/">
+  <a rel="license"
+     href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+  </a>
+  <br />
+  To the extent possible under law,
+  <a rel="dct:publisher"
+     href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers">
+    <span property="dct:title">Lee Yun-Seok, Creator of YGGDRASIL STUDIO</span></a>
+  has waived all copyright and related or neighboring rights to
+  <span property="dct:title">Discouraged Workers Demo V1.0.0 Ren'Py Source Code</span>.
+</p>
+
+The license applied to only **Ren'Py Source Code**. All trademarks are property of their respective owners. And our scenario copyright by Lee Yun-Seok, creator of YGGDRASIL STUDIO All Rights Reserved.
+
 Discouraged Workers
 ===================
 『Discouraged Workers』 is an indie adventure kinetic novel produced by YGGDRASIL STUDIO. The game is the fifth in the Project DW series. It supports both English and Korean, and is available for PC(Win/Mac/Linux/SteamOS), Mobile(iOS/Android/BlackBerry), OUYA and PS Vita.
@@ -130,3 +150,6 @@ Rank History
 
 
 <a href="http://www.desura.com/games/discouraged-workers" title="View Discouraged Workers on Desura" target="_blank"><img src="http://button.desura.com/popularity/medium/games/32158.png" alt="Discouraged Workers" /></a> <a href="http://www.indiedb.com/games/discouraged-workers" title="View Discouraged Workers on Indie DB" target="_blank"><img src="http://button.indiedb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a> <a href="http://www.slidedb.com/games/discouraged-workers" title="View Discouraged Workers on Slide DB" target="_blank"><img src="http://button.slidedb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a> <a href="http://www.moddb.com/games/discouraged-workers" title="View Discouraged Workers on Mod DB" target="_blank"><img src="http://button.moddb.com/popularity/medium/games/37293.png" alt="Discouraged Workers" /></a>
+
+Discouraged Workers :copyright: YGGDRASIL STUDIO All Rights Reserved.
+All trademarks are property of their respective owners. Do not distribute our program or any alterations of our program files.
