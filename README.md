@@ -60,6 +60,7 @@ Resolution | Wide Screen *-Optimized with FHD*
 Graphic Card | DirectX compatible card
 Sound Card | DirectX compatible card
 
+
 Dev History
 ===================
 * Demo Released on <a href="http://greenlightarcade.com/game/31/discouraged-workers" target="_blank">Greenlight Arcade</a> -May 09, 2015
