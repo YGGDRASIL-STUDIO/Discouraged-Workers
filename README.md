@@ -65,20 +65,6 @@ Download Demo
 <a href="http://www.indiedb.com/games/discouraged-workers/downloads" target="_blank"><img src="http://button.indiedb.com/download/medium/83861.png" alt="" width="260" height="50" /></a><a href="http://www.moddb.com/games/discouraged-workers/downloads" target="_blank"><img src="http://button.moddb.com/download/medium/83861.png" alt="" width="260" height="50" /></a>
 
 
-System Requirements
-===================
-PC Platforms | Requirements
------------- | -------------
-OS | Windows XP x86 / Mac OS X 10.6 Snow Leopard x86 / Linux x86 / SteamOS
-CPU | Pentium 4 1.66Ghz
-RAM | 128MB
-HDD | 35.7MB / 34.2MB / 37.6MB (V0.8.78)
-DirectX | DirectX 9.0c
-Resolution | Wide Screen *-Optimized with FHD*
-Graphic Card | DirectX compatible card
-Sound Card | DirectX compatible card
-
-
 Dev History
 ===================
 * Demo Released on <a href="http://greenlightarcade.com/game/31/discouraged-workers" target="_blank">Greenlight Arcade</a> -May 09, 2015
