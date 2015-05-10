@@ -16,7 +16,7 @@ Welcome to YGGDRASIL STUDIO's GitHub! I'm Lee Yun-Seok, Creator of YGGDRASIL STU
   <span property="dct:title">Discouraged Workers Demo V1.0.0 Ren'Py Source Code</span>.
 </p>
 
-The license applied to only **Ren'Py Source Code**. All trademarks are property of their respective owners. And Our scenario copyright by Lee Yun-Seok, creator of YGGDRASIL STUDIO All Rights Reserved.
+The license applied to only **Ren'Py Source Code**. All trademarks are property of their respective owners. And our scenario copyright by Lee Yun-Seok, creator of YGGDRASIL STUDIO All Rights Reserved.
 
 Discouraged Workers
 ===================
