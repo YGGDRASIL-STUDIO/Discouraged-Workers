@@ -1,3 +1,7 @@
+Discouraged Workers Demo V1.0.0 Ren'Py Source Code
+===================
+Welcome to YGGDRASIL STUDIO's GitHub! I'm Lee Yun-Seok, Creator of YGGDRASIL STUDIO. This git is introduce for our game, Discouraged Workers. And I provides our Demo V1.0.0 Ren'Py source code.
+
 Discouraged Workers
 ===================
 『Discouraged Workers』 is an indie adventure kinetic novel produced by YGGDRASIL STUDIO. The game is the fifth in the Project DW series. It supports both English and Korean, and is available for PC(Win/Mac/Linux/SteamOS), Mobile(iOS/Android/BlackBerry), OUYA and PS Vita.
