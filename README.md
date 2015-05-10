@@ -49,6 +49,7 @@ Download Demo
 
 System Requirements
 ===================
+PC Platforms | Requirements
 ------------ | -------------
 OS | Windows XP x86 / Mac OS X 10.6 Snow Leopard x86 / Linux x86 / SteamOS
 CPU | Pentium 4 1.66Ghz
