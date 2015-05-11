@@ -84,6 +84,7 @@ Dev History
 
 Press History
 ===================
+* Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=427365253" target="_blank">Visual Novels: Greenlit Edition</a> Steam Greenlight Collection -May 09, 2015
 * Picked of <a href="http://indievideogames.com/top-10-indie-games-april-26-may-2-2015/" target="_blank">Top 10 Indie Games – April 26-May 2 2015</a> on IndieVideoGames -May 04, 2015
 * Picked of Amazon Hot New Releases -May 01, 2015
 * Added to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=367255613" target="_blank">Visual Novels</a> Steam Greenlight Collection -April 26, 2015
