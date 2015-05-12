@@ -44,7 +44,7 @@ Download Demo
 
 <a href="http://yggdrasilstudio.itch.io/discouraged-workers" target="_blank"><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/itchio.png" /></a><a href="http://www.amazon.com/s/ref=bl_sr_videogames-download?_encoding=UTF8&field-brandtextbin=YGGDRASIL%20STUDIO&node=468642" target="_blank"><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/amazon.png" /></a><a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/archive/master.zip" target="_blank"><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/github.png" /></a><a href="https://play.google.com/store/apps/details?id=kr.indiegame.dw" target="_blank"><img src="http://yggdrasil-studio.github.io/Discouraged-Workers/images/googleplay.png" /></a><a href="http://www.amazon.com/gp/product/B00WQGAGBO" target="_blank"><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/kindle.png" /></a>
 
-<a href="http://www.indiedb.com/games/discouraged-workers/downloads" target="_blank"><img src="http://button.indiedb.com/download/medium/83861.png" alt="" width="260" height="50" /></a><a href="http://www.moddb.com/games/discouraged-workers/downloads" target="_blank"><img src="http://button.moddb.com/download/medium/83861.png" alt="" width="260" height="50" /></a>
+<a href="http://www.desura.com/games/discouraged-workers" title="View Discouraged Workers on Desura" target="_blank"><img src="http://button.desura.com/popularity/medium/games/32158.png" alt="Discouraged Workers" /></a><a href="http://www.indiedb.com/games/discouraged-workers/downloads" target="_blank"><img src="http://button.indiedb.com/download/medium/83861.png" alt="" width="260" height="50" /></a>
 
 
 System Requirements
