@@ -110,6 +110,7 @@ Press History
  
 Rank History
 ===================
+* Top New Free Adventure #401 on GooglePlay in Unites States -May 13, 2015
 * Popular Games #17 on Desura -May 13, 2015
 * Top New Free Adventure #338 on GooglePlay in India -May 12, 2015
 * Android adventure games #1 on itch.io -May 10, 2015
