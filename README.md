@@ -1,3 +1,5 @@
+<a href="http://steamcommunity.com/sharedfiles/filedetails/?id=399374348" target="_blank"><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/steam_greenlight_greenlit.png"></a>
+
 Welcome to YGGDRASIL STUDIO's GitHub! I'm Lee Yun-Seok, Creator of YGGDRASIL STUDIO. This git is introduce for our game, Discouraged Workers. And I provides our Demo V1.0.0 for PC platforms.
 
 Discouraged Workers
