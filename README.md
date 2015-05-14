@@ -65,6 +65,7 @@ Sound Card | DirectX compatible card
 
 Dev History
 ===================
+* Demo Released on <a href="http://www.1mobile.com/discouraged-workers-demo-2618485.html" target="_blank">1Mobile</a> -May 14, 2015
 * Pre-load on <a href="http://www.desura.com/games/discouraged-workers" target="_blank">Desura</a> -May 13, 2015
 * Demo Released on <a href="http://gamejolt.com/games/adventure/discouraged-workers-demo/49444/" target="_blank">GameJolt</a> -May 12, 2015
 * Demo Released on <a href="http://greenlightarcade.com/game/31/discouraged-workers" target="_blank">Greenlight Arcade</a> -May 09, 2015
