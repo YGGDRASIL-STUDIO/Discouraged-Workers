@@ -37,14 +37,14 @@ Features
 - The animation-style sprites & CGs, and backgrounds based on retouched real pictures.
 - Scenario progress must be obtained **Required objects**. 
 - Some collecting Archives must be obtained **Optional objects**. 
-- 60+ Archives and 30+ Steam Achievements.
+- 70+ Archives and 30+ Steam Achievements.
 
 
 Download Demo
 ===================
 <img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/rating_demo.png" />
-
-<a href="http://yggdrasilstudio.itch.io/discouraged-workers" target="_blank"><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/itchio.png" /></a><a href="http://www.amazon.com/s/ref=bl_sr_videogames-download?_encoding=UTF8&field-brandtextbin=YGGDRASIL%20STUDIO&node=468642" target="_blank"><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/amazon.png" /></a><a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/archive/master.zip" target="_blank"><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/github.png" /></a><a href="https://play.google.com/store/apps/details?id=kr.indiegame.dw" target="_blank"><img src="http://yggdrasil-studio.github.io/Discouraged-Workers/images/googleplay.png" /></a><a href="http://www.amazon.com/gp/product/B00WQGAGBO" target="_blank"><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/kindle.png" /></a>
+<iframe src="http://store.steampowered.com/widget/371130/" frameborder="0" width="646" height="190"></iframe>
+<a href="http://yggdrasilstudio.itch.io/discouraged-workers" target="_blank"><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/itchio.png" /></a><a href="https://play.google.com/store/apps/details?id=kr.indiegame.dw" target="_blank"><img src="http://yggdrasil-studio.github.io/Discouraged-Workers/images/googleplay.png" /></a><a href="http://www.amazon.com/gp/product/B00WQGAGBO" target="_blank"><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/images/kindle.png" /></a>
 
 <a href="http://www.desura.com/games/discouraged-workers" title="View Discouraged Workers on Desura" target="_blank"><img src="http://button.desura.com/popularity/medium/games/32158.png" alt="Discouraged Workers" /></a><a href="http://www.indiedb.com/games/discouraged-workers/downloads" target="_blank"><img src="http://button.indiedb.com/download/medium/83861.png" alt="" width="260" height="50" /></a>
 
@@ -65,6 +65,7 @@ Sound Card | DirectX compatible card
 
 Dev History
 ===================
+* Demo Released on <a href="http://store.steampowered.com/app/371130" target="_blank">Steam</a> -May 15, 2015
 * Demo Released on <a href="http://www.1mobile.com/discouraged-workers-demo-2618485.html" target="_blank">1Mobile</a> -May 14, 2015
 * Pre-load on <a href="http://www.desura.com/games/discouraged-workers" target="_blank">Desura</a> -May 13, 2015
 * Demo Released on <a href="http://gamejolt.com/games/adventure/discouraged-workers-demo/49444/" target="_blank">GameJolt</a> -May 12, 2015
