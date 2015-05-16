@@ -114,6 +114,8 @@ Press History
  
 Rank History
 ===================
+* Popular Articles #10, Popular News #9 on IndieDB -May 16, 2015
+* Top New Free Adventure #249 in India, #255 in Indonesia, #312 in United States, #500 in Spain on GooglePlay -May 16, 2015
 * Top New Free Adventure #272 in India, #337 in Netherlands, #340 in United States on GooglePlay -May 15, 2015
 * Top New Free Adventure #310 in India, #360 in Netherlands, #372 in United States on GooglePlay -May 14, 2015
 * Top New Free Adventure #401 on GooglePlay in Unites States -May 13, 2015
