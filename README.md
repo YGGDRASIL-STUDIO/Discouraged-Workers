@@ -65,6 +65,7 @@ Sound Card | DirectX compatible card
 
 Dev History
 ===================
+* Demo Released on <a href="https://indiegamestand.com/free-games/1732/discouraged-workers-demo/" target="_blank">IndieGameStand</a> -May 16, 2015
 * Demo Released on <a href="http://store.steampowered.com/app/371130" target="_blank">Steam</a> -May 15, 2015
 * Demo Released on <a href="http://www.1mobile.com/discouraged-workers-demo-2618485.html" target="_blank">1Mobile</a> -May 14, 2015
 * Pre-load on <a href="http://www.desura.com/games/discouraged-workers" target="_blank">Desura</a> -May 13, 2015
