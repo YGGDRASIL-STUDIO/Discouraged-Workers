@@ -263,7 +263,7 @@ a:focus {
 .carousel-inner .item {
     height: 100%;
 }
-.carousel-indicators .li {
+.carousel slide {
     padding-top: 20px;
 }
 
