@@ -309,6 +309,18 @@ a:focus {
     -o-background-size: cover;
 }
 
+.backers-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../images/discouraged-workers-kiss-me.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 @media(min-width:767px) {
     .content-section {
         padding-top: 250px;
