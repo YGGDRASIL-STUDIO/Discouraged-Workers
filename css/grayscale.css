@@ -158,6 +158,15 @@ a:focus {
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../images/discouraged-workers-that-day-we.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .intro .intro-body .brand-heading {
