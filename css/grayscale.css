@@ -260,6 +260,9 @@ a:focus {
 .content-section {
     padding-top: 100px;
 }
+.carousel-indicators {
+    padding-top: 100px;
+}
 
 .overview-section {
     width: 100%;
