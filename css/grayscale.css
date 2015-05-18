@@ -359,6 +359,7 @@ footer p {
     background: #fcfcfc;
     background: rgba(255,255,255,.2);
 }
+img { max-width: 100%; }
 
 img::selection {
     background: 0 0;
