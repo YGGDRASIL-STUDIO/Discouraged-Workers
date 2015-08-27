@@ -341,7 +341,11 @@ a:focus {
 .download-section {
     padding: 100px 0;
     }
-}
+    
+@media(min-width:775px) {
+    .content-section {
+        padding-top: 250px;
+    }
 
 .btn {
     border-radius: 0;
@@ -432,6 +436,24 @@ body {
 #vimeoWrap iframe,
 #vimeoWrap object,
 #vimeoWrap embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#humbleWrap{
+     position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+  }
+#humbleWrap iframe,
+#humbleWrap object,
+#humbleWrap embed {
     position: absolute;
     top: 0;
     left: 0;
