@@ -310,7 +310,7 @@ a:focus {
 }
 
 @media(min-width:775px) {
-    .content-section {
+    .download-section {
         padding-top: 250px;
     }
 }
@@ -443,7 +443,7 @@ body {
 
 #HumbleWrap{
      position: relative;
-    padding-bottom: 20%; /* 16/9 ratio */
+    padding-bottom: 56.25%; /* 16/9 ratio */
     padding-top: 30px; /* IE6 workaround*/
     height: 0;
     overflow: hidden;
