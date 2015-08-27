@@ -443,7 +443,7 @@ body {
     height: 100%;
 }
 
-#humbleWrap{
+#HumbleWrap{
      position: relative;
     padding-bottom: 56.25%; /* 16/9 ratio */
     padding-top: 30px; /* IE6 workaround*/
@@ -451,9 +451,7 @@ body {
     overflow: hidden;
     margin: 0;
   }
-#humbleWrap iframe,
-#humbleWrap object,
-#humbleWrap embed {
+#HumbleWrap iframe{
     position: absolute;
     top: 0;
     left: 0;
