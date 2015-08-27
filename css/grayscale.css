@@ -333,10 +333,11 @@ a:focus {
     -o-background-size: cover;
 }
 
-@media(min-width:767px) {
+@media(min-width:775px) {
     .content-section {
         padding-top: 250px;
     }
+}
 
 .btn {
     border-radius: 0;
