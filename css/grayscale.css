@@ -333,7 +333,7 @@ a:focus {
     -o-background-size: cover;
 }
 
-@media(min-width:775px) {
+@media(min-width:767px) {
     .content-section {
         padding-top: 250px;
     }
