@@ -309,6 +309,12 @@ a:focus {
     -o-background-size: cover;
 }
 
+@media(min-width:775px) {
+    .content-section {
+        padding-top: 250px;
+    }
+}
+
 .channel-section {
     width: 100%;
     padding: 50px 0;
@@ -437,7 +443,7 @@ body {
 
 #HumbleWrap{
      position: relative;
-    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-bottom: 20%; /* 16/9 ratio */
     padding-top: 30px; /* IE6 workaround*/
     height: 0;
     overflow: hidden;
