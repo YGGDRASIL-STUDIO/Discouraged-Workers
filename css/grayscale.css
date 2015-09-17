@@ -455,9 +455,10 @@ body {
     position: relative;
     padding-bottom: 56.25%; /* 16/9 ratio */
     padding-top: 0px; /* IE6 workaround*/
-    height: 190px;
+    height: 0;
     overflow: hidden;
     margin: 0;
+    margin-bottom: 0;
   }
 #SteamWrap iframe{
     position: absolute;
