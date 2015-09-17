@@ -454,7 +454,7 @@ body {
 #SteamWrap{
     position: relative;
     padding-bottom: 35%; /* 16/9 ratio */
-    padding-top: 0px; /* IE6 workaround*/
+    padding-top: 15px; /* IE6 workaround*/
     height: 0;
     overflow: hidden;
     margin: 0;
