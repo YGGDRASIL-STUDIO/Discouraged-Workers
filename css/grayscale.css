@@ -418,7 +418,7 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 #vimeoWrap{
-     position: relative;
+    position: relative;
     padding-bottom: 56.25%; /* 16/9 ratio */
     padding-top: 30px; /* IE6 workaround*/
     height: 0;
@@ -436,7 +436,7 @@ body {
 }
 
 #HumbleWrap{
-     position: relative;
+    position: relative;
     padding-bottom: 56.25%; /* 16/9 ratio */
     padding-top: 0px; /* IE6 workaround*/
     height: 0;
@@ -452,7 +452,7 @@ body {
 }
 
 #SteamWrap{
-     position: relative;
+    position: relative;
     padding-bottom: 56.25%; /* 16/9 ratio */
     padding-top: 0px; /* IE6 workaround*/
     height: 0;
