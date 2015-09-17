@@ -437,29 +437,13 @@ body {
 
 #HumbleWrap{
     position: relative;
-    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-bottom: 54.25%; /* 16/9 ratio */
     padding-top: 0px; /* IE6 workaround*/
     height: 0;
     overflow: hidden;
     margin: 0;
   }
 #HumbleWrap iframe{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-#SteamWrap{
-    position: relative;
-    padding-bottom: 35%; /* 16/9 ratio */
-    padding-top: 15px; /* IE6 workaround*/
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-  }
-#SteamWrap iframe{
     position: absolute;
     top: 0;
     left: 0;
