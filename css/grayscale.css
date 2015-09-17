@@ -466,3 +466,19 @@ body {
     width: 100%;
     height: 100%;
 }
+
+#StoreWrap{
+    position: relative;
+    padding-bottom: 35%; /* 16/9 ratio */
+    padding-top: 0px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+  }
+#StoreWrap iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
