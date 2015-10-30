@@ -297,6 +297,10 @@ a:focus {
     -o-background-size: cover;
 }
 
+.features-section .p {
+    text-align: left
+}
+
 .download-section {
     width: 100%;
     padding: 50px 0;
