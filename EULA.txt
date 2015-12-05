@@ -1,9 +1,9 @@
 End User License Agreement for Discouraged Workers
 
 License Under this End User License Agreement (the "Agreement"), YGGDRASIL STUDIO (the "Vendor") grants to the user (the "Licensee") a non-exclusive and non-transferable license (the "License") to use Discouraged Workers (the "Software").
-"Software" includes the executable computer programs, the source code and any related printed, electronic and online documentation and any other files that may accompany the product.
+Software includes the executable computer programs, the source code and any related printed, electronic and online documentation and any other files that may accompany the product.
 Title, copyright, intellectual property rights and distribution rights of the Software remain exclusively with the Vendor. Intellectual property rights include the look and feel of the Software. This Agreement constitutes a license for use only and is not in any way a transfer of ownership rights to the Software.
-The Software may be loaded onto no more than one computer. A single copy may be made for backup purposes only.
+The Software may be loaded onto no more than one ID and Steam Family Sharing. A single copy may be made for backup purposes only.
 The rights and obligations of this Agreement are personal rights granted to the Licensee only. The Licensee may not transfer or assign any of the rights or obligations granted under this Agreement to any other person or legal entity. The Licensee may not make available the Software for use by one or more third parties.
 The Software may not be modified, reverse-engineered, or de-compiled in any manner through current or future available technologies.
 Failure to comply with any of the terms under the License section will be considered a material breach of this Agreement.
@@ -22,10 +22,10 @@ Warrants and Representations
 The Vendor warrants and represents that it is the copyright holder of the Software. The Vendor warrants and represents that granting the license to use this Software is not in violation of any other agreement, copyright or applicable statute.
 
 Acceptance
-All terms, conditions and obligations of this Agreement will be deemed to be accepted by the Licensee ("Acceptance") on the opening of the sealed shipping package. 
+All terms, conditions and obligations of this Agreement will be deemed to be accepted by the Licensee ("Acceptance") on the opening of the sealed shipping package or installed Software. 
 
 User Support
-The Licensee will be entitled to six months of on site user support available 24 hours per day 7 days per week, at no additional cost.
+The Licensee will be entitled to six months of on site user support available 7 hours per day 5 days per week, at no additional cost.
 The Licensee will be entitled to maintenance upgrades and bug fixes, at no additional cost, for a period of one year from the date of Acceptance.
 
 Term
@@ -53,4 +53,4 @@ All notices to the Vendor under this Agreement are to be provided at the followi
 YGGDRASIL STUDIO
 Hoo-Pyeong 3, Sesil-ro 173, 406-505,
 Chun-Cheon, Gangwondo,
-Korea, Republic of. 200-963
+Korea, Republic of. 24310
