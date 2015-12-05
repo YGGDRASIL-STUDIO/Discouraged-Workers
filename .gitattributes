@@ -1,1 +1,1 @@
-Discouraged-Workers-Demo-2.2.0.1-release.apk filter=lfs diff=lfs merge=lfs -text
+*.apk filter=lfs diff=lfs merge=lfs -text
