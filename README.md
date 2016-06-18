@@ -1,8 +1,8 @@
 ![discouraged_workers_demo_itchio](https://cloud.githubusercontent.com/assets/5509466/11607854/c4fd32ca-9b9a-11e5-862f-842bd64a1f0c.png)
 
-# Discouraged Workers Demo V2.2.1.3
+# Discouraged Workers Demo V2.3.0.0
 
-Discouraged Workers Demo V2.2.1.3 has been released on my GitHub. It supports the both of PC platforms(Linux/Mac OS X/Windows) and Android(Mobile/Tablet).
+Discouraged Workers Demo V2.3.0.0 has been released on my GitHub. It supports the both of PC platforms(Linux/Mac OS X/Windows) and Android(Mobile/Tablet).
 
 ##  Overview
 
@@ -28,12 +28,25 @@ Discouraged Workers Demo V2.2.1.3 has been released on my GitHub. It supports th
 * The animation-style sprites & CGs, and backgrounds based on retouched real pictures.
 * Full Controller Support, Steam Controller support.
 
+##  Recent changes:
+
+* Added: Save names for Bookmarks.
+* Added: Reset function for Text speed to the Configuration.
+* Added: Transitions option to the Configuration.
+* Added: Keymaps screens to the Configuration.
+* Added: More basic controller support(26 Linux, 8 Mac, 11 Windows).
+* Fixed: Replaced all screens layout.
+* Fixed: Replaced in-game layout.
+* Fixed: Controller bindings.
+* Fixed: Update manuals.
+* Removed: Old unused code.
+
 ##  How to run:
 
 * **Linux:** Unzip> Run the Discouraged Workers Demo.sh
 * **Mac:** Unzip> Run the Discouraged Workers Demo.app
 * **Windows:** Unzip> Run the Discouraged Workers Demo.exe
-* **Android:** Copy the Discouraged-Workers-2.2.1.3-release.apk> Push to your Android device> Install the app> Run the game
+* **Android:** Copy the Discouraged-Workers-2.3.0.0-release.apk> Push to your Android device> Install the app> Run the game
 * This Demo contains PDF Manual
 
 Discouraged Workers :copyright: YGGDRASIL STUDIO All Rights Reserved.
