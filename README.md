@@ -1,8 +1,8 @@
 ![discouraged_workers_demo_itchio](https://cloud.githubusercontent.com/assets/5509466/11607854/c4fd32ca-9b9a-11e5-862f-842bd64a1f0c.png)
 
-# Discouraged Workers Demo V2.3.0.0
+# Discouraged Workers Demo V2.3.0.1
 
-Discouraged Workers Demo V2.3.0.0 has been released on my GitHub. It supports the both of PC platforms(Linux/Mac OS X/Windows) and Android(Mobile/Tablet).
+Discouraged Workers Demo V2.3.0.1 has been released on my GitHub. It supports the both of PC platforms(Linux/Mac OS X/Windows) and Android(Mobile/Tablet).
 
 ##  Overview
 
@@ -46,7 +46,7 @@ Discouraged Workers Demo V2.3.0.0 has been released on my GitHub. It supports th
 * **Linux:** Unzip> Run the Discouraged Workers Demo.sh
 * **Mac:** Unzip> Run the Discouraged Workers Demo.app
 * **Windows:** Unzip> Run the Discouraged Workers Demo.exe
-* **Android:** Copy the Discouraged-Workers-2.3.0.0-release.apk> Push to your Android device> Install the app> Run the game
+* **Android:** Copy the Discouraged-Workers-2.3.0.1-release.apk> Push to your Android device> Install the app> Run the game
 * This Demo contains PDF Manual
 
 Discouraged Workers :copyright: YGGDRASIL STUDIO All Rights Reserved.
