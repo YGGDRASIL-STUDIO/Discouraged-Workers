@@ -1497,7 +1497,7 @@ init:
         contains:
             'images/room.webp'
         contains:
-            'images/rooml.webp', xpos .875 ypos .697
+            'images/rooml.webp', xpos .782 ypos .106
     image gb_sepia:
         size(650, 1080)
         contains:
