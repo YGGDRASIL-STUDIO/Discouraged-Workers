@@ -1,0 +1,13 @@
+"workshopitem"
+{
+	"appid"		"371120"
+	"publishedfileid"		""
+	"contentfolder"		"<path>/sample"
+	"previewfile"		"<path>/kndw_mcdk.png"
+	"visibility"		"2"
+	"title"		"Your MOD title goes here"
+	"description"		"Description goes here, the Steam text formatting markup tags allow.
+                            [b]Language:[/b] [i]your_support_language[/i]"
+	"changenote"		"Initial Release"
+	"tags"		"Kinetic Novel"
+}
