@@ -146,7 +146,6 @@ init python:
     build.classify('**/#**', None)
     build.classify('**/thumbs.db', None)
     build.classify('game/languages.rpyc', None)
-    build.classify('game/steamworks_helper.rpyc', None)
     build.classify('game/mod/testing/**.**', 'mod')
     build.classify('game/*.rpyc', 'script')
     build.classify('game/images/**.**', 'assets')
