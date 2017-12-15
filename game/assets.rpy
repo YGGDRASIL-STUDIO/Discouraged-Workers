@@ -1415,7 +1415,7 @@ init:
     image dw2017_2 = 'images/doa_2.webp'
     image dw2017_3 = 'images/doa_3.webp'
     image photop = 'images/photo.webp'
-    if achievement.has('SPONSOR') and persistent.esteregg is True:
+    if achievement.has('KNDW_SPONSOR') and persistent.esteregg is True:
         image video = LiveComposite((1920, 1080), (0,0), 'images/hospital.webp', (0, 0), 'images/video.webp')
         image video_play = Movie(channel='video', play='images/video.webm', image='video', layer='screens')
         image y_dakimakura_1 = LiveComposite((1920, 5760), (0,0), 'images/y_dakimakura_1.webp', (816, 1793), 'images/y_dakimakura_uncensored.webp')
