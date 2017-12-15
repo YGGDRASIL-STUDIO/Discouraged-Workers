@@ -1,0 +1,1 @@
+$ achievement.grant('KNDW_CREATOR')
