@@ -5253,6 +5253,6 @@ label sync:
 label reset:
     $ achievement.clear_all()
     $ os.remove('saves/**.**')
-    $ os.remove('[save_directory]')
+    $ os.remove('[save_directory]/**.**')
     pause 5
     return
