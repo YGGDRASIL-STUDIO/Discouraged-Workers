@@ -1423,7 +1423,7 @@ init:
         image riding1 = Movie(channel='video', play='images/riding_1.webm', image='riding0', layer='screens')
         image riding2 = Movie(channel='video', play='images/riding_2.webm', image='riding0', layer='screens')
         image riding3 = Movie(channel='video', play='images/riding_3.webm', image='riding0', layer='screens')
-        image fellatio =  LiveComposite((2289, 1080), (0,0), 'images/fellatio.webp', (1222, 535), 'images/fellatio_uncensored.webp.webp')
+        image fellatio =  LiveComposite((2289, 1080), (0,0), 'images/fellatio.webp', (1222, 535), 'images/fellatio_uncensored.webp')
     else:
         image video = LiveComposite((1920, 1080), (0,0), 'images/hospital.webp', (0, 0), 'images/video.webp', (260, 870), 'images/video_mask.webp')
         image video_play = Movie(channel='video', play='images/video_mask.webm', image='video', layer='screens')
