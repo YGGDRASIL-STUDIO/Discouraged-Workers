@@ -8,7 +8,7 @@ translate Korean python:
     config.window_title = u"실망실업자"
     config.translations['Automatic saves'] = u'자동 저장'
     config.translations['Quick saves'] = u'빠른 저장'
-    build_date = "2017년 12월 15일"
+    build_date = "2017년 12월 18일"
     copyright = "©2017 익드라실 스튜디오"
     gui.attention = "주     의"
     gui.language = "이 프로그램은 청소년이용불가로 19세 미만의 어린이(혹은 청소년)가(이) 시청하기에\n부적절하므로 보호자의 시청지도가 필요한 프로그램입니다.\n이 프로그램은 다음과 같은 내용을 포함하고 있습니다.\n\n직접적인 선정적 표현, 저속어, 비속어 및 욕설 표현"
@@ -88,7 +88,7 @@ translate None python:
     config.window_title = u"Discouraged Workers"
     config.translations['Automatic saves'] = 'Automatic saves'
     config.translations['Quick saves'] = 'Quick saves'
-    build_date = "Dec 15, 2017"
+    build_date = "Dec 18, 2017"
     copyright = "©2017 YGGDRASIL STUDIO"
     gui.part01 = "Are you alright?"
     gui.part02 = "Monologue"

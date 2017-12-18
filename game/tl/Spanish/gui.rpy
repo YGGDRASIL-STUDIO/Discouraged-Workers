@@ -10,7 +10,7 @@ translate Spanish python:
     config.window_title = u"Trabajadores desanimados"
     config.translations['Automatic saves'] = u'Grabación automática'
     config.translations['Quick saves'] = u'Grabación rápid'
-    build_date = "15 Dic. 2017"
+    build_date = "18 Dic. 2017"
     copyright = "©2017 YGGDRASIL STUDIO"
     gui.attention = "Advertencia"
     gui.start = "Empieza a leer"

@@ -10,7 +10,7 @@ translate Russian python:
     config.window_title = u"Отчаявшиеся работники"
     config.translations['Automatic saves'] = u'Автосохранения'
     config.translations['Quick saves'] = u'Быстрые сохранения'
-    build_date = "15 Дек 2017"
+    build_date = "18 Дек 2017"
     copyright = "©2017 YGGDRASIL STUDIO"
     gui.attention = "ВНИМАНИЕ"
     gui.language = "В соответствии с Федеральным законом № 436-ФЗ от 29.12.2010 данная игра содержит сцены:\n\nСамоубийства, употребления алкоголя и табачных изделий, нецензурной лексики, порнографии"
