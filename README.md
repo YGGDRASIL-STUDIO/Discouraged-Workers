@@ -15,6 +15,6 @@ http://steamcommunity.com/sharedfiles/filedetails/?id=510660283
 http://steamcommunity.com/app/371120/workshop/
 
 ## Copyright notice
->Discouraged Workers ©YGGDRASIL STUDIO Co, Pte. All Rights Reserved. All literary works/trademarks are property of their respective owners. Do not distribute our program or any alterations of our program files.
+>Discouraged Workers © YGGDRASIL STUDIO Co, Pte. All Rights Reserved. All literary works/trademarks are property of their respective owners. Do not distribute our program or any alterations of our program files.
 
 >SteamWorkshopUploader ©2015 Kenny B. All rights reserved.
