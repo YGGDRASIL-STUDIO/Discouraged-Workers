@@ -1386,6 +1386,7 @@ init:
             Text('{b}Open the Drawer{/b}', style='extext'), xalign .5 yalign .5
     image 404910_header_sepia = im.Sepia('images/404910_header.webp')
     image 375160_header_sepia = im.Sepia('images/375160_header.webp')
+    image 375161_header_sepia = im.Sepia('images/375161_header.webp')
     image 382390_header_sepia = im.Sepia('images/382390_header.webp')
     image 384650_header_sepia = im.Sepia('images/384650_header.webp')
     image 407760_header_sepia = im.Sepia('images/407760_header.webp')
@@ -1395,10 +1396,9 @@ init:
     image lock = LiveComposite((320, 358), (0, 0), 'gui/polaroid.webp', (57, 12), Text('', style='awegall'))
     image con_lock = LiveComposite((253, 358), (0, 0), im.Grayscale('gui/parchment.webp'), (24, 22), Text('', style='awearc'))
     image diary_lock = LiveComposite((253, 358), (0, 0), im.Sepia('gui/diary.webp'), (24, 52), Text('', style='awearc'))
-    image movie = Movie(size=(1280, 720), xalign=0.5, yalign=0.5, layer='screens')
-    image ending = Movie(channel='video', play='images/ending.webm', image='images/ending.webp', layer='screens')
-    image girl_walk = Movie(channel='video', play='images/girl.webm', mask='images/girl_mask.webm', image='images/girl.webp', layer='screens')
-    image girl_walk_flip = Movie(channel='video', play='images/girl_hflip.webm', mask='images/girl_hflip_mask.webm', image='leftgirl', layer='screens')
+    image ending = Movie(fps=60, channel='video', play='images/ending.webm', image='images/ending.webp', layer='screens')
+    image girl_walk = Movie(fps=60, channel='video', play='images/girl.webm', mask='images/girl_mask.webm', image='images/girl.webp', layer='screens')
+    image girl_walk_flip = Movie(fps=60, channel='video', play='images/girl_hflip.webm', mask='images/girl_hflip_mask.webm', image='leftgirl', layer='screens')
     image shoes = im.Composite((1920, 1080), (420, -75), 'images/shoes.webp', (0, 0), 'images/circle.webp')
     image leftgirl = im.Flip('images/girl.webp', horizontal=True)
     image bshock = Solid('#ff00004c')
@@ -1417,20 +1417,20 @@ init:
     image photop = 'images/photo.webp'
     if achievement.has('KNDW_SPONSOR') and persistent.esteregg is True:
         image video = LiveComposite((1920, 1080), (0,0), 'images/hospital.webp', (0, 0), 'images/video.webp')
-        image video_play = Movie(channel='video', play='images/video.webm', image='video', layer='screens')
+        image video_play = Movie(fps=60, channel='video', play='images/video.webm', image='video', layer='screens')
         image y_dakimakura_1 = LiveComposite((1920, 5760), (0,0), 'images/y_dakimakura_1.webp', (816, 1793), 'images/y_dakimakura_uncensored.webp')
         image riding0 = LiveComposite((1920, 2226), (0,0), 'images/riding_0_mask.webp', (893, 1587), 'images/riding_0_uncensored.webp')
-        image riding1 = Movie(channel='video', play='images/riding_1.webm', image='riding0', layer='screens')
-        image riding2 = Movie(channel='video', play='images/riding_2.webm', image='riding0', layer='screens')
-        image riding3 = Movie(channel='video', play='images/riding_3.webm', image='riding0', layer='screens')
+        image riding1 = Movie(fps=60, channel='video', play='images/riding_1.webm', image='riding0', layer='screens')
+        image riding2 = Movie(fps=60, channel='video', play='images/riding_2.webm', image='riding0', layer='screens')
+        image riding3 = Movie(fps=60, channel='video', play='images/riding_3.webm', image='riding0', layer='screens')
         image fellatio =  LiveComposite((2289, 1080), (0,0), 'images/fellatio.webp', (1222, 535), 'images/fellatio_uncensored.webp')
     else:
         image video = LiveComposite((1920, 1080), (0,0), 'images/hospital.webp', (0, 0), 'images/video.webp', (260, 870), 'images/video_mask.webp')
-        image video_play = Movie(channel='video', play='images/video_mask.webm', image='video', layer='screens')
+        image video_play = Movie(fps=60, channel='video', play='images/video_mask.webm', image='video', layer='screens')
         image riding0 = 'images/riding_0_mask.webp'
-        image riding1 = Movie(channel='video', play='images/riding_1_mask.webm', image='riding_0_mask', layer='screens')
-        image riding2 = Movie(channel='video', play='images/riding_2_mask.webm', image='riding_0_mask', layer='screens')
-        image riding3 = Movie(channel='video', play='images/riding_3_mask.webm', image='riding_0_mask', layer='screens')
+        image riding1 = Movie(fps=60, channel='video', play='images/riding_1_mask.webm', image='riding_0_mask', layer='screens')
+        image riding2 = Movie(fps=60, channel='video', play='images/riding_2_mask.webm', image='riding_0_mask', layer='screens')
+        image riding3 = Movie(fps=60, channel='video', play='images/riding_3_mask.webm', image='riding_0_mask', layer='screens')
     image mas_1:
         contains:
             'video_play', video_divide_0
@@ -2343,7 +2343,6 @@ init:
     $ g.image('y_dakimakura_1')
     $ g.transform(toptobottom)
     $ g.image('y_dakimakura_2')
-    $ g.transform(y_daki3)
     $ g.image('fellatio')
     $ g.transform(fellatio)
     $ g.button('riding')

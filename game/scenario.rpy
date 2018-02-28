@@ -8,15 +8,18 @@ label start:
         centered "People who want to get jobs,{w=.3} but give up because it's impossible."
         pause 1
     $ progress += 1
-    scene room at sepia
-    show h_smile_sepia at right
-    show expression 'part_01_sepia' at part_polaroid
-    show born_balls at main_balls
-    show gradiant
-    with centerblind
     if not persistent.blind is True:
+        scene room at sepia
+        show h_smile_sepia at right
+        show expression 'part_01_sepia' at part_polaroid
+        show born_balls at main_balls
+        show gradiant
+        with centerblind
         show expression Text ('[gui.part01]', style='part_title')
         with d
+    else:
+        scene black
+        show expression Text ('[gui.part01]', style='centered_text')
     pause 3
     scene black with d
     if persistent.blind is True:
@@ -72,22 +75,22 @@ label start:
     with d5
     h "Why haven't you called me for so long?{w=.3} I heard that you haven't called Mom and Dad for a long time either."
     na "After blurting out those words,{w=.3} she's waiting for my answer."
-    if persistent.epilepsy is True or _preferences.transitions == 0:
+    if persistent.epilepsy is True or persistent.tic is None or _preferences.transitions == 0:
         pass
     else:
         show blink1 with d5
     na "Putting down my bread and blinking several times,{w=.3} something is disturbing me."
-    if persistent.epilepsy is True or _preferences.transitions == 0:
+    if persistent.epilepsy is True or persistent.tic is None or _preferences.transitions == 0:
         pass
     else:
         hide blink1 with d5
     p "Well…,{w=.3} it's…."
-    if persistent.epilepsy is True or _preferences.transitions == 0:
+    if persistent.epilepsy is True or persistent.tic is None or _preferences.transitions == 0:
         pass
     else:
         show blink1 with d5
     na "I hesitate for a moment,{w=.3} because I don't know what to say.{w=.3} I just blink my eyes unconsciously."
-    if persistent.epilepsy is True or _preferences.transitions == 0:
+    if persistent.epilepsy is True or persistent.tic is None or _preferences.transitions == 0:
         pass
     else:
         hide blink1 with d5
@@ -193,19 +196,28 @@ label start:
         if not persistent.blind is True:
             call unlocked
 label mono0:
-    scene room at sepia
-    show gb_sepia at right
-    show expression 'part_02_sepia' at part_polaroid
-    show born_balls at main_balls
-    show gradiant
-    with centerblind
+    $ gp = 0
+    $ gc = 0
+    $ gg = 0
+    $ gm = 0
+    $ gr = 0
+    $ gd = 0
     if not persistent.blind is True:
+        scene room at sepia
+        show gb_sepia at right
+        show expression 'part_02_sepia' at part_polaroid
+        show born_balls at main_balls
+        show gradiant
+        with centerblind
         show expression Text ('[gui.part02]', style='part_title')
         with d
-    $ progress += 1
-    pause 3
+        pause 3
+    else:
+        scene black
+        show expression Text ('[gui.part02]', style='centered_text')
     scene black with d
     pause 1
+    $ progress += 1
     $ save_name = "Monologue"
     $ show_quick_menu = False
     centered "I'm jobless."
@@ -371,18 +383,27 @@ label gone:
         if not persistent.blind is True:
             call unlocked
 label caffe:
-    scene caffe at sepia
-    show y_smile_sepia at right
-    show expression 'part_03_sepia' at part_polaroid
-    show born_balls at main_balls
-    show gradiant
-    with centerblind
+    $ gp = 0
+    $ gc = 0
+    $ gg = 0
+    $ gm = 0
+    $ gr = 0
+    $ gd = 0
     if not persistent.blind is True:
+        scene caffe at sepia
+        show y_smile_sepia at right
+        show expression 'part_03_sepia' at part_polaroid
+        show born_balls at main_balls
+        show gradiant
+        with centerblind
         show expression Text ('[gui.part03]', style='part_title')
         with d
-    $ progress += 1
+    else:
+        scene black
+        show expression Text ('[gui.part03]', style='centered_text')
     pause 3
     scene black with d
+    $ progress += 1
     scene caffe with blind
     pause 1
     $ save_name = "Do you remember first love?"
@@ -483,15 +504,24 @@ label caffe:
         if not persistent.blind is True:
             call unlocked
 label shinchon:
-    scene sin at sepia
-    show tdw_sepia
-    show expression 'part_04_sepia' at part_polaroid
-    show born_balls at main_balls
-    show gradiant
-    with centerblind
+    $ gp = 0
+    $ gc = 0
+    $ gg = 0
+    $ gm = 0
+    $ gr = 0
+    $ gd = 0
     if not persistent.blind is True:
+        scene sin at sepia
+        show tdw_sepia
+        show expression 'part_04_sepia' at part_polaroid
+        show born_balls at main_balls
+        show gradiant
+        with centerblind
         show expression Text ('[gui.part04]', style='part_title')
         with d
+    else:
+        scene black
+        show expression Text ('[gui.part04]', style='centered_text')
     $ progress += 1
     pause 3
     scene black with d
@@ -638,15 +668,24 @@ label phone:
         if not persistent.blind is True:
             call unlocked
 label food:
-    scene food at sepia
-    show gb_sepia at right
-    show expression 'part_05_sepia' at part_polaroid
-    show born_balls at main_balls
-    show gradiant
-    with centerblind
+    $ gp = 0
+    $ gc = 0
+    $ gg = 0
+    $ gm = 0
+    $ gr = 0
+    $ gd = 0
     if not persistent.blind is True:
+        scene food at sepia
+        show gb_sepia at right
+        show expression 'part_05_sepia' at part_polaroid
+        show born_balls at main_balls
+        show gradiant
+        with centerblind
         show expression Text ('[gui.part05]', style='part_title')
         with d
+    else:
+        scene black
+        show expression Text ('[gui.part05]', style='centered_text')
     $ progress += 1
     pause 3
     scene black with d
@@ -759,15 +798,24 @@ label mono2:
         if not persistent.blind is True:
             call unlocked
 label food1:
-    scene food at sepia
-    show y_smile_sepia at right
-    show expression 'part_07_sepia' at part_polaroid
-    show born_balls at main_balls
-    show gradiant
-    with centerblind
+    $ gp = 0
+    $ gc = 0
+    $ gg = 0
+    $ gm = 0
+    $ gr = 0
+    $ gd = 0
     if not persistent.blind is True:
+        scene food at sepia
+        show y_smile_sepia at right
+        show expression 'part_07_sepia' at part_polaroid
+        show born_balls at main_balls
+        show gradiant
+        with centerblind
         show expression Text ('[gui.part07]', style='part_title')
         with d
+    else:
+        scene black
+        show expression Text ('[gui.part07]', style='centered_text')
     $ progress += 1
     pause 3
     scene black with d
@@ -890,15 +938,24 @@ label says:
         if not persistent.blind is True:
             call unlocked
 label cheon:
-    scene cheon at sepia
-    show h_smile_sepia at right
-    show expression 'part_08_sepia' at part_polaroid
-    show born_balls at main_balls
-    show gradiant
-    with centerblind
+    $ gp = 0
+    $ gc = 0
+    $ gg = 0
+    $ gm = 0
+    $ gr = 0
+    $ gd = 0
     if not persistent.blind is True:
+        scene cheon at sepia
+        show h_smile_sepia at right
+        show expression 'part_08_sepia' at part_polaroid
+        show born_balls at main_balls
+        show gradiant
+        with centerblind
         show expression Text ('[gui.part08]', style='part_title')
         with d
+    else:
+        scene black
+        show expression Text ('[gui.part08]', style='centered_text')
     $ progress += 1
     pause 3
     scene black with d
@@ -961,7 +1018,7 @@ label cheon:
     na "She was in a skimpy dress,{w=0.3} with an old guy?{w=0.3} Why?"
     na "No!{w=0.3} That's just bullshit.{w=0.3} Hye-na is not that sort of girl."
     na "This can't happen.{w=0.3} It mustn't happen."
-    if persistent.epilepsy is True or _preferences.transitions == 0:
+    if persistent.epilepsy is True or persistent.tic is None or _preferences.transitions == 0:
         pass
     else:
         show blink2  with d5
@@ -979,7 +1036,7 @@ label cheon:
     p "And,{w=.3} if needed,{w=.3} I will follow her."
     y "OK.{w=.3} I hope that what we are assuming is wrong,{w=.3} and that she is fine."
     na "I hope the girl Yunwoo saw wasn't Hye-na."
-    if persistent.epilepsy is True or _preferences.transitions == 0:
+    if persistent.epilepsy is True or persistent.tic is None or _preferences.transitions == 0:
         pass
     else:
         hide blink2 with d5
@@ -994,15 +1051,24 @@ label cheon:
         if not persistent.blind is True:
             call unlocked
 label hyena:
-    scene room at sepia
-    show h_smile_sepia at right
-    show expression 'part_09_sepia' at part_polaroid
-    show born_balls at main_balls
-    show gradiant
-    with centerblind
+    $ gp = 0
+    $ gc = 0
+    $ gg = 0
+    $ gm = 0
+    $ gr = 0
+    $ gd = 0
     if not persistent.blind is True:
+        scene room at sepia
+        show h_smile_sepia at right
+        show expression 'part_09_sepia' at part_polaroid
+        show born_balls at main_balls
+        show gradiant
+        with centerblind
         show expression Text ('[gui.part09]', style='part_title')
         with d
+    else:
+        scene black
+        show expression Text ('[gui.part09]', style='centered_text')
     $ progress += 1
     pause 3
     scene black with d
@@ -1198,14 +1264,23 @@ label hyena:
         if not persistent.blind is True:
             call unlocked
 label tears:
-    show slap_sepia
-    show expression 'part_10_sepia' at part_polaroid
-    show born_balls at main_balls
-    show gradiant
-    with centerblind
+    $ gp = 0
+    $ gc = 0
+    $ gg = 0
+    $ gm = 0
+    $ gr = 0
+    $ gd = 0
     if not persistent.blind is True:
+        show slap_sepia
+        show expression 'part_10_sepia' at part_polaroid
+        show born_balls at main_balls
+        show gradiant
+        with centerblind
         show expression Text ('[gui.part10]', style='part_title')
         with d
+    else:
+        scene black
+        show expression Text ('[gui.part10]', style='centered_text')
     $ progress += 1
     pause 3
     scene black with d
@@ -1346,7 +1421,7 @@ label tears:
     h "But,{w=.3} I was going to stop it when you get a job again!"
     h "But there really isn't much work I can do!{w=.3} Unlike you,{w=.3} Ga-yeon!"
     h "To be honest,{w=.3} you may remember that I was working as a waitress at the cafe.{w=.3} But that was so long ago,{w=.3} I hardly remember working there."
-    if not _preferences.language == 'Korean':
+    if not _preferences.language == 'Korean' and not _preferences.language == 'Chinese':
         h "When you didn't have a job for so long,{w=.3} I got a job as a karaoke hostess.{w=.3} But it's been a long time since I've been a karaoke hostess too."
     if persistent.vibrate is True:
         $ renpy.vibrate(1)
@@ -1356,7 +1431,7 @@ label tears:
     p "What?{w=.3} A hostess?!"
     na "I'm just so shocked by her sudden confession.{w=.3} My sister is a hostess?"
     na "No – it's just bullshit.{w=.3} I don't believe it.{w=.3} Why….{w=.3} Why is this happening to me?"
-    if persistent.epilepsy is True or _preferences.transitions == 0:
+    if persistent.epilepsy is True or persistent.tic is None or _preferences.transitions == 0:
         pass
     else:
         show blink2  with d5
@@ -1367,7 +1442,7 @@ label tears:
     h "And because he asked me to,{w=.3} I just quit working at the Karaoke.{w=.3} Now he pays me regularly to be his companion."
     h "Is what I'm doing really so bad?{w=.3} I've met a nice guy who likes me,{w=.3} and he gives me money."
     h "Ga-yeon,{w=.3} you've always been so nice.{w=.3} Even when we were just kids."
-    if not _preferences.language == 'Korean':
+    if not _preferences.language == 'Korean' and not _preferences.language == 'Chinese':
         h "Do you remember that?{w=.3} When you were still in middle school,{w=.3} you always gave me things,{w=.3} paid for with your part-time work.{w=.3} When Dad,{w=.3} who was sick,{w=.3} couldn't…."
     h "You even paid my tuition for all four years of university,{w=.3} even though you couldn't really afford it!"
     h "Ga-yeon,{w=.3} I just wanted to help you now!"
@@ -1388,9 +1463,9 @@ label tears:
     p "{size=+10}You're such a bitch!!{/size}{w=.5}{nw}"
     stop music fadeout 3
     hide h_tear
+    play sound 'se/att.opus'
     show slap
     with shock2
-    play sound 'se/att.opus'
     pause 3
     scene black
     $ renpy.transition(d)
@@ -1419,15 +1494,24 @@ label tears:
         if not persistent.blind is True:
             call unlocked
 label mono3:
-    scene room at sepia
-    show gb_sepia at right
-    show expression 'part_11_sepia' at part_polaroid
-    show born_balls at main_balls
-    show gradiant
-    with centerblind
+    $ gp = 0
+    $ gc = 0
+    $ gg = 0
+    $ gm = 0
+    $ gr = 0
+    $ gd = 0
     if not persistent.blind is True:
+        scene room at sepia
+        show gb_sepia at right
+        show expression 'part_11_sepia' at part_polaroid
+        show born_balls at main_balls
+        show gradiant
+        with centerblind
         show expression Text ('[gui.part11]', style='part_title')
         with d
+    else:
+        scene black
+        show expression Text ('[gui.part11]', style='centered_text')
     $ progress += 1
     pause 3
     scene black with d
@@ -1518,15 +1602,24 @@ label mono4:
         if not persistent.blind is True:
             call unlocked
 label hospital:
-    scene hospital at sepia
-    show dr_sepia at right
-    show expression 'part_12_sepia' at part_polaroid
-    show born_balls at main_balls
-    show gradiant
-    with centerblind
+    $ gp = 0
+    $ gc = 0
+    $ gg = 0
+    $ gm = 0
+    $ gr = 0
+    $ gd = 0
     if not persistent.blind is True:
+        scene hospital at sepia
+        show dr_sepia at right
+        show expression 'part_12_sepia' at part_polaroid
+        show born_balls at main_balls
+        show gradiant
+        with centerblind
         show expression Text ('[gui.part12]', style='part_title')
         with d
+    else:
+        scene black
+        show expression Text ('[gui.part12]', style='centered_text')
     $ progress += 1
     pause 3
     scene black with d
@@ -1615,15 +1708,24 @@ label hospital:
         if not persistent.blind is True:
             call unlocked
 label life:
-    scene room at sepia
-    show gb_sepia at right
-    show expression 'part_13_sepia' at part_polaroid
-    show born_balls at main_balls
-    show gradiant
-    with centerblind
+    $ gp = 0
+    $ gc = 0
+    $ gg = 0
+    $ gm = 0
+    $ gr = 0
+    $ gd = 0
     if not persistent.blind is True:
+        scene room at sepia
+        show gb_sepia at right
+        show expression 'part_13_sepia' at part_polaroid
+        show born_balls at main_balls
+        show gradiant
+        with centerblind
         show expression Text ('[gui.part13]', style='part_title')
         with d
+    else:
+        scene black
+        show expression Text ('[gui.part13]', style='centered_text')
     $ progress += 1
     pause 3
     scene black with d
@@ -1849,7 +1951,7 @@ label life:
     y "But me?{w=.3} It was impossible for me to receive private tutoring because my parents couldn't afford it.{w=.3} In fact,{w=.3} my family was so poor that I had to go to work during my early school years to help out."
     y "And,{w=.3} since I was so young and couldn't do any skilled work,{w=.3} I had to do very menial jobs,{w=.3} like handing out flyers to strangers on the street."
     y "The amount of schooling I got was less than those around me.{w=.3} Through the years,{w=.3} my friends begin to drift away because the \"School records\" difference between us gets bigger and bigger."
-    if not _preferences.language == 'Korean':
+    if not _preferences.language == 'Korean' and not _preferences.language == 'Chinese':
         y "Soon the number of people I was friends with became limited."
     y "In that way,{w=.3} I and other children like me have grown up,{w=.3} directly feeling the fear of capitalism."
     hide y_think
@@ -2104,15 +2206,24 @@ label life:
         if not persistent.blind is True:
             call unlocked
 label discouraged:
-    scene hospital at sepia
-    show gb_sepia at right
-    show expression 'part_14_sepia' at part_polaroid
-    show born_balls at main_balls
-    show gradiant
-    with centerblind
+    $ gp = 0
+    $ gc = 0
+    $ gg = 0
+    $ gm = 0
+    $ gr = 0
+    $ gd = 0
     if not persistent.blind is True:
+        scene hospital at sepia
+        show gb_sepia at right
+        show expression 'part_14_sepia' at part_polaroid
+        show born_balls at main_balls
+        show gradiant
+        with centerblind
         show expression Text ('[gui.part14]', style='part_title')
         with d
+    else:
+        scene black
+        show expression Text ('[gui.part14]', style='centered_text')
     $ progress += 1
     pause 3
     scene black with d
@@ -2146,8 +2257,12 @@ label discouraged:
     $ renpy.transition(d5)
     $ renpy.pause(.5, hard = True)
     show expression Text ('Shocking! A doctor and a nurse in the hospital!', style='centered_text', size=72)
-    $ renpy.transition(d3)
-    $ renpy.pause(3, hard = True)
+    if persistent.blind is True:
+        with dl
+        pause 10
+    else:
+        $ renpy.transition(d3)
+        $ renpy.pause(3, hard = True)
     scene black
     $ renpy.transition(d3)
     $ renpy.pause(3, hard = True)
@@ -2212,6 +2327,7 @@ label discouraged:
     with flash
     na "{size=+10}He must have seen this!!{/size}"
     pause 3
+    $ renpy.start_predict('video_play')
     na "What I wanted was just Yunwoo."
     na "What he said as soon as he was discharged from the army,"
     na "it was a proposal."
@@ -2248,13 +2364,14 @@ label discouraged:
     na "I will be a huge obstacle in Yunwoo's life."
     na "I'm sorry Yunwoo."
     na "Yunwoo.{w=1}"
+    $ renpy.stop_predict('video_play')
     scene room
     show bshock
     with dl
     na "I stand up from the chair,{w=.3} and turn back.{w=.3} Then,{w=.3} I walk on a few steps,{w=.3} then,{w=.3} just collapse on the floor."
     na "Yes,{w=.3} this is a punishment."
     na "I'm being punished by heaven."
-    if persistent.epilepsy is True or _preferences.transitions == 0:
+    if persistent.epilepsy is True or persistent.tic is None or _preferences.transitions == 0:
         pass
     else:
         show blink2 with d5
@@ -2297,7 +2414,7 @@ label discouraged:
         call screen holder
         scene self_gall
         with flash
-        if persistent.epilepsy is True or _preferences.transitions == 0:
+        if persistent.epilepsy is True or persistent.tic is None or _preferences.transitions == 0:
             pass
         else:
             show blink2 with d5
@@ -2308,7 +2425,7 @@ label discouraged:
     sv "The next step is an important scene. Do you want to save here?"
     sv "Left arrow key: Yes, Right arrow key: No."
     call screen save_confirm
-    if persistent.epilepsy is True or _preferences.transitions == 0:
+    if persistent.epilepsy is True or persistent.tic is None or _preferences.transitions == 0:
         pass
     else:
         hide blink2 with d5
@@ -2327,15 +2444,24 @@ label discouraged:
         $ achievement.grant('KNDW_HOLDER')
         if not persistent.blind is True:
             call unlocked
-    scene room at sepia
-    show gb_sepia at right
-    show expression 'part_15_sepia' at part_polaroid
-    show born_balls at main_balls
-    show gradiant
-    with centerblind
+    $ gp = 0
+    $ gc = 0
+    $ gg = 0
+    $ gm = 0
+    $ gr = 0
+    $ gd = 0
     if not persistent.blind is True:
+        scene room at sepia
+        show gb_sepia at right
+        show expression 'part_15_sepia' at part_polaroid
+        show born_balls at main_balls
+        show gradiant
+        with centerblind
         show expression Text ('[gui.part15]', style='part_title')
         with d
+    else:
+        scene black
+        show expression Text ('[gui.part15]', style='centered_text')
     $ progress += 1
     pause 3
     scene black with d
@@ -2348,7 +2474,7 @@ label self_inflicted:
         scene room
         show bshock
         with flash
-        if persistent.epilepsy is True or _preferences.transitions == 0:
+        if persistent.epilepsy is True or persistent.tic is None or _preferences.transitions == 0:
             pass
         else:
             show blink2 with d5
@@ -2362,30 +2488,30 @@ label self_inflicted:
             else:
                 show expression 'drawer' at times with d3
                 hide expression 'drawer' with d3
-            if persistent.epilepsy is True or _preferences.transitions == 0:
+            if persistent.epilepsy is True or persistent.tic is None or _preferences.transitions == 0:
                 pass
             else:
                 show blink2 with d5
             call screen obdrawer
-        if persistent.epilepsy is True or _preferences.transitions == 0:
+        if persistent.epilepsy is True or persistent.tic is None or _preferences.transitions == 0:
             pass
         else:
             hide blink2 with d5
         show diary
         with d5
-        if persistent.epilepsy is True or _preferences.transitions == 0:
+        if persistent.epilepsy is True or persistent.tic is None or _preferences.transitions == 0:
             pass
         else:
             show blink2 with d5
         na "I stare blankly at them for a while,{w=.3} and then,{w=.3} I take the diary out of a drawer and put it down on the desk.{w=.3} And I also take out the glasses,{w=.3} cradling them with my two hands."
-        if persistent.epilepsy is True or _preferences.transitions == 0:
+        if persistent.epilepsy is True or persistent.tic is None or _preferences.transitions == 0:
             pass
         else:
             hide blink2
         hide diary
         show glasses
         with d5
-        if persistent.epilepsy is True or _preferences.transitions == 0:
+        if persistent.epilepsy is True or persistent.tic is None or _preferences.transitions == 0:
             pass
         else:
             show blink2 with d5
@@ -2395,7 +2521,7 @@ label self_inflicted:
         na "When I'm about to pick up the glasses,{w=.3} I suddenly feel dizzy.{w=.3} I try to turn back,{w=.3} but soon,{w=.3} lose my balance,{w=.3} then fall down."
         na "I think I'm gonna faint."
         na "Please,{w=.3} please help me."
-        if persistent.epilepsy is True or _preferences.transitions == 0:
+        if persistent.epilepsy is True or persistent.tic is None or _preferences.transitions == 0:
             pass
         else:
             hide blink2 with d5
@@ -2411,7 +2537,7 @@ label self_inflicted:
             $ achievement.progress('KNDW_OBJECT', 8)
             $ achievement.grant('KNDW_DRAWER')
             $ achievement.grant('KNDW_DIARY')
-            if not persistent.blind is True:
+            if persistent.blind is not True and persistent.part15 is None:
                 call unlocked
         jump love
     elif sicount == 3:
@@ -2432,14 +2558,19 @@ label self_inflicted:
         if not achievement.has('KNDW_ACCIDENT'):
             if not achievement.has('KNDW_ONLOOKER') or achievement.has('KNDW_DIARY'):
                 $ persistent.unlock_13 = True
-                $ persistent.char += 1
                 $ persistent.gall += 1
                 $ persistent.replay += 1
                 $ achievement.progress('KNDW_PROGRESS', 15)
                 $ achievement.progress('KNDW_IDENTIFY', 7)
             $ achievement.progress('KNDW_ART', 18)
-            if not persistent.blind is True:
+            if persistent.blind is not True and persistent.part15 is None:
                 call unlocked
+        $ gp = 0
+        $ gc = 0
+        $ gg = 0
+        $ gm = 0
+        $ gr = 0
+        $ gd = 0
         $ progress += 1
         $ save_name = "R.I.P"
         sv "You died. R.I.P."
@@ -2478,25 +2609,30 @@ label self_inflicted:
                 $ achievement.grant('KNDW_MASTER_FRONTIER')
                 $ achievement.grant('KNDW_SPONSOR')
             pause 3
+        $ gp = 0
+        $ gc = 0
+        $ gg = 0
+        $ gm = 0
+        $ gr = 0
+        $ gd = 0
         return
     elif sigiveup <= -1:
         if not achievement.has('KNDW_ONLOOKER'):
             if not achievement.has('KNDW_ACCIDENT') or achievement.has('KNDW_DIARY'):
                 $ persistent.unlock_13 = True
-                $ persistent.char += 1
                 $ persistent.gall += 1
                 $ persistent.replay += 1
                 $ achievement.progress('KNDW_PROGRESS', 15)
                 $ achievement.progress('KNDW_IDENTIFY', 7)
             $ achievement.grant('KNDW_ONLOOKER')
-            if not persistent.blind is True:
+            if persistent.blind is not True and persistent.part15 is None:
                 call unlocked
         jump unme
     elif sicount > 0:
         play sound 'se/flash.opus'
         scene self_gall
         with flash
-        if persistent.epilepsy is True or _preferences.transitions == 0:
+        if persistent.epilepsy is True or persistent.tic is None or _preferences.transitions == 0:
             pass
         else:
             show blink2 with d5
@@ -2510,7 +2646,7 @@ label self_inflicted:
             show self3
             show self4
             with shock
-            if persistent.epilepsy is True or _preferences.transitions == 0:
+            if persistent.epilepsy is True or persistent.tic is None or _preferences.transitions == 0:
                 pass
             else:
                 show blink2 with d5
@@ -2522,34 +2658,43 @@ label self_inflicted:
             show self
             show self3
             with shock
-            if persistent.epilepsy is True or _preferences.transitions == 0:
+            if persistent.epilepsy is True or persistent.tic is None or _preferences.transitions == 0:
                 pass
             else:
                 show blink2 with d5
         sv "[gui.choice]"
-        sv "Left arrow key: [gui.healing] Right arrow key: [gui.judge]"
+        sv "Left arrow key: [gui.heal] Right arrow key: [gui.judge]"
         call screen self_inflicted
     else:
         play sound 'se/flash.opus'
         hide self
         show self
         with flash
-        if persistent.epilepsy is True or _preferences.transitions == 0:
+        if persistent.epilepsy is True or persistent.tic is None or _preferences.transitions == 0:
             pass
         else:
             show blink2 with d5
         sv "[gui.choice]"
-        sv "Left arrow key: [gui.healing] Right arrow key: [gui.judge]"
+        sv "Left arrow key: [gui.heal] Right arrow key: [gui.judge]"
         call screen self_inflicted
 label love:
-    scene deep_sepia
-    show expression 'part_17_sepia' at part_polaroid
-    show born_balls at main_balls
-    show gradiant
-    with centerblind
+    $ gp = 0
+    $ gc = 0
+    $ gg = 0
+    $ gm = 0
+    $ gr = 0
+    $ gd = 0
     if not persistent.blind is True:
+        scene deep_sepia
+        show expression 'part_17_sepia' at part_polaroid
+        show born_balls at main_balls
+        show gradiant
+        with centerblind
         show expression Text ('[gui.part17]', style='part_title')
         with d
+    else:
+        scene black
+        show expression Text ('[gui.part17]', style='centered_text')
     $ progress = 17
     pause 3
     scene black with d
@@ -2561,7 +2706,7 @@ label love:
         with d
     else:
         with red
-    if persistent.epilepsy is True or _preferences.transitions == 0:
+    if persistent.epilepsy is True or persistent.tic is None or _preferences.transitions == 0:
         pass
     else:
         show blink1 with d5
@@ -2694,8 +2839,11 @@ label love:
     na "I take my hands off him,{w=.3} and undo the buttons on my shirt,{w=.3} from the bottom to top.{w=.3} Then,{w=.3} I show him my bare skin in a pink bra."
     scene caress0
     with d5
-    na "And again,{w=.3} I roll up my skirt and sit on him,{w=.3} letting my labia minora meet his penis."
-    na "Feeling something hot within my nether part,{w=.3} I gasp for air."
+    if _preferences.language == 'Chinese':
+        na "然后我又重新爬到了他的身上，{w=.3}抬起裙子，{w=.3}让他的阴茎碰到我的小阴唇。"
+    else:
+        na "And again,{w=.3} I roll up my skirt and sit on him,{w=.3} letting my labia minora meet his penis."
+        na "Feeling something hot within my nether part,{w=.3} I gasp for air."
     na "I slide my bra straps off my shoulders,{w=.3} first the right,{w=.3} then the left,{w=.3} and then,{w=.3} unhook my bra,{w=.3} stretching my hand behind my back."
     na "As I haven't taken all my clothes off yet,{w=.3} my bra doesn't fall down."
     na "I slightly bend down towards him,{w=.3} and say,{w=.3} putting my boobs in front of his face."
@@ -2877,15 +3025,24 @@ label yunwoo:
         if not persistent.blind is True:
             call unlocked
 label yunwoo0:
-    scene sang at sepia
-    show y_poker_sepia at right
-    show expression 'part_18_sepia' at part_polaroid
-    show born_balls at main_balls
-    show gradiant
-    with centerblind
+    $ gp = 0
+    $ gc = 0
+    $ gg = 0
+    $ gm = 0
+    $ gr = 0
+    $ gd = 0
     if not persistent.blind is True:
+        scene sang at sepia
+        show y_poker_sepia at right
+        show expression 'part_18_sepia' at part_polaroid
+        show born_balls at main_balls
+        show gradiant
+        with centerblind
         show expression Text ('[gui.part18]', style='part_title')
         with d
+    else:
+        scene black
+        show expression Text ('[gui.part18]', style='centered_text')
     $ progress = 18
     pause 3
     scene black with d
@@ -2940,20 +3097,32 @@ label yunwoo0:
     $ renpy.transition(flash)
     $ renpy.pause(.5, hard = True)
     show expression Text ('"Just stay like this for a minute, please."', style='extext')
-    $ renpy.transition(d)
-    $ renpy.pause(1, hard = True)
+    if persistent.blind is True:
+        with dl
+        pause 10
+    else:
+        $ renpy.transition(d)
+        $ renpy.pause(1, hard = True)
     scene black
     $ renpy.transition(d3)
     $ renpy.pause(3, hard = True)
     show expression Text ('"Kiss me."', style='extext')
-    $ renpy.transition(d)
-    $ renpy.pause(1, hard = True)
+    if persistent.blind is True:
+        with dl
+        pause 10
+    else:
+        $ renpy.transition(d)
+        $ renpy.pause(1, hard = True)
     scene black
     $ renpy.transition(d3)
     $ renpy.pause(3, hard = True)
     show expression Text ('"I want you."', style='extext')
-    $ renpy.transition(d)
-    $ renpy.pause(1, hard = True)
+    if persistent.blind is True:
+        with dl
+        pause 10
+    else:
+        $ renpy.transition(d)
+        $ renpy.pause(1, hard = True)
     scene black
     $ renpy.transition(d3)
     $ renpy.pause(3, hard = True)
@@ -2998,18 +3167,23 @@ label yunwoo0:
     pm "No way…,{w=.3} you,{w=.3} such a…!!"
     stop music fadeout 3
     $ renpy.end_replay()
-    $ persistent.replay += 1
+    if persistent.part20 is True and persistent.part18 is None:
+        $ persistent.part18 = True
+        $ persistent.replay += 1
     $ achievement.progress('KNDW_PROGRESS', 17)
 label gayeon:
-    scene room at sepia
-    show gb_sepia at right
-    show expression 'part_19_sepia' at part_polaroid
-    show born_balls at main_balls
-    show gradiant
-    with centerblind
     if not persistent.blind is True:
+        scene room at sepia
+        show gb_sepia at right
+        show expression 'part_19_sepia' at part_polaroid
+        show born_balls at main_balls
+        show gradiant
+        with centerblind
         show expression Text ('[gui.part19]', style='part_title')
         with d
+    else:
+        scene black
+        show expression Text ('[gui.part19]', style='centered_text')
     $ progress = 19
     pause 3
     scene black with d
@@ -3164,20 +3338,25 @@ label gayeon:
     woo "I'm sorry,{w=.3} Mommy."
     stop music fadeout 3
     $ renpy.end_replay()
-    $ persistent.replay += 1
-    $ persistent.char += 1
+    if persistent.part20 is True and persistent.part19 is None:
+        $ persistent.part19 = True
+        $ persistent.replay += 1
+        $ persistent.char += 1
     $ achievement.progress('KNDW_PROGRESS', 18)
     $ achievement.progress('KNDW_OBJECT', 9)
 label yunwoo2:
-    scene way1 at sepia
-    show e_think_sepia at right
-    show expression 'part_20_sepia' at part_polaroid
-    show born_balls at main_balls
-    show gradiant
-    with centerblind
     if not persistent.blind is True:
+        scene way1 at sepia
+        show e_think_sepia at right
+        show expression 'part_20_sepia' at part_polaroid
+        show born_balls at main_balls
+        show gradiant
+        with centerblind
         show expression Text ('[gui.part20]', style='part_title')
         with d
+    else:
+        scene black
+        show expression Text ('[gui.part20]', style='centered_text')
     $ progress = 20
     pause 3
     scene black with d
@@ -3202,12 +3381,11 @@ label yunwoo2:
     scene rooml
     sv "[gui.choice]"
     sv "Left arrow key: Take a closer look at Ga-yeon's room. Right arrow key: Let's get out of here."
-    if not persistent.blind is True:
-        if _preferences.transitions == 0:
-            system 'Find Your Wallet'
-        else:
-            show expression 'walletnot' at times with d3
-            hide expression 'walletnot' with d3
+    if not persistent.blind is True and _preferences.transitions == 0:
+        system 'Find Your Wallet'
+    elif not persistent.blind is True:
+        show expression 'walletnot' at times with d3
+        hide expression 'walletnot' with d3
     show screen wallet
     $ renpy.pause(3, hard = True)
     hide screen wallet
@@ -3274,7 +3452,16 @@ label yunwoo2:
         woo "Passing her by,{w=.3} I run out to the street to hail a taxi."
         woo "As there will be no people walking around Hangang Bridge at this late hour,{w=.3} it will be easy to find her."
         woo "I will save you soon,{w=.3} Ga-yeon.{w=.3} Just get some fresh air as you wanted,{w=.3} please."
+    if persistent.part20 is True and persistent.con03 is None:
+        $ persistent.con03 = True
+        $ persistent.con += 1
 label unme:
+    $ gp = 0
+    $ gc = 0
+    $ gg = 0
+    $ gm = 0
+    $ gr = 0
+    $ gd = 0
     scene black with f
     pause .5
     show expression Text ('Half an hour ago', style='extext') at times with d3
@@ -3362,14 +3549,20 @@ label unme:
     na "I unconsciously stop for a moment,{w=.3} but soon keep walking around."
     $ renpy.end_replay()
     if persistent.part20 is None:
-        $ persistent.con03 = True
         $ persistent.unlock_12 = True
         $ persistent.bgm12 = True
-        $ persistent.con += 1
-        $ persistent.char += 1
         $ persistent.gall += 1
         $ persistent.bgm += 1
         $ persistent.replay += 1
+        if not sigiveup <= -1:
+            $ persistent.con03 = True
+            $ persistent.con += 1
+            $ persistent.char += 2
+            $ persistent.part18 = True
+            $ persistent.part19 = True
+            $ persistent.replay += 2
+        else:
+            $ persistent.char += 1
         $ achievement.progress('KNDW_PROGRESS', 19)
         $ achievement.progress('KNDW_CONCEPT', 7)
         if achievement.has('KNDW_KILLER'):
@@ -3383,21 +3576,31 @@ label unme:
         if not persistent.blind is True:
             call unlocked
     elif not achievement.has('KNDW_OBJECT'):
-        $ achievement.grant('KNDW_WALLET')
-        $ achievement.grant('KNDW_OBJECT')
+        if wallet == 1:
+            $ achievement.grant('KNDW_WALLET')
+            $ achievement.grant('KNDW_OBJECT')
     if wallet == 1:
         jump bridge
     else:
         jump edge
 label bridge:
-    scene bridge at sepia
-    show expression 'part_21_sepia' at part_polaroid
-    show born_balls at main_balls
-    show gradiant
-    with centerblind
+    $ gp = 0
+    $ gc = 0
+    $ gg = 0
+    $ gm = 0
+    $ gr = 0
+    $ gd = 0
     if not persistent.blind is True:
+        scene bridge at sepia
+        show expression 'part_21_sepia' at part_polaroid
+        show born_balls at main_balls
+        show gradiant
+        with centerblind
         show expression Text ('[gui.part21]', style='part_title')
         with d
+    else:
+        scene black
+        show expression Text ('[gui.part21]', style='centered_text')
     $ progress = 21
     pause 3
     scene black with blind
@@ -3410,8 +3613,6 @@ label bridge:
     sv "The next step is an important scene. Do you want to save here?"
     sv "Left arrow key: Yes, Right arrow key: No."
     call screen save_confirm
-    sv "[gui.choice]"
-    sv "Left arrow key: [gui.left] Right arrow key: [gui.right]"
     show screen bridge
 label bridge_control:
     if gocount > 0:
@@ -3542,14 +3743,23 @@ label bridge_control:
         if not persistent.blind is True:
             call unlocked
 label edge:
-    scene bridge at sepia
-    show expression 'part_22_sepia' at part_polaroid
-    show born_balls at main_balls
-    show gradiant
-    with centerblind
+    $ gp = 0
+    $ gc = 0
+    $ gg = 0
+    $ gm = 0
+    $ gr = 0
+    $ gd = 0
     if not persistent.blind is True:
+        scene bridge at sepia
+        show expression 'part_22_sepia' at part_polaroid
+        show born_balls at main_balls
+        show gradiant
+        with centerblind
         show expression Text ('[gui.part22]', style='part_title')
         with d
+    else:
+        scene black
+        show expression Text ('[gui.part22]', style='centered_text')
     $ progress = 22
     pause 3
     scene black with blind
@@ -3693,14 +3903,23 @@ label edge:
                 $ achievement.progress('KNDW_ART', 27)
             if not persistent.blind is True:
                 call unlocked
-        scene corruption at sepia
-        show expression 'part_23_sepia' at part_polaroid
-        show born_balls at main_balls
-        show gradiant
-        with centerblind
+        $ gp = 0
+        $ gc = 0
+        $ gg = 0
+        $ gm = 0
+        $ gr = 0
+        $ gd = 0
         if not persistent.blind is True:
+            scene corruption at sepia
+            show expression 'part_23_sepia' at part_polaroid
+            show born_balls at main_balls
+            show gradiant
+            with centerblind
             show expression Text ('[gui.part23]', style='part_title')
             with d
+        else:
+            scene black
+            show expression Text ('[gui.part23]', style='centered_text')
         $ progress = 23
         pause 3
         scene black with d
@@ -3733,15 +3952,24 @@ label edge:
                 call unlocked
         return
 label epilogue:
-    scene bridge at sepia
-    show part24_sepia
-    show expression 'part_24_sepia' at part_polaroid
-    show born_balls at main_balls
-    show gradiant
-    with centerblind
+    $ gp = 0
+    $ gc = 0
+    $ gg = 0
+    $ gm = 0
+    $ gr = 0
+    $ gd = 0
     if not persistent.blind is True:
+        scene bridge at sepia
+        show part24_sepia
+        show expression 'part_24_sepia' at part_polaroid
+        show born_balls at main_balls
+        show gradiant
+        with centerblind
         show expression Text ('[gui.part24]', style='part_title')
         with d
+    else:
+        scene black
+        show expression Text ('[gui.part24]', style='centered_text')
     pause 3
     scene black with d
     $ progress = 24
@@ -3770,7 +3998,7 @@ label epilogue:
     na "Thinking this way,{w=.3} I turn my head back again,{w=.3} and look down at the river.{w=.3} It looks blurry through my tears,{w=.3} but I can see the sloshing black water of the river,{w=.3} and I feel giddy.{w=.3} I turn my head to Yunwoo.{w=.3} I stare at him.{w=.3} The moment of decision is close at hand."
     scene doa_3 with d
     y "Live,{w=.3} Ga-yeon,{w=.3} please.{w=.3} I'll be with you.{w=.3} Please come back with me.{w=.3} All your pains…,{w=.3} they will become nothing.{w=.3} Time will heal all your sorrow."
-    if not _preferences.language == 'Korean':
+    if not _preferences.language == 'Korean' and not _preferences.language == 'Chinese':
         y "I'm sure there will come a day we can look back on this day with a smile.{w=.3} But,{w=.3} for now,{w=.3} please hang in there.{w=.3} I'll help you.{w=.3} I'll be with you,{w=.3} Ga-yeon,{w=.3} please."
     na "He says,{w=.3} gently reaching out his hand again to me.{w=.3} I see his hands,{w=.3} and then,{w=.3} his face.{w=.3} He slowly nods his head,{w=.3} and comes closer to me little by little."
     na "Weeping and sniffling,{w=.3} I grit my teeth.{w=.3} If I hold his hand,{w=.3} I go back home with him,{w=.3} and if not,{w=.3} I fall down into the river.{w=.3} That scary-looking black river."
@@ -3782,9 +4010,16 @@ label epilogue:
     stop music
     scene black with d5
     $ show_quick_menu = False
-    centered "However,{w=.3} at the moment when we are just about to grab each other,{w=.3} I suddenly feel dizzy.{w=.3} Then,{w=.3} an extreme fear which I've never experienced before,{w=.3} penetrates into my heart.{w=3}"
+    if persistent.teddy is not True and persistent.blind is not True:
+        centered "However,{w=.3} at the moment when we are just about to grab each other,{w=.3} I suddenly feel dizzy.{w=.3} Then,{w=.3} an extreme fear which I've never experienced before,{w=.3} penetrates into my heart.{w=3}"
     $ renpy.end_replay()
-    $ persistent.unlock_28 = True
+    if persistent.part24 is None:
+        $ persistent.gall += 2
+        $ persistent.replay += 1
+        $ persistent.unlock_28 = True
+        $ achievement.progress('KNDW_PROGRESS', 24)
+        if not persistent.blind is True:
+            call unlocked
     pause 1
     if persistent.teddy is True or persistent.blind is True:
         scene dw2017_3 with f3
@@ -3806,17 +4041,26 @@ label epilogue:
         $ persistent.dw2017 = True
         jump gameover
 label ending:
+    $ gp = 0
+    $ gc = 0
+    $ gg = 0
+    $ gm = 0
+    $ gr = 0
+    $ gd = 0
     play music 'bgm/Love song.opus' fadein 3
     if not gocount == -3:
-        scene wall at sepia
-        show wall_sepia
-        show expression 'part_25_sepia' at part_polaroid
-        show born_balls at main_balls
-        show gradiant
-        with centerblind
         if not persistent.blind is True:
+            scene wall at sepia
+            show wall_sepia
+            show expression 'part_25_sepia' at part_polaroid
+            show born_balls at main_balls
+            show gradiant
+            with centerblind
             show expression Text ('[gui.part25]', style='part_title')
             with d
+        else:
+            scene black
+            show expression Text ('[gui.part25]', style='centered_text')
         $ progress = 25
         $ save_name = "Flowery mornings and moonlit nights"
         pause 3
@@ -4125,6 +4369,12 @@ label ending:
             call unlocked
     jump credits
 label credits:
+    $ gp = 0
+    $ gc = 0
+    $ gg = 0
+    $ gm = 0
+    $ gr = 0
+    $ gd = 0
     stop music
     play music 'bgm/Sea of nectar.opus' fadein 3
     scene black with d
@@ -4133,55 +4383,55 @@ label credits:
     if not persistent.blind is True:
         scene expression 'ending' with d
         show expression Text ('[gui.credits]', style='credits_title')
-        show expression Text ('{b}Lee Yunseok{/b}\n\nDirecting, Design, Programming,\nMusic, Sound, Writing,\nUI Design, Background CG, Object Sprites,\nPackaging, Video, Website\n-From April 21, 2013', style='credits_text') as text
+        show expression Text ('{b}Lee Yunseok{/b}\n\nDirecting, Design, Programming,\nMusic, Sound, Writing,\nUI Design, Background CG, Object Sprites,\nPackaging, Video, Website\n-From April 21, 2013', style='credits_text')
         with blind
         $ renpy.pause(5, hard = True)
         hide expression Text ('{b}Lee Yunseok{/b}\n\nDirecting, Design, Programming,\nMusic, Sound, Writing,\nUI Design, Background CG, Object Sprites,\nPackaging, Video, Website\n-From April 21, 2013', style='credits_text')
-        show expression Text ('{b}chibilis studio{/b}\n\nAnimation, Character Sprites, CG Sprites\n-From March 10, 2015', style='credits_text') as text
+        show expression Text ('{b}chibilis studio{/b}\n\nAnimation, Character Sprites, CG Sprites\n-From March 10, 2015', style='credits_text')
         with blind
         $ renpy.pause(5, hard = True)
         hide expression Text ('{b}chibilis studio{/b}\n\nAnimation, Character Sprites, CG Sprites\n-From March 10, 2015', style='credits_text')
-        show expression Text ('{b}Adam Patric Kratz{/b}\n\nEpilepsy Adviser\n-November 15, 2015~November 20, 2015', style='credits_text') as text
+        show expression Text ('{b}Adam Patric Kratz{/b}\n\nEpilepsy Adviser\n-November 15, 2015~November 20, 2015', style='credits_text')
         with blind
         $ renpy.pause(5, hard = True)
         hide expression Text ('{b}Adam Patric Kratz{/b}\n\nEpilepsy Adviser\n-November 15, 2015~November 20, 2015', style='credits_text')
-        show expression Text ('{b}Brian Connors{/b}\n\nEnglish Translation Adviser\n-From June 3, 2015\n\n{b}Ga Younghee{/b}\n\nEnglish Translator\n-April 11, 2015~June 10, 2016', style='credits_text') as text
+        show expression Text ('{b}Brian Connors{/b}\n\nEnglish Translation Adviser\n-June 3, 2015~July 1, 2017\n\n{b}Ga Younghee{/b}\n\nEnglish Translator\n-April 11, 2015~June 10, 2016', style='credits_text')
         with blind
         $ renpy.pause(5, hard = True)
-        hide expression Text ('{b}Brian Connors{/b}\n\nEnglish Translation Adviser\n-From June 3, 2015\n\n{b}Ga Younghee{/b}\n\nEnglish Translator\n-April 11, 2015~June 10, 2016', style='credits_text')
-        show expression Text ('{b}Roman Koledin{/b}\n\nRussian Translator\n-From August 28, 2016', style='credits_text') as text
+        hide expression Text ('{b}Brian Connors{/b}\n\nEnglish Translation Adviser\n-June 3, 2015~July 1, 2017\n\n{b}Ga Younghee{/b}\n\nEnglish Translator\n-April 11, 2015~June 10, 2016', style='credits_text')
+        show expression Text ('{b}IVY{/b}\n\nChinese Translator\n-July 25, 2016~February 10, 2018\n\n{b}Roman Koledin{/b}\n\nRussian Translator\n-August 28, 2016~December 7, 2017', style='credits_text')
         with blind
         $ renpy.pause(5, hard = True)
         hide expression Text ('[gui.credits]', style='credits_title')
-        hide expression Text ('{b}Roman Koledin{/b}\n\nRussian Translator\n-From August 28, 2016', style='credits_text')
+        hide expression Text ('{b}IVY{/b}\n\nChinese Translator\n-July 25, 2016~February 10, 2018\n\n{b}Roman Koledin{/b}\n\nRussian Translator\n-August 28, 2016~December 7, 2017', style='credits_text')
         show expression Text ('{font=gui/fonts/Edo.ttf}{size=64}Project Gamer Japonés{/size}{/font}', style='credits_title')
-        show expression Text ('{b}Oscar Ballona Centeno{/b}\n\nProject Leader In Spanish, Spanish Translator\n-From May 29, 2017\n\n{b}AxelBodga{/b}\n\nSpanish Editor\n-From May 29, 2017\n\n{b}Yisus{/b}\n\nSpanish Translator\n-From May 29, 2017', style='credits_text') as text
+        show expression Text ('{b}Oscar Ballona Centeno{/b}\n\nProject Leader in Spanish, Spanish Translator\n-From May 29, 2017\n\n{b}AxelBodga{/b}\n\nSpanish Editor\n-From May 29, 2017\n\n{b}Yisus{/b}\n\nSpanish Translator\n-From May 29, 2017', style='credits_text')
         with blind
         $ renpy.pause(5, hard = True)
         hide expression Text ('{font=gui/fonts/Edo.ttf}{size=64}Project Gamer Japonés{/size}{/font}', style='credits_title')
-        hide expression Text ('{b}Oscar Ballona Centeno{/b}\n\nProject Leader In Spanish, Spanish Translator\n-From May 29, 2017\n\n{b}AxelBodga{/b}\n\nSpanish Editor\n-From May 29, 2017\n\n{b}Yisus{/b}\n\nSpanish Translator\n-From May 29, 2017', style='credits_text')
+        hide expression Text ('{b}Oscar Ballona Centeno{/b}\n\nProject Leader in Spanish, Spanish Translator\n-From May 29, 2017\n\n{b}AxelBodga{/b}\n\nSpanish Editor\n-From May 29, 2017\n\n{b}Yisus{/b}\n\nSpanish Translator\n-From May 29, 2017', style='credits_text')
         show expression Text ('Old Version', style='credits_title')
-        show expression Text ('{b}YANG{/b}\n\nMale sprites, CG sprites\n-April 8, 2015~September 13, 2015\n\n{b}Jeon Junsik{/b}\n\nUnofficial Demo Sprites\n-January 5, 2015~February 25, 2015\n\n{b}Kyle Fawcett{/b}\n\nEnglish Demo Translation Adviser\n-June 3, 2015~June 14, 2015', style='credits_text') as text
+        show expression Text ('{b}YANG{/b}\n\nMale sprites, CG sprites\n-April 8, 2015~September 13, 2015\n\n{b}Jeon Junsik{/b}\n\nUnofficial Demo Sprites\n-January 5, 2015~February 25, 2015\n\n{b}Kyle Fawcett{/b}\n\nEnglish Demo Translation Adviser\n-June 3, 2015~June 14, 2015', style='credits_text')
         with blind
         $ renpy.pause(5, hard = True)
         hide expression Text ('Old Version', style='credits_title')
         hide expression Text ('{b}YANG{/b}\n\nMale sprites, CG sprites\n-April 8, 2015~September 13, 2015\n\n{b}Jeon Junsik{/b}\n\nUnofficial Demo Sprites\n-January 5, 2015~February 25, 2015\n\n{b}Kyle Fawcett{/b}\n\nEnglish Demo Translation Adviser\n-June 3, 2015~June 14, 2015', style='credits_text')
         show expression Text ('Contributors', style='credits_title')
-        show expression Text ('{b}ACOC, Aiman Sharul, Axel Mertes,\nBgame, Brandon Tanimoto, Brian Connors,\nBRISAK Kim Doohyeon, cheif.choi, Choi Irang,\nChoi Jihye, cloture, Danielle Bell,\nEdward N Puckering, Gary King, Gwak Jaeryeol,\nHan Ihyeong, Hoe Namyoon, Hong Eunki,\nHwang Daehoon, Hyojoon, James Emmerson,\nJeong Dongwon, Jeong Wookjin, Jeong Yoonsoo,{/b}', style='credits_text') as text
+        show expression Text ('{b}ACOC, Aiman Sharul, Axel Mertes,\nBgame, Brandon Tanimoto, Brian Connors,\nBRISAK Kim Doohyeon, cheif.choi, Choi Irang,\nChoi Jihye, cloture, Danielle Bell,\nEdward N Puckering, Gary King, Gwak Jaeryeol,\nHan Ihyeong, Hoe Namyoon, Hong Eunki,\nHwang Daehoon, Hyojoon, James Emmerson,\nJeong Dongwon, Jeong Wookjin, Jeong Yoonsoo,{/b}', style='credits_text')
         with blind
         $ renpy.pause(5, hard = True)
-        hide expression Text ('{b}ACOC, Aiman Sharul, Axel Mertes,\n\nBgame, Brandon Tanimoto, Brian Connors,\n\nBRISAK Kim Doohyeon, cheif.choi, Choi Irang,\n\nChoi Jihye, cloture, Danielle Bell,\n\nEdward N Puckering, Gary King, Gwak Jaeryeol,\n\nHan Ihyeong, Hoe Namyoon, Hong Eunki,\n\nHwang Daehoon, Hyojoon, James Emmerson,\n\nJeong Dongwon, Jeong Wookjin, Jeong Yoonsoo,{/b}', style='credits_text')
-        show expression Text ('{b}Jianmin Zhang, Karina Schulze, Keira Val\'Azr,\nKim Hanseol, Kim Hyeoncheol, Kim Jaeseong,\nKim Jeongwoong, Kim Myeongwook,\nLee Changki, Lee Eunji, Lee Gunhae,\nLee Hyejin, Lee Jaewi, Light Twins, Lim Jisoo,\nMaddy Wootton, Marshall Proudfoot, Mirumu,\nMojaeng, Oh Hyeonjun, Park Hyeonjun,\nPark JoonKoo, Rewind, Sander Tieleman,\nsrwss, Sung Chanaul, YottaCho, Zerial.net{/b}', style='credits_text') as text
+        hide expression Text ('{b}ACOC, Aiman Sharul, Axel Mertes,\nBgame, Brandon Tanimoto, Brian Connors,\nBRISAK Kim Doohyeon, cheif.choi, Choi Irang,\nChoi Jihye, cloture, Danielle Bell,\nEdward N Puckering, Gary King, Gwak Jaeryeol,\nHan Ihyeong, Hoe Namyoon, Hong Eunki,\nHwang Daehoon, Hyojoon, James Emmerson,\nJeong Dongwon, Jeong Wookjin, Jeong Yoonsoo,{/b}', style='credits_text')
+        show expression Text ('{b}Jianmin Zhang, Karina Schulze, Keira Val\'Azr,\nKim Hanseol, Kim Hyeoncheol, Kim Jaeseong,\nKim Jeongwoong, Kim Myeongwook,\nLee Changki, Lee Eunji, Lee Gunhae,\nLee Hyejin, Lee Jaewi, Light Twins, Lim Jisoo,\nMaddy Wootton, Marshall Proudfoot, Mirumu,\nMojaeng, Oh Hyeonjun, Park Hyeonjun,\nPark JoonKoo, Rewind, Sander Tieleman,\nsrwss, Sung Chanaul, YottaCho, Zerial.net{/b}', style='credits_text')
         with blind
         $ renpy.pause(5, hard = True)
         hide expression Text ('Contributors', style='credits_title')
         hide expression Text ('{b}Jianmin Zhang, Karina Schulze, Keira Val\'Azr,\nKim Hanseol, Kim Hyeoncheol, Kim Jaeseong,\nKim Jeongwoong, Kim Myeongwook,\nLee Changki, Lee Eunji, Lee Gunhae,\nLee Hyejin, Lee Jaewi, Light Twins, Lim Jisoo,\nMaddy Wootton, Marshall Proudfoot, Mirumu,\nMojaeng, Oh Hyeonjun, Park Hyeonjun,\nPark JoonKoo, Rewind, Sander Tieleman,\nsrwss, Sung Chanaul, YottaCho, Zerial.net{/b}', style='credits_text')
         show expression Text ('Rooters', style='credits_title')
-        show expression Text ('{b}Caz Woolley, Game Dev Robot, Gamsadev,\nIndie GameDev Bot, Indie Game Lover,\nIndie Games Devel, IndieVideoGames,\nJoachim Dimitri Jensen, Kim Kyeongtae,\nKim Younghwan, Kurt Simon, Linda Lee King,\nPeter Christiansen, Sakimichi, Sebastian Haba,\nSpero Mcgee, The Indie Sloth, Vrachos,\nXin Liu, Yu Shinhyeon{/b}', style='credits_text') as text
+        show expression Text ('{b}Caz Woolley, Game Dev Robot, Gamsadev,\nIndie GameDev Bot, Indie Game Lover,\nIndie Games Devel, IndieVideoGames,\nJoachim Dimitri Jensen, Kim Kyeongtae,\nKim Younghwan, Kurt Simon, Linda Lee King,\nPeter Christiansen, Sakimichi, Sebastian Haba,\nSpero Mcgee, The Indie Sloth, Vrachos,\nXin Liu, Yu Shinhyeon{/b}', style='credits_text')
         with blind
         $ renpy.pause(5, hard = True)
         hide expression Text ('Rooters', style='credits_title')
-        hide expression Text ('{b}Caz Woolley, Game Dev Robot, Gamsadev,\nIndie GameDev Bot, Indie Game Lover,\nIndie Games Devel, IndieVideoGames,\nJoachim Dimitri Jensen, Kim Kyeongtae,\nKim Younghwan, Kurt Simon, Linda Lee King,\nPeter Christiansen, Sakimichi, Sebastian Haba,\nSpero Mcgee, The Indie Sloth, Vrachos,\nXin Liu, Yu Shinhyeon{/b}', style='credits_text') as text
+        hide expression Text ('{b}Caz Woolley, Game Dev Robot, Gamsadev,\nIndie GameDev Bot, Indie Game Lover,\nIndie Games Devel, IndieVideoGames,\nJoachim Dimitri Jensen, Kim Kyeongtae,\nKim Younghwan, Kurt Simon, Linda Lee King,\nPeter Christiansen, Sakimichi, Sebastian Haba,\nSpero Mcgee, The Indie Sloth, Vrachos,\nXin Liu, Yu Shinhyeon{/b}', style='credits_text')
         with blind
         $ renpy.pause(5, hard = True)
         scene black
@@ -4190,7 +4440,7 @@ label credits:
         show start:
             xalign .5 yalign .2
         show expression Text ('Special Thanks To', style='thanks_title')
-        show expression Text ('{b}Christopher Rice, George Winston, Kim Sooyoung, Lee Illseong,\nPixabay, Shin Haechul, So Reyeon, Tom Rothamel, Valve Corporation{/b}', style='thanks_text') as text
+        show expression Text ('{b}Christopher Rice, George Winston, Kim Sooyoung, Lee Illseong,\nPixabay, Shin Haechul, So Reyeon, Tom Rothamel, Valve Corporation{/b}', style='thanks_text')
         with d3
         $ renpy.pause(5, hard = True)
         scene black with d3
@@ -4200,12 +4450,16 @@ label credits:
     stop music fadeout 3
     return
 label gameover:
-    scene room at sepia
-    show born_balls at main_balls
-    show gradiant
-    with centerblind
-    show expression Text ('[gui.game_over]', style='part_title')
-    with d
+    if not persistent.blind is True:
+        scene room at sepia
+        show born_balls at main_balls
+        show gradiant
+        with centerblind
+        show expression Text ('[gui.game_over]', style='part_title')
+        with d
+    else:
+        scene black
+        show expression Text ('[gui.game_over]', style='centered_text')
     pause 3
     scene black with d
     $ achievement.grant('KNDW_GAMEOVER')
@@ -4232,6 +4486,9 @@ label unlocked:
     show expression Text('[gui.unlocked]', style='unlocked_title') as text at spread
     pause 1
     if persistent.part01 is None:
+        $ gp = 1
+        $ gm = 1
+        $ gr = 1
         show expression 'arc_char_01' at unlocked_two_left
         show expression 'arc_char_03' at unlocked_two_right
         show expression Text ("{font=[gui.fontawesome]}{/font} Characters +2", color='#000') at unlocked_text
@@ -4249,6 +4506,11 @@ label unlocked:
         pause 1.5
         $ persistent.part01 = True
     elif persistent.part02 is None:
+        $ gp = 1
+        $ gc = 1
+        $ gg = 1
+        $ gm = 1
+        $ gr = 1
         show expression 'arc_char_06' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Characters +1", color='#000') at unlocked_text
         pause 1.5
@@ -4276,6 +4538,9 @@ label unlocked:
         pause 1.5
         $ persistent.part02 = True
     elif persistent.part03 is None:
+        $ gp = 1
+        $ gm = 1
+        $ gr = 1
         show expression 'arc_char_02' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Characters +1", color='#000') at unlocked_text
         pause 1.5
@@ -4291,6 +4556,10 @@ label unlocked:
         pause 1.5
         $ persistent.part03 = True
     elif persistent.part04 is None:
+        $ gp = 1
+        $ gg = 1
+        $ gm = 1
+        $ gr = 1
         show expression 'arc_char_04' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Characters +1", color='#000') at unlocked_text
         pause 1.5
@@ -4310,6 +4579,9 @@ label unlocked:
         pause 1.5
         $ persistent.part04 = True
     elif persistent.part05 is None:
+        $ gg = 1
+        $ gm = 1
+        $ gr = 1
         show expression 'arc_gall_05' at unlocked_three_left
         show expression 'arc_gall_06' at unlocked_center
         show expression 'arc_gall_07' at unlocked_three_right
@@ -4329,6 +4601,8 @@ label unlocked:
         pause 1.5
         $ persistent.part05 = True
     elif persistent.part07 is None:
+        $ gc = 1
+        $ gr = 1
         show expression 'arc_con_05' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Concept +1", color='#000') at unlocked_text
         pause 1.5
@@ -4338,6 +4612,8 @@ label unlocked:
         pause 1.5
         $ persistent.part07 = True
     elif persistent.part08 is None:
+        $ gm = 1
+        $ gr = 1
         show expression Text ("[gui.bgm08]\n[gui.bgm09]", color='#000', style="centered_text")
         show expression Text ("{font=[gui.fontawesome]}{/font} Music +2", color='#000') at unlocked_text
         pause 1.5
@@ -4349,6 +4625,9 @@ label unlocked:
         pause 1.5
         $ persistent.part08 = True
     elif persistent.part09 is None:
+        $ gg = 1
+        $ gm = 1
+        $ gr = 1
         show expression 'arc_gall_08' at unlocked_two_left
         show expression 'arc_gall_09' at unlocked_two_right
         show expression Text ("{font=[gui.fontawesome]}{/font} Gallery +2", color='#000') at unlocked_text
@@ -4366,6 +4645,8 @@ label unlocked:
         pause 1.5
         $ persistent.part09 = True
     elif persistent.part10 is None:
+        $ gg = 1
+        $ gr = 1
         show expression 'arc_gall_10' at unlocked_three_left
         show expression 'arc_gall_11' at unlocked_center
         show expression 'arc_gall_12' at unlocked_three_right
@@ -4379,6 +4660,9 @@ label unlocked:
         pause 1.5
         $ persistent.part10 = True
     elif persistent.part11 is None:
+        $ gc = 1
+        $ gg = 1
+        $ gr = 1
         show expression 'arc_con_02' at unlocked_two_left
         show expression 'arc_con_07' at unlocked_two_right
         show expression Text ("{font=[gui.fontawesome]}{/font} Concept +2", color='#000') at unlocked_text
@@ -4398,6 +4682,8 @@ label unlocked:
         pause 1.5
         $ persistent.part11 = True
     elif persistent.part12 is None:
+        $ gp = 1
+        $ gr = 1
         show expression 'arc_char_07' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Characters +1", color='#000') at unlocked_text
         pause 1.5
@@ -4407,6 +4693,8 @@ label unlocked:
         pause 1.5
         $ persistent.part12 = True
     elif persistent.part13 is None:
+        $ gg = 1
+        $ gr = 1
         show expression 'arc_gall_16' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Gallery +1", color='#000') at unlocked_text
         pause 1.5
@@ -4416,6 +4704,9 @@ label unlocked:
         pause 1.5
         $ persistent.part13 = True
     elif persistent.part14 is None:
+        $ gc = 1
+        $ gg = 1
+        $ gr = 1
         show expression 'arc_con_04' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Concept +1", color='#000') at unlocked_text
         pause 1.5
@@ -4429,11 +4720,14 @@ label unlocked:
         pause 1.5
         $ persistent.part14 = True
     elif persistent.part15 is None:
-        show expression 'arc_char_07_e' at unlocked_center
-        show expression Text ("{font=[gui.fontawesome]}{/font} Characters +1", color='#000') at unlocked_text
-        pause 1.5
-        hide expression 'arc_char_07_e'
+        $ gg = 1
         if persistent.obdrawer is True:
+            $ gp = 1
+            $ gd = 1
+            show expression 'arc_char_07_e' at unlocked_center
+            show expression Text ("{font=[gui.fontawesome]}{/font} Characters +1", color='#000') at unlocked_text
+            pause 1.5
+            hide expression 'arc_char_07_e'
             show expression 'arc_diary_01' at unlocked_five_left
             show expression 'arc_diary_02' at unlocked_three_left
             show expression 'arc_diary_03' at unlocked_center
@@ -4468,24 +4762,38 @@ label unlocked:
             hide expression 'arc_diary_13'
             hide expression 'arc_diary_14'
             hide expression 'arc_diary_15'
-        show expression 'arc_gall_18' at unlocked_center
-        show expression Text ("{font=[gui.fontawesome]}{/font} Gallery +1", color='#000') at unlocked_text
+        if sigiveup <= -1:
+            $ smoke = 1
+            show expression 'arc_gall_25' at unlocked_two_left
+            show expression 'arc_gall_18' at unlocked_two_right
+            show expression Text ("{font=[gui.fontawesome]}{/font} Gallery +2", color='#000') at unlocked_text
+        else:
+            show expression 'arc_gall_18' at unlocked_center
+            show expression Text ("{font=[gui.fontawesome]}{/font} Gallery +1", color='#000') at unlocked_text
         pause 1.5
         $ persistent.part15 = True
     elif persistent.part16 is None and progress == 16:
+        $ gg = 1
         show expression 'arc_gall_19' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Gallery +1", color='#000') at unlocked_text
         pause 1.5
         $ persistent.part16 = True
     elif persistent.part17 is None and progress == 17:
+        if persistent.obdrawer is True:
+            $ gd = 1
+        $ gp = 1
+        $ gg = 1
+        $ gm = 1
+        $ gr = 1
         show expression 'arc_char_05' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Characters +1", color='#000') at unlocked_text
         pause 1.5
         hide expression 'arc_char_05'
-        show expression 'arc_diary_16' at unlocked_center
-        show expression Text ("{font=[gui.fontawesome]}{/font} Diary +1", color='#000') at unlocked_text
-        pause 1.5
-        hide expression 'arc_diary_16'
+        if persistent.obdrawer is True:
+            show expression 'arc_diary_16' at unlocked_center
+            show expression Text ("{font=[gui.fontawesome]}{/font} Diary +1", color='#000') at unlocked_text
+            pause 1.5
+            hide expression 'arc_diary_16'
         show expression 'arc_gall_20' at unlocked_five_left
         show expression 'arc_gall_21' at unlocked_three_left
         show expression 'arc_gall_22' at unlocked_center
@@ -4508,30 +4816,45 @@ label unlocked:
         show expression Text ("{font=[gui.fontawesome]}{/font} Replay +1", color='#000') at unlocked_text
         pause 1.5
         $ persistent.part17 = True
-    elif persistent.part20 is None:
-        show expression 'arc_char_04_q' at unlocked_center
-        show expression Text ("{font=[gui.fontawesome]}{/font} Characters +1", color='#000') at unlocked_text
-        pause 1.5
-        hide expression 'arc_char_04_q'
-        show expression 'arc_con_03' at unlocked_center
-        show expression Text ("{font=[gui.fontawesome]}{/font} Concept +1", color='#000') at unlocked_text
-        pause 1.5
-        hide expression 'arc_con_03'
-        show expression 'arc_gall_25' at unlocked_center
-        show expression Text ("{font=[gui.fontawesome]}{/font} Gallery +1", color='#000') at unlocked_text
-        pause 1.5
-        hide expression 'arc_gall_25'
+    elif persistent.part20 is None and progress == 20:
+        if not sigiveup <= -1:
+            $ gp = 1
+            $ gc = 1
+        if not smoke == 1:
+            $ gg = 1
+        $ gm = 1
+        $ gr = 1
+        if not sigiveup <= -1:
+            show expression 'arc_char_04_q' at unlocked_center
+            show expression Text ("{font=[gui.fontawesome]}{/font} Characters +1", color='#000') at unlocked_text
+            pause 1.5
+            hide expression 'arc_char_04_q'
+            show expression 'arc_con_03' at unlocked_center
+            show expression Text ("{font=[gui.fontawesome]}{/font} Concept +1", color='#000') at unlocked_text
+            pause 1.5
+            hide expression 'arc_con_03'
+        if not smoke == 1:
+            show expression 'arc_gall_25' at unlocked_center
+            show expression Text ("{font=[gui.fontawesome]}{/font} Gallery +1", color='#000') at unlocked_text
+            pause 1.5
+            hide expression 'arc_gall_25'
         show expression Text ("[gui.bgm13]", color='#000', style="centered_text")
         show expression Text ("{font=[gui.fontawesome]}{/font} Music +1", color='#000') at unlocked_text
         pause 1.5
         scene main_menu
         show gradiant
         show expression Text('[gui.unlocked]', style='unlocked_title') as text
-        show expression 'part_20' at unlocked_center
-        show expression Text ("{font=[gui.fontawesome]}{/font} Replay +1", color='#000') at unlocked_text
+        if not sigiveup <= -1:
+            show expression 'part_18' at unlocked_three_left
+            show expression 'part_19' at unlocked_center
+            show expression 'part_20' at unlocked_three_right
+            show expression Text ("{font=[gui.fontawesome]}{/font} Replay +3", color='#000') at unlocked_text
         pause 1.5
         $ persistent.part20 = True
-    elif persistent.part21 is None:
+    elif persistent.part21 is None and not sigiveup <= -1 and progress == 21:
+        $ gc = 1
+        $ gg = 1
+        $ gr = 1
         show expression 'arc_con_06' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Concept +1", color='#000') at unlocked_text
         pause 1.5
@@ -4539,12 +4862,10 @@ label unlocked:
         show expression 'arc_gall_26' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Gallery +1", color='#000') at unlocked_text
         pause 1.5
-        hide expression 'arc_gall_26'
-        show expression 'part_21' at unlocked_center
-        show expression Text ("{font=[gui.fontawesome]}{/font} Replay +1", color='#000') at unlocked_text
-        pause 1.5
         $ persistent.part21 = True
-    elif persistent.part22 is None:
+    elif persistent.part22 is None and progress == 22:
+        $ gg = 1
+        $ gr = 1
         show expression 'arc_gall_27' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Gallery +1", color='#000') at unlocked_text
         pause 1.5
@@ -4553,7 +4874,9 @@ label unlocked:
         show expression Text ("{font=[gui.fontawesome]}{/font} Replay +1", color='#000') at unlocked_text
         pause 1.5
         $ persistent.part22 = True
-    elif persistent.part23 is None and wallet == 0:
+    elif persistent.part23 is None and wallet == 0 and progress == 23:
+        $ gc = 1
+        $ gg = 1
         show expression 'arc_con_08' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Concept +1", color='#000') at unlocked_text
         pause 1.5
@@ -4562,13 +4885,25 @@ label unlocked:
         show expression Text ("{font=[gui.fontawesome]}{/font} Gallery +1", color='#000') at unlocked_text
         pause 1.5
         $ persistent.part23 = True
-    elif persistent.part24 is None:
+    elif persistent.part24 is None and progress == 24:
+        $ gg = 1
+        $ gr = 1
         show expression 'arc_gall_29' at unlocked_two_left
         show expression 'arc_gall_30' at unlocked_two_right
         show expression Text ("{font=[gui.fontawesome]}{/font} Gallery +2", color='#000') at unlocked_text
         pause 1.5
+        scene main_menu
+        show gradiant
+        show expression Text('[gui.unlocked]', style='unlocked_title') as text
+        show expression 'part_24' at unlocked_center
+        show expression Text ("{font=[gui.fontawesome]}{/font} Replay +1", color='#000') at unlocked_text
+        pause 1.5
         $ persistent.part24 = True
     elif persistent.ending is None:
+        $ gp = 1
+        $ gg = 1
+        $ gm = 1
+        $ gr = 1
         show expression 'arc_char_06_e' at unlocked_two_left
         show expression 'arc_char_04_e' at unlocked_two_right
         show expression Text ("{font=[gui.fontawesome]}{/font} Characters +2", color='#000') at unlocked_text
@@ -4590,6 +4925,7 @@ label unlocked:
         show expression 'part_25' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Replay +1", color='#000') at unlocked_text
         pause 1.5
+        $ persistent.part25 = True
     scene main_menu with blind
     $ persistent.part_clear = True
     call screen part_clear
@@ -5214,6 +5550,8 @@ label dlc:
             $ steam.activate_overlay_to_store(384650, flag=steam.STORE_ADD_TO_CART_AND_SHOW)
         if dlc_key == 407760:
             $ steam.activate_overlay_to_store(407760, flag=steam.STORE_NONE)
+        if dlc_key == 375161:
+            $ steam.activate_overlay_to_store(375161, flag=steam.STORE_ADD_TO_CART_AND_SHOW)
         if dlc_key == 558690:
             $ steam.activate_overlay_to_store(558690, flag=steam.STORE_ADD_TO_CART_AND_SHOW)
     elif persistent.dlc == 'install':
@@ -5227,6 +5565,8 @@ label dlc:
             $ steam.install_dlc(384650)
         if dlc_key == 407760:
             $ steam.install_dlc(407760)
+        if dlc_key == 375161:
+            $ steam.install_dlc(375161)
         if dlc_key == 558690:
             $ steam.install_dlc(558690)
     elif persistent.dlc == 'delete':
@@ -5240,6 +5580,8 @@ label dlc:
             $ steam.uninstall_dlc(384650)
         if dlc_key == 407760:
             $ steam.uninstall_dlc(407760)
+        if dlc_key == 375161:
+            $ steam.uninstall_dlc(375161)
         if dlc_key == 558690:
             $ steam.uninstall_dlc(558690)
     call screen downloadable
@@ -5248,11 +5590,35 @@ label refresh:
     call screen downloadable
 label sync:
     $ achievement.sync()
-    pause 5
-    return
-label reset:
+    pause 1
+    call screen default_language
+label rmsteam:
     $ achievement.clear_all()
-    $ os.remove('saves/**.**')
-    $ os.remove('[save_directory]/**.**')
-    pause 5
-    return
+    pause 1
+    call screen default_language
+label reset:
+    $ renpy.loadsave.location.unlink_persistent()
+    $ renpy.persistent.should_save_persistent = False
+    pause 1
+    call screen default_language
+label resetall:
+    $ achievement.clear_all()
+    $ renpy.loadsave.location.unlink_persistent()
+    $ renpy.persistent.should_save_persistent = False
+    if renpy.windows:
+        $ shutil.rmtree(os.path.join(os.environ.get("APPDATA", ""), "RenPy", "Discouraged-Workers-saves"))
+    elif renpy.macintosh:
+        $ shutil.rmtree(os.path.join(os.environ.get("HOME", ""), "Library", "RenPy", "Discouraged-Workers-saves"))
+    else:
+        $ shutil.rmtree(os.path.join(os.environ.get("HOME", ""), ".renpy", "Discouraged-Workers-saves"))
+    $ shutil.rmtree('game/saves/')
+    pause 1
+    if renpy.windows:
+        $ os.mkdir(os.path.join(os.environ.get("APPDATA", ""), "RenPy", "Discouraged-Workers-saves"))
+    elif renpy.macintosh:
+        $ os.mkdir(os.path.join(os.environ.get("HOME", ""), "Library", "RenPy", "Discouraged-Workers-saves"))
+    else:
+        $ os.mkdir(os.path.join(os.environ.get("HOME", ""), ".renpy", "Discouraged-Workers-saves"))
+    $ os.mkdir('game/saves/')
+    pause 1
+    call screen default_language

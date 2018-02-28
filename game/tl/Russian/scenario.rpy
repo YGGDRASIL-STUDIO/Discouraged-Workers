@@ -2261,11 +2261,11 @@ translate Russian self_inflicted_9e0ed3ed:
 translate Russian self_inflicted_7eaa3923:
     sv "[gui.choice]"
 translate Russian self_inflicted_507d444f:
-    sv "Левая клавиша: [gui.healing] Правая клавиша: [gui.judge]"
+    sv "Левая клавиша: [gui.heal] Правая клавиша: [gui.judge]"
 translate Russian self_inflicted_7eaa3923_1:
     sv "[gui.choice]"
 translate Russian self_inflicted_507d444f_1:
-    sv "Левая клавиша: [gui.healing] Правая клавиша: [gui.judge]"
+    sv "Левая клавиша: [gui.heal] Правая клавиша: [gui.judge]"
 translate Russian love_ebe73684:
     na "Янву,{w=.3} мне нужен Янву."
 translate Russian love_21bb4027:
@@ -2958,10 +2958,6 @@ translate Russian bridge_bacc5361:
     sv "Следующая​ сцена является важной. Хотите сохраниться?"
 translate Russian bridge_6ba75f3e:
     sv "Левая клавиша: Да, Правая клавиша: Нет"
-translate Russian bridge_7eaa3923:
-    sv "[gui.choice]"
-translate Russian bridge_6b19a876:
-    sv "Левая клавиша: [gui.left], Правая клавиша: [gui.right]"
 translate Russian bridge_control_74f9271b:
     na "Свет,{w=.3} падающий сверху,{w=.3} освещает мой путь.{w=.3} А вместе с ним и перила.{w=.3} Так что я даже могу разобрать,{w=.3} что там написано.{w=.3} Я думаю о том,{w=.3} что они говорят…."
 translate Russian bridge_control_b532839b:

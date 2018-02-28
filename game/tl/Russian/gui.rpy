@@ -1,17 +1,26 @@
 translate Russian style main_menu_title:
     xalign .5 yoffset -700 size gui.title_text_size - 10 font gui.main_font
 translate Russian python:
-    gui.main_font = "gui/fonts/Intro Cond Black Free.otf"
+    gui.main_font = "gui/fonts/IntroCondBlackFree.otf"
     gui.text_font = "gui/fonts/DejaVuSans.ttf"
     gui.name_text_font = "gui/fonts/DejaVuSans-Bold.ttf"
     gui.interface_text_font = "gui/fonts/DejaVuSans.ttf"
     gui.button_text_font = "gui/fonts/DejaVuSans.ttf"
+    gui.quick_hbox_xpos = .809
     config.name = "Отчаявшиеся работники"
     config.window_title = u"Отчаявшиеся работники"
     config.translations['Automatic saves'] = u'Автосохранения'
     config.translations['Quick saves'] = u'Быстрые сохранения'
-    build_date = "18 Дек 2017"
-    copyright = "©2017 YGGDRASIL STUDIO"
+    if renpy.variant("small"):
+        config.translations["{font=[gui.fontawesome]}{/font} Basic Settings"] = u"{font=[gui.fontawesome]}{/font} Основы"
+        config.translations["{font=[gui.fontawesome]}{/font} Seen Text"] = u"{font=[gui.fontawesome]}{/font} Прочтённых"
+        config.translations["{font=[gui.fontawesome]}{/font} Mute All"] = u"{font=[gui.fontawesome]}{/font} Без звука"
+        config.translations["{font=[gui.fontawesome]}{/font} Authors"] = u"{font=[gui.fontawesome]}{/font} Авторское"
+        config.translations['ACOC, Aiman Sharul, Axel Mertes, Bgame, Brandon Tanimoto, Brian Connors, BRISAK Kim Doohyeon, cheif.choi, Choi Irang, Choi Jihye, cloture, Danielle Bell, Edward N Puckering, Gary King, Gwak Jaeryeol, Han Ihyeong, Hoe Namyoon, Hong Eunki, Hwang Daehoon, Hyojoon, James Emmerson, Jeong Dongwon, Jeong Wookjin, Jeong Yoonsoo, Jianmin Zhang,\nKarina Schulze, Keira Val\'Azr, Kim Hanseol, Kim Hyeoncheol, Kim Jaeseong, Kim Jeongwoong, Kim Myeongwook,\nLee Changki, Lee Eunji, Lee Gunhae, Lee Hyejin, Lee Jaewi, Light Twins, Lim Jisoo, Maddy Wootton,\nMarshall Proudfoot, Mirumu, Mojaeng, Oh Hyeonjun, Park Hyeonjun, Park JoonKoo, Rewind, Sander Tieleman, srwss, Sung Chanaul, YottaCho, Zerial.net'] = u'ACOC, Aiman Sharul, Axel Mertes, Bgame, Brandon Tanimoto, Brian Connors,\nBRISAK Kim Doohyeon, cheif.choi, Choi Irang,\nChoi Jihye, cloture, Danielle Bell,\nEdward N Puckering, Gary King, Gwak Jaeryeol, Han Ihyeong, Hoe Namyoon, Hong Eunki,\nHwang Daehoon, Hyojoon, James Emmerson,\nJeong Dongwon, Jeong Wookjin, Jeong Yoonsoo,\nJianmin Zhang, Karina Schulze, Keira Val\'Azr,\nKim Hanseol, Kim Hyeoncheol, Kim Jaeseong,\nKim Jeongwoong, Kim Myeongwook,\nLee Changki, Lee Eunji, Lee Gunhae,\nLee Hyejin, Lee Jaewi, Light Twins, Lim Jisoo,\nMaddy Wootton, Marshall Proudfoot, Mirumu,\nMojaeng, Oh Hyeonjun, Park Hyeonjun,\nPark JoonKoo, Rewind, Sander Tieleman, srwss,\nSung Chanaul, YottaCho, Zerial.net'
+        config.translations['Caz Woolley, Game Dev Robot, Gamsadev, Indie GameDev Bot, Indie Game Lover, Indie Games Devel, IndieVideoGames, Joachim Dimitri Jensen, Kim Kyeongtae, Kim Younghwan, Kurt Simon, Linda Lee King, Peter Christiansen, Sakimichi, Sebastian Haba, Spero Mcgee, The Indie Sloth, Vrachos, Xin Liu, Yu Shinhyeon'] = u'Caz Woolley, Game Dev Robot, Gamsadev, Indie GameDev Bot, Indie Game Lover,\nIndie Games Devel, IndieVideoGames,\nJoachim Dimitri Jensen, Kim Kyeongtae,\nKim Younghwan, Kurt Simon, Linda Lee King,\nPeter Christiansen, Sakimichi, Sebastian Haba,\nSpero Mcgee, The Indie Sloth, Vrachos,\nXin Liu, Yu Shinhyeon'
+        config.translations['Christopher Rice, George Winston, Kim Sooyoung, Lee Illseong, Pixabay, Shin Haechul, So Reyeon, Tom Rothamel,\nValve Corporation'] = u'Christopher Rice, George Winston,\nKim Sooyoung, Lee Illseong, Pixabay,\nShin Haechul, So Reyeon, Tom Rothamel,\nValve Corporation'
+    build_date = "26 Фев 2018"
+    copyright = "©2018 YGGDRASIL STUDIO"
     gui.attention = "ВНИМАНИЕ"
     gui.language = "В соответствии с Федеральным законом № 436-ФЗ от 29.12.2010 данная игра содержит сцены:\n\nСамоубийства, употребления алкоголя и табачных изделий, нецензурной лексики, порнографии"
     gui.start = "Начать"
@@ -21,6 +30,9 @@ translate Russian python:
     gui.arcq = "Архив"
     gui.dlc = "DLC и MOD"
     gui.conf = "Настройки"
+    gui.blind_char  = "Персонажи"
+    gui.blind_con  = "Концепция"
+    gui.blind_diary  = "Дневник"
     gui.conq = "Настройки"
     gui.play = "Авто"
     gui.stop = "Стоп"
@@ -41,7 +53,7 @@ translate Russian python:
     gui.part01 = "Ты в порядке?"
     gui.part02 = "Монолог"
     gui.part03 = "А ты помнишь свою первую любовь?"
-    gui.part04 = "Улица Шин-Хон"
+    gui.part04 = "Улица Шинxон"
     gui.part05 = "Грустный ланч"
     gui.part06 = "Монолог"
     gui.part07 = "Спокойный полдень"
@@ -56,8 +68,8 @@ translate Russian python:
     gui.part16 = "R.I.P"
     gui.part17 = "Безумие"
     gui.part18 = "Взгляд Янву"
-    gui.part19 = "Взгляд Га-Йан"
-    gui.part20 = "Га-Йан и Янву"
+    gui.part19 = "Взгляд Гайан"
+    gui.part20 = "Гайан и Янву"
     gui.part21 = "Мост жизни"
     gui.part22 = "Край света"
     gui.part23 = "Несчастный случай"
@@ -78,10 +90,10 @@ translate Russian python:
     gui.bgm11 = "Track 11. Summit showdown"
     gui.bgm12 = "Track 12. Love song"
     gui.bgm13 = "Track 13. Sea of nectar"
-    gui.about = "Discouraged Workers ©2017 YGGDRASIL STUDIO Co, Pte. Все права защищены. Все литературные произведения/товарные знаки являются собственностью соответствующих владельцев. Не распространяйте нашу программу или какие-либо изменения в программных файлах. Для Лицензионного соглашения с конечным пользователем, пожалуйста, просмотрите файл EULA.txt в каталоге лицензий или посетите {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/gh-pages/EULA.txt}данную страницу{/a}."
+    gui.about = "Discouraged Workers ©2018 YGGDRASIL STUDIO Co, Pte. Все права защищены. Все литературные произведения/товарные знаки являются собственностью соответствующих владельцев. Не распространяйте нашу программу или какие-либо изменения в программных файлах. Для Лицензионного соглашения с конечным пользователем, пожалуйста, просмотрите файл EULA.txt в каталоге лицензий или посетите {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/gh-pages/EULA.txt}данную страницу{/a}."
     code.license = "Исходный код Disouraged Workers распространяется на условия GNU Lesser General Public License v3.0. Исходный код можно найти {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/source-codes}здесь{/a}."
     font.license = "Эта программа содержит бесплатное программное обеспечение для шрифтов по ряду лицензий, включая SIL Open Font License. Полный список программного обеспечения для шрифтов, включая ссылки для загрузки, можно найти{a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/wiki/about#licenses}здесь{/a} или в файле fonts-LICENSE.txt из каталога лицензий."
     renpy.license = "Эта программа содержит свободное и открытое программное обеспечение под несколькими лицензиями, включая лицензию MIT и GNU Lesser General Public. Полный список лицензий, включая ссылки на полный исходный код, можно найти {a=https://www.renpy.org/l/license}здесь{/a}."
-    valve.license = "©2017 Valve Corporation. Название и логотип Steam являются торговыми знаками и/или зарегистрированными торговыми знаками Valve Corporation в США и/или других странах.\n \n©2017 Valve Corporation. Название и логотип Steamworks являются торговыми знаками и/или зарегистрированными торговыми знаками Valve Corporation в США и/или других странах."
+    valve.license = "©2018 Valve Corporation. Название и логотип Steam являются торговыми знаками и/или зарегистрированными торговыми знаками Valve Corporation в США и/или других странах.\n \n©2018 Valve Corporation. Название и логотип Steamworks являются торговыми знаками и/или зарегистрированными торговыми знаками Valve Corporation в США и/или других странах."
     xbox.license = "Эта программа содержит изображения контроллера Xbox 360 и его кнопок. Пакет изображений можно найти {a=http://xbox.create.msdn.com/en-us/education/catalog/utility/controller_buttons}здесь{/a}."
     cc.license = "Эта программа содержит ряд активов, которые охватываются условиями Creative Commons License. Для получения списка активов и ссылок для загрузки просмотрите файл assets-LICENSE.txt в каталоге лицензий или посетите{a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/wiki/about#licenses}данную страницу{/a}."

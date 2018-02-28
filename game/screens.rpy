@@ -131,8 +131,10 @@ style choice_button_text is default:
 screen quick_menu():
     zorder 100
     style_prefix "quick"
-    if persistent.controllers == None:
-        hbox xpos .818 ypos .77:
+    if persistent.blind is True:
+        pass
+    elif persistent.controllers == None:
+        hbox xpos gui.quick_hbox_xpos ypos gui.quick_hbox_ypos:
             grid 3 2:
                 if _preferences.afm_enable is True:
                     button xsize 120:
@@ -164,16 +166,10 @@ screen quick_menu():
                         vbox xalign 0.5:
                             textbutton ('{font=[gui.fontawesome]}{size=96}{/size}{/font}') at menuback:
                                 xalign 0.5
-                                if persistent.blind is True:
-                                    action QuickSave()
-                                else:
-                                    action ShowMenu('save')
+                                action ShowMenu('save')
                             textbutton ('{size=[gui.quick_button_text_size]}[gui.save]{/size}') at menuback:
                                 xalign 0.5
-                                if persistent.blind is True:
-                                    action QuickSave()
-                                else:
-                                    action ShowMenu('save')
+                                action ShowMenu('save')
                 button xsize 120:
                         vbox xalign 0.5:
                             textbutton ('{font=[gui.fontawesome]}{size=96}{/size}{/font}') action [SetField(persistent, 'archives', True), ShowMenu('archives')] at menuback:
@@ -187,67 +183,45 @@ screen quick_menu():
                             textbutton ('{size=[gui.quick_button_text_size]}[gui.conq]{/size}') action ShowMenu('preferences') at menuback:
                                 xalign 0.5
     else:
-        hbox xpos .818 ypos .77:
+        hbox xpos gui.quick_hbox_xpos ypos gui.quick_hbox_ypos:
             grid 3 2:
                 if _preferences.afm_enable is True:
                     button xsize 120:
-                        vbox xalign 0.5:
+                        vbox xalign .5:
                             spacing 5
-                            imagebutton idle 'controller_play' action SetField(_preferences, 'afm_enable', False) at menuback:
-                                xalign 0.5
-                            textbutton ('{size=[gui.quick_button_text_size]}[gui.stop]{/size}') action SetField(_preferences, 'afm_enable', False) at menuback:
-                                xalign 0.5
+                            add 'controller_play' xalign .5
+                            text ('{size=[gui.quick_button_text_size]}[gui.stop]{/size}') xalign .5
                 else:
                     button xsize 120:
                         vbox xalign 0.5:
                             spacing 5
-                            imagebutton idle 'controller_play' action [SetField(_preferences, 'afm_enable', True), SetField(_preferences, 'afm_after_click', True)] at menuback:
-                                xalign 0.5
-                            textbutton ('{size=[gui.quick_button_text_size]}[gui.play]{/size}') action [SetField(_preferences, 'afm_enable', True), SetField(_preferences, 'afm_after_click', True)] at menuback:
-                                xalign 0.5
+                            add 'controller_play'  xalign .5
+                            text ('{size=[gui.quick_button_text_size]}[gui.play]{/size}') xalign .5
                 button xsize 120:
-                        vbox xalign 0.5:
-                            spacing 5
-                            imagebutton idle 'controller_arc' action [SetField(persistent, 'archives', True), ShowMenu('archives')] at menuback:
-                                xalign 0.5
-                            textbutton ('{size=[gui.quick_button_text_size]}[gui.arcq]{/size}') action [SetField(persistent, 'archives', True), ShowMenu('archives')] at menuback:
-                                xalign 0.5
+                    vbox xalign 0.5:
+                        spacing 5
+                        add 'controller_arc' xalign .5
+                        text ('{size=[gui.quick_button_text_size]}[gui.arcq]{/size}') xalign .5
                 button xsize 120:
-                        vbox xalign 0.5:
-                            spacing 5
-                            imagebutton idle 'controller_config' action ShowMenu('preferences') at menuback:
-                                xalign 0.5
-                            textbutton ('{size=[gui.quick_button_text_size]}[gui.conq]{/size}') action ShowMenu('preferences') at menuback:
-                                xalign 0.5
+                    vbox xalign 0.5:
+                        spacing 5
+                        add 'controller_config' xalign .5
+                        text ('{size=[gui.quick_button_text_size]}[gui.conq]{/size}') xalign .5
                 button xsize 120:
-                        vbox xalign 0.5:
-                            spacing 5
-                            imagebutton idle 'controller_save' at menuback:
-                                xalign 0.5
-                                if persistent.blind is True:
-                                    action QuickSave()
-                                else:
-                                    action ShowMenu('save')
-                            textbutton ('{size=[gui.quick_button_text_size]}[gui.save]{/size}') at menuback:
-                                xalign 0.5
-                                if persistent.blind is True:
-                                    action QuickSave()
-                                else:
-                                    action ShowMenu('save')
+                    vbox xalign 0.5:
+                        spacing 5
+                        add 'controller_save' xalign .5
+                        text ('{size=[gui.quick_button_text_size]}[gui.save]{/size}') xalign .5
                 button xsize 120:
-                        vbox xalign 0.5:
-                            spacing 5
-                            imagebutton idle 'controller_hide' action Hide('say') at menuback:
-                                xalign 0.5
-                            textbutton ('{size=[gui.quick_button_text_size]}[gui.hide]{/size}') action Hide('say') at menuback:
-                                xalign 0.5
+                    vbox xalign 0.5:
+                        spacing 5
+                        add 'controller_hide' xalign .5
+                        text ('{size=[gui.quick_button_text_size]}[gui.hide]{/size}') xalign .5
                 button xsize 120:
-                        vbox xalign 0.5:
-                            spacing 5
-                            imagebutton idle 'controller_skip' action Skip() at menuback:
-                                xalign 0.5
-                            textbutton ('{size=[gui.quick_button_text_size]}[gui.skip]{/size}') action Skip() at menuback:
-                                xalign 0.5
+                    vbox xalign 0.5:
+                        spacing 5
+                        add 'controller_skip' xalign .5
+                        text ('{size=[gui.quick_button_text_size]}[gui.skip]{/size}') xalign .5
 style quick_button is default
 style quick_button_text is button_text
 style quick_button:
@@ -318,13 +292,16 @@ screen main_menu():
         if persistent.controllers == None:
             textbutton _("[gui.start]") action Start()
             if persistent.blind is True:
-                textbutton _("[gui.load]") action QuickLoad()
+                textbutton _("[gui.load]") action QuickLoad() alt _("Load")
+                textbutton _("[gui.blind_char]") action [SetVariable('blind_set', 1), ShowMenu("blind_arc")]
+                textbutton _("[gui.blind_con]") action [SetVariable('blind_set', 2), ShowMenu("blind_arc")]
+                textbutton _("[gui.blind_diary]") action [SetVariable('blind_set', 0), ShowMenu("blind_arc")]
             else:
                 textbutton _("[gui.bookmarks]") action ShowMenu("load")
-            textbutton _("[gui.archives]") action [SetField(persistent, 'archives', True), ShowMenu("archives")]
-            if persistent.steam is True:
-                textbutton _("[gui.dlc]") action [SetField(persistent, 'downloadable', True), ShowMenu("downloadable")]
-            textbutton _("[gui.conf]") action ShowMenu("preferences")
+                textbutton _("[gui.archives]") action [SetField(persistent, 'archives', True), ShowMenu("archives")]
+                if persistent.steam is True:
+                    textbutton _("[gui.dlc]") action [SetField(persistent, 'downloadable', True), ShowMenu("downloadable")]
+                textbutton _("[gui.conf]") action ShowMenu("preferences")
             if renpy.variant("pc"):
                 textbutton _("[gui.quit]") action Quit()
         else:
@@ -334,18 +311,23 @@ screen main_menu():
                 textbutton _("{image=gui/controllers/[persistent.controllers]/guide.webp} [gui.start]") action Start()
             if persistent.controllers == "ouya":
                 if persistent.blind is True:
-                    textbutton _("{image=gui/controllers/[persistent.controllers]/shoulder_r.webp} [gui.load]") action QuickLoad()
+                    textbutton _("{image=gui/controllers/[persistent.controllers]/shoulder_r.webp} [gui.load]") action QuickLoad() alt _("Load")
                 else:
                     textbutton _("{image=gui/controllers/[persistent.controllers]/shoulder_r.webp} [gui.bookmarks]") action ShowMenu("load")
             else:
                 if persistent.blind is True:
-                    textbutton _("{image=gui/controllers/[persistent.controllers]/shoulder_r.webp} [gui.load]") action QuickLoad()
+                    textbutton _("{image=gui/controllers/[persistent.controllers]/button_start.webp} [gui.load]") action QuickLoad() alt _("Load")
                 else:
                     textbutton _("{image=gui/controllers/[persistent.controllers]/button_start.webp} [gui.bookmarks]") action ShowMenu("load")
-            textbutton _("{image=gui/controllers/[persistent.controllers]/button_b.webp} [gui.archives]") action [SetField(persistent, 'archives', True), ShowMenu("archives")]
-            if persistent.steam is True:
-                textbutton _("{image=gui/controllers/[persistent.controllers]/button_x.webp} [gui.dlc]")  action [SetField(persistent, 'downloadable', True), ShowMenu("downloadable")]
-            textbutton _("{image=gui/controllers/[persistent.controllers]/button_y.webp} [gui.conf]") action ShowMenu("preferences")
+            if persistent.blind is True:
+                textbutton _("{image=gui/controllers/[persistent.controllers]/button_b.webp} [gui.blind_char]") action [SetVariable('blind_set', 1), ShowMenu("blind_arc")]
+                textbutton _("{image=gui/controllers/[persistent.controllers]/button_x.webp} [gui.blind_con]") action [SetVariable('blind_set', 2), ShowMenu("blind_arc")]
+                textbutton _("{image=gui/controllers/[persistent.controllers]/button_y.webp} [gui.blind_diary]") action [SetVariable('blind_set', 0), ShowMenu("blind_arc")]
+            else:
+                textbutton _("{image=gui/controllers/[persistent.controllers]/button_b.webp} [gui.archives]") action [SetField(persistent, 'archives', True), ShowMenu("archives")]
+                if persistent.steam is True:
+                    textbutton _("{image=gui/controllers/[persistent.controllers]/button_x.webp} [gui.dlc]")  action [SetField(persistent, 'downloadable', True), ShowMenu("downloadable")]
+                textbutton _("{image=gui/controllers/[persistent.controllers]/button_y.webp} [gui.conf]") action ShowMenu("preferences")
             if renpy.variant("pc"):
                 if persistent.controllers == "ouya":
                     textbutton _("{image=gui/controllers/[persistent.controllers]/shoulder_l.webp} [gui.quit]") action Quit()
@@ -359,17 +341,27 @@ screen main_menu():
             text "[copyright]":
                 style "main_menu_version"
     key "game_menu" action ShowMenu('load')
-    key 'K_b' action ShowMenu('load')
-    key 'K_a' action [SetField(persistent, 'archives', True), ShowMenu('archives')]
-    key 'K_p' action [SetField(persistent, 'downloadable', True), ShowMenu("downloadable")]
-    key 'K_c' action ShowMenu('preferences')
+    if persistent.blind is True:
+        key 'K_a' action [SetVariable('blind_set', 1), ShowMenu("blind_arc")]
+        key 'K_p' action [SetVariable('blind_set', 2), ShowMenu("blind_arc")]
+        key 'K_c' action [SetVariable('blind_set', 0), ShowMenu("blind_arc")]
+        key 'pad_b_press' action [SetVariable('blind_set', 1), ShowMenu("blind_arc")]
+        key 'pad_x_press'  action [SetVariable('blind_set', 2), ShowMenu("blind_arc")]
+        key 'pad_y_press' action [SetVariable('blind_set', 0), ShowMenu("blind_arc")]
+        key 'K_b' action QuickLoad()
+        key 'pad_start_press' action QuickLoad()
+        key 'mouseup_3' action QuickLoad()
+    else:
+        key 'K_a' action [SetField(persistent, 'archives', True), ShowMenu('archives')]
+        key 'K_p' action [SetField(persistent, 'downloadable', True), ShowMenu("downloadable")]
+        key 'K_c' action ShowMenu('preferences')
+        key 'pad_b_press' action [SetField(persistent, 'archives', True), ShowMenu('archives')]
+        key 'pad_x_press'  action [SetField(persistent, 'downloadable', True), ShowMenu("downloadable")]
+        key 'pad_y_press' action ShowMenu('preferences')
+        key 'K_b' action ShowMenu('load')
     key 'K_q' action Quit(confirm=False)
-    key 'pad_start_press' action ShowMenu('load')
     key 'pad_guide_press' action Start()
     key 'K_PERIOD' action Start()
-    key 'pad_b_press' action [SetField(persistent, 'archives', True), ShowMenu('archives')]
-    key 'pad_x_press'  action [SetField(persistent, 'downloadable', True), ShowMenu("downloadable")]
-    key 'pad_y_press' action ShowMenu('preferences')
     key 'pad_back_press' action Quit(confirm=False)
 style main_menu_frame is empty
 style main_menu_vbox is vbox
@@ -383,7 +375,7 @@ style main_menu_vbox:
 style main_menu_text:
     layout "subtitle" color gui.accent_color
 style main_menu_title:
-    xalign .5 yoffset -820 size gui.title_text_size font gui.main_font
+    xalign .5 yoffset -720 size gui.title_text_size font gui.main_font
 style main_menu_button:
     xalign .5
 style main_menu_button_text:
@@ -807,10 +799,22 @@ screen confirm(message, yes_action, no_action):
             xalign .5 yalign .5 spacing 45
             label _(message):
                 style "confirm_prompt" xalign 0.5
+            if persistent.blind is True:
+                label _("Left arrow key: Yes, Right arrow key: No."):
+                    style "confirm_prompt" xalign 0.5
             hbox:
                 xalign 0.5 spacing 150
                 textbutton _("{font=[gui.fontawesome]}{/font} Yes") action yes_action
                 textbutton _("{font=[gui.fontawesome]}{/font} No") action no_action
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action yes_action
+        key 'K_LEFT' action yes_action
+        key 'pad_leftx_pos' action no_action
+        key 'K_RIGHT' action no_action
+    key 'K_o' action yes_action
+    key 'K_p' action no_action
+    key 'pad_a_press' action yes_action
+    key 'pad_x_press' action no_action
     key "game_menu" action no_action
 style confirm_frame is gui_frame
 style confirm_prompt is gui_prompt
@@ -826,16 +830,10 @@ style confirm_button:
 style confirm_button_text:
     properties gui.button_text_properties("confirm_button")
 screen save_confirm():
-    use confirm(_("The next step is an important scene. Do you want to save here?"), [Return(), ShowMenu('save')], Return()):
-        key 'K_o' action [Return(), ShowMenu('save')]
-        key 'K_p' action Return()
-        key 'pad_a_press' action [Return(), ShowMenu('save')]
-        key 'pad_x_press' action Return()
-        if persistent.blind is True:
-            key 'pad_leftx_neg' action [Return(), QuickSave()]
-            key 'K_LEFT' action [Return(), QuickSave()]
-            key 'pad_leftx_pos' action Return()
-            key 'K_RIGHT' action Return()
+    if persistent.blind is True:
+        use confirm(_("The next step is an important scene. Do you want to save here?"), [Return(), QuickSave()], Return())
+    else:
+        use confirm(_("The next step is an important scene. Do you want to save here?"), [Return(), ShowMenu('save')], Return())
 screen self_inflicted():
     tag menu
     add 'dialoguer' ypos .649
@@ -1061,8 +1059,8 @@ screen wallet:
     if persistent.blind is True:
         key 'pad_leftx_neg' action [SetVariable('wallet', 1), Hide('wallet')]
         key 'K_LEFT' action [SetVariable('wallet', 1), Hide('wallet')]
-        key 'pad_leftx_pos' action None
-        key 'K_RIGHT' action None
+        key 'pad_leftx_pos' action Return()
+        key 'K_RIGHT' action Return()
     if persistent.controllers is not None:
         use a_press
 screen anxiety:
@@ -1102,211 +1100,230 @@ screen teddy:
     if persistent.controllers is not None:
         use a_press
 screen key_screen:
-    if _preferences.afm_enable is True:
-        key 'K_p' action [SetField(_preferences, 'afm_enable', False)]
-        key 'pad_x_press' action [SetField(_preferences, 'afm_enable', False)]
+    if persistent.blind is True:
+        key 'K_UP' action MainMenu()
+        key 'K_DOWN' action QuickSave()
+        key 'pad_lefty_neg' action MainMenu()
+        key 'pad_lefty_pos' action QuickSave()
     else:
-        key 'K_p' action [SetField(_preferences, 'afm_enable', True), SetField(_preferences, 'afm_after_click', True)]
-        key 'pad_x_press' action [SetField(_preferences, 'afm_enable', True), SetField(_preferences, 'afm_after_click', True)]
-    key 'K_a' action [SetField(persistent, 'archives', True), ShowMenu('archives')]
-    key 'pad_b_press' action [SetField(persistent, 'archives', True), ShowMenu('archives')]
-    key 'K_c' action ShowMenu('preferences')
-    key 'pad_y_press' action ShowMenu('preferences')
-    key 'K_b' action ShowMenu('save')
-    key 'K_q' action Quit()
+        if _preferences.afm_enable is True:
+            key 'K_p' action [SetField(_preferences, 'afm_enable', False)]
+            key 'pad_x_press' action [SetField(_preferences, 'afm_enable', False)]
+        else:
+            key 'K_p' action [SetField(_preferences, 'afm_enable', True), SetField(_preferences, 'afm_after_click', True)]
+            key 'pad_x_press' action [SetField(_preferences, 'afm_enable', True), SetField(_preferences, 'afm_after_click', True)]
+        key 'K_a' action [SetField(persistent, 'archives', True), ShowMenu('archives')]
+        key 'pad_b_press' action [SetField(persistent, 'archives', True), ShowMenu('archives')]
+        key 'K_c' action ShowMenu('preferences')
+        key 'pad_y_press' action ShowMenu('preferences')
+        key 'K_b' action ShowMenu('save')
+        key 'K_q' action Quit()
 screen part_clear():
     tag menu
     style_prefix "part_clear"
     use game_menu(_("{font=[gui.fontawesome]}{/font} [gui.unlocked]"), scroll="viewport"):
         vbox:
-            label _("{font=[gui.fontawesome]}{/font} Characters")
-            hbox:
-                if progress == 1:
-                    imagebutton idle 'arc_char_01' action [SetScreenVariable("char", "gayeon"), Show('characters')]
-                    imagebutton idle 'arc_char_03' action [SetScreenVariable("char", "hyena"), Show('characters')]
-                if progress == 2:
-                    imagebutton idle 'arc_char_06' action [SetScreenVariable("char", "interviewer"), Show('characters')]
-                if progress == 3:
-                    imagebutton idle 'arc_char_02' action [SetScreenVariable("char", "yunwoo"), Show('characters')]
-                if progress == 4:
-                    imagebutton idle 'arc_char_04' action [SetScreenVariable("char", "angel"), Show('characters')]
-                if progress ==12:
-                    imagebutton idle 'arc_char_07' action [SetScreenVariable("char", "doctor"), Show('characters')]
-                if progress == 15:
-                    imagebutton idle 'arc_char_07_e' action [SetScreenVariable("char", "doctor"), Show('characters')]
-                if progress == 17:
-                    imagebutton idle 'arc_char_05' action [SetScreenVariable("char", "taejin"), Show('characters')]
-                if progress == 20:
-                    imagebutton idle 'arc_char_04_q' action [SetScreenVariable("char", "angel"), Show('characters')]
-                if progress == 25:
-                    imagebutton idle 'arc_char_04_e' action [SetScreenVariable("char", "angel"), Show('characters')]
-                    imagebutton idle 'arc_char_06_e' action [SetScreenVariable("char", "interviewer"), Show('characters')]
-            null height (4 * gui.pref_spacing)
-            label _("{font=[gui.fontawesome]}{/font} Concept")
-            hbox:
-                if progress == 2:
-                    imagebutton idle 'arc_con_01' action [SetScreenVariable("concept", "concept01"), Show('concept')]
-                if progress == 7:
-                    imagebutton idle 'arc_con_05' action [SetScreenVariable("concept", "concept05"), Show('concept')]
-                if progress == 11:
-                    imagebutton idle 'arc_con_02' action [SetScreenVariable("concept", "concept02"), Show('concept')]
-                    imagebutton idle 'arc_con_07' action [SetScreenVariable("concept", "concept07"), Show('concept')]
-                if progress == 14:
-                    imagebutton idle 'arc_con_04' action [SetScreenVariable("concept", "concept04"), Show('concept')]
-                if progress == 20:
-                    imagebutton idle 'arc_con_03' action [SetScreenVariable("concept", "concept03"), Show('concept')]
-                if progress == 21:
-                    imagebutton idle 'arc_con_06' action [SetScreenVariable("concept", "concept06"), Show('concept')]
-                if progress == 23:
-                    imagebutton idle 'arc_con_08' action [SetScreenVariable("concept", "concept08"), Show('concept')]
-                if progress == 25:
-                    imagebutton idle 'arc_con_10' action [SetScreenVariable("concept", "concept10"), Show('concept')]
-                    imagebutton idle 'arc_con_11' action [SetScreenVariable("concept", "concept11"), Show('concept')]
-                    imagebutton idle 'arc_con_12' action [SetScreenVariable("concept", "concept12"), Show('concept')]
-            null height (4 * gui.pref_spacing)
-            label _("{font=[gui.fontawesome]}{/font} Diary")
-            hbox:
-                if progress == 15 and persistent.obdrawer == True:
-                    imagebutton idle 'arc_diary_01' action [SetScreenVariable("diary", "diary01"), Show('diary')]
-                    imagebutton idle 'arc_diary_02' action [SetScreenVariable("diary", "diary02"), Show('diary')]
-                    imagebutton idle 'arc_diary_03' action [SetScreenVariable("diary", "diary03"), Show('diary')]
-                    imagebutton idle 'arc_diary_04' action [SetScreenVariable("diary", "diary04"), Show('diary')]
-                    imagebutton idle 'arc_diary_05' action [SetScreenVariable("diary", "diary05"), Show('diary')]
-                    imagebutton idle 'arc_diary_06' action [SetScreenVariable("diary", "diary06"), Show('diary')]
-                    imagebutton idle 'arc_diary_07' action [SetScreenVariable("diary", "diary07"), Show('diary')]
-                    imagebutton idle 'arc_diary_08' action [SetScreenVariable("diary", "diary08"), Show('diary')]
-                    imagebutton idle 'arc_diary_09' action [SetScreenVariable("diary", "diary09"), Show('diary')]
-                    imagebutton idle 'arc_diary_10' action [SetScreenVariable("diary", "diary10"), Show('diary')]
-                    imagebutton idle 'arc_diary_11' action [SetScreenVariable("diary", "diary11"), Show('diary')]
-                    imagebutton idle 'arc_diary_12' action [SetScreenVariable("diary", "diary12"), Show('diary')]
-                    imagebutton idle 'arc_diary_13' action [SetScreenVariable("diary", "diary13"), Show('diary')]
-                    imagebutton idle 'arc_diary_14' action [SetScreenVariable("diary", "diary14"), Show('diary')]
-                    imagebutton idle 'arc_diary_15' action [SetScreenVariable("diary", "diary15"), Show('diary')]
-                if progress == 17:
-                    imagebutton idle 'arc_diary_16' action [SetScreenVariable("diary", "diary16"), Show('diary')]
-            null height (4 * gui.pref_spacing)
-            label _("{font=[gui.fontawesome]}{/font} Gallery")
-            hbox:
-                if progress == 2:
-                    imagebutton idle 'arc_gall_01' action g.Action('frustration')
-                    imagebutton idle 'arc_gall_02' action g.Action('vomiting')
-                    imagebutton idle 'arc_gall_03' action g.Action('pusillanimous')
-                if progress == 4:
-                    imagebutton idle 'arc_gall_04' action g.Action('that day we')
-                if progress == 6:
-                    imagebutton idle 'arc_gall_05' action g.Action('fate')
-                    imagebutton idle 'arc_gall_06' action g.Action('alleyway')
-                    imagebutton idle 'arc_gall_07' action g.Action('moonlight')
-                if progress == 9:
-                    imagebutton idle 'arc_gall_08' action g.Action('drunken')
-                    imagebutton idle 'arc_gall_09' action g.Action('eternal happiness')
-                if progress == 10:
-                    imagebutton idle 'arc_gall_10' action g.Action('despair')
-                    imagebutton idle 'arc_gall_11' action g.Action('lean_gall')
-                    imagebutton idle 'arc_gall_12' action g.Action('distortion')
-                if progress == 11:
-                    imagebutton idle 'arc_gall_13' action g.Action('imf crisis')
-                    imagebutton idle 'arc_gall_14' action g.Action('newspaper delivery')
-                    imagebutton idle 'arc_gall_15' action g.Action('serving')
-                if progress == 13:
-                    imagebutton idle 'arc_gall_16' action g.Action('kiss me')
-                if progress == 14:
-                    imagebutton idle 'arc_gall_17' action g.Action('video_gall')
-                if progress == 15:
-                    imagebutton idle 'arc_gall_18' action g.Action('self_gall')
-                if progress == 16:
-                    imagebutton idle 'arc_gall_19' action g.Action('rip')
-                if progress == 17:
-                    imagebutton idle 'arc_gall_20' action g.Action('masturbation')
-                    imagebutton idle 'arc_gall_21' action g.Action('deep kiss')
-                    imagebutton idle 'arc_gall_22' action g.Action('caress')
-                    imagebutton idle 'arc_gall_23' action g.Action('fellatio')
-                    imagebutton idle 'arc_gall_24' action g.Action('riding')
-                if progress == 20:
-                    imagebutton idle 'arc_gall_25' action g.Action('smoking')
-                if progress == 21:
-                    imagebutton idle 'arc_gall_26' action g.Action('bridge')
-                if progress == 22:
-                    imagebutton idle 'arc_gall_27' action g.Action('edge')
-                if progress == 23:
-                    imagebutton idle 'arc_gall_28' action g.Action('corruption')
-                if progress == 24:
-                    imagebutton idle 'arc_gall_29' action g.Action('doa')
-                    imagebutton idle 'arc_gall_30' action g.Action('doa0')
-                if progress == 25:
-                    imagebutton idle 'arc_gall_31' action g.Action('growing')
-                    imagebutton idle 'arc_gall_32' action g.Action('nte')
-            null height (4 * gui.pref_spacing)
-            label _("{font=[gui.fontawesome]}{/font} Music")
-            hbox:
-                if progress == 1:
-                    textbutton "[gui.bgm02]" action mr.Play("bgm/Sigh day.opus")
-                if progress == 2:
-                    textbutton "[gui.bgm03]" action mr.Play("bgm/Mare tranquillitatis.opus")
-                    textbutton "[gui.bgm07]" action mr.Play("bgm/Unknown mist.opus")
-                if progress == 3:
-                    textbutton "[gui.bgm04]" action mr.Play("bgm/CCCanon.opus")
-                if progress == 4:
-                    textbutton "[gui.bgm05]" action mr.Play("bgm/Let's game.opus")
-                if progress == 6:
-                    textbutton "[gui.bgm06]" action mr.Play("bgm/Peace.opus")
-                if progress == 8:
-                    textbutton "[gui.bgm08]" action mr.Play("bgm/Lush garden.opus")
-                    textbutton "[gui.bgm09]" action mr.Play("bgm/Jormungandr.opus")
-                if progress == 9:
-                    textbutton "[gui.bgm10]" action mr.Play("bgm/Nyx.opus")
-                if progress == 17:
-                    textbutton "[gui.bgm11]" action mr.Play("bgm/Summit showdown.opus")
-                if progress == 20:
-                    textbutton "[gui.bgm13]" action mr.Play("bgm/Sea of nectar.opus")
-                if progress == 25:
-                    textbutton "[gui.bgm12]" action mr.Play("bgm/Love song.opus")
-            null height (4 * gui.pref_spacing)
-            label _("{font=[gui.fontawesome]}{/font} Replay")
-            hbox:
-                if progress == 1:
-                    add 'part_01_sepia'
-                if progress == 2:
-                    add 'part_02_sepia'
-                if progress == 3:
-                    add 'part_03_sepia'
-                if progress == 4:
-                    add 'part_04_sepia'
-                if progress == 6:
-                    add 'part_05_sepia'
-                if progress == 7:
-                    add 'part_07_sepia'
-                if progress == 8:
-                    add 'part_08_sepia'
-                if progress == 9:
-                    add 'part_09_sepia'
-                if progress == 10:
-                    add 'part_10_sepia'
-                if progress == 11:
-                    add 'part_11_sepia'
-                if progress == 12:
-                    add 'part_12_sepia'
-                if progress == 13:
-                    add 'part_13_sepia'
-                if progress == 14:
-                    add 'part_14_sepia'
-                if progress == 17:
-                    add 'part_17_sepia'
-                if progress == 18:
-                    add 'part_18_sepia'
-                if progress == 19:
-                    add 'part_19_sepia'
-                if progress == 20:
-                    add 'part_20_sepia'
-                if progress == 21:
-                    add 'part_21_sepia'
-                if progress == 22:
-                    add 'part_22_sepia'
-                if progress == 24:
-                    add 'part_24_sepia'
-                if progress == 25:
-                    add 'part_25_sepia'
-            null height (4 * gui.pref_spacing)
+            if gp == 1:
+                label _("{font=[gui.fontawesome]}{/font} Characters")
+                hbox:
+                    if progress == 1:
+                        imagebutton idle 'arc_char_01' action [SetScreenVariable("char", "gayeon"), Show('characters')]
+                        imagebutton idle 'arc_char_03' action [SetScreenVariable("char", "hyena"), Show('characters')]
+                    if progress == 2:
+                        imagebutton idle 'arc_char_06' action [SetScreenVariable("char", "interviewer"), Show('characters')]
+                    if progress == 3:
+                        imagebutton idle 'arc_char_02' action [SetScreenVariable("char", "yunwoo"), Show('characters')]
+                    if progress == 4:
+                        imagebutton idle 'arc_char_04' action [SetScreenVariable("char", "angel"), Show('characters')]
+                    if progress ==12:
+                        imagebutton idle 'arc_char_07' action [SetScreenVariable("char", "doctor"), Show('characters')]
+                    if progress == 15 and persistent.obdrawer == True:
+                        imagebutton idle 'arc_char_07_e' action [SetScreenVariable("char", "doctor"), Show('characters')]
+                    if progress == 17:
+                        imagebutton idle 'arc_char_05' action [SetScreenVariable("char", "taejin"), Show('characters')]
+                    if progress == 20 and not sigiveup <= -1:
+                        imagebutton idle 'arc_char_04_q' action [SetScreenVariable("char", "angel"), Show('characters')]
+                    if progress == 25:
+                        imagebutton idle 'arc_char_04_e' action [SetScreenVariable("char", "angel"), Show('characters')]
+                        imagebutton idle 'arc_char_06_e' action [SetScreenVariable("char", "interviewer"), Show('characters')]
+                null height (4 * gui.pref_spacing)
+            if gc == 1:
+                label _("{font=[gui.fontawesome]}{/font} Concept")
+                hbox:
+                    if progress == 2:
+                        imagebutton idle 'arc_con_01' action [SetScreenVariable("concept", "concept01"), Show('concept')]
+                    if progress == 7:
+                        imagebutton idle 'arc_con_05' action [SetScreenVariable("concept", "concept05"), Show('concept')]
+                    if progress == 11:
+                        imagebutton idle 'arc_con_02' action [SetScreenVariable("concept", "concept02"), Show('concept')]
+                        imagebutton idle 'arc_con_07' action [SetScreenVariable("concept", "concept07"), Show('concept')]
+                    if progress == 14:
+                        imagebutton idle 'arc_con_04' action [SetScreenVariable("concept", "concept04"), Show('concept')]
+                    if progress == 20 and not sigiveup <= -1:
+                        imagebutton idle 'arc_con_03' action [SetScreenVariable("concept", "concept03"), Show('concept')]
+                    if progress == 21 and not sigiveup <= -1:
+                        imagebutton idle 'arc_con_06' action [SetScreenVariable("concept", "concept06"), Show('concept')]
+                    if progress == 23 and wallet == 0:
+                        imagebutton idle 'arc_con_08' action [SetScreenVariable("concept", "concept08"), Show('concept')]
+                    if progress == 25:
+                        imagebutton idle 'arc_con_10' action [SetScreenVariable("concept", "concept10"), Show('concept')]
+                        imagebutton idle 'arc_con_11' action [SetScreenVariable("concept", "concept11"), Show('concept')]
+                        imagebutton idle 'arc_con_12' action [SetScreenVariable("concept", "concept12"), Show('concept')]
+                null height (4 * gui.pref_spacing)
+            if gd == 1:
+                label _("{font=[gui.fontawesome]}{/font} Diary")
+                hbox:
+                    if progress == 15:
+                        vbox:
+                            hbox:
+                                imagebutton idle 'arc_diary_01' action [SetScreenVariable("diary", "diary01"), Show('diary')]
+                                imagebutton idle 'arc_diary_02' action [SetScreenVariable("diary", "diary02"), Show('diary')]
+                                imagebutton idle 'arc_diary_03' action [SetScreenVariable("diary", "diary03"), Show('diary')]
+                                imagebutton idle 'arc_diary_04' action [SetScreenVariable("diary", "diary04"), Show('diary')]
+                            hbox:
+                                imagebutton idle 'arc_diary_05' action [SetScreenVariable("diary", "diary05"), Show('diary')]
+                                imagebutton idle 'arc_diary_06' action [SetScreenVariable("diary", "diary06"), Show('diary')]
+                                imagebutton idle 'arc_diary_07' action [SetScreenVariable("diary", "diary07"), Show('diary')]
+                                imagebutton idle 'arc_diary_08' action [SetScreenVariable("diary", "diary08"), Show('diary')]
+                            hbox:
+                                imagebutton idle 'arc_diary_09' action [SetScreenVariable("diary", "diary09"), Show('diary')]
+                                imagebutton idle 'arc_diary_10' action [SetScreenVariable("diary", "diary10"), Show('diary')]
+                                imagebutton idle 'arc_diary_11' action [SetScreenVariable("diary", "diary11"), Show('diary')]
+                                imagebutton idle 'arc_diary_12' action [SetScreenVariable("diary", "diary12"), Show('diary')]
+                            hbox:
+                                imagebutton idle 'arc_diary_13' action [SetScreenVariable("diary", "diary13"), Show('diary')]
+                                imagebutton idle 'arc_diary_14' action [SetScreenVariable("diary", "diary14"), Show('diary')]
+                                imagebutton idle 'arc_diary_15' action [SetScreenVariable("diary", "diary15"), Show('diary')]
+                    if progress == 17:
+                        imagebutton idle 'arc_diary_16' action [SetScreenVariable("diary", "diary16"), Show('diary')]
+                null height (4 * gui.pref_spacing)
+            if gg == 1: 
+                label _("{font=[gui.fontawesome]}{/font} Gallery")
+                hbox:
+                    if progress == 2:
+                        imagebutton idle 'arc_gall_01' action g.Action('frustration')
+                        imagebutton idle 'arc_gall_02' action g.Action('vomiting')
+                        imagebutton idle 'arc_gall_03' action g.Action('pusillanimous')
+                    if progress == 4:
+                        imagebutton idle 'arc_gall_04' action g.Action('that day we')
+                    if progress == 6:
+                        imagebutton idle 'arc_gall_05' action g.Action('fate')
+                        imagebutton idle 'arc_gall_06' action g.Action('alleyway')
+                        imagebutton idle 'arc_gall_07' action g.Action('moonlight')
+                    if progress == 9:
+                        imagebutton idle 'arc_gall_08' action g.Action('drunken')
+                        imagebutton idle 'arc_gall_09' action g.Action('eternal happiness')
+                    if progress == 10:
+                        imagebutton idle 'arc_gall_10' action g.Action('despair')
+                        imagebutton idle 'arc_gall_11' action g.Action('lean_gall')
+                        imagebutton idle 'arc_gall_12' action g.Action('distortion')
+                    if progress == 11:
+                        imagebutton idle 'arc_gall_13' action g.Action('imf crisis')
+                        imagebutton idle 'arc_gall_14' action g.Action('newspaper delivery')
+                        imagebutton idle 'arc_gall_15' action g.Action('serving')
+                    if progress == 13:
+                        imagebutton idle 'arc_gall_16' action g.Action('kiss me')
+                    if progress == 14:
+                        imagebutton idle 'arc_gall_17' action g.Action('video_gall')
+                    if progress == 15:
+                        imagebutton idle 'arc_gall_18' action g.Action('self_gall')
+                        if sigiveup <= -1:
+                            imagebutton idle 'arc_gall_25' action g.Action('smoking')
+                    if progress == 16:
+                        imagebutton idle 'arc_gall_19' action g.Action('rip')
+                    if progress == 17:
+                        vbox:
+                            hbox:
+                                imagebutton idle 'arc_gall_20' action g.Action('masturbation')
+                                imagebutton idle 'arc_gall_21' action g.Action('deep kiss')
+                                imagebutton idle 'arc_gall_22' action g.Action('caress')
+                                imagebutton idle 'arc_gall_23' action g.Action('fellatio')
+                            hbox:
+                                imagebutton idle 'arc_gall_24' action g.Action('riding')
+                    if progress == 20 and not smoke == 1:
+                        imagebutton idle 'arc_gall_25' action g.Action('smoking')
+                    if progress == 21 and not sigiveup <= -1:
+                        imagebutton idle 'arc_gall_26' action g.Action('bridge')
+                    if progress == 22 and persistent.part22 is True:
+                        imagebutton idle 'arc_gall_27' action g.Action('edge')
+                    if progress == 23 and wallet == 0:
+                        imagebutton idle 'arc_gall_28' action g.Action('corruption')
+                    if progress == 24:
+                        imagebutton idle 'arc_gall_29' action g.Action('doa')
+                        imagebutton idle 'arc_gall_30' action g.Action('doa0')
+                    if progress == 25:
+                        imagebutton idle 'arc_gall_31' action g.Action('growing')
+                        imagebutton idle 'arc_gall_32' action g.Action('nte')
+                null height (4 * gui.pref_spacing)
+            if gm == 1:
+                label _("{font=[gui.fontawesome]}{/font} Music")
+                hbox:
+                    if progress == 1:
+                        textbutton "[gui.bgm02]" action mr.Play("bgm/Sigh day.opus")
+                    if progress == 2:
+                        textbutton "[gui.bgm03]" action mr.Play("bgm/Mare tranquillitatis.opus")
+                        textbutton "[gui.bgm07]" action mr.Play("bgm/Unknown mist.opus")
+                    if progress == 3:
+                        textbutton "[gui.bgm04]" action mr.Play("bgm/CCCanon.opus")
+                    if progress == 4:
+                        textbutton "[gui.bgm05]" action mr.Play("bgm/Let's game.opus")
+                    if progress == 6:
+                        textbutton "[gui.bgm06]" action mr.Play("bgm/Peace.opus")
+                    if progress == 8:
+                        textbutton "[gui.bgm08]" action mr.Play("bgm/Lush garden.opus")
+                        textbutton "[gui.bgm09]" action mr.Play("bgm/Jormungandr.opus")
+                    if progress == 9:
+                        textbutton "[gui.bgm10]" action mr.Play("bgm/Nyx.opus")
+                    if progress == 17:
+                        textbutton "[gui.bgm11]" action mr.Play("bgm/Summit showdown.opus")
+                    if progress == 20:
+                        textbutton "[gui.bgm13]" action mr.Play("bgm/Sea of nectar.opus")
+                    if progress == 25:
+                        textbutton "[gui.bgm12]" action mr.Play("bgm/Love song.opus")
+                null height (4 * gui.pref_spacing)
+            if gr == 1:
+                label _("{font=[gui.fontawesome]}{/font} Replay")
+                hbox:
+                    if progress == 1:
+                        add 'part_01_sepia'
+                    if progress == 2:
+                        add 'part_02_sepia'
+                    if progress == 3:
+                        add 'part_03_sepia'
+                    if progress == 4:
+                        add 'part_04_sepia'
+                    if progress == 6:
+                        add 'part_05_sepia'
+                    if progress == 7:
+                        add 'part_07_sepia'
+                    if progress == 8:
+                        add 'part_08_sepia'
+                    if progress == 9:
+                        add 'part_09_sepia'
+                    if progress == 10:
+                        add 'part_10_sepia'
+                    if progress == 11:
+                        add 'part_11_sepia'
+                    if progress == 12:
+                        add 'part_12_sepia'
+                    if progress == 13:
+                        add 'part_13_sepia'
+                    if progress == 14:
+                        add 'part_14_sepia'
+                    if progress == 17:
+                        add 'part_17_sepia'
+                    if progress == 20:
+                        if not sigiveup <= -1:
+                            add 'part_18_sepia'
+                            add 'part_19_sepia'
+                            add 'part_20_sepia'
+                    if progress == 22 and persistent.part22 is True:
+                        add 'part_22_sepia'
+                    if progress == 24:
+                        add 'part_24_sepia'
+                    if progress == 25:
+                        add 'part_25_sepia'
+                null height (4 * gui.pref_spacing)
             vbox:
                 label _("{font=[gui.fontawesome]}{/font} Total")
                 if progress == 1:
@@ -1325,7 +1342,7 @@ screen part_clear():
                     text _("{font=[gui.fontawesome]}{/font} Gallery +1")
                     text _("{font=[gui.fontawesome]}{/font} Music +1")
                 if progress == 6:
-                    text _("{font=[gui.fontawesome]}{/font} Gallery +1")
+                    text _("{font=[gui.fontawesome]}{/font} Gallery +3")
                     text _("{font=[gui.fontawesome]}{/font} Music +1")
                 if progress == 7:
                     text _("{font=[gui.fontawesome]}{/font} Concept +1")
@@ -1347,22 +1364,37 @@ screen part_clear():
                     text _("{font=[gui.fontawesome]}{/font} Concept +1")
                     text _("{font=[gui.fontawesome]}{/font} Gallery +1")
                 if progress == 15:
-                    text _("{font=[gui.fontawesome]}{/font} Characters +1")
                     if persistent.obdrawer == True:
+                        text _("{font=[gui.fontawesome]}{/font} Characters +1")
                         text _("{font=[gui.fontawesome]}{/font} Diary +15")
+                    if sigiveup <= -1:
+                        text _("{font=[gui.fontawesome]}{/font} Gallery +2")
+                    else:
+                        text _("{font=[gui.fontawesome]}{/font} Gallery +1")
+                if progress == 16:
                     text _("{font=[gui.fontawesome]}{/font} Gallery +1")
                 if progress == 17:
                     text _("{font=[gui.fontawesome]}{/font} Characters +1")
-                    text _("{font=[gui.fontawesome]}{/font} Diary +1")
+                    if persistent.obdrawer == True:
+                        text _("{font=[gui.fontawesome]}{/font} Diary +1")
                     text _("{font=[gui.fontawesome]}{/font} Gallery +5")
                     text _("{font=[gui.fontawesome]}{/font} Music +1")
                 if progress == 20:
-                    text _("{font=[gui.fontawesome]}{/font} Characters +1")
-                    text _("{font=[gui.fontawesome]}{/font} Concept +1")
-                    text _("{font=[gui.fontawesome]}{/font} Gallery +1")
+                    if not sigiveup <= -1:
+                        text _("{font=[gui.fontawesome]}{/font} Characters +1")
+                        text _("{font=[gui.fontawesome]}{/font} Concept +1")
+                    if not smoke == 1:
+                        text _("{font=[gui.fontawesome]}{/font} Gallery +1")
                     text _("{font=[gui.fontawesome]}{/font} Music +1")
-                if progress > 20 and progress < 22 and progress == 23:
-                    text _("{font=[gui.fontawesome]}{/font} Concept +1")
+                    if not sigiveup <= -1:
+                        text _("{font=[gui.fontawesome]}{/font} Replay +3")
+                if progress == 21 and sigiveup <= -1 or progress == 23:
+                    if progress == 23 and wallet == 1:
+                        pass
+                    else:
+                        text _("{font=[gui.fontawesome]}{/font} Concept +1")
+                        text _("{font=[gui.fontawesome]}{/font} Gallery +1")
+                if progress == 22 and persistent.part22 is True:
                     text _("{font=[gui.fontawesome]}{/font} Gallery +1")
                 if progress == 24:
                     text _("{font=[gui.fontawesome]}{/font} Gallery +2")
@@ -1370,7 +1402,7 @@ screen part_clear():
                     text _("{font=[gui.fontawesome]}{/font} Characters +2")
                     text _("{font=[gui.fontawesome]}{/font} Gallery +2")
                     text _("{font=[gui.fontawesome]}{/font} Music +1")
-                if not progress == 15 and not progress == 16 and not progress == 23:
+                if not progress == 15 and not progress == 16 and not progress == 20 and not progress == 21 and not progress == 23:
                     text _("{font=[gui.fontawesome]}{/font} Replay +1")
 style part_clear_button_text is part_clear_text
 style part_clear_text is gui_text:
@@ -1395,7 +1427,7 @@ screen archives():
                 bar value persistent.bgm range 13
             vbox:
                 label _("{font=[gui.fontawesome]}{/font} Concept")
-                bar value persistent.con range 13
+                bar value persistent.con range 12
                 label _("{font=[gui.fontawesome]}{/font} Gallery")
                 bar value persistent.gall range 32
                 label _("{font=[gui.fontawesome]}{/font} Replay")
@@ -1466,15 +1498,110 @@ screen archives():
             elif achievement.has('KNDW_CREATOR'):
                 add '8m_silver'
             elif achievement.has('KNDW_MOD_PLAYER'):
-                add '8m_gold'
+                add '8m_bronze'
             elif achievement.has('KNDW_SPONSOR'):
                 add '8m_copper'
     key 'K_a' action [SetField(persistent, 'archives', None), Return()]
     key 'pad_b_press' action [SetField(persistent, 'archives', None), Return()]
+screen blind_arc():
+    tag menu
+    add gui.main_menu_background
+    vbox spacing 20:
+        if blind_set == 1:
+            default char = "gayeon"
+            style_prefix "characters"
+            if char == "gayeon":
+                use gayeon
+            elif char == "yunwoo":
+                use yunwoo
+            elif char == "hyena":
+                use hyena
+            elif char == "angel":
+                use angel
+            elif char == "taejin":
+                use taejin
+            elif char == "interviewer":
+                use interviewer
+            elif char == "doctor":
+                use doctor
+        elif blind_set == 2:
+            default concept = "concept09"
+            style_prefix "concept"
+            if concept == "concept01":
+                use concept01
+            if concept == "concept02":
+                use concept02
+            if concept == "concept03":
+                use concept03
+            if concept == "concept04":
+                use concept04
+            if concept == "concept05":
+                use concept05
+            if concept == "concept06":
+                use concept06
+            if concept == "concept07":
+                use concept07
+            if concept == "concept08":
+                use concept08
+            if concept == "concept09":
+                use concept09
+            if concept == "concept10":
+                use concept10
+            if concept == "concept11":
+                use concept11
+            if concept == "concept12":
+                use concept12
+            if concept == "concept07" or concept == "concept08" or concept == "concept09" or concept == "concept10" or concept == "concept12":
+                pass
+            else:
+                text _("Lee Yunseok -YGGDRASIL STUDIO")
+        elif blind_set == 0:
+            default diary = "diary01"
+            style_prefix "concept"
+            if persistent.obdrawer is None:
+                label _("{font=[gui.fontawesome]}{/font} Find the diary in the room.")
+            else:
+                if diary == "diary01":
+                    use diary01
+                if diary == "diary02":
+                    use diary02
+                if diary == "diary03":
+                    use diary03
+                if diary == "diary04":
+                    use diary04
+                if diary == "diary05":
+                    use diary05
+                if diary == "diary06":
+                    use diary06
+                if diary == "diary07":
+                    use diary07
+                if diary == "diary08":
+                    use diary08
+                if diary == "diary09":
+                    use diary09
+                if diary == "diary10":
+                    use diary10
+                if diary == "diary11":
+                    use diary11
+                if diary == "diary12":
+                    use diary12
+                if diary == "diary13":
+                    use diary13
+                if diary == "diary14":
+                    use diary14
+                if diary == "diary15":
+                    use diary15
+                if diary == "diary16":
+                    use diary16
+        label _("Left arrow key: Previous, Right arrow key: Next.")
+    key "game_menu" action [SetVariable('blind_set', None), Return()]
+    key 'pad_b_press' action [SetVariable('blind_set', None), Return()]
+    key 'K_UP' action [SetVariable('blind_set', None), Return()]
+    key 'pad_lefty_neg' action [SetVariable('blind_set', None), Return()]
 screen characters():
     tag menu
     default char = "gayeon"
-    use game_menu(_("{font=[gui.fontawesome]}{/font} Characters"), scroll=None):
+    use game_menu(_("{font=[gui.fontawesome]}{/font} Characters"), scroll=If(renpy.variant("small"), true="viewport", false=None)):
         style_prefix "characters"
         vbox:
             hbox:
@@ -1538,8 +1665,22 @@ screen gayeon():
             text _("{b}Certificates:{/b} 1st class Hospital Coordinator, Hospital Administrator")
             text _("{b}Likes:{/b} Bagels, Margherita pizza, Sweet rice bun")
             text _("{b}Dislikes:{/b} Capitalism, Doctors, Members of Parliament")
-        hbox:
-            add 'gb'
+        if persistent.blind is True:
+            key 'pad_leftx_neg' action [SetVariable('blind_set', None), Return()]
+            key 'K_LEFT' action [SetVariable('blind_set', None), Return()]
+            key 'pad_leftx_pos':
+                if persistent.yunwoo is True:
+                    action SetScreenVariable("char", "yunwoo")
+                elif persistent.hyena is True:
+                    action SetScreenVariable("char", "hyena")
+            key 'K_RIGHT':
+                if persistent.yunwoo is True:
+                    action SetScreenVariable("char", "yunwoo")
+                elif persistent.hyena is True:
+                    action SetScreenVariable("char", "hyena")
+        else:
+            hbox:
+                add 'gb'
 screen yunwoo():
     hbox:
         vbox:
@@ -1555,8 +1696,14 @@ screen yunwoo():
                 text _("{b}Bio:{/b} Bassist of ○○")
             text _("{b}Likes:{/b} Bob Dylan, Choi Ga-yeon, Yu Jaeha")
             text _("{b}Dislikes:{/b} Auditions, Management, Soju")
-        hbox:
-            add 'y_poker'
+        if persistent.blind is True:
+            key 'pad_leftx_neg' action SetScreenVariable("char", "gayeon")
+            key 'K_LEFT' action SetScreenVariable("char", "gayeon")
+            key 'pad_leftx_pos' action SetScreenVariable("char", "hyena")
+            key 'K_RIGHT' action SetScreenVariable("char", "hyena")
+        else:
+            hbox:
+                add 'y_poker'
 screen hyena():
     hbox:
         vbox:
@@ -1574,8 +1721,30 @@ screen hyena():
             text _("{b}Certificates:{/b} 2nd class Barista")
             text _("{b}Likes:{/b} Money, Photography, Ga-yeon, Drinking")
             text _("{b}Dislikes:{/b} Oryide, Sweet rice bun, Nightclub")
-        hbox:
-            add 'h_smile'
+        if persistent.blind is True:
+            key 'pad_leftx_neg':
+                if persistent.yunwoo is True:
+                    action SetScreenVariable("char", "yunwoo")
+                else:    
+                    action SetScreenVariable("char", "gayeon")
+            key 'K_LEFT':
+                if persistent.yunwoo is True:
+                    action SetScreenVariable("char", "yunwoo")
+                else:    
+                    action SetScreenVariable("char", "gayeon")
+            key 'pad_leftx_pos':
+                if persistent.angel is True:
+                    action SetScreenVariable("char", "angel")
+                elif persistent.interviewer is True:
+                    action SetScreenVariable("char", "interviewer")
+            key 'K_RIGHT':
+                if persistent.angel is True:
+                    action SetScreenVariable("char", "angel")
+                elif persistent.interviewer is True:
+                    action SetScreenVariable("char", "interviewer")
+        else:
+            hbox:
+                add 'h_smile'
 screen angel():
     hbox:
         vbox:
@@ -1600,8 +1769,22 @@ screen angel():
             else:
                 label _("{b}Clerk{/b}")
                 text _("{font=[gui.fontawesome]}{/font} The information is unknown at this time.")
-        hbox:
-            add 'e_poker'
+        if persistent.blind is True:
+            key 'pad_leftx_neg' action SetScreenVariable("char", "hyena")
+            key 'K_LEFT' action SetScreenVariable("char", "hyena")
+            key 'pad_leftx_pos':
+                if persistent.taejin is True:
+                    action SetScreenVariable("char", "taejin")
+                else:
+                    action SetScreenVariable("char", "interviewer")
+            key 'K_RIGHT':
+                if persistent.taejin is True:
+                    action SetScreenVariable("char", "taejin")
+                else:
+                    action SetScreenVariable("char", "interviewer")
+        else:
+            hbox:
+                add 'e_poker'
 screen taejin():
     hbox:
         vbox:
@@ -1618,8 +1801,14 @@ screen taejin():
             text _("{b}Certificates:{/b} Bachelor of Arts Degree in Gebrauchsmusik")
             text _("{b}Likes:{/b} Marylin Manson, NIN, Rammstein, Shin Junghyeon,\nShin Haechul")
             text _("{b}Dislikes:{/b} Eggplant, Ginger, Idol")
-        hbox:
-            add 'band'
+        if persistent.blind is True:
+            key 'pad_leftx_neg' action SetScreenVariable("char", "angel")
+            key 'K_LEFT' action SetScreenVariable("char", "angel")
+            key 'pad_leftx_pos' action SetScreenVariable("char", "interviewer")
+            key 'K_RIGHT' action SetScreenVariable("char", "interviewer")
+        else:
+            hbox:
+                add 'band'
 screen interviewer():
     hbox:
         vbox:
@@ -1644,8 +1833,27 @@ screen interviewer():
                 text _("{b}Height / Weight:{/b} Top Secret")
                 text _("{b}BWH:{/b} Top Secret")
                 text _("{b}Bio:{/b} Conductor of Business Management in ○○")
-        hbox:
-            add 'i_poker'
+        if persistent.blind is True:
+            key 'pad_leftx_neg':
+                if persistent.taejin is True:
+                    action SetScreenVariable("char", "taejin")
+                elif persistent.angel is True:
+                    action SetScreenVariable("char", "angel")
+                else:
+                    action SetScreenVariable("char", "hyena")
+            key 'K_LEFT':
+                if persistent.taejin is True:
+                    action SetScreenVariable("char", "taejin")
+                elif persistent.angel is True:
+                    action SetScreenVariable("char", "angel")
+                else:
+                    action SetScreenVariable("char", "hyena")
+            if persistent.doctor is True:
+                key 'pad_leftx_pos' action SetScreenVariable("char", "doctor")
+                key 'K_RIGHT' action SetScreenVariable("char", "doctor")
+        else:
+            hbox:
+                add 'i_poker'
 screen doctor():
     hbox:
         vbox:
@@ -1667,14 +1875,20 @@ screen doctor():
                 label _("{b}Doctor{/b}")
                 text _("{b}Bio:{/b} Physician")
                 text _("{font=[gui.fontawesome]}{/font} The information is unknown at this time.")
-        hbox:
-            add 'arc_char_07_bg'
+        if persistent.blind is True:
+            key 'pad_leftx_neg' action SetScreenVariable("char", "interviewer")
+            key 'K_LEFT' action SetScreenVariable("char", "interviewer")
+            key 'pad_leftx_pos' action [SetVariable('blind_set', None), Return()]
+            key 'K_RIGHT' action [SetVariable('blind_set', None), Return()]
+        else:
+            hbox:
+                add 'arc_char_07_bg'
 screen concept():
     tag menu
     default concept = "concept00"
     use game_menu(_("{font=[gui.fontawesome]}{/font} Concept"), scroll="viewport"):
         if concept == "concept00":
-            grid 5 3 spacing 20:
+            grid 4 3 spacing 20 xoffset If(renpy.variant("small"), false=135):
                 imagebutton idle 'arc_con_09_gray' hover 'arc_con_09' action SetScreenVariable("concept", "concept09")
                 if persistent.con01 is None:
                     add 'con_lock'
@@ -1712,62 +1926,149 @@ screen concept():
                     add 'con_lock'
                     add 'con_lock'
                     add 'con_lock'
-                    null width 0
-                    null width 0
-                    null width 0
                 else:
                     imagebutton idle 'arc_con_10_gray' hover 'arc_con_10' action SetScreenVariable("concept", "concept10")
                     imagebutton idle 'arc_con_11_gray' hover 'arc_con_11' action SetScreenVariable("concept", "concept11")
                     imagebutton idle 'arc_con_12_gray' hover 'arc_con_12' action SetScreenVariable("concept", "concept12")
-                    null width 0
-                    null width 0
-                    null width 0
         else:
             style_prefix "concept"
             vbox spacing 20:
                 if concept == "concept01":
-                    label _("Discouraged Worker")
-                    text _(" A discouraged worker is a person of legal employment age who is not actively seeking employment, or who can not find employment after long-term unemployment. This is usually because an individual has given up looking or has had no success in finding a job, hence the term \"discouraged\".\n\n{a=https://en.wikipedia.org/wiki/Discouraged_worker}Wikipedia{/a}\n\n Discouraged workers are classified as an economically inactive population and not included in the unemployment rate, although they are actually unemployed.\n\n And this artificially causes a decrease in the unemployment rate in official statistics, in spite of an actually higher unemployment rate. In the case of Korea, the Subsidiary Employment Index, which includes the not-calculated unemployed, was reported first in November, 2014, and accordingly, the hidden problems in Korea's employment-population ratio and discouraged workers have surfaced.")
+                    use concept01
                 if concept == "concept02":
-                    label _("Reclusive Outsider")
-                    text _(" Reclusive outsider is the phenomenon of reclusive adolescents or adults who withdraw from social life, often seeking extreme degrees of isolation and confinement. The term reclusive outsider refers to both the sociological phenomenon in general as well as to people belonging to this societal group.\n\n{a=https://en.wikipedia.org/wiki/Hikikomori}Wikipedia{/a}\n\n Choi Ga-yeon, a heroine of \"Discouraged Workers\", suffered from depressive disorder because of the sudden firing from her job and breaking-up with her lover.\n\n In addition, with her continuous failure to get a job, her anxiety disorder symptoms only became worse. And she naturally has become a hikikomori(a person who becomes a recluse and gives up any social life) after she gave up trying to get a job.")
+                    use concept02
                 if concept == "concept03":
-                    label _("Medical Referral")
-                    text _(" Generally, a medical referral is issued by a hospital when sending a patient to another hospital. Ga-yeon has received medical treatment from a psychiatrist since she was fired from the hospital where she was working as a coordinator. In spite of long treatment, her condition did not improve at all, and the hospital issued a medical referral to another hospital. But Ga-yeon refused the referral as she felt the psychiatrist gave up on her, and this made her fall into despair. So she didn't seek any more psychiatric treatment.\n\n Since many people still think negatively about seeking psychiatric treatment, and have unfavorable perceptions about those who seek it, often, people who need help with their problems, tend to avoid getting the help they need, both here in Korea and elsewhere in the world.\n\n Also in the case of Ga-yeon, she hasn't talked about it, regarding it as her embarrassing secret. The medical referral Yunwoo found in Ga-yeon's mailbox was actually a referral that Hye-na arranged for her.\n\n Actually, the description shown in the medical referral in the \"Ga-yeon and Yunwoo\" part of the story, is almost the same as the one commonly issued in a real hospital in Korea.")
+                    use concept03
                 if concept == "concept04":
-                    label _("Anxiety Disorder")
-                    text _(" Anxiety disorders are a category of mental disorders characterized by feelings of anxiety and fear, where anxiety is a worry about future events and fear is a reaction to current events. These feelings may cause physical symptoms, such as a racing heart and shakiness.\n\n{a=https://en.wikipedia.org/wiki/Anxiety_disorder}Wikipedia{/a}\n\n My mother had suffered from panic disorder for almost eight years, and she used to complain of pain and hyperpnea in certain and sometimes new and unexpected situations(Hyperpnea is the need to breathe more deeply because the person experiencing it feels light headed or otherwise feels they need more oxygen for various reasons.).\n\n And someone whom I know had anxiety disorder, and she suffered from a tic disorder including repetitive eye blinking and apnea when she feels anxiety in those same kinds of situations. She was even very dependent on alcohol and showed symptoms of caffeine addiction as well. Standing by my mother's and her side, and watching their pain and experiencing it with them, I hoped to help set them free from those painful days. But as time went by, I found I was getting numb with their pain, and at that moment, I felt extremely ashamed as a human being.")
+                    use concept04
                 if concept == "concept05":
-                    label _("Depressive Disorder")
-                    text _(" Depressive disorder is a mental disorder characterized by a pervasive and persistent low mood that is accompanied by low self-esteem and by a loss of interest or pleasure in normally enjoyable activities. The term \"depression\" is used in a number of different ways. It is often used to mean this syndrome but may refer to other mood disorders or simply to a low mood. Major depressive disorder is a disabling condition that adversely affects a person's family, work or school life, sleeping and eating habits, and general health.\n\n{a=https://en.wikipedia.org/wiki/Major_depressive_disorder}Wikipedia{/a}\n\n Choi Ga-yeon, a heroine of \"Discouraged Workers\", suffered from depressive disorder because of the sudden firing from her job and breaking-up with her lover. In addition, with her continuous failure to get a job, her anxiety disorder symptoms only became worse. And she naturally has become a hikikomori(a person who becomes a recluse and gives up any social life) after she gave up trying to get a job.")
+                    use concept05
                 if concept == "concept06":
-                    label _("Bridge of the Life")
-                    text _(" \"Bridge of the life\" was actually a sort of attempt using advanced technological methods to prevent suicide. By trying to have a conversation with a pedestrian through hopeful words and changing their desperation into hope, the designers thought suicidal people might be encouraged not to end their lives, but, in the event that failed, there was still the traditional physical anti-suicide barrier. The sensors mounted on every section of the bridge detects the exact location of a pedestrian as she/he walks by and the bridge lights the hopeful word up in the right position for a pedestrian to read.\n\n The very first bridge of life opened on Mapo Bridge, Korea on September 26, 2012, and was sponsored by Seoul City and Samsung Life Insurance. Mapo Bridge was chosen as the first installation of this new technology because it has been notorious as the place with the highest suicide rate. And the second one opened on Hangang Bridge, Korea on November 5, 2013, sponsored by Korea Health Promotional Foundation.\n\n And the ad for \"Bridge of the life\" received 39 awards in the International Advertising Festival and obtained excellent advertising effects. But regardless of this successful record, the rate of suicides by death leap has steadily increased. According to statistics, installing closed circuit television on the public bridges was more helpful in preventing suicide jumps and rescuing suicide jumpers who actually did jump than the bridge of life technology.\n\n As a result of the Samsung Life Insurance's decision to discontinue their operational support for \"Bridge of the Life\" on Mapo Bridge in September 2015, the automatic detection sensor has not worked since December 1, 2015 and the website of Bridge of the Life was also closed.\n\n In fact, Hangang Bridge wasn't yet built at the time that the \"Discouraged workers\" story takes place. But in the game, it was set as a background to let Yunwoo try to think where Ga-yeon disappeared to.")
+                    use concept06
                 if concept == "concept07":
-                    label _("IMF Crisis")
-                    text _(" The Asian financial crisis was a period of financial crisis that gripped much of East Asia beginning in July 1997 and raised fears of a worldwide economic meltdown due to financial contagion.\n\n The crisis started in Thailand with the financial collapse of the Thai baht after the Thai government was forced to float the baht due to lack of foreign currency to support its fixed exchange rate, cutting its peg to the U.S. dollar, after exhaustive efforts to support it in the face of a severe financial over-extension that was in part real estate driven.\n\n{a=https://en.wikipedia.org/wiki/1997_Asian_financial_crisis#South_Korea}Wikipedia{/a}\n\n At the time, Thailand had acquired a burden of foreign debt that made the country effectively bankrupt even before the collapse of its currency. As the crisis spread, most of Southeast Asia and Japan saw slumping currencies, devalued stock markets and other asset prices, and a precipitous rise in private debt.\n\n Indonesia, South Korea and Thailand were the countries most affected by the crisis. Hong Kong, Laos, Malaysia and the Philippines were also hurt by the slump. Brunei, China, Singapore, Taiwan and Vietnam were less affected, although all suffered from a loss of demand and confidence throughout the region.")
+                    use concept07
                 if concept == "concept08":
-                    label _("Accident")
-                    text _(" \"Accident\" tells what happens after \"Epilogue\" which is the basic ending of \"Discouraged Workers\".\n\n Ga-yeon reached out her hand toward Yunwoo, but at that moment, she blacked out and fell off the bridge. And Yunwoo threw himself into the river to save her. A few days later, they rose to the surface, and one passerby's report told their deaths to the world.\n\n If Yunwoo hadn't found his wallet, Ga-yeon would die alone while he was haggling over the taxi fare.")
+                    use concept08
                 if concept == "concept09":
-                    label _("Prologue")
-                    text _(" As a hospital coordinator, Ga-yeon fell in love with a doctor at the hospital she was working in and they had an affair even though the doctor was a married man. When the director found out, she was fired. For over a year she tried to find another job, but her mental uneasiness eventually made her give up and she became a recluse.\n\n A year later, in the spring of 2013, her younger sister, Hye-na, and her first love Yunwoo come to her.\n\n A story about the dark side of today's youth and serious life events happening around Ga-yeon.")
-                    text "[config.name]"
+                    use concept09
                 if concept == "concept10":
-                    label _("Flowery Mornings and Moonlit Nights")
-                    text _(" \"Flowery Mornings and Moonlit Nights\" is the true ending which assumes that Ga-yeon didn't faint and grabbed Yunwoo's hand in \"Epilogue\". Originally \"Discouraged Workers\" was intended to end with the \"Accident\" story as the true ending. But after deciding to release it in the market, this was chosen as the true ending.\n\n Ga-yeon finds the culprit who spread the video, with the help of Yunwoo, and reports him to the police. After that, she tries to find a job, but it's still not easy for her. Even some interviewers who know her, hurt her.\n\n Yunwoo just stays by her side and tries to protect her without saying anything, and Hye-na helps Ga-yeon to work part-time at the cafe where she's working. Ga-yeon works hard every day, grateful for being allowed to work there. One day, the cafe manager gives her a letter of recommendation from the general manager of the head office, and Ga-yeon gets an opportunity to have an interview for a large affiliated store run by the head office. And by chance, the interviewer she meets with for the job is her old boss, who during her schooldays, originally gave her the idea of her dream job being a restaurant manager. Ga-yeon passes the interview with ease, and finally, she starts to move towards her dream.")
+                    use concept10
                 if concept == "concept11":
-                    label _("Seohae Grand Bridge")
-                    text _(" A chain reaction collision, involving 29 vehicles, happened at 7:50am on October 3, 2006, Korean time, on Seohae Grand Bridge in South Korea. This collision happened due to a thick fog, and it left 12 people dead and about 50 injured. According to the investigation, the accident occurred not only because of bad weather, but also because some drivers were speeding as well as shoulder riding. But whatever the reason was, the damage was almost 4 billion won, which was the most awful and costly accident in Korean car insurance history.\n\n \"Lee Seol-ah\" is a fictitious character who died in this accident. This woman, who died at the age of 21, still in the flower of her youth, visits the world she used to live in after she died, and watches people whom she loved and shared friendships with. One day, she meets Ga-yeon who helped her in the past. To prevent her death, she decides to help Yunwoo.")
+                    use concept11
                 if concept == "concept12":
-                    label _("Red Dialogue Window")
-                    text _(" In \"Discouraged Workers\", a word box in red color is used to show the words and thoughts of Ga-yeon and a clerk Because when the basic scenario was developed, they are actually not alive.\n\n But when Ga-yeon is talking with her mom on the phone, the black box is used out of consideration for her mother.")
+                    use concept12
                 if concept == "concept07" or concept == "concept08" or concept == "concept09" or concept == "concept10" or concept == "concept12":
                     pass
                 else:
                     text _("Lee Yunseok -YGGDRASIL STUDIO")
                 textbutton _("{font=[gui.fontawesome]}{/font} Return") action SetScreenVariable("concept", "concept00")
 style concept_text is gui_text
+screen concept01():
+    label _("Discouraged Worker")
+    text _(" A discouraged worker is a person of legal employment age who is not actively seeking employment, or who can not find employment after long-term unemployment. This is usually because an individual has given up looking or has had no success in finding a job, hence the term \"discouraged\".\n\n{a=https://en.wikipedia.org/wiki/Discouraged_worker}Wikipedia{/a}\n\n Discouraged workers are classified as an economically inactive population and not included in the unemployment rate, although they are actually unemployed.\n\n And this artificially causes a decrease in the unemployment rate in official statistics, in spite of an actually higher unemployment rate. In the case of Korea, the Subsidiary Employment Index, which includes the not-calculated unemployed, was reported first in November, 2014, and accordingly, the hidden problems in Korea's employment-population ratio and discouraged workers have surfaced.")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("concept", "concept09")
+        key 'K_LEFT' action SetScreenVariable("concept", "concept09")
+        if persistent.con05 is True:
+            key 'pad_leftx_pos' action SetScreenVariable("concept", "concept05")
+            key 'K_RIGHT' action SetScreenVariable("concept", "concept05")
+screen concept02():
+    label _("Reclusive Outsider")
+    text _(" Reclusive outsider is the phenomenon of reclusive adolescents or adults who withdraw from social life, often seeking extreme degrees of isolation and confinement. The term reclusive outsider refers to both the sociological phenomenon in general as well as to people belonging to this societal group.\n\n{a=https://en.wikipedia.org/wiki/Hikikomori}Wikipedia{/a}\n\n Choi Ga-yeon, a heroine of \"Discouraged Workers\", suffered from depressive disorder because of the sudden firing from her job and breaking-up with her lover.\n\n In addition, with her continuous failure to get a job, her anxiety disorder symptoms only became worse. And she naturally has become a hikikomori(a person who becomes a recluse and gives up any social life) after she gave up trying to get a job.")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("concept", "concept05")
+        key 'K_LEFT' action SetScreenVariable("concept", "concept05")
+        if persistent.con07 is True:
+            key 'pad_leftx_pos' action SetScreenVariable("concept", "concept07")
+            key 'K_RIGHT' action SetScreenVariable("concept", "concept07")
+screen concept03():
+    label _("Medical Referral")
+    text _(" Generally, a medical referral is issued by a hospital when sending a patient to another hospital. Ga-yeon has received medical treatment from a psychiatrist since she was fired from the hospital where she was working as a coordinator. In spite of long treatment, her condition did not improve at all, and the hospital issued a medical referral to another hospital. But Ga-yeon refused the referral as she felt the psychiatrist gave up on her, and this made her fall into despair. So she didn't seek any more psychiatric treatment.\n\n Since many people still think negatively about seeking psychiatric treatment, and have unfavorable perceptions about those who seek it, often, people who need help with their problems, tend to avoid getting the help they need, both here in Korea and elsewhere in the world.\n\n Also in the case of Ga-yeon, she hasn't talked about it, regarding it as her embarrassing secret. The medical referral Yunwoo found in Ga-yeon's mailbox was actually a referral that Hye-na arranged for her.\n\n Actually, the description shown in the medical referral in the \"Ga-yeon and Yunwoo\" part of the story, is almost the same as the one commonly issued in a real hospital in Korea.")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("concept", "concept04")
+        key 'K_LEFT' action SetScreenVariable("concept", "concept04")
+        if persistent.con06 is True:
+            key 'pad_leftx_pos' action SetScreenVariable("concept", "concept06")
+            key 'K_RIGHT' action SetScreenVariable("concept", "concept06")
+screen concept04():
+    label _("Anxiety Disorder")
+    text _(" Anxiety disorders are a category of mental disorders characterized by feelings of anxiety and fear, where anxiety is a worry about future events and fear is a reaction to current events. These feelings may cause physical symptoms, such as a racing heart and shakiness.\n\n{a=https://en.wikipedia.org/wiki/Anxiety_disorder}Wikipedia{/a}\n\n My mother had suffered from panic disorder for almost eight years, and she used to complain of pain and hyperpnea in certain and sometimes new and unexpected situations(Hyperpnea is the need to breathe more deeply because the person experiencing it feels light headed or otherwise feels they need more oxygen for various reasons.).\n\n And someone whom I know had anxiety disorder, and she suffered from a tic disorder including repetitive eye blinking and apnea when she feels anxiety in those same kinds of situations. She was even very dependent on alcohol and showed symptoms of caffeine addiction as well. Standing by my mother's and her side, and watching their pain and experiencing it with them, I hoped to help set them free from those painful days. But as time went by, I found I was getting numb with their pain, and at that moment, I felt extremely ashamed as a human being.")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("concept", "concept07")
+        key 'K_LEFT' action SetScreenVariable("concept", "concept07")
+        if persistent.con03 is True:
+            key 'pad_leftx_pos' action SetScreenVariable("concept", "concept03")
+            key 'K_RIGHT' action SetScreenVariable("concept", "concept03")
+screen concept05():
+    label _("Depressive Disorder")
+    text _(" Depressive disorder is a mental disorder characterized by a pervasive and persistent low mood that is accompanied by low self-esteem and by a loss of interest or pleasure in normally enjoyable activities. The term \"depression\" is used in a number of different ways. It is often used to mean this syndrome but may refer to other mood disorders or simply to a low mood. Major depressive disorder is a disabling condition that adversely affects a person's family, work or school life, sleeping and eating habits, and general health.\n\n{a=https://en.wikipedia.org/wiki/Major_depressive_disorder}Wikipedia{/a}\n\n Choi Ga-yeon, a heroine of \"Discouraged Workers\", suffered from depressive disorder because of the sudden firing from her job and breaking-up with her lover. In addition, with her continuous failure to get a job, her anxiety disorder symptoms only became worse. And she naturally has become a hikikomori(a person who becomes a recluse and gives up any social life) after she gave up trying to get a job.")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("concept", "concept01")
+        key 'K_LEFT' action SetScreenVariable("concept", "concept01")
+        if persistent.con02 is True:
+            key 'pad_leftx_pos' action SetScreenVariable("concept", "concept02")
+            key 'K_RIGHT' action SetScreenVariable("concept", "concept02")
+screen concept06():
+    label _("Bridge of the Life")
+    text _(" \"Bridge of the life\" was actually a sort of attempt using advanced technological methods to prevent suicide. By trying to have a conversation with a pedestrian through hopeful words and changing their desperation into hope, the designers thought suicidal people might be encouraged not to end their lives, but, in the event that failed, there was still the traditional physical anti-suicide barrier. The sensors mounted on every section of the bridge detects the exact location of a pedestrian as she/he walks by and the bridge lights the hopeful word up in the right position for a pedestrian to read.\n\n The very first bridge of life opened on Mapo Bridge, Korea on September 26, 2012, and was sponsored by Seoul City and Samsung Life Insurance. Mapo Bridge was chosen as the first installation of this new technology because it has been notorious as the place with the highest suicide rate. And the second one opened on Hangang Bridge, Korea on November 5, 2013, sponsored by Korea Health Promotional Foundation.\n\n And the ad for \"Bridge of the life\" received 39 awards in the International Advertising Festival and obtained excellent advertising effects. But regardless of this successful record, the rate of suicides by death leap has steadily increased. According to statistics, installing closed circuit television on the public bridges was more helpful in preventing suicide jumps and rescuing suicide jumpers who actually did jump than the bridge of life technology.\n\n As a result of the Samsung Life Insurance's decision to discontinue their operational support for \"Bridge of the Life\" on Mapo Bridge in September 2015, the automatic detection sensor has not worked since December 1, 2015 and the website of Bridge of the Life was also closed.\n\n In fact, Hangang Bridge wasn't yet built at the time that the \"Discouraged workers\" story takes place. But in the game, it was set as a background to let Yunwoo try to think where Ga-yeon disappeared to.")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("concept", "concept03")
+        key 'K_LEFT' action SetScreenVariable("concept", "concept03")
+        if persistent.con08 is True:
+            key 'pad_leftx_pos' action SetScreenVariable("concept", "concept08")
+            key 'K_RIGHT' action SetScreenVariable("concept", "concept08")
+screen concept07():
+    label _("IMF Crisis")
+    text _(" The Asian financial crisis was a period of financial crisis that gripped much of East Asia beginning in July 1997 and raised fears of a worldwide economic meltdown due to financial contagion.\n\n The crisis started in Thailand with the financial collapse of the Thai baht after the Thai government was forced to float the baht due to lack of foreign currency to support its fixed exchange rate, cutting its peg to the U.S. dollar, after exhaustive efforts to support it in the face of a severe financial over-extension that was in part real estate driven.\n\n{a=https://en.wikipedia.org/wiki/1997_Asian_financial_crisis#South_Korea}Wikipedia{/a}\n\n At the time, Thailand had acquired a burden of foreign debt that made the country effectively bankrupt even before the collapse of its currency. As the crisis spread, most of Southeast Asia and Japan saw slumping currencies, devalued stock markets and other asset prices, and a precipitous rise in private debt.\n\n Indonesia, South Korea and Thailand were the countries most affected by the crisis. Hong Kong, Laos, Malaysia and the Philippines were also hurt by the slump. Brunei, China, Singapore, Taiwan and Vietnam were less affected, although all suffered from a loss of demand and confidence throughout the region.")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("concept", "concept02")
+        key 'K_LEFT' action SetScreenVariable("concept", "concept02")
+        if persistent.con04 is True:
+            key 'pad_leftx_pos' action SetScreenVariable("concept", "concept04")
+            key 'K_RIGHT' action SetScreenVariable("concept", "concept04")
+screen concept08():
+    label _("Accident")
+    text _(" \"Accident\" tells what happens after \"Epilogue\" which is the basic ending of \"Discouraged Workers\".\n\n Ga-yeon reached out her hand toward Yunwoo, but at that moment, she blacked out and fell off the bridge. And Yunwoo threw himself into the river to save her. A few days later, they rose to the surface, and one passerby's report told their deaths to the world.\n\n If Yunwoo hadn't found his wallet, Ga-yeon would die alone while he was haggling over the taxi fare.")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("concept", "concept06")
+        key 'K_LEFT' action SetScreenVariable("concept", "concept06")
+        if persistent.ending is True:
+            key 'pad_leftx_pos' action SetScreenVariable("concept", "concept10")
+            key 'K_RIGHT' action SetScreenVariable("concept", "concept10")
+screen concept09():
+    label _("Prologue")
+    text _(" As a hospital coordinator, Ga-yeon fell in love with a doctor at the hospital she was working in and they had an affair even though the doctor was a married man. When the director found out, she was fired. For over a year she tried to find another job, but her mental uneasiness eventually made her give up and she became a recluse.\n\n A year later, in the spring of 2013, her younger sister, Hye-na, and her first love Yunwoo come to her.\n\n A story about the dark side of today's youth and serious life events happening around Ga-yeon.")
+    text "[config.name]"
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action [SetVariable('blind_set', None), Return()]
+        key 'K_LEFT' action [SetVariable('blind_set', None), Return()]
+        if persistent.con01 is True:
+            key 'pad_leftx_pos' action SetScreenVariable("concept", "concept01")
+            key 'K_RIGHT' action SetScreenVariable("concept", "concept01")
+screen concept10():
+    label _("Flowery Mornings and Moonlit Nights")
+    text _(" \"Flowery Mornings and Moonlit Nights\" is the true ending which assumes that Ga-yeon didn't faint and grabbed Yunwoo's hand in \"Epilogue\". Originally \"Discouraged Workers\" was intended to end with the \"Accident\" story as the true ending. But after deciding to release it in the market, this was chosen as the true ending.\n\n Ga-yeon finds the culprit who spread the video, with the help of Yunwoo, and reports him to the police. After that, she tries to find a job, but it's still not easy for her. Even some interviewers who know her, hurt her.\n\n Yunwoo just stays by her side and tries to protect her without saying anything, and Hye-na helps Ga-yeon to work part-time at the cafe where she's working. Ga-yeon works hard every day, grateful for being allowed to work there. One day, the cafe manager gives her a letter of recommendation from the general manager of the head office, and Ga-yeon gets an opportunity to have an interview for a large affiliated store run by the head office. And by chance, the interviewer she meets with for the job is her old boss, who during her schooldays, originally gave her the idea of her dream job being a restaurant manager. Ga-yeon passes the interview with ease, and finally, she starts to move towards her dream.")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("concept", "concept08")
+        key 'K_LEFT' action SetScreenVariable("concept", "concept08")
+        key 'pad_leftx_pos' action SetScreenVariable("concept", "concept11")
+        key 'K_RIGHT' action SetScreenVariable("concept", "concept11")
+screen concept11():
+    label _("Seohae Grand Bridge")
+    text _(" A chain reaction collision, involving 29 vehicles, happened at 7:50am on October 3, 2006, Korean time, on Seohae Grand Bridge in South Korea. This collision happened due to a thick fog, and it left 12 people dead and about 50 injured. According to the investigation, the accident occurred not only because of bad weather, but also because some drivers were speeding as well as shoulder riding. But whatever the reason was, the damage was almost 4 billion won, which was the most awful and costly accident in Korean car insurance history.\n\n \"Lee Seol-ah\" is a fictitious character who died in this accident. This woman, who died at the age of 21, still in the flower of her youth, visits the world she used to live in after she died, and watches people whom she loved and shared friendships with. One day, she meets Ga-yeon who helped her in the past. To prevent her death, she decides to help Yunwoo.")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("concept", "concept10")
+        key 'K_LEFT' action SetScreenVariable("concept", "concept10")
+        key 'pad_leftx_pos' action SetScreenVariable("concept", "concept12")
+        key 'K_RIGHT' action SetScreenVariable("concept", "concept12")
+screen concept12():
+    label _("Red Dialogue Window")
+    text _(" In \"Discouraged Workers\", a word box in red color is used to show the words and thoughts of Ga-yeon and a clerk Because when the basic scenario was developed, they are actually not alive.\n\n But when Ga-yeon is talking with her mom on the phone, the black box is used out of consideration for her mother.")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("concept", "concept11")
+        key 'K_LEFT' action SetScreenVariable("concept", "concept11")
+        key 'pad_leftx_pos' action [SetVariable('blind_set', None), Return()]
+        key 'K_RIGHT' action [SetVariable('blind_set', None), Return()]
 screen diary():
     tag menu
     default diary = "diary00"
@@ -1775,7 +2076,7 @@ screen diary():
         if persistent.obdrawer is None:
             label _("{font=[gui.fontawesome]}{/font} Find the diary in the room.")
         elif diary == "diary00":
-            grid 5 4 spacing 20:
+            grid 4 4 spacing 20 xoffset If(renpy.variant("small"), false=135):
                 imagebutton idle 'arc_diary_01_sepia' hover 'arc_diary_01' action SetScreenVariable("diary", "diary01")
                 imagebutton idle 'arc_diary_02_sepia' hover 'arc_diary_02' action SetScreenVariable("diary", "diary02")
                 imagebutton idle 'arc_diary_03_sepia' hover 'arc_diary_03' action SetScreenVariable("diary", "diary03")
@@ -1795,78 +2096,203 @@ screen diary():
                     imagebutton idle 'arc_diary_16_sepia' hover 'arc_diary_16' action SetScreenVariable("diary", "diary16")
                 else:
                     add 'diary_lock'
-                null width 0
-                null width 0
-                null width 0
-                null width 0
         else:
             style_prefix "concept"
             vbox spacing 20:
                 if diary == "diary01":
-                    label _("My cool captain!")
-                    add 'diary01'
-                    text _(" It's been more than a month since I started working in a family restaurant. In the beginning, it was really hard to carry a tray and I even broke a few dishes. But now, I feel like I'm getting better and better. Sometimes, customers tip me as well, and also the other staff often praises my work. I'm especially good at…. hmmm…. well, it's too many to write them all down here! Later!\n\n However, the captain looks really cool. She's beautiful, smart, and also good at her work. Oh, she seems to be strong as well, as she usually carries heavy things by herself!\n\n I saw her carrying two metal trays stacked with dishes with just her two hands. It is hard even for men, but she's such a superwoman. How the hell can she do that? I hope I can do work as well as her someday.")
+                    use diary01
                 if diary == "diary02":
-                    label _("My captain's tear")
-                    add 'diary02'
-                    text _(" Today the section chief of the head office visited the restaurant. I thought the chief would be a man, but she was a young woman. She came to our restaurant and called the captain to the locker room. She passed by me while I was working there, and I saw her nametag. And I found she has the same name as a famous comedian. Funny!\n\n As the captain was not in the hall, I tried to look for her, and when I opened the door of the locker room, she looked at me in surprise and turned her face hurriedly. And she said leave her alone for a while, forcing me out of the room. She was crying.\n\n Probably the section chief made her cry. That bitch! What did the captain do wrong? Hey, I'll get even with her!! Shit!")
+                    use diary02
                 if diary == "diary03":
-                    label _("Went to see Yunwoo")
-                    add 'diary03'
-                    text _(" I went to Cheolwon, with Eunyoung to see Yunwoo today. I didn't realize it was that cold, but when I got off the bus, I was just shocked as it was literally freezing. It didn't snow, and the wind didn't blow, but cold air made even my eyes freeze. Eunyoung and I hurried into the visitor's room to wait for Yunwoo.\n\n A few minutes later, a soldier came in - actually I recognized that he was Yunwoo as soon as I saw him! And I got the giggles. His camouflage patterned muffler looked pretty cool, but his earmuffs reminded me of a once famous singer, and I couldn't stop laughing!\n\n I told him about that singer, and he got embarrassed. Eunyoung took his earmuffs away and danced, and all of us burst into laughter.\n\n However, since we said goodbye to Yunwoo, I've felt somewhat lonesome, and I still feel that way even as I'm writing this…. why do I feel this way?")
+                    use diary03
                 if diary == "diary04":
-                    label _("I rejected him")
-                    add 'diary04'
-                    text _(" After I parted with him, and while I was coming home, I tried really hard to fight back tears. But when I arrived in my room, I just burst into tears. Why? Why was I so mean to him? I raged at him, and told him to quit music. Why the hell did I do that?\n\n Today he told me what I've really looked forward to hearing from him, but why…. why couldn't I accept him? And why did I hurt him? I can't stop crying….")
+                    use diary04
                 if diary == "diary05":
-                    label _("As a friend")
-                    add 'diary05'
-                    text _(" I had a long conversation with Yunwoo today;\n\n You've just been discharged from the army, and I'm a student without a job. So what can we do now? You really think we can get married and start our home? Seriously? How?\n\n Besides, we're not romantically involved with each other. We're just friends. I think of you as my friend, and hope we could get along well with each other for a long time. That's all….\n\n I think I probably said it like that…. but of course it's not true that I think of him just as a friend, but…. To get back to our relationship as usual, I had to say it that way.\n\n I also said sorry that I hurt him.\n\n However, unexpectedly, it seemed he doesn't care about it. He said he was actually kidding when he asked me to marry him. And since I already refused his proposal anyway, there's nothing hard about getting along with me simply as a friend.\n\n What he said made me a little bit regretful, but anyway, we decided to leave as good friends as we've always been.")
+                    use diary05
                 if diary == "diary06":
-                    label _("My days in hospital")
-                    add 'diary06'
-                    text _(" It's been almost a year since I started working in this hospital. I work as a coordinator of the hospital. I had my salary raised, and also I'm pretty satisfied with my job. My savings account with the balance which gets bigger and bigger makes me feel really happy.\n\n When I had to quit the university temporarily, I was just stunned. But now that I think about it, it was rather smart to do that, actually. Because of that choice, I was able to pay Hye-na's university tuition, without a loan.\n\n I'll save more money to send Mom and Daddy to travel on, and also support Hye-na until she gets married someday. Jeez, why is time passing so fast today? Until tomorrow, I'm going to bed!\n\n Ga-yeon, just keep it up as you've done so far!")
+                    use diary06
                 if diary == "diary07":
-                    label _("Observing a doctor")
-                    add 'diary07'
-                    text _(" Oh, my god…. how could he look like him that much? His face, way of talking, character, and even that he can't hold liquor well…. everything is just like him. He reminds me of Yunwoo a lot. And it makes me feel sad. And this keeps bothering me so much. These days, I'm often trying to speak to him, or be around him. He also seems to be interested in me, and sometimes talks to me, or brings some snack or drink. He looks like a pretty good man.")
+                    use diary07
                 if diary == "diary08":
-                    label _("His wife")
-                    add 'diary08'
-                    text _(" His wife visited the hospital. Though the Director and my lover prefer a simple and plain style, she dressed up too much, with luxurious dress and accessories. She looked just full of vanity. When I saw she's coquetting with him arm in arm, she really looked like an old fox. I can't imagine she's the Director's sister, and my lover's wife. She really makes me feel sick.\n\n When he and I were left alone because of night duty. he talked to me as if he was just working, because he knew we were being recorded on a CCTV.\n\n After finishing work, I got out of the hospital, and sat alone on the bench in front of the building. After a while, all lights were off in the hospital except one—Light from his office, coming through the blinds.")
+                    use diary08
                 if diary == "diary09":
-                    label _("Farewell")
-                    add 'diary09'
-                    text _(" The director seemed to be trying hard not to hurt me, controlling his feelings. I understand he would feel betrayed as he has trusted me a lot, but he never swore at me at all, and treated me human to human. And now, I've finally realized what the hell I did. I felt really sorry for his wife, as she has never thought about this, and also felt sorry for the director who has always truly taken care of me. At the request of the Director, I decided to quit the hospital. I also said to him I would definitely break off my affair with the Doctor.\n\n After I packed up my stuff and got out of the hospital, I saw him running after me, but I just came out of the building and got into a taxi. In the running taxi, I just cried and cried. I could never see my colleagues there and the Director anymore…. and also him…. whom I made love with…. goodbye, everyone…. My greed has screwed up everything. Thank you all, and sorry….")
+                    use diary09
                 if diary == "diary10":
-                    label _("I miss him")
-                    add 'diary10'
-                    text _(" Every single day, I cry, sleep, and wake from sleep, remember my good old days, especially with him, and then, cry, and fall asleep again. Beginning with a few days ago, I sometimes burst into laughter, and sometimes, burst into a fit of anger. I feel like I can't breathe well from time to time.\n\n I miss him. I miss him looking at me with a gentle smile. Thinking this makes me weepy, and it becomes hard to breathe. Also at this moment I'm writing this, I'm feeling really suffocated.")
+                    use diary10
                 if diary == "diary11":
-                    label _("Sign")
-                    add 'diary11'
-                    text _(" Even though I had no interview today, I sat in front of my dressing table to put on makeup. But as soon as I saw my face, I was frightened, as it suddenly looked awful and disgusting. I fell backward, and managed to crawl to the bed. And I trembled and trembled. Then, I called Hye-na and begged her to save me.\n\n Soon, Hye-na came to my home, and I said to her I was probably going crazy, crying loudly in her arms. After I cried for a good while, I told her everything and taking her suggestion, I decided to see a doctor tomorrow. Hye-na is drinking a can of beer now.\n\n When I'm glancing at her, I feel my wrist, wrapped with bandages, is stinging.\n\n Okay, I'll finish today's diary here and go to bed after having some more conversations with Hye-na. Good night.")
+                    use diary11
                 if diary == "diary12":
-                    label _("A lunatic")
-                    add 'diary12'
-                    text _(" Today, I visited a neuropsychiatric clinic, with Hye-na. I was pretty afraid to go there, but as I was with my sister, I could do it. The doctor asked me a number of things, from trivial questions to what is happening to me now and what I don't want to tell others as well.\n\n He also asked whether I have some physical problems, and I told him I hurt myself several times, and especially when I looked at my face yesterday, I was really frightened, as my eyes continuously blinked. The doctor asked me to have a medical checkup. So I filled out the questionnaire and had a blood test as well.\n\n And the result said I had 'anxiety disorder' and 'depressive disorder'. I asked the doctor if I was going to be a mental patient. But he said no.\n\n He just told me my condition and tick disorder would get better soon, if I try hard to improve my life pattern and steadily get counseling.")
+                    use diary12
                 if diary == "diary13":
-                    label _("My friend, Eunju")
-                    add 'diary13'
-                    text _(" Today, I met Eunju. It's been a really long time since I've seen her. She used to be my best friend when we were high school students, but she is not single anymore. She said she's really worried as she hasn't lost any weight in spite of her steady diet since she gave birth to her baby. So I told her that she still looks good. Eunju worried about me saying I'm so bony, and she said to take her fat from her, shaking her potbelly. It was hilarious.\n\n Eunju has become a master of a Japanese fencing school. I think she probably heard about my situation from Hye-na, because she has never asked me about my job or marriage.\n\n She just kept talking about our school days, or her travel. Like other mamas, her voice was louder than it used to be, and also she speaks so fast Anyway, I'm happy she is having a good life.\n\n Ga-yeon, no more negative thinking! Okay?")
+                    use diary13
                 if diary == "diary14":
-                    label _("Getting a job")
-                    add 'diary14'
-                    text _(" These days, I receive mental health treatment, and also try hard to get a job. I didn't want to close my installment savings account, but I did, to have some reserved money for myself and also give some of it to my parents. I can't stop sending money to my parents because I have to make them believe I live well without any problem as always.\n\n However, getting a new job is harder than I expected. Because I worked mostly in restaurants, I have failed several times already, although I had a number of interviews for general office jobs.\n\n Besides, I never wrote my mental health-related matter in the resume, but some interviewers seemed to recognize my problem, as my tick disorder appeared even during the interview.\n\n I'm trying really to keep the steam up, but…. I'm getting tired of living….")
+                    use diary14
                 if diary == "diary15":
-                    label _("Rubbish and rubbish can")
-                    add 'diary15'
-                    text _(" I gave up. I gave up finding a new job, meeting people, receiving medical treatment, and everything. All are just useless. What I have now is…. only this tiny space. Where nothing happens unless I stir it.\n\n In spite of heaps of attempts to get a job, what I had was only frustration and discouragement. The hospital where I've received the treatment suggested I transfer to another hospital. Sometimes, the nebulizer which Hye-na presented me to soothe myself didn't work at all.\n\n I feel like my room is a rubbish can, and I'm just rubbish.")
+                    use diary15
                 if diary == "diary16":
-                    label _("Dying message")
-                    add 'diary16'
-                    text _(" Go die, you bitch. How dare you want to live on! You're such a hooker who tried to take another's husband! Why are you still alive? You know well what a useless thing you are. You're just a whore. Now are you going to cling to him, instead of your previous lover? You don't deserve to live anymore. Go away. Go away and die.\n\n Someone keeps whispering in my ears. Okay. Alright. Just stop it, please. Please. I'm sorry. I go and die now. So, please shut up!")
+                    use diary16
                 textbutton _("{font=[gui.fontawesome]}{/font} Return") action SetScreenVariable("diary", "diary00")
+screen diary01():
+    label _("My cool captain!")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action [SetVariable('blind_set', None), Return()]
+        key 'K_LEFT' action [SetVariable('blind_set', None), Return()]
+        key 'pad_leftx_pos' action SetScreenVariable("diary", "diary02")
+        key 'K_RIGHT' action SetScreenVariable("diary", "diary02")
+    else:
+        add 'diary01'
+    text _(" It's been more than a month since I started working in a family restaurant. In the beginning, it was really hard to carry a tray and I even broke a few dishes. But now, I feel like I'm getting better and better. Sometimes, customers tip me as well, and also the other staff often praises my work. I'm especially good at…. hmmm…. well, it's too many to write them all down here! Later!\n\n However, the captain looks really cool. She's beautiful, smart, and also good at her work. Oh, she seems to be strong as well, as she usually carries heavy things by herself!\n\n I saw her carrying two metal trays stacked with dishes with just her two hands. It is hard even for men, but she's such a superwoman. How the hell can she do that? I hope I can do work as well as her someday.")
+screen diary02():
+    label _("My captain's tear")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("diary", "diary01")
+        key 'K_LEFT' action SetScreenVariable("diary", "diary01")
+        key 'pad_leftx_pos' action SetScreenVariable("diary", "diary03")
+        key 'K_RIGHT' action SetScreenVariable("diary", "diary03")
+    else:
+        add 'diary02'
+    text _(" Today the section chief of the head office visited the restaurant. I thought the chief would be a man, but she was a young woman. She came to our restaurant and called the captain to the locker room. She passed by me while I was working there, and I saw her nametag. And I found she has the same name as a famous comedian. Funny!\n\n As the captain was not in the hall, I tried to look for her, and when I opened the door of the locker room, she looked at me in surprise and turned her face hurriedly. And she said leave her alone for a while, forcing me out of the room. She was crying.\n\n Probably the section chief made her cry. That bitch! What did the captain do wrong? Hey, I'll get even with her!! Shit!")
+screen diary03():
+    label _("Went to see Yunwoo")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("diary", "diary02")
+        key 'K_LEFT' action SetScreenVariable("diary", "diary02")
+        key 'pad_leftx_pos' action SetScreenVariable("diary", "diary04")
+        key 'K_RIGHT' action SetScreenVariable("diary", "diary04")
+    else:
+        add 'diary03'
+    text _(" I went to Cheolwon, with Eunyoung to see Yunwoo today. I didn't realize it was that cold, but when I got off the bus, I was just shocked as it was literally freezing. It didn't snow, and the wind didn't blow, but cold air made even my eyes freeze. Eunyoung and I hurried into the visitor's room to wait for Yunwoo.\n\n A few minutes later, a soldier came in - actually I recognized that he was Yunwoo as soon as I saw him! And I got the giggles. His camouflage patterned muffler looked pretty cool, but his earmuffs reminded me of a once famous singer, and I couldn't stop laughing!\n\n I told him about that singer, and he got embarrassed. Eunyoung took his earmuffs away and danced, and all of us burst into laughter.\n\n However, since we said goodbye to Yunwoo, I've felt somewhat lonesome, and I still feel that way even as I'm writing this…. why do I feel this way?")
+screen diary04():
+    label _("I rejected him")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("diary", "diary03")
+        key 'K_LEFT' action SetScreenVariable("diary", "diary03")
+        key 'pad_leftx_pos' action SetScreenVariable("diary", "diary05")
+        key 'K_RIGHT' action SetScreenVariable("diary", "diary05")
+    else:
+        add 'diary04'
+    text _(" After I parted with him, and while I was coming home, I tried really hard to fight back tears. But when I arrived in my room, I just burst into tears. Why? Why was I so mean to him? I raged at him, and told him to quit music. Why the hell did I do that?\n\n Today he told me what I've really looked forward to hearing from him, but why…. why couldn't I accept him? And why did I hurt him? I can't stop crying….")
+screen diary05():
+    label _("As a friend")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("diary", "diary04")
+        key 'K_LEFT' action SetScreenVariable("diary", "diary04")
+        key 'pad_leftx_pos' action SetScreenVariable("diary", "diary06")
+        key 'K_RIGHT' action SetScreenVariable("diary", "diary06")
+    else:
+        add 'diary05'
+    text _(" I had a long conversation with Yunwoo today;\n\n You've just been discharged from the army, and I'm a student without a job. So what can we do now? You really think we can get married and start our home? Seriously? How?\n\n Besides, we're not romantically involved with each other. We're just friends. I think of you as my friend, and hope we could get along well with each other for a long time. That's all….\n\n I think I probably said it like that…. but of course it's not true that I think of him just as a friend, but…. To get back to our relationship as usual, I had to say it that way.\n\n I also said sorry that I hurt him.\n\n However, unexpectedly, it seemed he doesn't care about it. He said he was actually kidding when he asked me to marry him. And since I already refused his proposal anyway, there's nothing hard about getting along with me simply as a friend.\n\n What he said made me a little bit regretful, but anyway, we decided to leave as good friends as we've always been.")
+screen diary06():
+    label _("My days in hospital")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("diary", "diary05")
+        key 'K_LEFT' action SetScreenVariable("diary", "diary05")
+        key 'pad_leftx_pos' action SetScreenVariable("diary", "diary07")
+        key 'K_RIGHT' action SetScreenVariable("diary", "diary07")
+    else:
+        add 'diary06'
+    text _(" It's been almost a year since I started working in this hospital. I work as a coordinator of the hospital. I had my salary raised, and also I'm pretty satisfied with my job. My savings account with the balance which gets bigger and bigger makes me feel really happy.\n\n When I had to quit the university temporarily, I was just stunned. But now that I think about it, it was rather smart to do that, actually. Because of that choice, I was able to pay Hye-na's university tuition, without a loan.\n\n I'll save more money to send Mom and Daddy to travel on, and also support Hye-na until she gets married someday. Jeez, why is time passing so fast today? Until tomorrow, I'm going to bed!\n\n Ga-yeon, just keep it up as you've done so far!")
+screen diary07():
+    label _("Observing a doctor")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("diary", "diary06")
+        key 'K_LEFT' action SetScreenVariable("diary", "diary06")
+        key 'pad_leftx_pos' action SetScreenVariable("diary", "diary08")
+        key 'K_RIGHT' action SetScreenVariable("diary", "diary08")
+    else:
+        add 'diary07'
+    text _(" Oh, my god…. how could he look like him that much? His face, way of talking, character, and even that he can't hold liquor well…. everything is just like him. He reminds me of Yunwoo a lot. And it makes me feel sad. And this keeps bothering me so much. These days, I'm often trying to speak to him, or be around him. He also seems to be interested in me, and sometimes talks to me, or brings some snack or drink. He looks like a pretty good man.")
+screen diary08():
+    label _("His wife")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("diary", "diary07")
+        key 'K_LEFT' action SetScreenVariable("diary", "diary07")
+        key 'pad_leftx_pos' action SetScreenVariable("diary", "diary09")
+        key 'K_RIGHT' action SetScreenVariable("diary", "diary09")
+    else:
+        add 'diary08'
+    text _(" His wife visited the hospital. Though the Director and my lover prefer a simple and plain style, she dressed up too much, with luxurious dress and accessories. She looked just full of vanity. When I saw she's coquetting with him arm in arm, she really looked like an old fox. I can't imagine she's the Director's sister, and my lover's wife. She really makes me feel sick.\n\n When he and I were left alone because of night duty. he talked to me as if he was just working, because he knew we were being recorded on a CCTV.\n\n After finishing work, I got out of the hospital, and sat alone on the bench in front of the building. After a while, all lights were off in the hospital except one—Light from his office, coming through the blinds.")
+screen diary09():
+    label _("Farewell")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("diary", "diary08")
+        key 'K_LEFT' action SetScreenVariable("diary", "diary08")
+        key 'pad_leftx_pos' action SetScreenVariable("diary", "diary10")
+        key 'K_RIGHT' action SetScreenVariable("diary", "diary10")
+    else:
+        add 'diary09'
+    text _(" The director seemed to be trying hard not to hurt me, controlling his feelings. I understand he would feel betrayed as he has trusted me a lot, but he never swore at me at all, and treated me human to human. And now, I've finally realized what the hell I did. I felt really sorry for his wife, as she has never thought about this, and also felt sorry for the director who has always truly taken care of me. At the request of the Director, I decided to quit the hospital. I also said to him I would definitely break off my affair with the Doctor.\n\n After I packed up my stuff and got out of the hospital, I saw him running after me, but I just came out of the building and got into a taxi. In the running taxi, I just cried and cried. I could never see my colleagues there and the Director anymore…. and also him…. whom I made love with…. goodbye, everyone…. My greed has screwed up everything. Thank you all, and sorry….")
+screen diary10():
+    label _("I miss him")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("diary", "diary09")
+        key 'K_LEFT' action SetScreenVariable("diary", "diary09")
+        key 'pad_leftx_pos' action SetScreenVariable("diary", "diary11")
+        key 'K_RIGHT' action SetScreenVariable("diary", "diary11")
+    else:
+        add 'diary10'
+    text _(" Every single day, I cry, sleep, and wake from sleep, remember my good old days, especially with him, and then, cry, and fall asleep again. Beginning with a few days ago, I sometimes burst into laughter, and sometimes, burst into a fit of anger. I feel like I can't breathe well from time to time.\n\n I miss him. I miss him looking at me with a gentle smile. Thinking this makes me weepy, and it becomes hard to breathe. Also at this moment I'm writing this, I'm feeling really suffocated.")
+screen diary11():
+    label _("Sign")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("diary", "diary10")
+        key 'K_LEFT' action SetScreenVariable("diary", "diary10")
+        key 'pad_leftx_pos' action SetScreenVariable("diary", "diary12")
+        key 'K_RIGHT' action SetScreenVariable("diary", "diary12")
+    else:
+        add 'diary11'
+    text _(" Even though I had no interview today, I sat in front of my dressing table to put on makeup. But as soon as I saw my face, I was frightened, as it suddenly looked awful and disgusting. I fell backward, and managed to crawl to the bed. And I trembled and trembled. Then, I called Hye-na and begged her to save me.\n\n Soon, Hye-na came to my home, and I said to her I was probably going crazy, crying loudly in her arms. After I cried for a good while, I told her everything and taking her suggestion, I decided to see a doctor tomorrow. Hye-na is drinking a can of beer now.\n\n When I'm glancing at her, I feel my wrist, wrapped with bandages, is stinging.\n\n Okay, I'll finish today's diary here and go to bed after having some more conversations with Hye-na. Good night.")
+screen diary12():
+    label _("A lunatic")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("diary", "diary11")
+        key 'K_LEFT' action SetScreenVariable("diary", "diary11")
+        key 'pad_leftx_pos' action SetScreenVariable("diary", "diary13")
+        key 'K_RIGHT' action SetScreenVariable("diary", "diary13")
+    else:
+        add 'diary12'
+    text _(" Today, I visited a neuropsychiatric clinic, with Hye-na. I was pretty afraid to go there, but as I was with my sister, I could do it. The doctor asked me a number of things, from trivial questions to what is happening to me now and what I don't want to tell others as well.\n\n He also asked whether I have some physical problems, and I told him I hurt myself several times, and especially when I looked at my face yesterday, I was really frightened, as my eyes continuously blinked. The doctor asked me to have a medical checkup. So I filled out the questionnaire and had a blood test as well.\n\n And the result said I had 'anxiety disorder' and 'depressive disorder'. I asked the doctor if I was going to be a mental patient. But he said no.\n\n He just told me my condition and tick disorder would get better soon, if I try hard to improve my life pattern and steadily get counseling.")
+screen diary13():
+    label _("My friend, Eunju")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("diary", "diary12")
+        key 'K_LEFT' action SetScreenVariable("diary", "diary12")
+        key 'pad_leftx_pos' action SetScreenVariable("diary", "diary14")
+        key 'K_RIGHT' action SetScreenVariable("diary", "diary14")
+    else:
+        add 'diary13'
+    text _(" Today, I met Eunju. It's been a really long time since I've seen her. She used to be my best friend when we were high school students, but she is not single anymore. She said she's really worried as she hasn't lost any weight in spite of her steady diet since she gave birth to her baby. So I told her that she still looks good. Eunju worried about me saying I'm so bony, and she said to take her fat from her, shaking her potbelly. It was hilarious.\n\n Eunju has become a master of a Japanese fencing school. I think she probably heard about my situation from Hye-na, because she has never asked me about my job or marriage.\n\n She just kept talking about our school days, or her travel. Like other mamas, her voice was louder than it used to be, and also she speaks so fast Anyway, I'm happy she is having a good life.\n\n Ga-yeon, no more negative thinking! Okay?")
+screen diary14():
+    label _("Getting a job")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("diary", "diary13")
+        key 'K_LEFT' action SetScreenVariable("diary", "diary13")
+        key 'pad_leftx_pos' action SetScreenVariable("diary", "diary15")
+        key 'K_RIGHT' action SetScreenVariable("diary", "diary15")
+    else:
+        add 'diary14'
+    text _(" These days, I receive mental health treatment, and also try hard to get a job. I didn't want to close my installment savings account, but I did, to have some reserved money for myself and also give some of it to my parents. I can't stop sending money to my parents because I have to make them believe I live well without any problem as always.\n\n However, getting a new job is harder than I expected. Because I worked mostly in restaurants, I have failed several times already, although I had a number of interviews for general office jobs.\n\n Besides, I never wrote my mental health-related matter in the resume, but some interviewers seemed to recognize my problem, as my tick disorder appeared even during the interview.\n\n I'm trying really to keep the steam up, but…. I'm getting tired of living….")
+screen diary15():
+    label _("Rubbish and rubbish can")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("diary", "diary14")
+        key 'K_LEFT' action SetScreenVariable("diary", "diary14")
+        if persistent.dying is True:
+            key 'pad_leftx_pos' action SetScreenVariable("diary", "diary16")
+            key 'K_RIGHT' action SetScreenVariable("diary", "diary16")
+    else:
+        add 'diary15'
+    text _(" I gave up. I gave up finding a new job, meeting people, receiving medical treatment, and everything. All are just useless. What I have now is…. only this tiny space. Where nothing happens unless I stir it.\n\n In spite of heaps of attempts to get a job, what I had was only frustration and discouragement. The hospital where I've received the treatment suggested I transfer to another hospital. Sometimes, the nebulizer which Hye-na presented me to soothe myself didn't work at all.\n\n I feel like my room is a rubbish can, and I'm just rubbish.")
+screen diary16():
+    label _("Dying message")
+    if persistent.blind is True:
+        key 'pad_leftx_neg' action SetScreenVariable("diary", "diary15")
+        key 'K_LEFT' action SetScreenVariable("diary", "diary15")
+        key 'pad_leftx_pos' action [SetVariable('blind_set', None), Return()]
+        key 'K_RIGHT' action [SetVariable('blind_set', None), Return()]
+    else:
+        add 'diary16'
+    text _(" Go die, you bitch. How dare you want to live on! You're such a hooker who tried to take another's husband! Why are you still alive? You know well what a useless thing you are. You're just a whore. Now are you going to cling to him, instead of your previous lover? You don't deserve to live anymore. Go away. Go away and die.\n\n Someone keeps whispering in my ears. Okay. Alright. Just stop it, please. Please. I'm sorry. I go and die now. So, please shut up!")
 screen gallery():
     tag menu
     use game_menu(_("{font=[gui.fontawesome]}{/font} Gallery"), scroll="viewport"):
@@ -1910,7 +2336,7 @@ screen music_room():
     tag menu
     use game_menu(_("{font=[gui.fontawesome]}{/font} Music"), scroll=None):
         hbox spacing 100:
-            if renpy.variant("pc"):
+            if not renpy.variant("small"):
                 vbox:
                     textbutton _("[gui.bgm01]") action mr.Play("bgm/Pandemic.opus")
                     textbutton _("[gui.bgm02]") action mr.Play("bgm/Sigh day.opus")
@@ -1925,6 +2351,9 @@ screen music_room():
                     textbutton _("[gui.bgm11]") action mr.Play("bgm/Summit showdown.opus")
                     textbutton _("[gui.bgm12]") action mr.Play("bgm/Love song.opus")
                     textbutton _("[gui.bgm13]") action mr.Play("bgm/Sea of nectar.opus")
+            else:
+                vbox:
+                    null width 0
             vbox:
                 add 'fate' zoom .5 xalign .5
                 null height (2 * gui.pref_spacing)
@@ -1988,9 +2417,9 @@ screen music_room():
                                 if steam.dlc_installed(375160):
                                     textbutton _("{font=[gui.fontawesome]}{/font} Manual"):
                                         if _preferences.language == 'Korean':
-                                            action OpenDirectory('Soundtrack/maunal/discouraged_workers_ost_manual_ko.pdf')
+                                            action OpenDirectory('Soundtrack/manual/discouraged_workers_ost_readme_ko.pdf')
                                         else:
-                                            action OpenDirectory('Soundtrack/maunal/discouraged_workers_ost_manual.pdf')
+                                            action OpenDirectory('Soundtrack/manual/discouraged_workers_ost_readme.pdf')
                                 else:
                                     textbutton _("{font=[gui.fontawesome]}{/font} Add to cart") action [SetField(persistent, 'dlc', 'buy'), SetVariable('dlc_key', 375160), Jump('dlc')]
         on "replace" action mr.Play()
@@ -2113,20 +2542,23 @@ screen credits_list():
             text _("Animation, Character Sprites, CG Sprites -From March 10, 2015")
         hbox:
             label _("Brian Connors")
-            text _("English Translation Adviser -From June 3, 2015")
+            text _("English Translation Adviser -June 3, 2015~July 1, 2017")
         hbox:
             label _("Ga Younghee")
             text _("English Translator -April 11, 2015~June 10, 2016")
         hbox:
+            label _("IVY")
+            text _("Chinese Translator -July 25, 2016~February 10, 2018")
+        hbox:
             label _("Roman Koledin")
-            text _("Russian Translator -From August 28, 2016")
+            text _("Russian Translator -August 28, 2016~December 7, 2017")
         hbox:
             label _("Adam Patric Kratz")
             text _("Epilepsy Adviser -November 15, 2015~November 20, 2015")
         label _('{font=[gui.fontawesome]}{/font} {font=gui/fonts/Merienda-Regular.ttf}Project Gamer Japonés{/font}')
         hbox:
             label _("Oscar Ballona Centeno")
-            text _("Project Leader In Spanish, Spanish Translator -From May 29, 2017")
+            text _("Project Leader in Spanish, Spanish Translator -From May 29, 2017")
         hbox:
             label _("AxelBodga")
             text _("Spanish Editor -From May 29, 2017")
@@ -2213,6 +2645,9 @@ screen authors():
             label _("SusanTheCat")
             text _("The original code for Ren'Py jigsaw puzzle")
         hbox:
+            label _("The Android Open Source Project")
+            text _("DroidSansFallback")
+        hbox:
             label _("Tom Rothamel")
             text _("Ren'Py Visual Novel Engine")
         hbox:
@@ -2221,6 +2656,9 @@ screen authors():
         hbox:
             label _("Vic Fieger fonts")
             text _("Edo")
+        hbox:
+            label _("Zhuo Xiao Feng")
+            text _("Shu Ti Fang Zhuo Xiao Feng Xing Cao Ti")
 screen photographers():
     vbox:
         spacing 23
@@ -2322,10 +2760,10 @@ screen dlc():
                     if steam.dlc_installed(375160):
                         textbutton _("{font=[gui.fontawesome]}{/font} Open") action OpenDirectory('Soundtrack/')
                         textbutton _("{font=[gui.fontawesome]}{/font} Manual"):
-                            if _preferences.language == 'Korean':
-                                action OpenDirectory('Soundtrack/maunal/discouraged_workers_ost_manual_ko.pdf')
+                            if steam.get_current_game_language() == 'koreana':
+                                action OpenDirectory('Soundtrack/manual/discouraged_workers_ost_readme_ko.pdf')
                             else:
-                                action OpenDirectory('Soundtrack/maunal/discouraged_workers_ost_manual.pdf')
+                                action OpenDirectory('Soundtrack/manual/discouraged_workers_ost_readme.pdf')
                         textbutton _("{font=[gui.fontawesome]}{/font} Gift") action [SetField(persistent, 'dlc', 'buy'), SetVariable('dlc_key', 375160), Jump('dlc')]
                         textbutton _("{font=[gui.fontawesome]}{/font} Delete") action [SetField(persistent, 'dlc', 'delete'), SetVariable('dlc_key', 375160), Jump('dlc')]
                     else:
@@ -2360,10 +2798,16 @@ screen dlc():
                 hbox:
                     if steam.dlc_installed(384650):
                         textbutton _("{font=[gui.fontawesome]}{/font} View"):
-                            if _preferences.language == None:
-                                action OpenDirectory('Books/discouraged_workers_concept_book.pdf')
-                            if _preferences.language == 'Korean':
+                            if steam.get_current_game_language() == 'koreana':
                                 action OpenDirectory('Books/discouraged_workers_concept_book_ko.pdf')
+                            elif steam.get_current_game_language() == 'russian':
+                                action OpenDirectory('Books/discouraged_workers_concept_book_ru.pdf')
+                            elif steam.get_current_game_language() == 'schinese':
+                                action OpenDirectory('Books/discouraged_workers_concept_book_zh.pdf')
+                            elif steam.get_current_game_language() == 'spanish':
+                                action OpenDirectory('Books/discouraged_workers_concept_book_es.pdf')
+                            else:
+                                action OpenDirectory('Books/discouraged_workers_concept_book.pdf')
                         textbutton _("{font=[gui.fontawesome]}{/font} Gift") action [SetField(persistent, 'dlc', 'buy'), SetVariable('dlc_key', 384650), Jump('dlc')]
                         textbutton _("{font=[gui.fontawesome]}{/font} Delete") action [SetField(persistent, 'dlc', 'delete'), SetVariable('dlc_key', 384650), Jump('dlc')]
                     else:
@@ -2386,6 +2830,35 @@ screen dlc():
                     else:
                         textbutton _("{font=[gui.fontawesome]}{/font} Install") action [SetField(persistent, 'dlc', 'install'), SetVariable('dlc_key', 407760), Jump('dlc')]
                         textbutton _("{font=[gui.fontawesome]}{/font} Add to cart") action [SetField(persistent, 'dlc', 'buy'), SetVariable('dlc_key', 407760), Jump('dlc')]
+        null height (4 * gui.pref_spacing)
+        hbox:
+            if steam.dlc_installed(375161):
+                add '375161_header'
+            else:
+                add '375161_header_sepia'
+            null width (2 * gui.pref_spacing)
+            vbox:
+                label _("Tarot PNP Pack")
+                hbox:
+                    if steam.dlc_installed(375161):
+                        textbutton _("{font=[gui.fontawesome]}{/font} Open"):
+                            if steam.get_current_game_language() == 'koreana':
+                                action OpenDirectory('Books/kndw_tarot_ko.pdf')
+                            elif steam.get_current_game_language() == 'russian':
+                                action OpenDirectory('Books/kndw_tarot_ru.pdf')
+                            elif steam.get_current_game_language() == 'schinese':
+                                action OpenDirectory('Books/kndw_tarot_zh.pdf')
+                            elif steam.get_current_game_language() == 'spanish':
+                                action OpenDirectory('Books/kndw_tarot_es.pdf')
+                            elif steam.get_current_game_language() == 'english':
+                                action OpenDirectory('Books/kndw_tarot.pdf')
+                            else:
+                                action OpenDirectory('Books/')
+                        textbutton _("{font=[gui.fontawesome]}{/font} Gift") action [SetField(persistent, 'dlc', 'buy'), SetVariable('dlc_key', 375161), Jump('dlc')]
+                        textbutton _("{font=[gui.fontawesome]}{/font} Delete") action [SetField(persistent, 'dlc', 'delete'), SetVariable('dlc_key', 375161), Jump('dlc')]
+                    else:
+                        textbutton _("{font=[gui.fontawesome]}{/font} Install") action [SetField(persistent, 'dlc', 'install'), SetVariable('dlc_key', 375161), Jump('dlc')]
+                        textbutton _("{font=[gui.fontawesome]}{/font} Add to cart") action [SetField(persistent, 'dlc', 'buy'), SetVariable('dlc_key', 375161), Jump('dlc')]
         null height (4 * gui.pref_spacing)
         hbox:
             if steam.dlc_installed(558690):
@@ -2420,7 +2893,7 @@ screen mod():
                     label _(mitem)
                     text _(mdesc)
                     hbox:
-                        textbutton _("{font=[gui.fontawesome]}{/font} Start") action Start(mlabel)
+                        textbutton _("{font=[gui.fontawesome]}{/font} Start") action [SetField(persistent, 'downloadable', False), Start(mlabel)]
             null height (4 * gui.pref_spacing)
 screen esteregg_01():
     tag menu
@@ -2685,8 +3158,8 @@ screen wimcj_countdown:
     else:
         text str(wimcj_time) xpos .01 ypos .01 color "#000" outlines[(1, "#ffffffcf", 0, 0)] font "gui/fonts/BrokenGlass.ttf" size 256 at wimcj_timer_normal
 screen wimcj_level_nav:
-    if persistent.wimcj_level_buttons == True:
-        textbutton '{font=[gui.fontawesome]}{/font}' text_color '#000' text_size 256 xsize 1920 background None hover_background 'wimcj_system_white' activate_sound 'se/wimcj_walk.opus' xalign .5 ypos -.05:
+    if renpy.variant("small"):
+        textbutton '{font=[gui.fontawesome]}{/font}' text_color '#000' text_size 256 text_xalign .5 text_yalign .5 xsize 1920 ysize 128 background None hover_background 'wimcj_system_white' activate_sound 'se/wimcj_walk.opus' xalign .5 yalign 0:
             if wimcj_level == 1:
                 if wimcj_level_001_move == 0:
                     action [SetVariable('wimcj_level_001_move', 4), SetVariable('wimcj_time', wimcj_time - 1), Jump('wimcj_001_play')]
@@ -2720,7 +3193,7 @@ screen wimcj_level_nav:
                     action Jump('wimcj_001_play')
                 if wimcj_level_001_move == 15:
                     action Jump('wimcj_001_play')
-        textbutton '{font=[gui.fontawesome]}{/font}' text_color '#000' text_size 256 xsize 1920 background None hover_background 'wimcj_system_white' activate_sound 'se/wimcj_walk.opus' xalign .5 ypos .8:
+        textbutton '{font=[gui.fontawesome]}{/font}' text_color '#000' text_size 256 text_xalign .5 text_yalign .5 xsize 1920 ysize 128 background None hover_background 'wimcj_system_white' activate_sound 'se/wimcj_walk.opus' xalign .5 yalign .999:
             if wimcj_level == 1:
                 if wimcj_level_001_move == 0:
                     action [SetVariable('wimcj_level_001_move', 2), SetVariable('wimcj_time', wimcj_time - 1), Jump('wimcj_001_play')]
@@ -2754,7 +3227,7 @@ screen wimcj_level_nav:
                     action [SetVariable('wimcj_level_001_move', 6), SetVariable('wimcj_time', wimcj_time - 1), Jump('wimcj_001_play')]
                 if wimcj_level_001_move == 15:
                     action [SetVariable('wimcj_level_001_move', 6), SetVariable('wimcj_time', wimcj_time - 1), Jump('wimcj_001_play')]
-        textbutton '{font=[gui.fontawesome]}{/font}' text_color '#000' text_size 256 ysize 1080 background None hover_background 'wimcj_system_white' activate_sound 'se/wimcj_walk.opus' xalign 0 yalign .5:
+        textbutton '{font=[gui.fontawesome]}{/font}' text_color '#000' text_size 256 text_xalign .5 text_yalign .5 xsize 128 ysize 1080 background None hover_background 'wimcj_system_white' activate_sound 'se/wimcj_walk.opus' xalign 0 yalign .5:
             if wimcj_level == 1:
                 if wimcj_level_001_move == 0:
                     action [SetVariable('wimcj_level_001_move', 2), SetVariable('wimcj_time', wimcj_time - 1), Jump('wimcj_001_play')]
@@ -2788,7 +3261,7 @@ screen wimcj_level_nav:
                     action [SetVariable('wimcj_level_001_move', 2), SetVariable('wimcj_time', wimcj_time - 1), Jump('wimcj_001_play')]
                 if wimcj_level_001_move == 15:
                     action [SetVariable('wimcj_level_001_move', 4), SetVariable('wimcj_time', wimcj_time - 1), Jump('wimcj_001_play')]
-        textbutton '{font=[gui.fontawesome]}{/font}' text_color '#000' text_size 256 ysize 1080 background None hover_background 'wimcj_system_white' activate_sound 'se/wimcj_walk.opus' xpos .909 yalign .5:
+        textbutton '{font=[gui.fontawesome]}{/font}' text_color '#000' text_size 256 text_xalign .5 text_yalign .5 xsize 128 ysize 1080 background None hover_background 'wimcj_system_white' activate_sound 'se/wimcj_walk.opus' xalign .999 yalign .5:
             if wimcj_level == 1:
                 if wimcj_level_001_move == 0:
                     action [SetVariable('wimcj_level_001_move', 11), SetVariable('wimcj_time', wimcj_time - 1), Jump('wimcj_001_play')]

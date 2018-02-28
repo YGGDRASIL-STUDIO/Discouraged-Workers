@@ -6,12 +6,22 @@ translate Spanish python:
     gui.name_text_font = "gui/fonts/Merienda-Bold.ttf"
     gui.interface_text_font = "gui/fonts/Merienda-Regular.ttf"
     gui.button_text_font  = "gui/fonts/Merienda-Regular.ttf"
+    gui.quick_hbox_xpos = .817
+    gui.quick_hbox_ypos = .755
     config.name = "Trabajadores desanimados"
     config.window_title = u"Trabajadores desanimados"
     config.translations['Automatic saves'] = u'Grabación automática'
-    config.translations['Quick saves'] = u'Grabación rápid'
-    build_date = "18 Dic. 2017"
-    copyright = "©2017 YGGDRASIL STUDIO"
+    config.translations['Quick saves'] = u'Grabación rápida'
+    if renpy.variant("small"):
+        config.translations["{font=[gui.fontawesome]}{/font} Basic Settings"] = u"{font=[gui.fontawesome]}{/font} básicos"
+        config.translations["{font=[gui.fontawesome]}{/font} Seen Text"] = u"{font=[gui.fontawesome]}{/font} Texto visto"
+        config.translations["{font=[gui.fontawesome]}{/font} Mute All"] = u"{font=[gui.fontawesome]}{/font} Silencia"
+        config.translations["{font=[gui.fontawesome]}{/font} Authors"] = u"{font=[gui.fontawesome]}{/font} Autores"
+        config.translations['ACOC, Aiman Sharul, Axel Mertes, Bgame, Brandon Tanimoto, Brian Connors, BRISAK Kim Doohyeon, cheif.choi, Choi Irang, Choi Jihye, cloture, Danielle Bell, Edward N Puckering, Gary King, Gwak Jaeryeol, Han Ihyeong, Hoe Namyoon, Hong Eunki, Hwang Daehoon, Hyojoon, James Emmerson, Jeong Dongwon, Jeong Wookjin, Jeong Yoonsoo, Jianmin Zhang,\nKarina Schulze, Keira Val\'Azr, Kim Hanseol, Kim Hyeoncheol, Kim Jaeseong, Kim Jeongwoong, Kim Myeongwook,\nLee Changki, Lee Eunji, Lee Gunhae, Lee Hyejin, Lee Jaewi, Light Twins, Lim Jisoo, Maddy Wootton,\nMarshall Proudfoot, Mirumu, Mojaeng, Oh Hyeonjun, Park Hyeonjun, Park JoonKoo, Rewind, Sander Tieleman, srwss, Sung Chanaul, YottaCho, Zerial.net'] = u'ACOC, Aiman Sharul, Axel Mertes, Bgame, Brandon Tanimoto, Brian Connors,\nBRISAK Kim Doohyeon, cheif.choi, Choi Irang,\nChoi Jihye, cloture, Danielle Bell,\nEdward N Puckering, Gary King, Gwak Jaeryeol, Han Ihyeong, Hoe Namyoon, Hong Eunki,\nHwang Daehoon, Hyojoon, James Emmerson,\nJeong Dongwon, Jeong Wookjin,\nJeong Yoonsoo, Jianmin Zhang, Karina Schulze,\nKeira Val\'Azr, Kim Hanseol, Kim Hyeoncheol,\nKim Jaeseong, Kim Jeongwoong,\nKim Myeongwook, Lee Changki, Lee Eunji,\nLee Gunhae, Lee Hyejin, Lee Jaewi,\nLight Twins, Lim Jisoo, Maddy Wootton,\nMarshall Proudfoot, Mirumu, Mojaeng,\nOh Hyeonjun, Park Hyeonjun, Park JoonKoo,\nRewind, Sander Tieleman, srwss, Sung Chanaul,\nYottaCho, Zerial.net'
+        config.translations['Caz Woolley, Game Dev Robot, Gamsadev, Indie GameDev Bot, Indie Game Lover, Indie Games Devel, IndieVideoGames, Joachim Dimitri Jensen, Kim Kyeongtae, Kim Younghwan, Kurt Simon, Linda Lee King, Peter Christiansen, Sakimichi, Sebastian Haba, Spero Mcgee, The Indie Sloth, Vrachos, Xin Liu, Yu Shinhyeon'] = u'Caz Woolley, Game Dev Robot, Gamsadev,\nIndie GameDev Bot, Indie Game Lover,\nIndie Games Devel, IndieVideoGames,\nJoachim Dimitri Jensen, Kim Kyeongtae,\nKim Younghwan, Kurt Simon, Linda Lee King,\nPeter Christiansen, Sakimichi, Sebastian Haba,\nSpero Mcgee, The Indie Sloth, Vrachos,\nXin Liu, Yu Shinhyeon'
+        config.translations['Christopher Rice, George Winston, Kim Sooyoung, Lee Illseong, Pixabay, Shin Haechul, So Reyeon, Tom Rothamel,\nValve Corporation'] = u'Christopher Rice, George Winston,\nKim Sooyoung, Lee Illseong, Pixabay,\nShin Haechul, So Reyeon, Tom Rothamel,\nValve Corporation'
+    build_date = "26 Feb. 2018"
+    copyright = "©2018 YGGDRASIL STUDIO"
     gui.attention = "Advertencia"
     gui.start = "Empieza a leer"
     gui.bookmarks = "Marcadores"
@@ -20,6 +30,9 @@ translate Spanish python:
     gui.arcq = "Archivo"
     gui.dlc = "DLC y MOD"
     gui.conf = "Configuración"
+    gui.blind_char  = "Personajes"
+    gui.blind_con  = "Concepto"
+    gui.blind_diary  = "Agenda"
     gui.conq = "Config"
     gui.play = "Auto"
     gui.stop = "Pausa"
@@ -77,10 +90,10 @@ translate Spanish python:
     gui.bgm11 = "11. Cumbre enfrentamiento"
     gui.bgm12 = "12. Canción de amor"
     gui.bgm13 = "13. El mar de néctar"
-    gui.about = "Discouraged Workers ©2017 YGGDRASIL STUDIO Co, Pte. All Rights Reserved. All literary works/trademarks are property of their respective owners. Do not distribute our program or any alterations of our program files. For the End User License Agreement, please view the EULA.txt file in the licenses directory, or visit {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/gh-pages/EULA.txt}here{/a}."
+    gui.about = "Discouraged Workers ©2018 YGGDRASIL STUDIO Co, Pte. All Rights Reserved. All literary works/trademarks are property of their respective owners. Do not distribute our program or any alterations of our program files. For the End User License Agreement, please view the EULA.txt file in the licenses directory, or visit {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/gh-pages/EULA.txt}here{/a}."
     code.license = "The source code of Discouraged Workers is covered by the terms of the GNU Lesser General Public License v3.0. The source code can be found {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/source-codes}here{/a}."
     font.license = "This program contains free font software under a number of licenses, including the SIL Open Font License. A complete list of font software, including links to download can be found {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/wiki/about#licenses}here{/a}, or please view the fonts-LICENSE.txt file in the licenses directory."
     renpy.license = "Este programa contiene software libre sujeto a diversas licencias que incluyen la licencia MIT y la {i}GNU Lesser General Public License{/i} (Licencia Pública General Reducida de GNU). Puedes encontrar la lista completa de software, con enlaces al código fuente completo, {a=https://www.renpy.org/l/license}aquí (en inglés){/a}."
-    valve.license = "©2017 Valve Corporation. Steam y el logo de Steam son marcas y/o marcas registradas de Valve Corporation en los E.E.U.U. y/u otros países.\n\n©2017 Valve Corporation. Steamworks y el logo de Steamworks son marcas y/o marcas registradas de Valve Corporation en los E.E.U.U. y/u otros países."
+    valve.license = "©2018 Valve Corporation. Steam y el logo de Steam son marcas y/o marcas registradas de Valve Corporation en los E.E.U.U. y/u otros países.\n\n©2018 Valve Corporation. Steamworks y el logo de Steamworks son marcas y/o marcas registradas de Valve Corporation en los E.E.U.U. y/u otros países."
     xbox.license = "This program contains Xbox 360 Controller/Button images. The asset pack can be found {a=http://xbox.create.msdn.com/en-us/education/catalog/utility/controller_buttons}here{/a}."
     cc.license = "This program contains a number of assets that are covered by the terms of the Creative Commons License. For a list of assets, and a location where the original assets can be downloaded from, please view the assets-LICENSE.txt file in the licenses directory or visit {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/wiki/about#licenses}here{/a}."

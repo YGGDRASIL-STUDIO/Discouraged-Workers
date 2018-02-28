@@ -1,5 +1,5 @@
 ﻿init python:
-    import subprocess, sys, os, math
+    import subprocess, sys, os, shutil, math, pygame_sdl2 as pygame
     class OpenDirectory(Action):
         def __init__(self, directory, absolute=False):
             if absolute:
@@ -235,13 +235,13 @@
     renpy.register_persistent('steam', controllers)
     renpy.register_persistent('xbox', controllers)
     renpy.register_persistent('ouya', controllers)
-    achievement.register('KNDW_IDENTIFY', stat_max=10)
-    achievement.register('KNDW_CONCEPT', stat_max=13)
+    achievement.register('KNDW_IDENTIFY', steam_stat='IDENTIFY', stat_max=10)
+    achievement.register('KNDW_CONCEPT', steam_stat='CONCEPT', stat_max=13)
     achievement.register('KNDW_DIARY')
-    achievement.register('KNDW_ART', stat_max=32)
-    achievement.register('KNDW_OST', stat_max=13)
-    achievement.register('KNDW_PROGRESS', stat_max=25)
-    achievement.register('KNDW_OBJECT', stat_max=10)
+    achievement.register('KNDW_ART', steam_stat='ART', stat_max=32)
+    achievement.register('KNDW_OST', steam_stat='OST', stat_max=13)
+    achievement.register('KNDW_PROGRESS', steam_stat='PROGRESS', stat_max=25)
+    achievement.register('KNDW_OBJECT', steam_stat='OBJECT', stat_max=10)
     achievement.register('KNDW_KILLER')
     achievement.register('KNDW_MASTER')
     achievement.register('KNDW_SPONSOR')
@@ -252,9 +252,9 @@
     achievement.register('KNDW_GAMEOVER')
     achievement.register('KNDW_ACCIDENT')
     achievement.register('KNDW_DEMO')
-    achievement.register('KNDW_ADULT', stat_max=5)
-    achievement.register('KNDW_LEFT', stat_max=3)
-    achievement.register('KNDW_RIGHT', stat_max=6)
+    achievement.register('KNDW_ADULT', steam_stat='ADULT', stat_max=5)
+    achievement.register('KNDW_LEFT', steam_stat='LEFT', stat_max=3)
+    achievement.register('KNDW_RIGHT', steam_stat='RIGHT', stat_max=6)
     achievement.register('KNDW_MURDERER')
     achievement.register('KNDW_ONLOOKER')
     achievement.register('KNDW_WALLET')
@@ -307,7 +307,15 @@
     gocount = 0
     progress = 0
     arc_diary = 0
+    gp = 0
+    gc = 0
+    gd = 0
+    gg = 0
+    gm = 0
+    gr = 0
+    smoke = 0
     dlc_key = 0
+    blind_set = None
     wimcj_timer_range = 0
     wimcj_timer_jump = 0
     wimcj_level = 0
@@ -335,22 +343,28 @@
         persistent.ester_last_order = 0
     persistent.archives = False
     persistent.downloadable = False
-    persistent.wimcj_level_buttons = True
 label splashscreen:
     if persistent.opening is None:
         call screen default_language
     scene black
     if _preferences.language is None or _preferences.language == "Spanish":
-        show warning at truecenter
+        if persistent.blind is True:
+            show expression Text("[gui.attention]\nThe episode is adult content. The program contains Violence, Blood, Strong Sexual Content, Nudity, Strong Language, Use of Tobacco, Alcohol Reference. Not recommended for Children, Seniors or Pregnant, Feeble-Minded Person.", yalign=.5, size=48, style="centered_text")
+        else:
+            show warning at truecenter
     else:
         show expression Text("[gui.attention]", yalign=.1, size=72)
         show expression Text("[gui.language]", yalign=.3, size=48, style="centered_text")
         show warning
     $ renpy.transition(Dissolve(1))
-    $ renpy.pause(3, hard = True)
+    if persistent.blind is True:
+        pause 30
+    else:
+        $ renpy.pause(3, hard = True)
     scene black
-    $ renpy.transition(Dissolve(3))
-    $ renpy.pause(3, hard = True)
+    if not persistent.blind is True:
+        $ renpy.transition(Dissolve(3))
+        $ renpy.pause(3, hard = True)
     if persistent.opening is None:
         scene black
         show yggdrasil_logo at truecenter

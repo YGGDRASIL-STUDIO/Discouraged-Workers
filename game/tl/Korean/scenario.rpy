@@ -155,7 +155,7 @@ translate Korean start_e104a025:
 translate Korean start_99ffcc8f:
     centered "{cps=15}어차피 받을 거였으면서.{/cps}"
 translate Korean start_a1ffec2d:
-    centered "{cps=15}네가 뭐 잘났다고 받으니 마니 하는 거야?{/cps=15}"
+    centered "{cps=15}네가 뭐 잘났다고 받으니 마니 하는 거야?{/cps}"
 translate Korean mono0_ccc78b6b:
     centered "{cps=15}나는 백조다.{/cps}"
 translate Korean mono0_7947d98a:
@@ -1809,7 +1809,7 @@ translate Korean life_c550fae3:
 translate Korean life_c6281023:
     y "그나마 아르바이트를 하면서 현금으로 받아 그 돈으로 생활하고 있었는데,{w=.3} 내가 너무 힘이 들었던 거야."
 translate Korean life_fab70695:
-    na "전혀 몰랐다.{w=3} 윤우가 죽고 싶다는 생각을 했었다니."
+    na "전혀 몰랐다.{w=.3} 윤우가 죽고 싶다는 생각을 했었다니."
 translate Korean life_0c98e726:
     y "수업을 받는 도중에 너무 답답해서 베이스랑 음악 노트를 들고 운동장으로 나갔어."
 translate Korean life_d9f7b6d2:
@@ -2255,11 +2255,11 @@ translate Korean self_inflicted_9e0ed3ed:
 translate Korean self_inflicted_7eaa3923:
     sv "[gui.choice]"
 translate Korean self_inflicted_507d444f:
-    sv "왼쪽 방향쇠: [gui.healing] 오른쪽 방향쇠: [gui.judge]"
+    sv "왼쪽 방향쇠: [gui.heal] 오른쪽 방향쇠: [gui.judge]"
 translate Korean self_inflicted_7eaa3923_1:
     sv "[gui.choice]"
 translate Korean self_inflicted_507d444f_1:
-    sv "왼쪽 방향쇠: [gui.healing] 오른쪽 방향쇠: [gui.judge]"
+    sv "왼쪽 방향쇠: [gui.heal] 오른쪽 방향쇠: [gui.judge]"
 translate Korean love_ebe73684:
     na "윤우,{w=.3} 윤우가 필요해."
 translate Korean love_21bb4027:
@@ -2952,10 +2952,6 @@ translate Korean bridge_bacc5361:
     sv "중요한 장면이 이어집니다. 여기서 책갈피를 하시겠습니까?"
 translate Korean bridge_6ba75f3e:
     sv "왼쪽 방향쇠: 네, 오른쪽 방향쇠: 아니오."
-translate Korean bridge_7eaa3923:
-    sv "[gui.choice]"
-translate Korean bridge_6b19a876:
-    sv "왼쪽 방향쇠: [gui.left] 오른쪽 방향쇠: [gui.right]"
 translate Korean bridge_control_74f9271b:
     na "걸음을 따라 가드레일에 빛이 들어왔고,{w=.3} 유명인사가 적었을 것 같은 문구가 선명하게 보였다.{w=.3} 나는 새겨진 문구를 읽으며 짧게 생각한다."
 translate Korean bridge_control_b532839b:

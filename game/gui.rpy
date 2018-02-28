@@ -66,6 +66,8 @@ define gui.quick_button_text_idle_color = "#B76E79"
 define gui.quick_button_text_hover_color = gui.text_color
 define gui.quick_button_text_selected_color = "#ccc"
 define gui.quick_button_text_muted_color = "#883e35"
+define gui.quick_hbox_xpos = .818
+define gui.quick_hbox_ypos = .77
 define gui.choice_button_width = 1185
 define gui.choice_button_height = None
 define gui.choice_button_tile = False
@@ -152,6 +154,7 @@ init python:
         gui.dialogue_xpos = 30
         gui.dialogue_width = 1540
         gui.choice_button_width = 1860
+        gui.navigation_xpos = 10
         gui.navigation_spacing = 30
         gui.pref_button_spacing = 15
         gui.history_height = 285

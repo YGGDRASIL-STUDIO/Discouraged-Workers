@@ -155,7 +155,7 @@ translate Spanish start_e104a025:
 translate Spanish start_99ffcc8f:
     centered "{cps=15}Bueno,{w=.3} no importa cuanto me dio,{w=.3} iba a aceptarlo de todos modos.{/cps}"
 translate Spanish start_a1ffec2d:
-    centered "{cps=15}¿Cómo podía negarme?{/cps=15}"
+    centered "{cps=15}¿Cómo podía negarme?{/cps}"
 translate Spanish mono0_ccc78b6b:
     centered "{cps=15}No tengo trabajo.{/cps}"
 translate Spanish mono0_7947d98a:
@@ -2261,11 +2261,11 @@ translate Spanish self_inflicted_9e0ed3ed:
 translate Spanish self_inflicted_7eaa3923:
     sv "[gui.choice]"
 translate Spanish self_inflicted_507d444f:
-    sv "Tecla de flecha izquierda: [gui.healing], Tecla de flecha derecha: [gui.judge]"
+    sv "Tecla de flecha izquierda: [gui.heal], Tecla de flecha derecha: [gui.judge]"
 translate Spanish self_inflicted_7eaa3923_1:
     sv "[gui.choice]"
 translate Spanish self_inflicted_507d444f_1:
-    sv "Tecla de flecha izquierda: [gui.healing], Tecla de flecha derecha: [gui.judge]"
+    sv "Tecla de flecha izquierda: [gui.heal], Tecla de flecha derecha: [gui.judge]"
 translate Spanish love_ebe73684:
     na "Yunwoo,{w=.3} necesito Yunwoo."
 translate Spanish love_21bb4027:
@@ -2462,9 +2462,9 @@ translate Spanish love_f9e296e4:
     centered "{color=#ff0000}{size=72}Es…,{w=.3} Yunwoo.{/size}{/color}"
 translate Spanish love_d432d27f:
     na "Él y yo hemos hecho el amor."
-translate Korean love_d8de96e3:
+translate Spanish love_d8de96e3:
     centered "{color=#ff0000}{size=72}{cps=15}Es…,{w=.3} Yunwoo.{/cps}{/size}{/color}"
-translate Korean love_bf459150:
+translate Spanish love_bf459150:
     centered "{color=#ff0000}{size=72}{cps=5}¿Es Yunwoo?{/cps}{/size}{/color}"
 translate Spanish love_a159b2bf:
     na "Yunwoo y yo caminamos por la calle,{w=.3} de la mano."
@@ -2958,10 +2958,6 @@ translate Spanish bridge_bacc5361:
     sv "El siguiente paso es una escena importante. ¿Quieres guardar aquí?"
 translate Spanish bridge_6ba75f3e:
     sv "Tecla de flecha izquierda: Sí, Tecla de flecha derecha: No."
-translate Spanish bridge_7eaa3923:
-    sv "[gui.choice]"
-translate Spanish bridge_6b19a876:
-    sv "Tecla de flecha izquierda: [gui.left], Tecla de flecha derecha: [gui.right]"
 translate Spanish bridge_control_74f9271b:
     na "Mientras camino por el camino,{w=.3} una luz brilla sobre el pasamanos.{w=.3} Y puedo ver las palabras que probablemente fueron escritas por algunas celebridades.{w=.3} Pienso en lo que dicen…."
 translate Spanish bridge_control_b532839b:
