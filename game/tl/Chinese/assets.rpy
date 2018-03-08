@@ -44,7 +44,7 @@ translate Chinese strings:
     old '{i}Epilogue{/i}'
     new '{i}结局{/i}'
     old '{i}Flowery & moonlit{/i}'
-    new '花朝月夕'
+    new '{i}花朝月夕{/i}'
     old '{i}Choi Ga-yeon{/i}'
     new '{i}崔佳妍{/i}'
     old '{i}Kim Yunwoo{/i}'

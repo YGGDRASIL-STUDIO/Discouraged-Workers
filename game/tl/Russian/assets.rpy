@@ -12,7 +12,7 @@ translate Russian strings:
     old '{i}Calm afternoon{/i}'
     new '{k=-4}{i}Спокойный полдень{/i}{/k}'
     old '{size=-5}{i}Questionable feelings{/i}{/size}'
-    new 'Интуиции'
+    new '{i}Интуиции{/i}'
     old '{i}Circumstances{/i}'
     new '{i}Обстоятельства{/i}'
     old '{i}Distortion{/i}'
