@@ -659,7 +659,7 @@ label phone:
         $ persistent.bgm05 = True
         $ persistent.bgm += 1
         $ persistent.char += 1
-        $ persistent.gall += 3
+        $ persistent.gall += 1
         $ persistent.replay += 1
         $ achievement.progress('KNDW_PROGRESS', 4)
         $ achievement.progress('KNDW_IDENTIFY', 5)
