@@ -33,7 +33,7 @@ screen default_language():
                                 textbutton _("{font=[gui.fontawesome]}{/font} Reset Achievements") action Jump('rmsteam') tooltip _("This will reset your Steam Achievements progress.")
                             label _("{font=[gui.fontawesome]}{/font} Reset")
                             textbutton _("{font=[gui.fontawesome]}{/font} Persistent") action Jump('reset') tooltip _("This will delete your local persistent data.")
-                            textbutton _("{font=[gui.fontawesome]}{/font} Reset all") action Jump('resetall') tooltip _("This will reset all your progress, including local persistent and saved data, and Steam Achievements")                         
+                            textbutton _("{font=[gui.fontawesome]}{/font} Reset all") action Jump('resetall') tooltip _("This will reset all your progress, including local persistent and saved data, and Steam Achievements")
                 if renpy.variant("mobile"):
                     vbox:
                         style_prefix "radio"
@@ -56,7 +56,7 @@ screen default_language():
                 if renpy.variant("pc"):
                     vbox:
                         style_prefix "radio"
-                        label _("{font=[gui.fontawesome]}{/font} Blind-friendly")
+                        label _("{font=[gui.fontawesome]}{/font} Blind-friendly")
                         textbutton _("{font=[gui.fontawesome]}{/font} Enable") action [SetField(_preferences, 'self_voicing', True), SetField(persistent, 'blind', True), SetMixer('music', 0.5), SetField(_preferences, "video_image_fallback", True)] tooltip _("This will activate the blind-friendly features with the self-voicing feature.")
                         textbutton _("{font=[gui.fontawesome]}{/font} Disable") action [SetField(_preferences, 'self_voicing', False), SetField(persistent, 'blind', None), SetMixer('music', 1.0), SetField(_preferences, "video_image_fallback", False)] tooltip _("This will disable the blind-friendly features.")
             null height (4 * gui.pref_spacing)

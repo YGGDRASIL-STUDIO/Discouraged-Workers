@@ -2115,7 +2115,7 @@ translate Spanish discouraged_f11f39a8:
 translate Spanish discouraged_8a94d8e8:
     na "Lo sé,{w=.3} soy tan snob."
 translate Spanish discouraged_bc9ff15d:
-    na "En mi computadora,{w=.3} un video está jugando mostrando a un hombre que una vez amé y con el que  tuve relaciones sexuales."
+    na "En mi computadora,{w=.3} un video está jugando mostrando a un hombre que una vez amé y con el que tuve relaciones sexuales."
 translate Spanish discouraged_48297a65:
     na "Aunque lo estoy viendo,{w=.3} no lo veo."
 translate Spanish discouraged_b5cd5ed9:
