@@ -4381,62 +4381,63 @@ label credits:
     sv "You married Yunwoo, lived happily together, and gave birth to a daughter."
     sv "Thank you for playing Discouraged Workers. We are YGGDRASIL STUDIO."
     if not persistent.blind is True:
-        scene expression 'ending' with d
-        show expression Text ('[gui.credits]', style='credits_title')
-        show expression Text ('{b}Lee Yunseok{/b}\n\nDirecting, Design, Programming,\nMusic, Sound, Writing,\nUI Design, Background CG, Object Sprites,\nPackaging, Video, Website\n-From April 21, 2013', style='credits_text')
-        with blind
-        $ renpy.pause(5, hard = True)
-        hide expression Text ('{b}Lee Yunseok{/b}\n\nDirecting, Design, Programming,\nMusic, Sound, Writing,\nUI Design, Background CG, Object Sprites,\nPackaging, Video, Website\n-From April 21, 2013', style='credits_text')
-        show expression Text ('{b}chibilis studio{/b}\n\nAnimation, Character Sprites, CG Sprites\n-From March 10, 2015', style='credits_text')
-        with blind
-        $ renpy.pause(5, hard = True)
-        hide expression Text ('{b}chibilis studio{/b}\n\nAnimation, Character Sprites, CG Sprites\n-From March 10, 2015', style='credits_text')
-        show expression Text ('{b}Adam Patric Kratz{/b}\n\nEpilepsy Adviser\n-November 15, 2015~November 20, 2015', style='credits_text')
-        with blind
-        $ renpy.pause(5, hard = True)
-        hide expression Text ('{b}Adam Patric Kratz{/b}\n\nEpilepsy Adviser\n-November 15, 2015~November 20, 2015', style='credits_text')
-        show expression Text ('{b}Brian Connors{/b}\n\nEnglish Translation Adviser\n-June 3, 2015~July 1, 2017\n\n{b}Ga Younghee{/b}\n\nEnglish Translator\n-April 11, 2015~June 10, 2016', style='credits_text')
-        with blind
-        $ renpy.pause(5, hard = True)
-        hide expression Text ('{b}Brian Connors{/b}\n\nEnglish Translation Adviser\n-June 3, 2015~July 1, 2017\n\n{b}Ga Younghee{/b}\n\nEnglish Translator\n-April 11, 2015~June 10, 2016', style='credits_text')
-        show expression Text ('{b}IVY{/b}\n\nChinese Translator\n-July 25, 2016~February 10, 2018\n\n{b}Roman Koledin{/b}\n\nRussian Translator\n-August 28, 2016~December 7, 2017', style='credits_text')
-        with blind
-        $ renpy.pause(5, hard = True)
-        hide expression Text ('[gui.credits]', style='credits_title')
-        hide expression Text ('{b}IVY{/b}\n\nChinese Translator\n-July 25, 2016~February 10, 2018\n\n{b}Roman Koledin{/b}\n\nRussian Translator\n-August 28, 2016~December 7, 2017', style='credits_text')
-        show expression Text ('{font=gui/fonts/Edo.ttf}{size=64}Project Gamer Japonés{/size}{/font}', style='credits_title')
-        show expression Text ('{b}Oscar Ballona Centeno{/b}\n\nProject Leader in Spanish, Spanish Translator\n-From May 29, 2017\n\n{b}AxelBodga{/b}\n\nSpanish Editor\n-From May 29, 2017\n\n{b}Yisus{/b}\n\nSpanish Translator\n-From May 29, 2017', style='credits_text')
-        with blind
-        $ renpy.pause(5, hard = True)
-        hide expression Text ('{font=gui/fonts/Edo.ttf}{size=64}Project Gamer Japonés{/size}{/font}', style='credits_title')
-        hide expression Text ('{b}Oscar Ballona Centeno{/b}\n\nProject Leader in Spanish, Spanish Translator\n-From May 29, 2017\n\n{b}AxelBodga{/b}\n\nSpanish Editor\n-From May 29, 2017\n\n{b}Yisus{/b}\n\nSpanish Translator\n-From May 29, 2017', style='credits_text')
-        show expression Text ('Old Version', style='credits_title')
-        show expression Text ('{b}YANG{/b}\n\nMale sprites, CG sprites\n-April 8, 2015~September 13, 2015\n\n{b}Jeon Junsik{/b}\n\nUnofficial Demo Sprites\n-January 5, 2015~February 25, 2015\n\n{b}Kyle Fawcett{/b}\n\nEnglish Demo Translation Adviser\n-June 3, 2015~June 14, 2015', style='credits_text')
-        with blind
-        $ renpy.pause(5, hard = True)
-        hide expression Text ('Old Version', style='credits_title')
-        hide expression Text ('{b}YANG{/b}\n\nMale sprites, CG sprites\n-April 8, 2015~September 13, 2015\n\n{b}Jeon Junsik{/b}\n\nUnofficial Demo Sprites\n-January 5, 2015~February 25, 2015\n\n{b}Kyle Fawcett{/b}\n\nEnglish Demo Translation Adviser\n-June 3, 2015~June 14, 2015', style='credits_text')
-        show expression Text ('Contributors', style='credits_title')
-        show expression Text ('{b}ACOC, Aiman Sharul, Axel Mertes,\nBgame, Brandon Tanimoto, Brian Connors,\nBRISAK Kim Doohyeon, cheif.choi, Choi Irang,\nChoi Jihye, cloture, Danielle Bell,\nEdward N Puckering, Gary King, Gwak Jaeryeol,\nHan Ihyeong, Hoe Namyoon, Hong Eunki,\nHwang Daehoon, Hyojoon, James Emmerson,\nJeong Dongwon, Jeong Wookjin, Jeong Yoonsoo,{/b}', style='credits_text')
-        with blind
-        $ renpy.pause(5, hard = True)
-        hide expression Text ('{b}ACOC, Aiman Sharul, Axel Mertes,\nBgame, Brandon Tanimoto, Brian Connors,\nBRISAK Kim Doohyeon, cheif.choi, Choi Irang,\nChoi Jihye, cloture, Danielle Bell,\nEdward N Puckering, Gary King, Gwak Jaeryeol,\nHan Ihyeong, Hoe Namyoon, Hong Eunki,\nHwang Daehoon, Hyojoon, James Emmerson,\nJeong Dongwon, Jeong Wookjin, Jeong Yoonsoo,{/b}', style='credits_text')
-        show expression Text ('{b}Jianmin Zhang, Karina Schulze, Keira Val\'Azr,\nKim Hanseol, Kim Hyeoncheol, Kim Jaeseong,\nKim Jeongwoong, Kim Myeongwook,\nLee Changki, Lee Eunji, Lee Gunhae,\nLee Hyejin, Lee Jaewi, Light Twins, Lim Jisoo,\nMaddy Wootton, Marshall Proudfoot, Mirumu,\nMojaeng, Oh Hyeonjun, Park Hyeonjun,\nPark JoonKoo, Rewind, Sander Tieleman,\nsrwss, Sung Chanaul, YottaCho, Zerial.net{/b}', style='credits_text')
-        with blind
-        $ renpy.pause(5, hard = True)
-        hide expression Text ('Contributors', style='credits_title')
-        hide expression Text ('{b}Jianmin Zhang, Karina Schulze, Keira Val\'Azr,\nKim Hanseol, Kim Hyeoncheol, Kim Jaeseong,\nKim Jeongwoong, Kim Myeongwook,\nLee Changki, Lee Eunji, Lee Gunhae,\nLee Hyejin, Lee Jaewi, Light Twins, Lim Jisoo,\nMaddy Wootton, Marshall Proudfoot, Mirumu,\nMojaeng, Oh Hyeonjun, Park Hyeonjun,\nPark JoonKoo, Rewind, Sander Tieleman,\nsrwss, Sung Chanaul, YottaCho, Zerial.net{/b}', style='credits_text')
-        show expression Text ('Rooters', style='credits_title')
-        show expression Text ('{b}Caz Woolley, Game Dev Robot, Gamsadev,\nIndie GameDev Bot, Indie Game Lover,\nIndie Games Devel, IndieVideoGames,\nJoachim Dimitri Jensen, Kim Kyeongtae,\nKim Younghwan, Kurt Simon, Linda Lee King,\nPeter Christiansen, Sakimichi, Sebastian Haba,\nSpero Mcgee, The Indie Sloth, Vrachos,\nXin Liu, Yu Shinhyeon{/b}', style='credits_text')
-        with blind
-        $ renpy.pause(5, hard = True)
-        hide expression Text ('Rooters', style='credits_title')
-        hide expression Text ('{b}Caz Woolley, Game Dev Robot, Gamsadev,\nIndie GameDev Bot, Indie Game Lover,\nIndie Games Devel, IndieVideoGames,\nJoachim Dimitri Jensen, Kim Kyeongtae,\nKim Younghwan, Kurt Simon, Linda Lee King,\nPeter Christiansen, Sakimichi, Sebastian Haba,\nSpero Mcgee, The Indie Sloth, Vrachos,\nXin Liu, Yu Shinhyeon{/b}', style='credits_text')
-        with blind
-        $ renpy.pause(5, hard = True)
-        scene black
-        with d3
-        $ renpy.pause(3, hard = True)
+		if not renpy.variant("small"):
+			scene expression 'ending' with d
+			show expression Text ('[gui.credits]', style='credits_title')
+			show expression Text ('{b}Lee Yunseok{/b}\n\nDirecting, Design, Programming,\nMusic, Sound, Writing,\nUI Design, Background CG, Object Sprites,\nPackaging, Video, Website\n-From April 21, 2013', style='credits_text')
+			with blind
+			$ renpy.pause(5, hard = True)
+			hide expression Text ('{b}Lee Yunseok{/b}\n\nDirecting, Design, Programming,\nMusic, Sound, Writing,\nUI Design, Background CG, Object Sprites,\nPackaging, Video, Website\n-From April 21, 2013', style='credits_text')
+			show expression Text ('{b}chibilis studio{/b}\n\nAnimation, Character Sprites, CG Sprites\n-From March 10, 2015', style='credits_text')
+			with blind
+			$ renpy.pause(5, hard = True)
+			hide expression Text ('{b}chibilis studio{/b}\n\nAnimation, Character Sprites, CG Sprites\n-From March 10, 2015', style='credits_text')
+			show expression Text ('{b}Adam Patric Kratz{/b}\n\nEpilepsy Adviser\n-November 15, 2015~November 20, 2015', style='credits_text')
+			with blind
+			$ renpy.pause(5, hard = True)
+			hide expression Text ('{b}Adam Patric Kratz{/b}\n\nEpilepsy Adviser\n-November 15, 2015~November 20, 2015', style='credits_text')
+			show expression Text ('{b}Brian Connors{/b}\n\nEnglish Translation Adviser\n-June 3, 2015~July 1, 2017\n\n{b}Ga Younghee{/b}\n\nEnglish Translator\n-April 11, 2015~June 10, 2016', style='credits_text')
+			with blind
+			$ renpy.pause(5, hard = True)
+			hide expression Text ('{b}Brian Connors{/b}\n\nEnglish Translation Adviser\n-June 3, 2015~July 1, 2017\n\n{b}Ga Younghee{/b}\n\nEnglish Translator\n-April 11, 2015~June 10, 2016', style='credits_text')
+			show expression Text ('{b}IVY{/b}\n\nChinese Translator\n-July 25, 2016~February 10, 2018\n\n{b}Roman Koledin{/b}\n\nRussian Translator\n-August 28, 2016~December 7, 2017', style='credits_text')
+			with blind
+			$ renpy.pause(5, hard = True)
+			hide expression Text ('[gui.credits]', style='credits_title')
+			hide expression Text ('{b}IVY{/b}\n\nChinese Translator\n-July 25, 2016~February 10, 2018\n\n{b}Roman Koledin{/b}\n\nRussian Translator\n-August 28, 2016~December 7, 2017', style='credits_text')
+			show expression Text ('{font=gui/fonts/Edo.ttf}{size=64}Project Gamer Japonés{/size}{/font}', style='credits_title')
+			show expression Text ('{b}Oscar Ballona Centeno{/b}\n\nProject Leader in Spanish, Spanish Translator\n-From May 29, 2017\n\n{b}AxelBodga{/b}\n\nSpanish Editor\n-From May 29, 2017\n\n{b}Yisus{/b}\n\nSpanish Translator\n-From May 29, 2017', style='credits_text')
+			with blind
+			$ renpy.pause(5, hard = True)
+			hide expression Text ('{font=gui/fonts/Edo.ttf}{size=64}Project Gamer Japonés{/size}{/font}', style='credits_title')
+			hide expression Text ('{b}Oscar Ballona Centeno{/b}\n\nProject Leader in Spanish, Spanish Translator\n-From May 29, 2017\n\n{b}AxelBodga{/b}\n\nSpanish Editor\n-From May 29, 2017\n\n{b}Yisus{/b}\n\nSpanish Translator\n-From May 29, 2017', style='credits_text')
+			show expression Text ('Old Version', style='credits_title')
+			show expression Text ('{b}YANG{/b}\n\nMale sprites, CG sprites\n-April 8, 2015~September 13, 2015\n\n{b}Jeon Junsik{/b}\n\nUnofficial Demo Sprites\n-January 5, 2015~February 25, 2015\n\n{b}Kyle Fawcett{/b}\n\nEnglish Demo Translation Adviser\n-June 3, 2015~June 14, 2015', style='credits_text')
+			with blind
+			$ renpy.pause(5, hard = True)
+			hide expression Text ('Old Version', style='credits_title')
+			hide expression Text ('{b}YANG{/b}\n\nMale sprites, CG sprites\n-April 8, 2015~September 13, 2015\n\n{b}Jeon Junsik{/b}\n\nUnofficial Demo Sprites\n-January 5, 2015~February 25, 2015\n\n{b}Kyle Fawcett{/b}\n\nEnglish Demo Translation Adviser\n-June 3, 2015~June 14, 2015', style='credits_text')
+			show expression Text ('Contributors', style='credits_title')
+			show expression Text ('{b}ACOC, Aiman Sharul, Axel Mertes,\nBgame, Brandon Tanimoto, Brian Connors,\nBRISAK Kim Doohyeon, cheif.choi, Choi Irang,\nChoi Jihye, cloture, Danielle Bell,\nEdward N Puckering, Gary King, Gwak Jaeryeol,\nHan Ihyeong, Hoe Namyoon, Hong Eunki,\nHwang Daehoon, Hyojoon, James Emmerson,\nJeong Dongwon, Jeong Wookjin, Jeong Yoonsoo,{/b}', style='credits_text')
+			with blind
+			$ renpy.pause(5, hard = True)
+			hide expression Text ('{b}ACOC, Aiman Sharul, Axel Mertes,\nBgame, Brandon Tanimoto, Brian Connors,\nBRISAK Kim Doohyeon, cheif.choi, Choi Irang,\nChoi Jihye, cloture, Danielle Bell,\nEdward N Puckering, Gary King, Gwak Jaeryeol,\nHan Ihyeong, Hoe Namyoon, Hong Eunki,\nHwang Daehoon, Hyojoon, James Emmerson,\nJeong Dongwon, Jeong Wookjin, Jeong Yoonsoo,{/b}', style='credits_text')
+			show expression Text ('{b}Jianmin Zhang, Karina Schulze, Keira Val\'Azr,\nKim Hanseol, Kim Hyeoncheol, Kim Jaeseong,\nKim Jeongwoong, Kim Myeongwook,\nLee Changki, Lee Eunji, Lee Gunhae,\nLee Hyejin, Lee Jaewi, Light Twins, Lim Jisoo,\nMaddy Wootton, Marshall Proudfoot, Mirumu,\nMojaeng, Oh Hyeonjun, Park Hyeonjun,\nPark JoonKoo, Rewind, Sander Tieleman,\nsrwss, Sung Chanaul, YottaCho, Zerial.net{/b}', style='credits_text')
+			with blind
+			$ renpy.pause(5, hard = True)
+			hide expression Text ('Contributors', style='credits_title')
+			hide expression Text ('{b}Jianmin Zhang, Karina Schulze, Keira Val\'Azr,\nKim Hanseol, Kim Hyeoncheol, Kim Jaeseong,\nKim Jeongwoong, Kim Myeongwook,\nLee Changki, Lee Eunji, Lee Gunhae,\nLee Hyejin, Lee Jaewi, Light Twins, Lim Jisoo,\nMaddy Wootton, Marshall Proudfoot, Mirumu,\nMojaeng, Oh Hyeonjun, Park Hyeonjun,\nPark JoonKoo, Rewind, Sander Tieleman,\nsrwss, Sung Chanaul, YottaCho, Zerial.net{/b}', style='credits_text')
+			show expression Text ('Rooters', style='credits_title')
+			show expression Text ('{b}Caz Woolley, Game Dev Robot, Gamsadev,\nIndie GameDev Bot, Indie Game Lover,\nIndie Games Devel, IndieVideoGames,\nJoachim Dimitri Jensen, Kim Kyeongtae,\nKim Younghwan, Kurt Simon, Linda Lee King,\nPeter Christiansen, Sakimichi, Sebastian Haba,\nSpero Mcgee, The Indie Sloth, Vrachos,\nXin Liu, Yu Shinhyeon{/b}', style='credits_text')
+			with blind
+			$ renpy.pause(5, hard = True)
+			hide expression Text ('Rooters', style='credits_title')
+			hide expression Text ('{b}Caz Woolley, Game Dev Robot, Gamsadev,\nIndie GameDev Bot, Indie Game Lover,\nIndie Games Devel, IndieVideoGames,\nJoachim Dimitri Jensen, Kim Kyeongtae,\nKim Younghwan, Kurt Simon, Linda Lee King,\nPeter Christiansen, Sakimichi, Sebastian Haba,\nSpero Mcgee, The Indie Sloth, Vrachos,\nXin Liu, Yu Shinhyeon{/b}', style='credits_text')
+			with blind
+			$ renpy.pause(5, hard = True)
+			scene black
+			with d3
+			$ renpy.pause(3, hard = True)
         show start:
             xalign .5 yalign .2
         show expression Text ('Special Thanks To', style='thanks_title')
