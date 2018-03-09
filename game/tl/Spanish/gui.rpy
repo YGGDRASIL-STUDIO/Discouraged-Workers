@@ -14,6 +14,7 @@ translate Spanish python:
     config.translations['Quick saves'] = u'Grabación rápida'
     if renpy.variant("small"):
         config.translations["{font=[gui.fontawesome]}{/font} Basic Settings"] = u"{font=[gui.fontawesome]}{/font} básicos"
+        config.translations["{font=[gui.fontawesome]}{/font} Main Menu"] = u"{font=[gui.fontawesome]}{/font} Меню"
         config.translations["{font=[gui.fontawesome]}{/font} Seen Text"] = u"{font=[gui.fontawesome]}{/font} Texto visto"
         config.translations["{font=[gui.fontawesome]}{/font} Mute All"] = u"{font=[gui.fontawesome]}{/font} Silencia"
         config.translations["{font=[gui.fontawesome]}{/font} Authors"] = u"{font=[gui.fontawesome]}{/font} Autores"

@@ -13,6 +13,7 @@ translate Russian python:
     config.translations['Quick saves'] = u'Быстрые сохранения'
     if renpy.variant("small"):
         config.translations["{font=[gui.fontawesome]}{/font} Basic Settings"] = u"{font=[gui.fontawesome]}{/font} Основы"
+        config.translations["{font=[gui.fontawesome]}{/font} Main Menu"] = u"{font=[gui.fontawesome]}{/font} Меню"
         config.translations["{font=[gui.fontawesome]}{/font} Seen Text"] = u"{font=[gui.fontawesome]}{/font} Прочтённых"
         config.translations["{font=[gui.fontawesome]}{/font} Mute All"] = u"{font=[gui.fontawesome]}{/font} Без звука"
         config.translations["{font=[gui.fontawesome]}{/font} Authors"] = u"{font=[gui.fontawesome]}{/font} Авторское"
