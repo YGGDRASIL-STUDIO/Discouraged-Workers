@@ -2,7 +2,7 @@
 style default:
     font gui.text_font size gui.text_size color gui.text_color
 style input:
-    color gui.accent_color
+    color gui.text_color
 style hyperlink_text:
     color gui.accent_color hover_color gui.hover_color hover_underline True
 style gui_text:
@@ -1197,7 +1197,7 @@ screen part_clear():
                     if progress == 17:
                         imagebutton idle 'arc_diary_16' action [SetScreenVariable("diary", "diary16"), Show('diary')]
                 null height (4 * gui.pref_spacing)
-            if gg == 1: 
+            if gg == 1:
                 label _("{font=[gui.fontawesome]}{/font} Gallery")
                 hbox:
                     if progress == 2:
@@ -1725,12 +1725,12 @@ screen hyena():
             key 'pad_leftx_neg':
                 if persistent.yunwoo is True:
                     action SetScreenVariable("char", "yunwoo")
-                else:    
+                else:
                     action SetScreenVariable("char", "gayeon")
             key 'K_LEFT':
                 if persistent.yunwoo is True:
                     action SetScreenVariable("char", "yunwoo")
-                else:    
+                else:
                     action SetScreenVariable("char", "gayeon")
             key 'pad_leftx_pos':
                 if persistent.angel is True:
