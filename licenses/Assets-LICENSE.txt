@@ -1,0 +1,34 @@
+Discouraged Workers, Discouraged Workers TEEN include assets from the following:
+
+* XboxController asset pack(Microsoft Permissive License)
+* Button layout of a wireless Xbox 360 controller by Johnanth(CC BY-SA 3.0)
+* OXVSTi by Hanyang University(Public Domain)
+* SamhyunyukgakVSTi by 36play(CC BY 4.0)
+* Slap sound effect by freesfx.co.uk(Free Sound Effects End user license agreement)
+* Circle Abstract Brushes by Designzzz(Public Domain)
+* Broken Glass Brushes - Eight by PerpetualStudios(CC BY 4.0)
+
+Discouraged Workers, Discouraged Workers TEEN include retouched graphic assets from the following:
+
+* Cafe by Lim Seongyeon(CC BY 2.0 KR)
+* Cellphone Shop by Verizon Wireless(CC BY-SA 3.0)
+* Daehangno by Jinho Jung(CC BY-SA 2.0)
+* Familymart by Ellif(CC BY 3.0)
+* Festival world by Nagyman(CC BY-SA 2.0)
+* Fort Belvoir Community Hospital by Official U.S. Navy Page(CC BY 2.0)
+* Guckkasten by Sangrila(CC BY-SA 3.0)
+* Hof by byongsu(CC BY-SA 2.0 KR)
+* Jet Nubulizer by Trainer2a(CC BY-SA 3.0)
+* Korea Signs by Joost Vanhoutte(Please read the Texture_ninja-README.txt)
+* Sanchon by Julie Facine(CC BY-SA 2.0)
+* SangsangMadang by Cunture PD Lim Ye-seong(CC BY 2.0 KR)
+* Osaka Dai-ichi Hotel Moderate Single Room by J o(CC BY-SA 3.0)
+* Sinchon street by TF-urban(CC BY-SA 2.0)
+* SMSC Line1 VVVF Inside by Subway06(CC BY 3.0)
+* Yeouinaru Station by Bundang LineM(CC BY-SA 3.0)
+
+and,
+
+* Many Public Domain images from Pixabay community
+
+Licenses link for each assets can be found in the Official Manual.
