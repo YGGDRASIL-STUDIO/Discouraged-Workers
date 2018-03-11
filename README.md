@@ -8,13 +8,13 @@ Supports the both of PC platforms(Linux/Mac OS X/Windows) and Android(Mobile/Tab
 
 『Discouraged Workers』 is an independent progressive kinetic novel created by YGGDRASIL STUDIO. The episode is the fifth in the Project DW series, a satirical story based on the popular Korean soap operas-styled plot. It compares Ga-yeon's bleak everyday life to the dark side of youth.
 
-_ As a hospital coordinator, Ga-yeon fell in love with a doctor at the hospital she was working in and they had an affair even though the doctor was a married man. When the director found out, she was fired. For over a year she tried to find another job, but her mental uneasiness eventually made her give up and she became a recluse.
+* As a hospital coordinator, Ga-yeon fell in love with a doctor at the hospital she was working in and they had an affair even though the doctor was a married man. When the director found out, she was fired. For over a year she tried to find another job, but her mental uneasiness eventually made her give up and she became a recluse.
 
  A year later, in the spring of 2013, her younger sister, Hye-na, and her first love Yunwoo come to her.
 
  A story about the dark side of today's youth and serious life events happening around Ga-yeon.
 
- Discouraged Workers_
+ Discouraged Workers*
 
 ##  Description
 * Demo is a just kinetic novel.
