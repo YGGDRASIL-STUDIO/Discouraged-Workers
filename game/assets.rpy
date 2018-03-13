@@ -1480,6 +1480,13 @@ init:
             AlphaMask('images/doa_gayeon_3.webp', mask='images/divide_mask.webp'), trueright
         contains:
             'divide', center
+    image doa_5:
+        contains:
+            'images/doa_yunwoo_2.webp', topleft
+        contains:
+            AlphaMask('images/doa_gayeon_2.webp', mask='images/divide_mask.webp'), trueright
+        contains:
+            'divide', center
     image caress:
         'images/caress.webp', zoom 1.24 xalign .6 yalign .5
     image caress0:
@@ -2371,6 +2378,7 @@ init:
     $ g.condition('persistent.unlock_28==True')
     $ g.image('doa_1')
     $ g.image('doa_2')
+    $ g.image('doa_5')
     $ g.image('doa_3')
     $ g.image('doa_4')
     $ g.button('doa0')
@@ -2434,7 +2442,7 @@ init:
         linear .5 alpha 0
         repeat
     transform wimcj_emoticons:
-        linear .2 rotate -30 
+        linear .2 rotate -30
         linear .2 rotate 30
         linear .2 rotate -30
         linear .2 rotate 30

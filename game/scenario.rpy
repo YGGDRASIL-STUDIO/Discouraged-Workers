@@ -3988,15 +3988,15 @@ label epilogue:
     na "Catching his breath,{w=.3} he walks towards me,{w=.3} and at about two meters away, he holds out his right hand to me, urging me to stop."
     p "Shut up!{w=.3} It's over!{w=.3} Over!{w=.3} Go away!{w=.3} Don't come any closer!"
     na "I scream out.{w=.3} He slowly lowers his hand,{w=.3} and now tries to persuade me."
+    scene doa_5 with d
     y "Please,{w=.3} Ga-yeon!{w=.3} Just calm down and let's have a talk.{w=.3} Just give me a second.{w=.3} If you leave me alone,{w=.3} then how can I live on without you?!{w=.3} Are you just playing with my emotions?{w=.3} Seriously?!"
     y "Alright,{w=.3} even if you are,{w=.3} I'm still fine.{w=.3} And what about your family?{w=.3} How could your parents and Hye-na live without you?"
     p "Play with you?{w=.3} How could you say that?!{w=.3} That's absolutely not true!{w=.3} It is real! My heart is true!"
     na "What he said makes me crazy for an instant,{w=.3} and I shout without thinking.{w=.3} My shout echoes through the bridge.{w=.3} Yunwoo slowly comes closer and closer to me,{w=.3} staring at me."
     y "Okay,{w=.3} then,{w=.3} listen to me.{w=.3} What you've felt is true,{w=.3} and also my heart is true.{w=.3} So,{w=.3} let's go back home together.{w=.3} Ga-yeon,{w=.3} the river is bloody cold."
     na "No,{w=.3} don't let him persuade you,{w=.3} Ga-yeon.{w=.3} It's over.{w=.3} I'm just a loser."
-    scene doa_1 with d
-    na "Thinking this way,{w=.3} I turn my head back again,{w=.3} and look down at the river.{w=.3} It looks blurry through my tears,{w=.3} but I can see the sloshing black water of the river,{w=.3} and I feel giddy.{w=.3} I turn my head to Yunwoo.{w=.3} I stare at him.{w=.3} The moment of decision is close at hand."
     scene doa_3 with d
+    na "Thinking this way,{w=.3} I turn my head back again,{w=.3} and look down at the river.{w=.3} It looks blurry through my tears,{w=.3} but I can see the sloshing black water of the river,{w=.3} and I feel giddy.{w=.3} I turn my head to Yunwoo.{w=.3} I stare at him.{w=.3} The moment of decision is close at hand."
     y "Live,{w=.3} Ga-yeon,{w=.3} please.{w=.3} I'll be with you.{w=.3} Please come back with me.{w=.3} All your pains…,{w=.3} they will become nothing.{w=.3} Time will heal all your sorrow."
     if not _preferences.language == 'Korean' and not _preferences.language == 'Chinese':
         y "I'm sure there will come a day we can look back on this day with a smile.{w=.3} But,{w=.3} for now,{w=.3} please hang in there.{w=.3} I'll help you.{w=.3} I'll be with you,{w=.3} Ga-yeon,{w=.3} please."
