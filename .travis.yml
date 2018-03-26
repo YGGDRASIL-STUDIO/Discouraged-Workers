@@ -14,4 +14,4 @@ install:
   - pip install requests
 # command to run tests
 script:
-  - setup.py # or py.test for Python versions 3.5 and below
+  - setup.py test
