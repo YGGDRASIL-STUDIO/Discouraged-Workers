@@ -7,7 +7,6 @@ setup(name='Discouraged Workers Demo',
       author='YGGDRASIL STUDIO',
       license='EULA',
       author_email='yggdrasilgamestudio@gmail.com',
-      packages=['KNDWDEMO'],
       install_requires=['requests', ],
       zip_safe=False
       )
