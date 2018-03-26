@@ -1,5 +1,8 @@
 ![discouraged_workers_demo_itchio](https://cloud.githubusercontent.com/assets/5509466/11607854/c4fd32ca-9b9a-11e5-862f-842bd64a1f0c.png)
 
+[![Travis branch](https://img.shields.io/travis/YGGDRASIL-STUDIO/Discouraged-Workers/master.svg)](https://travis-ci.org/ricke00/YGGDRASILOS-Core) [![GitHub release](https://img.shields.io/github/release/YGGDRASIL-STUDIO/Discouraged-Workers.svg)](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/releases) ![Github file size](https://img.shields.io/github/size/YGGDRASIL-STUDIO/Discouraged-Workers/LICENSE.svg) ![Github All Releases](https://img.shields.io/github/downloads/YGGDRASIL-STUDIO/Discouraged-Workers/total.svg) [![license](https://img.shields.io/github/license/YGGDRASIL-STUDIO/Discouraged-Workers.svg)](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/YGGDRASIL-STUDIO/Discouraged-Workers.svg)](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/issues) [![GitHub commits](https://img.shields.io/github/commits-since/YGGDRASIL-STUDIO/Discouraged-Workers/a517b54.svg)](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/commits/master)
+[![Gitter](https://img.shields.io/gitter/room/YGGDRASIL-STUDIO/Lobby.svg)](https://gitter.im/YGGDRASIL-STUDIO/Lobby)
+
 # Discouraged Workers Demo V3.0
 
 Supports the both of PC platforms(Linux/Mac OS X/Windows) and Android(Mobile/Tablet).
