@@ -155,10 +155,10 @@ define config.save_directory = "Discouraged-Workers-saves"
 define config.window_icon = "gui/icon.webp"
 define config.windows_icon = "gui/icon.webp"
 define config.default_afm_enable = True
-define config.version = "1.8.3.776"
+define config.version = "1.8.3.880"
 define build.name = "Discouraged-Workers"
-define build_date = _("Nov 15, 2018")
-define copyright = _("©2018 YGGDRASIL STUDIO")
+define build_date = _("Jan 01, 2019")
+define copyright = _("©2019 YGGDRASIL STUDIO")
 define code.license = _("")
 define font.license = _("")
 define valve.license = _("")
@@ -263,6 +263,13 @@ init python:
     build.classify('game/gui/**.**', 'assets')
     build.classify('**.opus', 'assets')
     build.classify('game/tl/**.**', 'translations')
+    if persistent.steam is False:
+        build.classify('game/python-packages/**.**', None)
+        build.classify('game/news.rpyc', None)
+    build.classify('game/rig/**.**', None)
+    build.classify('game/mesh/**.**', None)
+    build.classify('game/shader/**.**', None)
+    build.classify('game/mods/**.**', None)
     build.documentation('*.html')
     build.documentation('*.pdf')
     build.documentation('*.txt')

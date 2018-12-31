@@ -297,6 +297,7 @@
     woo = Character(None)
     na = woo.copy(window_background = Image(im.MatrixColor(('gui/dialogue.webp'), im.matrix.colorize("#4c0000", "#000"))))
     system = Character('System')
+    n = Character(None, kind=nvl, what_color='#000')
     Shake = renpy.curry(_Shake)
     shock = Shake((0, 0, 0, 0), 1.0, dist=10)
     shock2 = Shake((0, 0, 0, 0), 3.0, dist=50)
