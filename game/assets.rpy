@@ -3,6 +3,7 @@ init:
     image chibilis_logo = "gui/chibilis_logo.webp"
     image renpy_logo = "gui/renpy_logo.webp"
     image main_menu = "gui/overlay/main_menu.webp"
+    image game_menu = 'gui/overlay/game_menu.webp'
     image born_balls = SnowBlossom("gui/overlay/main_ball.webp", count=50, yspeed=(100, 200))
     image controller_play:
         "gui/controllers/[persistent.controllers]/button_x.webp", size(89, 89)
@@ -1401,10 +1402,11 @@ init:
     image girl_walk_flip = Movie(fps=60, channel='video', play='images/girl_hflip.webm', mask='images/girl_hflip_mask.webm', image='leftgirl', layer='screens')
     image shoes = im.Composite((1920, 1080), (420, -75), 'images/shoes.webp', (0, 0), 'images/circle.webp')
     image leftgirl = im.Flip('images/girl.webp', horizontal=True)
-    image bshock = Solid('#ff00004c')
-    image night = Solid('#0000d04c')
-    image white = Solid('#ffffff')
-    image sky = Solid('#4aafef')
+    image bshock = '#ff00004c'
+    image night = '#0000d04c'
+    image white = '#ffffff'
+    image sky = '#4aafef'
+    image dim = '#0008'
     image tdw_sepia = Composite((1920, 1080), (0, 0), im.Sepia('images/sin.webp'), (600, 0), im.Sepia('images/tdw.webp'))
     image slap_sepia = Composite((1920, 1080), (0, 0), im.Sepia('images/room.webp'), (600, 0), im.Sepia('images/slap.webp'))
     image deep_sepia = Composite((1920, 1080), (0, 0), im.Sepia('images/room.webp'), (800, 0), im.Sepia('images/deepkiss.webp'))
@@ -2407,11 +2409,11 @@ init:
     $ mr.add('bgm/Summit showdown.opus')
     $ mr.add('bgm/Love song.opus')
     $ mr.add('bgm/Sea of nectar.opus')
-    image wimcj_system_black = Solid('#0000007f')
-    image wimcj_system_black_deep = Solid('#000000b2')
-    image wimcj_system_gall_black = Solid('#0000003f')
-    image wimcj_system_white = Solid('#ffffff19')
-    image wimcj_system_level_white = Solid('#ffffff7f')
+    image wimcj_system_black = '#0000007f'
+    image wimcj_system_black_deep = '#000000b2'
+    image wimcj_system_gall_black = '#0000003f'
+    image wimcj_system_white = '#ffffff19'
+    image wimcj_system_level_white = '#ffffff7f'
     image wimcj_system_comment = Text('', font='gui/fonts/fontawesome.ttf', size=256)
     image wimcj_system_comment_black = Text('', font='gui/fonts/fontawesome.ttf', size=256, color='#000')
     image wimcj_system_comment0 = Text('', font='gui/fonts/fontawesome.ttf', size=256)
