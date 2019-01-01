@@ -336,8 +336,7 @@ screen main_menu():
     add gui.gradiant
     if gui.show_name:
         vbox:
-            if persistent.steam is True:
-                imagebutton idle NewsThumb() action ShowNews()
+            imagebutton idle NewsThumb() action ShowNews()
             text "[build_date] - V[config.version]":
                 style "main_menu_version"
             text "[copyright]":
