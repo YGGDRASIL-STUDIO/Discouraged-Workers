@@ -165,6 +165,7 @@ define valve.license = _("")
 define xbox.license = _("")
 define cc.license = _("")
 define gui.show_name = True
+define gui.history_allow_tags = set()
 define gui.attention = _("Attention")
 define gui.language = _("")
 define gui.start = _("{size=86}Start Reading{/size}")
