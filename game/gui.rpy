@@ -133,7 +133,7 @@ define gui.nvl_name_xpos = 645
 define gui.nvl_name_ypos = 0
 define gui.nvl_name_width = 225
 define gui.nvl_name_xalign = 1.0
-define gui.nvl_text_xpos = 675
+define gui.nvl_text_xpos = .27
 define gui.nvl_text_ypos = 12
 define gui.nvl_text_width = 885
 define gui.nvl_text_xalign = 0.0
@@ -167,7 +167,7 @@ init python:
         gui.nvl_name_width = 458
         gui.nvl_name_xpos = 488
         gui.nvl_text_width = 1373
-        gui.nvl_text_xpos = 518
+        gui.nvl_text_xpos = .21
         gui.nvl_text_ypos = 8
         gui.nvl_thought_width = 1860
         gui.nvl_thought_xpos = 30
