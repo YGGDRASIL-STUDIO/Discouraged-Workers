@@ -155,7 +155,7 @@ define config.save_directory = "Discouraged-Workers-saves"
 define config.window_icon = "gui/icon.webp"
 define config.windows_icon = "gui/icon.webp"
 define config.default_afm_enable = True
-define config.version = "1.8.3.880"
+define config.version = "1.8.3.886"
 define build.name = "Discouraged-Workers"
 define build_date = _("Jan 01, 2019")
 define copyright = _("©2019 YGGDRASIL STUDIO")
@@ -251,7 +251,10 @@ init python:
     build.archive("translations", "all")
     build.classify('**~', None)
     build.classify('**.bak', None)
-    build.classify('**/**.py', None)
+    if persistent.steam is False:
+        build.classify('game/python-packages/OpenGL/**.**', None)
+        build.classify('game/python-packages/OpenGL_accelerate/**.**', None)
+    build.classify('**/**.py', "android")
     build.classify('**/**.rpy', None)
     build.classify('saves/**.**', None)
     build.classify('**/.**', None)
