@@ -10,6 +10,7 @@ English [한국어](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree
 * Added: Ending credits for mobile versions
 * Improved: Android support
 * Improved: Code optimization
+* Improved: Localized iOS app shortcut name
 * Fixed: Now the Ga-yeon on the bridge is not cutting by the mask according to device's performance.
 * Fixed: Russian Ending Credits
 * Fixed: Now on mobile, Russian Ending Credits will be output in English
