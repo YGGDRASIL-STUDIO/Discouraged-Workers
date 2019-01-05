@@ -1,4 +1,4 @@
-![discouraged_workers_teen_capsule_main](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/gh-pages/news/teen_capsule_main.webp)
+![discouraged_workers_teen_capsule_main](https://yggdrasil-studio.github.io/Discouraged-Workers/news/teen_capsule_main.webp)
 
 ##  Recent changes:
 * Update: Version 1.7.8.731 > 1.7.8.813
