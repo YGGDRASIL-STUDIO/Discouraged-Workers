@@ -154,11 +154,11 @@
     old "Flowery mornings and moonlit nights"
     new "Утра, полные цветов, и ночи, залитые лунным светом"
     old '{b}Lee Yunseok{/b}\n\nDirecting, Design, Programming,\nMusic, Sound, Writing,\nUI Design, Background CG, Object Sprites,\nPackaging, Video, Website\n-From April 21, 2013'
-    new '{b}Lee Yunseok{/b}\n\nрежиссура, дизайн,\nпрограммирование,\nмузыка, звук, сюжет,\nпользовательский интерфейс,\nбэкграунды и комьютерная графика,\nспрайты, упаковка файлов,\nвидео, работа с сайтов\n- с 21 апреля 2013'
+    new '{b}Lee Yunseok{/b}\n\nрежиссура, дизайн,\nпрограммирование,\nмузыка, звук, сюжет,\nпользовательский интерфейс,\nбэкграунды и комьютерная\nграфика, спрайты, упаковка\nфайлов, видео, работа с сайтов\n- с 21 апреля 2013'
     old '{b}chibilis studio{/b}\n\nAnimation, Character Sprites, CG Sprites\n-From March 10, 2015'
     new '{b}chibilis studio{/b}\n\nанимация,\nспрайты женских персонажей,\nкомпьютерная графика\n- с 10 марта 2015'
     old '{b}Adam Patric Kratz{/b}\n\nEpilepsy Adviser\n-November 15, 2015~November 20, 2015'
-    new '{b}Adam Patric Kratz{/b}\n\nконсультант по вопросам эпилепсии\n- с 15 ноября 2015 по 20 ноября 2015'
+    new '{b}Adam Patric Kratz{/b}\n\nконсультант по вопросам\nэпилепсии\n- с 15 ноября 2015 по 20 ноября 2015'
     old '{b}Brian Connors{/b}\n\nEnglish Translation Adviser\n-June 3, 2015~July 1, 2017\n\n{b}Ga Younghee{/b}\n\nEnglish Translator\n-April 11, 2015~June 10, 2016'
     new '{b}Brian Connors{/b}\n\nконсультант по переводу\n- с 3 июня 2015 по 1 июля 2017\n\n{b}Ga Younghee{/b}\n\nанглийская локализация\n- с 11 апреля 2015 по 10 июнь 2016'
     old '{b}IVY{/b}\n\nChinese Translator\n-July 25, 2016~February 10, 2018\n\n{b}Roman Koledin{/b}\n\nRussian Translator\n-August 28, 2016~December 7, 2017'
@@ -168,7 +168,7 @@
     old 'Old Version'
     new '{size=-48}Старая версия{/size}'
     old '{b}YANG{/b}\n\nMale sprites, CG sprites\n-April 8, 2015~September 13, 2015\n\n{b}Jeon Junsik{/b}\n\nUnofficial Demo Sprites\n-January 5, 2015~February 25, 2015\n\n{b}Kyle Fawcett{/b}\n\nEnglish Demo Translation Adviser\n-June 3, 2015~June 14, 2015'
-    new '{b}YANG{/b}\n\nспрайты мужских персонажей,\nкомпьютерная графика\n- с 8 апреля 2015 по 13 сентября 2015\n\n{b}Jeon Junsik{/b}\n\nнеофициальные пробные спрайты\n- с 5 января 2015 по 25 февраля 2015\n\n{b}Kyle Fawcett{/b}\n\nконсультант по пробным локализациям\n- с 3 июня 2015 по 14 июня 2015'
+    new '{b}YANG{/b}\n\nспрайты мужских персонажей,\nкомпьютерная графика\n- с 8 апреля 2015 по 13 сентября 2015\n\n{b}Jeon Junsik{/b}\n\nнеофициальные пробные спрайты\n- с 5 января 2015 по 25 февраля 2015\n\n{b}Kyle Fawcett{/b}\n\nконсультант по пробным\nлокализациям\n- с 3 июня 2015 по 14 июня 2015'
     old 'Contributors'
     new '{size=-48}Пожертвования{/size}'
     old '{b}ACOC, Aiman Sharul, Axel Mertes,\nBgame, Brandon Tanimoto, Brian Connors,\nBRISAK Kim Doohyeon, cheif.choi, Choi Irang,\nChoi Jihye, cloture, Danielle Bell,\nEdward N Puckering, Gary King, Gwak Jaeryeol,\nHan Ihyeong, Hoe Namyoon, Hong Eunki,\nHwang Daehoon, Hyojoon, James Emmerson,\nJeong Dongwon, Jeong Wookjin, Jeong Yoonsoo,{/b}'
@@ -181,3 +181,9 @@
     new '{b}Caz Woolley, Game Dev Robot,\nGamsadev, Indie GameDev Bot,\nIndie Game Lover, Indie Games Devel,\nIndieVideoGames,\nJoachim Dimitri Jensen,\nKim Kyeongtae, Kim Younghwan,\nKurt Simon, Linda Lee King,\nPeter Christiansen, Sakimichi,\nSebastian Haba, Spero Mcgee,\nThe Indie Sloth, Vrachos, Xin Liu,\nYu Shinhyeon{/b}'
     old 'Special Thanks To'
     new '{size=-24}Особая благодарность{/size}'
+    old "Hey Ren'Py, please translate this to russian."
+    new '{b}Brian Connors{/b}\n\nEnglish Translation Adviser\n-June 3, 2015~July 1, 2017\n\n{b}Ga Younghee{/b}\n\nEnglish Translator\n-April 11, 2015~June 10, 2016'
+    old "Hey Ren'Py, please translate this to russian.."
+    new '{b}IVY{/b}\n\nChinese Translator\n-July 25, 2016~February 10, 2018\n\n{b}Roman Koledin{/b}\n\nRussian Translator\n-August 28, 2016~December 7, 2017'
+    old "Hey Ren'Py, please translate this to russian..."
+    new '{b}YANG{/b}\n\nMale sprites, CG sprites\n-April 8, 2015~September 13, 2015\n\n{b}Jeon Junsik{/b}\n\nUnofficial Demo Sprites\n-January 5, 2015~February 25, 2015\n\n{b}Kyle Fawcett{/b}\n\nEnglish Demo Translation Adviser\n-June 3, 2015~June 14, 2015'
