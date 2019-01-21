@@ -1,7 +1,7 @@
 {
-    "version" : 1,
+    "version" : 2,
     "image" : "https://yggdrasil-studio.github.io/Discouraged-Workers/news/news_banner.webp",
     "thumb" : "https://yggdrasil-studio.github.io/Discouraged-Workers/news/news_thumb.webp",
-    "link" : "https://www.indiedb.com/games/discouraged-workers/news/new-year-devlog-20191",
-    "text" : "Happy New Year! V1.8.3.880 Update & WIP. Visit our {a=https://www.indiedb.com/games/discouraged-workers/news/new-year-devlog-20191}{u}IndieDB{/u}{/a} to find out more."
+    "link" : "https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/gh-pages/news/update.md",
+    "text" : "Klondike Solitaire is available now! Visit our {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/gh-pages/news/update.md}{u}GitHub{/u}{/a} to find out more."
 }

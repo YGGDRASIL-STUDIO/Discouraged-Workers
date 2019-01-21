@@ -1,6 +1,6 @@
-![discouraged_workers_teen_capsule_main](https://yggdrasil-studio.github.io/Discouraged-Workers/news/teen_capsule_main.webp)
+![discouraged_workers_teen_capsule_main](https://yggdrasil-studio.github.io/Discouraged-Workers/news/001/teen_capsule_main.webp)
 
-[English](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/gh-pages/news/teen_update.md) 한국어
+[English](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/gh-pages/news/001/teen_update.md) 한국어
 
 ##  변경내역:
 * 판올림: 버전 1.7.8.731 > 1.7.8.813
