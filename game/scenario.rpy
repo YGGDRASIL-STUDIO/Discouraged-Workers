@@ -4413,15 +4413,27 @@ label credits:
             hide expression Text ('{b}Adam Patric Kratz{/b}\n\nEpilepsy Adviser\n-November 15, 2015~\nNovember 20, 2015', style='credits_text')
         else:
             hide expression Text ('{b}Adam Patric Kratz{/b}\n\nEpilepsy Adviser\n-November 15, 2015~November 20, 2015', style='credits_text')
-        show expression Text ('{b}Brian Connors{/b}\n\nEnglish Translation Adviser\n-June 3, 2015~July 1, 2017\n\n{b}Ga Younghee{/b}\n\nEnglish Translator\n-April 11, 2015~June 10, 2016', style='credits_text')
+        if renpy.variant("small") and _preferences.language == 'Russian':
+            show expression Text ("Hey Ren'Py, please translate this to russian.", style='credits_text')
+        else:
+            show expression Text ('{b}Brian Connors{/b}\n\nEnglish Translation Adviser\n-June 3, 2015~July 1, 2017\n\n{b}Ga Younghee{/b}\n\nEnglish Translator\n-April 11, 2015~June 10, 2016', style='credits_text')
         with blind
         $ renpy.pause(5, hard = True)
-        hide expression Text ('{b}Brian Connors{/b}\n\nEnglish Translation Adviser\n-June 3, 2015~July 1, 2017\n\n{b}Ga Younghee{/b}\n\nEnglish Translator\n-April 11, 2015~June 10, 2016', style='credits_text')
-        show expression Text ('{b}IVY{/b}\n\nChinese Translator\n-July 25, 2016~February 10, 2018\n\n{b}Roman Koledin{/b}\n\nRussian Translator\n-August 28, 2016~December 7, 2017', style='credits_text')
+        if renpy.variant("small") and _preferences.language == 'Russian':
+            hide expression Text ("Hey Ren'Py, please translate this to russian.", style='credits_text')
+        else:
+            hide expression Text ('{b}Brian Connors{/b}\n\nEnglish Translation Adviser\n-June 3, 2015~July 1, 2017\n\n{b}Ga Younghee{/b}\n\nEnglish Translator\n-April 11, 2015~June 10, 2016', style='credits_text')
+        if renpy.variant("small") and _preferences.language == 'Russian':
+            show expression Text ("Hey Ren'Py, please translate this to russian..", style='credits_text')
+        else:
+            show expression Text ('{b}IVY{/b}\n\nChinese Translator\n-July 25, 2016~February 10, 2018\n\n{b}Roman Koledin{/b}\n\nRussian Translator\n-August 28, 2016~December 7, 2017', style='credits_text')
         with blind
         $ renpy.pause(5, hard = True)
         hide expression Text ('[gui.credits]', style='credits_title')
-        hide expression Text ('{b}IVY{/b}\n\nChinese Translator\n-July 25, 2016~February 10, 2018\n\n{b}Roman Koledin{/b}\n\nRussian Translator\n-August 28, 2016~December 7, 2017', style='credits_text')
+        if renpy.variant("small") and _preferences.language == 'Russian':
+            hide expression Text ("Hey Ren'Py, please translate this to russian..", style='credits_text')
+        else:
+            hide expression Text ('{b}IVY{/b}\n\nChinese Translator\n-July 25, 2016~February 10, 2018\n\n{b}Roman Koledin{/b}\n\nRussian Translator\n-August 28, 2016~December 7, 2017', style='credits_text')
         if not renpy.variant("small"):
             show expression Text ('{font=gui/fonts/Edo.ttf}{size=64}Project Gamer Japonés{/size}{/font}', style='credits_title')
         if renpy.variant("small"):
@@ -4437,11 +4449,17 @@ label credits:
         else:
             hide expression Text ('{b}Oscar Ballona Centeno{/b}\n\nProject Leader in Spanish, Spanish Translator\n-From May 29, 2017\n\n{b}AxelBodga{/b}\n\nSpanish Editor\n-From May 29, 2017\n\n{b}Yisus{/b}\n\nSpanish Translator\n-From May 29, 2017', style='credits_text')
         show expression Text ('Old Version', style='credits_title')
-        show expression Text ('{b}YANG{/b}\n\nMale sprites, CG sprites\n-April 8, 2015~September 13, 2015\n\n{b}Jeon Junsik{/b}\n\nUnofficial Demo Sprites\n-January 5, 2015~February 25, 2015\n\n{b}Kyle Fawcett{/b}\n\nEnglish Demo Translation Adviser\n-June 3, 2015~June 14, 2015', style='credits_text')
+        if renpy.variant("small") and _preferences.language == 'Russian':
+            show expression Text ("Hey Ren'Py, please translate this to russian...", style='credits_text')
+        else:
+            show expression Text ('{b}YANG{/b}\n\nMale sprites, CG sprites\n-April 8, 2015~September 13, 2015\n\n{b}Jeon Junsik{/b}\n\nUnofficial Demo Sprites\n-January 5, 2015~February 25, 2015\n\n{b}Kyle Fawcett{/b}\n\nEnglish Demo Translation Adviser\n-June 3, 2015~June 14, 2015', style='credits_text')
         with blind
         $ renpy.pause(5, hard = True)
         hide expression Text ('Old Version', style='credits_title')
-        hide expression Text ('{b}YANG{/b}\n\nMale sprites, CG sprites\n-April 8, 2015~September 13, 2015\n\n{b}Jeon Junsik{/b}\n\nUnofficial Demo Sprites\n-January 5, 2015~February 25, 2015\n\n{b}Kyle Fawcett{/b}\n\nEnglish Demo Translation Adviser\n-June 3, 2015~June 14, 2015', style='credits_text')
+        if renpy.variant("small") and _preferences.language == 'Russian':
+            hide expression Text ("Hey Ren'Py, please translate this to russian...", style='credits_text')
+        else:
+            hide expression Text ('{b}YANG{/b}\n\nMale sprites, CG sprites\n-April 8, 2015~September 13, 2015\n\n{b}Jeon Junsik{/b}\n\nUnofficial Demo Sprites\n-January 5, 2015~February 25, 2015\n\n{b}Kyle Fawcett{/b}\n\nEnglish Demo Translation Adviser\n-June 3, 2015~June 14, 2015', style='credits_text')
         show expression Text ('Contributors', style='credits_title')
         if renpy.variant("small"):
             show expression Text ('{b}ACOC, Aiman Sharul, Axel Mertes,\nBgame, Brandon Tanimoto,\nBrian Connors, BRISAK Kim Doohyeon,\ncheif.choi, Choi Irang, Choi Jihye,\ncloture, Danielle Bell,\nEdward N Puckering, Gary King,\nGwak Jaeryeol, Han Ihyeong,\nHoe Namyoon, Hong Eunki,\nHwang Daehoon, Hyojoon,\nJames Emmerson, Jeong Dongwon,\nJeong Wookjin, Jeong Yoonsoo,{/b}', style='credits_text')
@@ -5567,14 +5585,14 @@ label leannoth:
     scene black
     show expression Text('{font=gui/fonts/YiSunShinBold.ttf}Mahalath\nLeannoth{/font}', size=256, color='#fff', style="centered_text")
     $ renpy.pause(5, hard = True)
-    if persistent.mahalath is None:
+    $ persistent.mahalath = True
+    if not achievement.has('KNDW_DETECTIVE') and not achievement.has('KNDW_MOD_PLAYER'):
         scene main_menu
         show gradiant
         with blind
         show expression Text("[gui.unlocked]", style='unlocked_title') as text at spread
         pause 1
         show expression '6m_gold' at unlocked_center
-        $ persistent.mahalath = True
         $ achievement.grant('KNDW_DETECTIVE')
         pause 1.5
         scene main_menu with blind
