@@ -5585,14 +5585,14 @@ label leannoth:
     scene black
     show expression Text('{font=gui/fonts/YiSunShinBold.ttf}Mahalath\nLeannoth{/font}', size=256, color='#fff', style="centered_text")
     $ renpy.pause(5, hard = True)
-    if persistent.mahalath is None:
+    $ persistent.mahalath = True
+    if not achievement.has('KNDW_DETECTIVE') and not achievement.has('KNDW_MOD_PLAYER'):
         scene main_menu
         show gradiant
         with blind
         show expression Text("[gui.unlocked]", style='unlocked_title') as text at spread
         pause 1
         show expression '6m_gold' at unlocked_center
-        $ persistent.mahalath = True
         $ achievement.grant('KNDW_DETECTIVE')
         pause 1.5
         scene main_menu with blind

@@ -1488,7 +1488,7 @@ screen archives():
                 add '6m_bronze'
             elif achievement.has('KNDW_MASTER'):
                 add '6m_copper'
-            if achievement.has('KNDW_DETECTIVE') and achievement.has('KNDW_MOD_PLAYER'):
+            if achievement.has('KNDW_MOD_PLAYER'):
                 add '7m_gold'
             elif achievement.has('KNDW_DETECTIVE'):
                 add '7m_silver'
@@ -3699,9 +3699,9 @@ style nvl_entry:
 style nvl_label:
     xpos gui.nvl_name_xpos xanchor gui.nvl_name_xalign ypos gui.nvl_name_ypos yanchor 0.0 xsize gui.nvl_name_width min_width gui.nvl_name_width text_align gui.nvl_name_xalign
 style nvl_dialogue:
-    xpos gui.nvl_text_xpos xanchor gui.nvl_text_xalign ypos gui.nvl_text_ypos xsize gui.nvl_text_width min_width gui.nvl_text_width text_align gui.nvl_text_xalign layout ("subtitle" if gui.nvl_text_xalign else "tex")
+    xpos gui.nvl_text_xpos xanchor gui.nvl_text_xalign ypos gui.nvl_text_ypos xsize gui.nvl_text_width min_width gui.nvl_text_width text_align gui.nvl_text_xalign layout ("subtitle" if gui.nvl_text_xalign else "tex") color gui.accent_color
 style nvl_thought:
-    xpos gui.nvl_thought_xpos xanchor gui.nvl_thought_xalign ypos gui.nvl_thought_ypos xsize gui.nvl_thought_width min_width gui.nvl_thought_width text_align gui.nvl_thought_xalign layout ("subtitle" if gui.nvl_text_xalign else "tex")
+    xpos gui.nvl_thought_xpos xanchor gui.nvl_thought_xalign ypos gui.nvl_thought_ypos xsize gui.nvl_thought_width min_width gui.nvl_thought_width text_align gui.nvl_thought_xalign layout ("subtitle" if gui.nvl_text_xalign else "tex") color gui.accent_color
 style nvl_button:
     properties gui.button_properties("nvl_button") xpos gui.nvl_button_xpos xanchor gui.nvl_button_xalign
 style nvl_button_text:
