@@ -22,9 +22,7 @@ label start:
         show expression Text ('[gui.part01]', style='centered_text')
     pause 3
     scene black with d
-    if persistent.blind is True:
-        scene room with blind
-    elif persistent.dw2017 is True and persistent.teddy is None:
+    if persistent.dw2017 is True and persistent.teddy is None and persistent.blind is not True:
         scene room
         show screen teddy
         with blind
