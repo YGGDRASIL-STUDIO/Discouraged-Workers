@@ -1398,8 +1398,8 @@ init:
     image con_lock = Composite((253, 358), (0, 0), im.Grayscale('gui/parchment.webp'), (24, 22), Text('', style='awearc'))
     image diary_lock = Composite((253, 358), (0, 0), im.Sepia('gui/diary.webp'), (24, 52), Text('', style='awearc'))
     image ending = Movie(fps=60, channel='video', play='images/ending.webm', image='images/ending.webp', layer='screens')
-    image girl_walk = Movie(fps=60, channel='video', play='images/girl.webm', mask='images/girl_mask.webm', image='images/girl.webp', layer='screens')
-    image girl_walk_flip = Movie(fps=60, channel='video', play='images/girl_hflip.webm', mask='images/girl_hflip_mask.webm', image='leftgirl', layer='screens')
+    image girl_walk = Movie(fps=60, channel='video', play='images/girl.webm', mask_channel='mask', image='images/girl.webp', side_mask=True, layer='screens')
+    image girl_walk_flip = Movie(fps=60, channel='video', play='images/girl_hflip.webm', mask_channel='mask', image='leftgirl', side_mask=True, layer='screens')
     image shoes = im.Composite((1920, 1080), (420, -75), 'images/shoes.webp', (0, 0), 'images/circle.webp')
     image leftgirl = im.Flip('images/girl.webp', horizontal=True)
     image bshock = '#ff00004c'
