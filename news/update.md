@@ -1,21 +1,20 @@
-![Klondike Solitaire News Banner](https://yggdrasil-studio.github.io/Discouraged-Workers/news/news_banner.webp)
+![News Banner](https://yggdrasil-studio.github.io/Discouraged-Workers/news/news_banner.webp)
 
 English [한국어](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/gh-pages/news/update.ko_KR.md)
 
-##  Klondike Solitaire DLC has been released on Steam
+## Version 1.8.4 Minor Update
 
 > _Hello Guardians,_
 >
-> _I am Lee Yunseok, creator of YGGDRASIL STUDIO. Thank you for visit our news page. As the title says, **Klondike Solitaire** DLC is available now on [Steam](https://store.steampowered.com/app/1008420/Discouraged_Workers_MOD__Klondike_Solitaire/). This mini-game was developed to **get donations for the completion of Project DW**. In the near future, this card game will be available for free at other places._
+> _I am Lee Yunseok, creator of YGGDRASIL STUDIO. Thank you for visit our news page. Discouraged Workers has been updated on Feb 21, 2019._
 
-### DLC Overview
+### Changelog
 
-* Based on Klondike, the best-known solitaire card game.
-* Original card images made from our tarot deck.
-* Played with a standard 52-card deck, without Jokers.
-* The four foundations are built up by suit from Ace to King.
-* Sometimes Taejin show up to give you a hint.
-* This mini-game was developed to get donations for the Project DW.
-* One Sweetly Solemn Thought.
-
-[Visit Steam Store Page](https://store.steampowered.com/app/1008420/Discouraged_Workers_MOD__Klondike_Solitaire/)
+* Update: Version 1.8.3.880 > 1.8.4
+* Added: Ending credits for mobile versions
+* Added: NVL settings for next playable MODs(Steam)
+* Improved: Medal progress for playable MODs(Steam)
+* Improved: Code optimization
+* Fixed: Ga-yeon's walking animation on the bridge
+* Fixed: Russian Ending Credits
+* Fixed: Now on mobile, Russian Ending Credits will be output in English
