@@ -1400,7 +1400,7 @@ init:
     image ending = Movie(fps=60, channel='video', play='images/ending.webm', image='images/ending.webp', layer='screens')
     image girl_walk = Movie(fps=60, channel='video', play='images/girl.webm', mask_channel='mask', image='images/girl.webp', side_mask=True, layer='screens')
     image girl_walk_flip = Movie(fps=60, channel='video', play='images/girl_hflip.webm', mask_channel='mask', image='leftgirl', side_mask=True, layer='screens')
-    image shoes = im.Composite((1920, 1080), (420, -75), 'images/shoes.webp', (0, 0), 'images/circle.webp')
+    image shoes = Composite((1920, 1080), (420, -75), 'images/shoes.webp', (0, 0), 'images/circle.webp')
     image leftgirl = im.Flip('images/girl.webp', horizontal=True)
     image bshock = '#ff00004c'
     image night = '#0000d04c'
@@ -1410,8 +1410,8 @@ init:
     image tdw_sepia = Composite((1920, 1080), (0, 0), im.Sepia('images/sin.webp'), (600, 0), im.Sepia('images/tdw.webp'))
     image slap_sepia = Composite((1920, 1080), (0, 0), im.Sepia('images/room.webp'), (600, 0), im.Sepia('images/slap.webp'))
     image deep_sepia = Composite((1920, 1080), (0, 0), im.Sepia('images/room.webp'), (800, 0), im.Sepia('images/deepkiss.webp'))
-    image alleyway_gall = im.Composite((1920, 1080), (0, 0), 'images/alleyway.webp', (241, 0), 'images/alleyway_1.webp')
-    image lean_gall = im.Composite((1920, 1080), (0, 0), 'images/post1.webp', (900, 0), 'images/lean.webp')
+    image alleyway_gall = Composite((1920, 1080), (0, 0), 'images/alleyway.webp', (241, 0), 'images/alleyway_1.webp')
+    image lean_gall = Composite((1920, 1080), (0, 0), 'images/post1.webp', (900, 0), 'images/lean.webp')
     image dw2017_0 = 'images/doa_1.webp'
     image dw2017_1 = 'images/doa.webp'
     image dw2017_2 = 'images/doa_2.webp'
@@ -1497,7 +1497,7 @@ init:
         contains:
             'circle'
     image caress1:
-        im.Rotozoom((im.Composite((1550, 1500), (0, 0), 'images/caress.webp', (951, 612), 'images/caress1.webp')), 0, 1.24), xalign .6 yalign .5
+        im.Rotozoom((Composite((1550, 1500), (0, 0), 'images/caress.webp', (951, 612), 'images/caress1.webp')), 0, 1.24), xalign .6 yalign .5
     image self_gall:
         im.Crop('images/self.webp', 0, 0, 1920, 1080), yalign .4
     image photo:
