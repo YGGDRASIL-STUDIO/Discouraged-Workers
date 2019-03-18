@@ -1,7 +1,7 @@
 {
-    "version" : 1,
-    "image" : "https://yggdrasil-studio.github.io/Discouraged-Workers/news/001/news_banner.webp",
-    "thumb" : "https://yggdrasil-studio.github.io/Discouraged-Workers/news/001/news_thumb.webp",
-    "link" : "https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/gh-pages/news/001/teen_update.md",
-    "text" : "Happy New Year! V1.7.8.813 Updated. Visit our {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/gh-pages/news/001/teen_update.md}{u}GitHub{/u}{/a} to find out more."
+    "version" : 2,
+    "image" : "https://yggdrasil-studio.github.io/Discouraged-Workers/news/002/news_banner_teen.webp",
+    "thumb" : "https://yggdrasil-studio.github.io/Discouraged-Workers/news/002/news_thumb_teen.webp",
+    "link" : "https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/gh-pages/news/002/teen_update.md",
+    "text" : "V1.7.9.318 Minor Update! Visit our {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/gh-pages/news/002/teen_update.md}{u}GitHub{/u}{/a} to find out more."
 }
