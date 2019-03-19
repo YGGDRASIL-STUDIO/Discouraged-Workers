@@ -5,8 +5,6 @@ English [한국어](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree
 ##  Recent changes:
 * Update: Version 1.7.8.814 > 1.7.9.318
 * Update: Ren'Py Engine Version 7.1.3.1092 > 7.2.1.457
-* Added: Achievements support for Apple Game Center.
-* Added: Achievements support for Google Play Game Service.
 * Added: Codesign for macOS.
 * Added: Adaptive icon for Android.
 * Improved: A fullscreen will not minimize when the mouse changes monitors.
