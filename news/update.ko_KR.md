@@ -1,4 +1,4 @@
-![News Banner](https://yggdrasil-studio.github.io/Discouraged-Workers/news/news_banner.webp)
+![News Banner](https://yggdrasil-studio.github.io/Discouraged-Workers/news/003/news_banner.webp)
 
 [English](https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/gh-pages/news/update.md) 한국어
 
