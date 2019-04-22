@@ -1,7 +1,7 @@
 {
     "version" : 3,
-    "image" : "https://yggdrasil-studio.github.io/Discouraged-Workers/news/news_banner.webp",
-    "thumb" : "https://yggdrasil-studio.github.io/Discouraged-Workers/news/news_thumb.webp",
+    "image" : "https://yggdrasil-studio.github.io/Discouraged-Workers/news/003/news_banner.webp",
+    "thumb" : "https://yggdrasil-studio.github.io/Discouraged-Workers/news/003/news_thumb.webp",
     "link" : "https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/gh-pages/news/update.md",
-    "text" : "Version 1.8.4 Minor Update! Visit our {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/gh-pages/news/update.md}{u}GitHub{/u}{/a} to find out more."
+    "text" : "Version 1.8.4.208 Minor Update! Visit our {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/gh-pages/news/update.md}{u}GitHub{/u}{/a} to find out more."
 }
