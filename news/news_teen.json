@@ -1,7 +1,7 @@
 {
-    "version" : 2,
-    "image" : "https://yggdrasil-studio.github.io/Discouraged-Workers/news/002/news_banner_teen.webp",
-    "thumb" : "https://yggdrasil-studio.github.io/Discouraged-Workers/news/002/news_thumb_teen.webp",
-    "link" : "https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/gh-pages/news/002/teen_update.md",
-    "text" : "V1.7.9.318 Minor Update! Visit our {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/gh-pages/news/002/teen_update.md}{u}GitHub{/u}{/a} to find out more."
+    "version" : 3,
+    "image" : "https://yggdrasil-studio.github.io/Discouraged-Workers/news/003/yjp_release.webp",
+    "thumb" : "https://yggdrasil-studio.github.io/Discouraged-Workers/news/003/yjp_release_thumb.webp",
+    "link" : "https://store.steampowered.com/app/1045400/YGGDRASIL_JIGSAW_PUZZLE/",
+    "text" : "YGGDRASIL JIGSAW PUZZLE has been released on {a=https://store.steampowered.com/app/1045400/YGGDRASIL_JIGSAW_PUZZLE/}Steam{/a}!"
 }
