@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="4.1.0" -->
+<!-- generated-on="May 13, 2019 2:59 pm" -->
+<sitemapindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<sitemap>
+		<loc>https://yggdrasil-studio.github.io/Discouraged-Workers/sitemap-misc.xml</loc>
+		<lastmod>2019-05-13T14:34:50+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://yggdrasil-studio.github.io/Discouraged-Workers/sitemap-pt-page-2019-05.xml</loc>
+		<lastmod>2019-05-13T14:24:05+00:00</lastmod>
+	</sitemap>
+</sitemapindex><!-- Request ID: 6ef14d956981569f245aee19843fbff3; Queries for sitemap: 5; Total queries: 19; Seconds: 0.29; Memory for sitemap: 0MB; Total memory: 2MB -->
