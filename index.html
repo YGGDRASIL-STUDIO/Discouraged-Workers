@@ -1,414 +1,2509 @@
 <!DOCTYPE html>
-<html lang="en_US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
-<head itemscope itemtype="http://schema.org/WebSite">
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="title" content="Discouraged Workers - An Indie Adventure Kinetic Novel"/>
-    <meta name="description" content="『Discouraged Workers』 is a satirical story based on the popular Korean soap operas-styled plot. It compares Ga-Yeon’s bleak everyday life to the dark side of youth."/>
-    <meta name="subject" content="Discouraged Workers, An Independent Progressive Kinetic Novel Game Official Website"/>
-    <meta name="author" content="Lee Yunseok"/>
-    <meta name="publisher" content="YGGDRASIL STUDIO"/>
-    <meta name="copyright" content="Discouraged Workers &copy; YGGDRASIL STUDIO All Rights Reserved."/>
-    <meta name="robots" content="noodp,noydir"/>
-    <meta name="location" content="Korea, Republic of."/>
-    <meta name="keyword" content="adventure, adventuregames, adult, adultgames, androidgames, anime, bridge of life, capitalism, choi gayeon, crowdfunding, dark, desura, discouraged workers, drama, eroge, erotic, female protagonist, first person, gamedev, gayeon, gloomy, hentai, IMF crisis, indiegames, indiegogo, iosgames, iphonegames, visual novel, kinetic novel, korea, opera, OUYA, renpy, steam, steam greenlight, steamos, tumblbug"/>
-    <meta name="classification" content="video game"/>
-    <meta name="naver-site-verification" content="1bdf68f0fe3b6801b70012c0bc374b941c84b5d9"/>
-    <meta name="google-site-verification" content="LCL5N4f_rHmixraltefHZ44HPIEJ-pJYwK4SmsoWrio" />
-    <meta property="og:locale" content="en_US"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:title" content="Discouraged Workers - An Independent Progressive Kinetic Novel"/>
-    <meta property="og:description" content="『Discouraged Workers』 is a satirical story based on the popular Korean soap operas-styled plot. It compares Ga-Yeon’s bleak everyday life to the dark side of youth." />
-    <meta property="og:url" content="https://yggdrasil-studio.github.io/Discouraged-Workers/"/>
-    <meta property="og:image" content="https://yggdrasil-studio.github.io/Discouraged-Workers/images/presplash.png"/>
-    <meta property="og:site_name" content="Discouraged Workers"/>
-    <meta property="article:publisher" content="https://www.facebook.com/YGGDRASILSTUDIO"/>
-    <meta property="fb:admins" content="393968160766463"/>
-    <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:title" content="Discouraged Workers - An Independent Progressive Kinetic Novel"/>
-    <meta name="twitter:site" content="@STUDIOYGGDRASIL"/>
-    <meta name="twitter:domain" content="YGGDRASIL STUDIO"/>
-    <meta name="twitter:creator" content="@STUDIOYGGDRASIL"/>
-    <meta name="twitter:image" content="https://yggdrasil-studio.github.io/Discouraged-Workers/images/presplash.png" />
-    <meta name="twitter:description" content="『Discouraged Workers』 is a satirical story based on the popular Korean soap operas-styled plot. It compares Ga-Yeon’s bleak everyday life to the dark side of youth."/>
-    <title itemprop="Discouraged Workers - An Indie Adventure Kinetic Novel">Discouraged Workers - An Independent Progressive Kinetic Novel</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
-    <link href="css/grayscale.css" rel="stylesheet"/>
-    <link rel="profile" href="http://gmpg.org/xfn/11"/>
-    <link rel="canonical" href="https://yggdrasil-studio.github.io/Discouraged-Workers/" itemprop="https://yggdrasil-studio.github.io/Discouraged-Workers/"/>
-    <link rel="publisher" href="https://plus.google.com/+YGGDRASILSTUDIO"/>
-    <link rel="shortcut icon" type="image/x-icon" href="images/discouraged-workers-icon.png"/>
-    <link rel="apple-touch-icon" href="images/discouraged-workers-icon.png"/>
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+		<title>Discouraged Workers, an Independent Progressive Kinetic Novel</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v11.1.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Discouraged Workers is an independent progressive kinetic novel created by YGGDRASIL STUDIO. A satirical story based on the popular Korean soap operas..."/>
+<link rel="canonical" href="https://yggdrasil-studio.github.io/Discouraged-Workers/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:locale:alternate" content="ko_KR" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Discouraged Workers, an Independent Progressive Kinetic Novel" />
+<meta property="og:description" content="Discouraged Workers is an independent progressive kinetic novel created by YGGDRASIL STUDIO. A satirical story based on the popular Korean soap operas..." />
+<meta property="og:url" content="https://yggdrasil-studio.github.io/Discouraged-Workers/" />
+<meta property="og:site_name" content="Discouraged Workers" />
+<meta property="article:publisher" content="https://www.facebook.com/YGGDRASILSTUDIO" />
+<meta property="fb:admins" content="393968160766463" />
+<meta property="og:image" content="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/kndw_bg_01.png" />
+<meta property="og:image:width" content="1280" />
+<meta property="og:image:height" content="720" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Discouraged Workers is an independent progressive kinetic novel created by YGGDRASIL STUDIO. A satirical story based on the popular Korean soap operas..." />
+<meta name="twitter:title" content="Discouraged Workers, an Independent Progressive Kinetic Novel" />
+<meta name="twitter:site" content="@STUDIOYGGDRASIL" />
+<meta name="twitter:domain" content="YGGDRASIL STUDIO" />
+<meta name="twitter:image" content="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/kndw_bg_over.png" />
+<meta name="twitter:creator" content="@STUDIOYGGDRASIL" />
+<meta name="naver-site-verification" content="1bdf68f0fe3b6801b70012c0bc374b941c84b5d9" />
+<meta name="msvalidate.01" content="9D74C20986AA90FC420EED9DCC027B55" />
+<meta name="google-site-verification" content="LCL5N4f_rHmixraltefHZ44HPIEJ-pJYwK4SmsoWrio" />
+<meta name="p:domain_verify" content="28e5e4a91d16110f9cf7741fb2d053e5" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "https://yggdrasil-studio.github.io/Discouraged-Workers/#organization",
+            "name": "",
+            "url": "https://yggdrasil-studio.github.io/Discouraged-Workers/",
+            "sameAs": [
+                "https://www.facebook.com/YGGDRASILSTUDIO",
+                "https://myspace.com/arisae/music/album/discouraged-workers-ost-19515168",
+                "https://www.youtube.com/watch?list=PLabaFfshnrMV0NtngShfanjCR28DkHvEk&v=Byxo0f6m0fg",
+                "https://www.pinterest.com/YGGDRASILSTUDIO/discouraged-workers/",
+                "https://twitter.com/STUDIOYGGDRASIL"
+            ]
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://yggdrasil-studio.github.io/Discouraged-Workers/#website",
+            "url": "https://yggdrasil-studio.github.io/Discouraged-Workers/",
+            "name": "Discouraged Workers",
+            "publisher": {
+                "@id": "https://yggdrasil-studio.github.io/Discouraged-Workers/#organization"
+            },
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://yggdrasil-studio.github.io/Discouraged-Workers/?s={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        },
+        {
+            "@type": "WebPage",
+            "@id": "https://yggdrasil-studio.github.io/Discouraged-Workers/#webpage",
+            "url": "https://yggdrasil-studio.github.io/Discouraged-Workers/",
+            "inLanguage": "en-US",
+            "name": "Discouraged Workers, an Independent Progressive Kinetic Novel",
+            "isPartOf": {
+                "@id": "https://yggdrasil-studio.github.io/Discouraged-Workers/#website"
+            },
+            "about": {
+                "@id": "https://yggdrasil-studio.github.io/Discouraged-Workers/#organization"
+            },
+            "datePublished": "2019-05-13T07:32:32+00:00",
+            "dateModified": "2019-05-13T14:34:50+00:00",
+            "description": "Discouraged Workers is an independent progressive kinetic novel created by YGGDRASIL STUDIO. A satirical story based on the popular Korean soap operas..."
+        }
+    ]
+}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Discouraged Workers &raquo; Feed" href="https://yggdrasil-studio.github.io/Discouraged-Workers/feed/" />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://yggdrasil-studio.github.io/Discouraged-Workers/wp-includes/css/dist/block-library/style.min.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-5-css'  href='https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/plugins/otter-blocks/assets/fontawesome/css/all.min.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shims-css'  href='https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/plugins/otter-blocks/assets/fontawesome/css/v4-shims.min.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='themeisle-block_styles-css'  href='https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/plugins/otter-blocks/vendor/codeinwp/gutenberg-blocks/build/style.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='neve-style-css'  href='https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/themes/neve/style.min.css?ver=2.3.7' type='text/css' media='all' />
+<link rel='stylesheet' id='hfg-style-css'  href='https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/themes/neve/header-footer-grid/assets/css/style.css?ver=1.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='rtbs-css'  href='https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/plugins/responsive-tabs/inc/css/rtbs_style.min.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='neve-generated-style-css'  href='https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/neve-theme/neve-customizer.css?ver=1557758460' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var NeveProperties = {"ajaxurl":"https:\/\/yggdrasil-studio.github.io\/Discouraged-Workers\/wp-admin\/admin-ajax.php","nonce":"bce1ee6eed"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/themes/neve/assets/js/frontend.js?ver=2.3.7'></script>
+<script type='text/javascript' src='https://yggdrasil-studio.github.io/Discouraged-Workers/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://yggdrasil-studio.github.io/Discouraged-Workers/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/plugins/responsive-tabs/inc/js/rtbs.min.js?ver=5.1.1'></script>
+<link rel='https://api.w.org/' href='https://yggdrasil-studio.github.io/Discouraged-Workers/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://yggdrasil-studio.github.io/Discouraged-Workers/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.1.1" />
+<link rel='shortlink' href='https://yggdrasil-studio.github.io/Discouraged-Workers/' />
+<link rel="alternate" type="application/json+oembed" href="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fyggdrasil-studio.github.io%2FDiscouraged-Workers%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fyggdrasil-studio.github.io%2FDiscouraged-Workers%2F&#038;format=xml" />
+<link rel="alternate" href="https://yggdrasil-studio.github.io/Discouraged-Workers/" hreflang="en" />
+<link rel="alternate" href="https://yggdrasil-studio.github.io/Discouraged-Workers/ko/" hreflang="ko" />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		
+<style type="text/css" media="all">
+#wp-block-themeisle-blocks-advanced-columns-230557b5 {
+	padding-top: 180px;
+	padding-right: 0px;
+	padding-bottom: 130px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	min-height: auto;
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-230557b5 .wp-themeisle-block-overlay {
+	filter: blur( 0px ) brightness( 1 ) contrast( 1 ) grayscale( 0 ) hue-rotate( 0deg ) saturate( 1 )
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-columns-230557b5 {
+		padding-top: 180px;
+		padding-right: 40px;
+		padding-bottom: 130px;
+		padding-left: 40px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-columns-230557b5 {
+		padding-top: 75px;
+		padding-right: 25px;
+		padding-bottom: 75px;
+		padding-left: 25px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-column-8b76982b {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+ 
+@media ( min-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-8b76982b {
+		flex-basis: 100%;
+	}
+ 
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-8b76982b {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-column-8b76982b {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-6ec5d142 {
+	text-align: center;
+	font-size: 60px;
+	padding-top: 0px;
+	padding-right: 100px;
+	padding-bottom: 0px;
+	padding-left: 100px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-6ec5d142 mark {
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-heading-6ec5d142 {
+		font-size: 60px;
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 35px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-heading-6ec5d142 {
+		font-size: 37px;
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-button-group-2e130e38 .wp-block-themeisle-blocks-button {
+	margin-left: 12.5px;
+	margin-right: 12.5px;
+}
+ 
+#wp-block-themeisle-blocks-button-group-2e130e38 .wp-block-themeisle-blocks-button:first-child {
+	margin-left: 0;
+}
+ 
+#wp-block-themeisle-blocks-button-group-2e130e38 .wp-block-themeisle-blocks-button:last-child {
+	margin-right: 0;
+}
+ 
+#wp-block-themeisle-blocks-button-group-2e130e38 .wp-block-themeisle-blocks-button-0 {
+	color: #ffffff;
+	background: #fc5f45;
+}
+ 
+#wp-block-themeisle-blocks-button-group-2e130e38 .wp-block-themeisle-blocks-button-0:hover {
+	color: ;
+	background: #f34123;
+}
+ 
+#wp-block-themeisle-blocks-button-group-2e130e38 .wp-block-themeisle-blocks-button-1 {
+	color: #ffffff;
+	background: #38c695;
+}
+ 
+#wp-block-themeisle-blocks-button-group-2e130e38 .wp-block-themeisle-blocks-button-1:hover {
+	color: ;
+	background: #00ba78;
+}
+ 
+#wp-block-themeisle-blocks-button-group-2e130e38 .wp-block-themeisle-blocks-button-2 {
+	color: #ffffff;
+	background: #fc5f45;
+}
+ 
+#wp-block-themeisle-blocks-button-group-2e130e38 .wp-block-themeisle-blocks-button-2:hover {
+	color: ;
+	background: #f34123;
+}
+ 
+#wp-block-themeisle-blocks-button-group-2e130e38 .wp-block-themeisle-blocks-button-3 {
+	color: #ffffff;
+	background: #fc5f45;
+}
+ 
+#wp-block-themeisle-blocks-button-group-2e130e38 .wp-block-themeisle-blocks-button-3:hover {
+	color: ;
+	background: #f34123;
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-79a69ad4 {
+	padding-top: 150px;
+	padding-right: 30px;
+	padding-bottom: 150px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	min-height: auto;
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-79a69ad4 .wp-themeisle-block-overlay {
+	filter: blur( 0px ) brightness( 1 ) contrast( 1 ) grayscale( 0 ) hue-rotate( 0deg ) saturate( 1 )
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-columns-79a69ad4 {
+		padding-top: 55px;
+		padding-right: 15px;
+		padding-bottom: 65px;
+		padding-left: 15px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-columns-79a69ad4 {
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-column-86b58acc {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+ 
+@media ( min-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-86b58acc {
+		flex-basis: 50%;
+	}
+ 
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-86b58acc {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-column-86b58acc {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-09b8915d {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	min-height: auto;
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-09b8915d .wp-themeisle-block-overlay {
+	filter: blur( 0px ) brightness( 1 ) contrast( 1 ) grayscale( 0 ) hue-rotate( 0deg ) saturate( 1 )
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-columns-09b8915d {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-columns-09b8915d {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-column-3f784b0a {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+ 
+@media ( min-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-3f784b0a {
+		flex-basis: 100%;
+	}
+ 
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-3f784b0a {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-column-3f784b0a {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-column-b404c7b1 {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 50px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: -30px;
+}
+ 
+@media ( min-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-b404c7b1 {
+		flex-basis: 50%;
+	}
+ 
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-b404c7b1 {
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 50px;
+		padding-left: 0px;
+		margin-top: 20px;
+		margin-bottom: 0px;
+		margin-left: 1px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-column-b404c7b1 {
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 50px;
+		padding-left: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin-left: 1px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-50a484ab {
+	text-align: left;
+	font-size: 273px;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-50a484ab mark {
+		color: #ebebeb;
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-heading-50a484ab {
+		text-align: center;
+		padding-top: 30px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-heading-50a484ab {
+		text-align: center;
+		padding-top: 30px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-aa3d097b {
+	font-size: 50px;
+	padding-top: 0px;
+	padding-right: 70px;
+	padding-bottom: 0px;
+	padding-left: 82px;
+	margin-top: -130px;
+	margin-bottom: 25px;
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-aa3d097b mark {
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-heading-aa3d097b {
+		text-align: center;
+		padding-top: 0px;
+		padding-right: 82px;
+		padding-bottom: 0px;
+		padding-left: 82px;
+		margin-top: -150px;
+		margin-bottom: 20px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-heading-aa3d097b {
+		text-align: center;
+		font-size: 31px;
+		padding-top: 0px;
+		padding-right: 30px;
+		padding-bottom: 0px;
+		padding-left: 30px;
+		margin-top: -150px;
+		margin-bottom: 20px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-df7d277e {
+	font-size: 15px;
+	padding-top: 0px;
+	padding-right: 70px;
+	padding-bottom: 0px;
+	padding-left: 82px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-df7d277e mark {
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-heading-df7d277e {
+		text-align: center;
+		padding-top: 0px;
+		padding-right: 82px;
+		padding-bottom: 0px;
+		padding-left: 82px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-heading-df7d277e {
+		text-align: center;
+		padding-top: 0px;
+		padding-right: 30px;
+		padding-bottom: 0px;
+		padding-left: 30px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-c6ff7827 {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 150px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	min-height: auto;
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-c6ff7827 .wp-themeisle-block-overlay {
+	filter: blur( 0px ) brightness( 1 ) contrast( 1 ) grayscale( 0 ) hue-rotate( 0deg ) saturate( 1 )
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-columns-c6ff7827 {
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 150px;
+		padding-left: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-columns-c6ff7827 {
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 150px;
+		padding-left: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-column-312574e6 {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+ 
+@media ( min-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-312574e6 {
+		flex-basis: 100%;
+	}
+ 
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-312574e6 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-column-312574e6 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-4b26b604 {
+	text-align: center;
+	font-size: 273px;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-4b26b604 mark {
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-heading-4b26b604 {
+		padding-top: 30px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-heading-4b26b604 {
+		padding-top: 30px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-baf7430a {
+	text-align: center;
+	font-size: 50px;
+	padding: 0px;
+	margin-top: -120px;
+	margin-bottom: 0px;
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-baf7430a mark {
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-heading-baf7430a {
+		font-size: 50px;
+		padding: 0px;
+		margin-top: -100px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-heading-baf7430a {
+		font-size: 31px;
+		padding: 0px;
+		margin-top: -120px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-a27bf7c2 {
+	text-align: center;
+	font-size: 18px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-a27bf7c2 mark {
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-heading-a27bf7c2 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 35px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-heading-a27bf7c2 {
+		padding-top: 0px;
+		padding-right: 20px;
+		padding-bottom: 0px;
+		padding-left: 20px;
+		margin-top: 0px;
+		margin-bottom: 35px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-09c0d29f {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	min-height: auto;
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-09c0d29f .wp-themeisle-block-overlay {
+	filter: blur( 0px ) brightness( 1 ) contrast( 1 ) grayscale( 0 ) hue-rotate( 0deg ) saturate( 1 )
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-columns-09c0d29f {
+		padding-top: 0px;
+		padding-right: 10px;
+		padding-bottom: 0px;
+		padding-left: 10px;
+		margin-top: 44px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-columns-09c0d29f {
+		padding-top: 0px;
+		padding-right: 10px;
+		padding-bottom: 0px;
+		padding-left: 10px;
+		margin-top: 44px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-column-6f2db88b {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+ 
+@media ( min-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-6f2db88b {
+		flex-basis: 33.34%;
+	}
+ 
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-6f2db88b {
+		padding: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-column-6f2db88b {
+		padding: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-7378746f {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	min-height: auto;
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-7378746f .wp-themeisle-block-overlay {
+	filter: blur( 0px ) brightness( 1 ) contrast( 1 ) grayscale( 0 ) hue-rotate( 0deg ) saturate( 1 )
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-columns-7378746f {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-columns-7378746f {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-column-25cccd79 {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+ 
+@media ( min-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-25cccd79 {
+		flex-basis: 100%;
+	}
+ 
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-25cccd79 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-column-25cccd79 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-column-ddb7e66f {
+	padding-top: 25px;
+	padding-right: 75px;
+	padding-bottom: 20px;
+	padding-left: 75px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+ 
+@media ( min-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-ddb7e66f {
+		flex-basis: 66.66%;
+	}
+ 
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-ddb7e66f {
+		padding-top: 25px;
+		padding-right: 75px;
+		padding-bottom: 20px;
+		padding-left: 75px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-column-ddb7e66f {
+		padding-top: 25px;
+		padding-right: 30px;
+		padding-bottom: 20px;
+		padding-left: 30px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-6e344fdb {
+	font-size: 15px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-6e344fdb mark {
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-heading-6e344fdb {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-heading-6e344fdb {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-c077b02f {
+	font-size: 18px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-c077b02f mark {
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-heading-c077b02f {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-heading-c077b02f {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-4e03e3ca {
+	font-size: 13px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-4e03e3ca mark {
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-heading-4e03e3ca {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-heading-4e03e3ca {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-a6bbeee7 {
+	padding-top: 120px;
+	padding-right: 0px;
+	padding-bottom: 149px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	min-height: auto;
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-a6bbeee7 .wp-themeisle-block-overlay {
+	filter: blur( 0px ) brightness( 1 ) contrast( 1 ) grayscale( 0 ) hue-rotate( 0deg ) saturate( 1 )
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-columns-a6bbeee7 {
+		padding-top: 55px;
+		padding-right: 30px;
+		padding-bottom: 65px;
+		padding-left: 30px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-columns-a6bbeee7 {
+		padding-top: 55px;
+		padding-right: 25px;
+		padding-bottom: 65px;
+		padding-left: 25px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-column-d4e609b5 {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+ 
+@media ( min-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-d4e609b5 {
+		flex-basis: 100%;
+	}
+ 
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-d4e609b5 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-column-d4e609b5 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-96a0b87c {
+	text-align: center;
+	font-size: 23px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-96a0b87c mark {
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-heading-96a0b87c {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 40px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-heading-96a0b87c {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 40px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-e154bb96 {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 150px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	min-height: auto;
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-e154bb96 .wp-themeisle-block-overlay {
+	filter: blur( 0px ) brightness( 1 ) contrast( 1 ) grayscale( 0 ) hue-rotate( 0deg ) saturate( 1 )
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-columns-e154bb96 {
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 150px;
+		padding-left: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-columns-e154bb96 {
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 150px;
+		padding-left: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-column-acafc04f {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+ 
+@media ( min-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-acafc04f {
+		flex-basis: 100%;
+	}
+ 
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-acafc04f {
+		padding: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-column-acafc04f {
+		padding: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-07f5fc16 {
+	text-align: center;
+	font-size: 273px;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-07f5fc16 mark {
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-heading-07f5fc16 {
+		padding-top: 30px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-heading-07f5fc16 {
+		padding-top: 30px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-c3e2a83f {
+	text-align: center;
+	font-size: 50px;
+	padding: 0px;
+	margin-top: -120px;
+	margin-bottom: 0px;
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-c3e2a83f mark {
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-heading-c3e2a83f {
+		font-size: 50px;
+		padding: 0px;
+		margin-top: -100px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-heading-c3e2a83f {
+		font-size: 31px;
+		padding: 0px;
+		margin-top: -120px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-df797ac4 {
+	text-align: center;
+	font-size: 18px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-df797ac4 mark {
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-heading-df797ac4 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 35px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-heading-df797ac4 {
+		padding-top: 0px;
+		padding-right: 20px;
+		padding-bottom: 0px;
+		padding-left: 20px;
+		margin-top: 0px;
+		margin-bottom: 35px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-e58a1c6c {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	min-height: auto;
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-e58a1c6c .wp-themeisle-block-overlay {
+	filter: blur( 0px ) brightness( 1 ) contrast( 1 ) grayscale( 0 ) hue-rotate( 0deg ) saturate( 1 )
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-columns-e58a1c6c {
+		padding-top: 0px;
+		padding-right: 10px;
+		padding-bottom: 0px;
+		padding-left: 10px;
+		margin-top: 44px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-columns-e58a1c6c {
+		padding-top: 0px;
+		padding-right: 10px;
+		padding-bottom: 0px;
+		padding-left: 10px;
+		margin-top: 44px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-column-222d97cf {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+ 
+@media ( min-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-222d97cf {
+		flex-basis: 33.34%;
+	}
+ 
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-222d97cf {
+		padding: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-column-222d97cf {
+		padding: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-d47ea3c8 {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	min-height: auto;
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-d47ea3c8 .wp-themeisle-block-overlay {
+	filter: blur( 0px ) brightness( 1 ) contrast( 1 ) grayscale( 0 ) hue-rotate( 0deg ) saturate( 1 )
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-columns-d47ea3c8 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-columns-d47ea3c8 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-column-77002b8d {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+ 
+@media ( min-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-77002b8d {
+		flex-basis: 100%;
+	}
+ 
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-77002b8d {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-column-77002b8d {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-column-eb9ab0be {
+	padding-top: 25px;
+	padding-right: 75px;
+	padding-bottom: 20px;
+	padding-left: 75px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+ 
+@media ( min-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-eb9ab0be {
+		flex-basis: 66.66%;
+	}
+ 
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-eb9ab0be {
+		padding-top: 25px;
+		padding-right: 75px;
+		padding-bottom: 20px;
+		padding-left: 75px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-column-eb9ab0be {
+		padding-top: 25px;
+		padding-right: 30px;
+		padding-bottom: 20px;
+		padding-left: 30px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-79ba12f2 {
+	font-size: 15px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-79ba12f2 mark {
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-heading-79ba12f2 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-heading-79ba12f2 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-e09edd67 {
+	font-size: 18px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-e09edd67 mark {
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-heading-e09edd67 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-heading-e09edd67 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-086b4a9b {
+	font-size: 13px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-086b4a9b mark {
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-heading-086b4a9b {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-heading-086b4a9b {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-0c0cdc21 {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 150px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	min-height: auto;
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-0c0cdc21 .wp-themeisle-block-overlay {
+	filter: blur( 0px ) brightness( 1 ) contrast( 1 ) grayscale( 0 ) hue-rotate( 0deg ) saturate( 1 )
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-columns-0c0cdc21 {
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 150px;
+		padding-left: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-columns-0c0cdc21 {
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 150px;
+		padding-left: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-column-4d167a99 {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+ 
+@media ( min-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-4d167a99 {
+		flex-basis: 100%;
+	}
+ 
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-4d167a99 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-column-4d167a99 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-b593b9c2 {
+	text-align: center;
+	font-size: 273px;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-b593b9c2 mark {
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-heading-b593b9c2 {
+		padding-top: 30px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-heading-b593b9c2 {
+		padding-top: 30px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-f3639e5f {
+	text-align: center;
+	font-size: 50px;
+	padding: 0px;
+	margin-top: -120px;
+	margin-bottom: 0px;
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-f3639e5f mark {
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-heading-f3639e5f {
+		font-size: 50px;
+		padding: 0px;
+		margin-top: -100px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-heading-f3639e5f {
+		font-size: 31px;
+		padding: 0px;
+		margin-top: -120px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-adb3dc18 {
+	text-align: center;
+	font-size: 18px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-adb3dc18 mark {
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-heading-adb3dc18 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 35px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-heading-adb3dc18 {
+		padding-top: 0px;
+		padding-right: 20px;
+		padding-bottom: 0px;
+		padding-left: 20px;
+		margin-top: 0px;
+		margin-bottom: 35px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-2910d139 {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	min-height: auto;
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-2910d139 .wp-themeisle-block-overlay {
+	filter: blur( 0px ) brightness( 1 ) contrast( 1 ) grayscale( 0 ) hue-rotate( 0deg ) saturate( 1 )
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-columns-2910d139 {
+		padding-top: 0px;
+		padding-right: 10px;
+		padding-bottom: 0px;
+		padding-left: 10px;
+		margin-top: 44px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-columns-2910d139 {
+		padding-top: 0px;
+		padding-right: 10px;
+		padding-bottom: 0px;
+		padding-left: 10px;
+		margin-top: 44px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-column-bd55cf69 {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+ 
+@media ( min-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-bd55cf69 {
+		flex-basis: 33.34%;
+	}
+ 
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-bd55cf69 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-column-bd55cf69 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-77cf4bd4 {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	min-height: auto;
+}
+ 
+#wp-block-themeisle-blocks-advanced-columns-77cf4bd4 .wp-themeisle-block-overlay {
+	filter: blur( 0px ) brightness( 1 ) contrast( 1 ) grayscale( 0 ) hue-rotate( 0deg ) saturate( 1 )
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-columns-77cf4bd4 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-columns-77cf4bd4 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-column-2a6df918 {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+ 
+@media ( min-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-2a6df918 {
+		flex-basis: 100%;
+	}
+ 
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-2a6df918 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-column-2a6df918 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-column-1b847492 {
+	padding-top: 25px;
+	padding-right: 75px;
+	padding-bottom: 20px;
+	padding-left: 75px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+ 
+@media ( min-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-1b847492 {
+		flex-basis: 66.66%;
+	}
+ 
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-column-1b847492 {
+		padding-top: 25px;
+		padding-right: 75px;
+		padding-bottom: 20px;
+		padding-left: 75px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-column-1b847492 {
+		padding-top: 25px;
+		padding-right: 30px;
+		padding-bottom: 20px;
+		padding-left: 30px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-8ba86c5c {
+	font-size: 15px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-8ba86c5c mark {
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-heading-8ba86c5c {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-heading-8ba86c5c {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-66a40b97 {
+	font-size: 18px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-66a40b97 mark {
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-heading-66a40b97 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-heading-66a40b97 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-05eed190 {
+	font-size: 13px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+ 
+#wp-block-themeisle-blocks-advanced-heading-05eed190 mark {
+}
+ 
+@media ( min-width: 600px ) and ( max-width: 960px )  {
+	#wp-block-themeisle-blocks-advanced-heading-05eed190 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+@media ( max-width: 600px )  {
+	#wp-block-themeisle-blocks-advanced-heading-05eed190 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+ 
+}
+ 
+
+</style>
+<link href="//fonts.googleapis.com/css?family=Libre+Baskerville:regular,700|Poppins:500,700,regular,300" rel="stylesheet"><link rel="icon" href="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/cropped-512x512-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/cropped-512x512-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/cropped-512x512-180x180.png" />
+<meta name="msapplication-TileImage" content="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/cropped-512x512-270x270.png" />
 </head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-home"></i>  Discouraged Workers
-                </a>
-            </div>
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#overview">Overview</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#description">Description</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#record">Record</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#store">Store</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#teen">Teen</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#channel">Channel</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#thanks">Letter</a>
-                    </li>
-                    <li>
-                        <a href="index_ko.html">한국어</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">#KNDW</h1>
-                        <p class="intro-text">An Independent Progressive Kinetic Novel</p>
-                        <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=4255025971/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://yggdrasilstudio.bandcamp.com/album/discouraged-workers-ost">Discouraged Workers OST by Lee Yunseok</a></iframe>
-                        <a href="#overview" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <section class="content-section text-center">
-        <div class="overview-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2 id="overview">Overview</h2>
-                    <p>Discouraged Workers is an independent progressive kinetic novel created by YGGDRASIL STUDIO. The episode is the fifth in the Project DW series, a satirical story based on the popular Korean soap operas-styled plot. It compares Ga-yeon's bleak everyday life to the dark side of youth.</p>
-                    <div id="vimeoWrap"><iframe src="https://player.vimeo.com/video/247191774?color=fff&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                    <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=399374348" target="_blank"><img src="images/steam_greenlight_greenlit.png" /></a>
-                    <p><em>As a hospital coordinator, Ga-yeon fell in love with a doctor at the hospital she was working in and they had an affair even though the doctor was a married man. When the director found out, she was fired. For over a year she tried to find another job, but her mental uneasiness eventually made her give up and she became a recluse.</em></p>
-                    <p><em>A year later, in the spring of 2013, her younger sister, Hye-na, and her first love Yunwoo come to her.</em></p>
-                    <p><em>A story about the dark side of today's youth and serious life events happening around Ga-yeon.</em></p>
-                    <p><em>Discouraged Workers</em></p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="content-section text-center">
-        <div class="description-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2 id="description">Description</h2>
-                        <p class="text-left"><i class="fa fa-plus fa-fw"></i> The basic mechanism is based on a Kinetic Novel.<br />
-                        <i class="fa fa-plus fa-fw"></i> The episode is adult content. The program contains Violence, Blood, Strong Sexual Content, Nudity, Strong Language, Use of Tobacco, Alcohol Reference. Not recommended for Children, Seniors or Pregnant, Feeble-Minded Person.<br />
-                        <i class="fa fa-plus fa-fw"></i> You will be moved on mostly through Ga-yeon’s point of view and the Archives will be also helpful for you to understand the whole story.<br />
-                        <i class="fa fa-plus fa-fw"></i> Basically you don’t need to be directly involved – just watch, read, listen, and feel it.<br />
-                        <i class="fa fa-plus fa-fw"></i> However sometimes, you may be required to do something to collect some records or scenes.<br />
-                        <i class="fa fa-plus fa-fw"></i> Discouraged Workers is played automatically. You can toggle this function.</p>
-                    <h2 id="features">Features</h2>
-                        <p class="text-left"><i class="fa fa-book fa-fw"></i> A Korean-based densely-plotted story with the gloomy theme.<br />
-                        <i class="fa fa-book fa-fw"></i> The short but intense 120+ minutes, with the real soap opera-like directing.<br />
-                        <i class="fa fa-photo fa-fw"></i> The animation-style hand-drawn sprites & CGs, and backgrounds based on retouched real pictures.<br />
-                        <i class="fa fa-archive fa-fw"></i> Archives contains 90+ records(Characters and Concept, Diary, Gallery, Music, and Replay).<br />
-                        <i class="fa fa-archive fa-fw"></i> 30+ Steam Achievements, full Steam Trading Cards series, Steam Workshop, cross-platform auto-cloud sync with Steam Cloud.<br />
-                        <i class="fa fa-gamepad fa-fw"></i> Full controller support, Steam Controller support.<br >
-						<i class="fa fa-blind fa-fw"></i> Blind friendly support.</p>
-                    <h2 id="platform">Supported Platforms</h2>
-                        <p>Console(OUYA/M.O.J.O), PC(Linux+SteamOS/Raspberry Pi/Mac/Win), Mobile/Tablet(Android/BlackBerry/Fire OS/iOS)</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="content-section text-center">
-        <div class="record-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2 id="record">Key Records</h2>
-                    <p>SlideDB 2016 AOTY TOP 50<br />
-EMOTIONAL GAMES AWARDS 2016 Nominee<br />
-SlideDB 2015 AOTY TOP 50<br />
-Greenlit on Steam Greenlight<br />
-The second Adult Only title on Steam<br />
-Very first released for Adult and TEEN version on Steam<br />
-Very first native Steam Controller support in Korea, Republic of.<br />
-Funded with Tumblbug<br />
-Participated in the FUCK CAPITALISM JAM(#FuckJam2k15)<br />
-Amazon Top 100 selling Indie Games PC Games #12, Mac Games #4<br />
-IndieGameStand Top Sellers #1 -TEEN version<br />
-itch Top games #51, Adventure games #7, Android adventure #1<br />
-SlideDB Popular Games #1(2 times), IndieDB #11, ModDB #45<br />
-App Store iPad Top Paid Educational Games #2, iPhone Top Paid Adventure Games #10, Top Paid Educational Games #1 in Singapore -TEEN version<br />
-Google Play Top Paid Adventure #20 in India, Top New Paid Adventure #7 in Korea, Republic of., Top New Paid Adventure #20 in 8 countries -TEEN version</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2 id="store">Store(Adult Only)</h2>
-                    <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="http://store.steampowered.com/app/371120/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-steam fa-fw"></i><i class="fa fa-linux fa-fw"></i><i class="fa fa-apple fa-fw"></i><i class="fa fa-windows fa-fw"></i> <span class="network-name">Steam</span></a>
-                    </li>
-                    <li>
-                        <a href="http://www.amazon.com/gp/product/B015G8EJSE" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-amazon fa-fw"></i><i class="fa fa-steam fa-fw"></i> <span class="network-name">Amazon</span></a>
-                    </li>
-                    <li>
-                        <a href="#" data-toggle="modal" data-target="#humble" class="btn btn-default btn-lg"><i class="fa fa-linux fa-fw"></i><i class="fa fa-apple fa-fw"></i><i class="fa fa-windows fa-fw"></i><i class="fa fa-android fa-fw"></i><i class="fa fa-steam fa-fw"></i><i class="fa fa-key fa-fw"></i> <span class="network-name">Humble Widget</span></a>
-                    </li>
-                    <div class="modal fade" id="humble" tabindex="-1" role="dialog"><iframe src="https://www.humblebundle.com/widget/v2/product/discouraged_workers_humble/dBObjc9CAA?theme=dark" scrolling="no" frameborder="0"></iframe></div>
-                    </ul>
-                    <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="http://yggdrasilstudio.itch.io/discouraged-workers" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linux fa-fw"></i><i class="fa fa-apple fa-fw"></i><i class="fa fa-windows fa-fw"></i><i class="fa fa-android fa-fw"></i><i class="fa fa-steam fa-fw"></i> <span class="network-name">itch</span></a>
-                    </li>
-                    <li>
-                        <a href="https://www.fanatical.com/en/game/discouraged-workers" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-steam fa-fw"></i> <span class="network-name">Fanatical</span></a>
-                    </li>
-                    <li>
-                        <a href="https://www.indiegala.com/store/product/discouraged-workers/371120" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-steam fa-fw"></i> <span class="network-name">IndieGala</span></a>
-                    </li>
-                    </ul>
-                    <h2 id="dlc">Downloadable Contents</h2>
-                    <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="http://store.steampowered.com/dlc/371120/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-steam fa-fw"></i> <span class="network-name">Steam</span></a>
-                    </li>
-                    <li>
-                        <a href="http://www.amazon.com/gp/product/B015LLY8AA" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-amazon fa-fw"></i><i class="fa fa-download fa-fw"></i><i class="fa fa-steam fa-fw"></i> <span class="network-name">Amazon</span></a>
-                    </li>
-                    <li>
-                            <a href="https://yggdrasilstudio.bandcamp.com/album/discouraged-workers-ost" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-music fa-fw"></i><i class="fa fa-download fa-fw"></i><i class="fa fa-steam fa-fw"></i> <span class="network-name">BandCamp</span></a>
-                    </li>
-                    <li>
-                        <a href="http://yggdrasilstudio.itch.io/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-download fa-fw"></i><i class="fa fa-steam fa-fw"></i> <span class="network-name">itch</span></a>
-                    </li>
-                    </ul>
-                    <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="#" data-toggle="modal" data-target="#humbleost" class="btn btn-default btn-lg"><i class="fa fa-download fa-fw"></i><i class="fa fa-steam fa-fw"></i><i class="fa fa-key fa-fw"></i> <span class="network-name">Humble Widget</span></a>
-                    </li>
-                    <div class="modal fade" id="humbleost" tabindex="-1"><iframe src="https://www.humblebundle.com/widget/v2/product/discouraged_workers_ost/zRYA0kpa2m?theme=dark" scrolling="no" frameborder="0"></iframe></div>
-                    <li>
-                        <a href="https://www.indiegala.com/store/product/discouraged-workers-original-sound-track/375160" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-steam fa-fw"></i> <span class="network-name">IndieGala</span></a>
-                    </li>
-                    </ul>
-                    <h2 id="teen">Store(TEEN)</h2>
-                    <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="http://store.steampowered.com/app/432180/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-steam fa-fw"></i><i class="fa fa-linux fa-fw"></i><i class="fa fa-apple fa-fw"></i><i class="fa fa-windows fa-fw"></i><i class="fa fa-android fa-fw"></i> <span class="network-name">Steam</span></a>
-                    </li>
-                    <li>
-                        <a href="https://www.humblebundle.com/store/p/discouraged_workers_teen_storefront" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-steam fa-fw"></i><i class="fa fa-linux fa-fw"></i><i class="fa fa-apple fa-fw"></i><i class="fa fa-windows fa-fw"></i><i class="fa fa-android fa-fw"></i> <span class="network-name">Humble Store</span></a>
-                    </li>
-                    </ul>
-                    <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="http://yggdrasilstudio.itch.io/discouraged-workers-teen-version" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-steam fa-fw"></i><i class="fa fa-linux fa-fw"></i><i class="fa fa-apple fa-fw"></i><i class="fa fa-windows fa-fw"></i><i class="fa fa-android fa-fw"></i> <span class="network-name">itch</span></a>
-                    </li>
-                    <li>
-                        <a href="https://gamejolt.com/games/KNDWTEEN/49444" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linux fa-fw"></i><i class="fa fa-apple fa-fw"></i><i class="fa fa-windows fa-fw"></i><i class="fa fa-android fa-fw"></i> <span class="network-name">Game Jolt</span></a>
-                    </li>
-                    </ul>
-                    <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="http://www.nutaku.net/games/download/discouraged-workers-teen/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linux fa-fw"></i><i class="fa fa-apple fa-fw"></i><i class="fa fa-windows fa-fw"></i><i class="fa fa-android fa-fw"></i> <span class="network-name">Nutaku Game Store</span></a>
-                    </li>
-                    <li>
-                        <a href="https://discouraged-workers-teen.en.aptoide.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-android fa-fw"></i> <span class="network-name">Aptoide</span></a>
-                    </li>
-                    </ul>
-                    <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="http://www.amazon.com/gp/product/B017L62P12" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-amazon fa-fw"></i><i class="fa fa-android fa-fw"></i> <span class="network-name">Amazon Appstore</span></a>
-                    </li>
-                    <li>
-                        <a href="https://itunes.apple.com/app/discouraged-workers/id1063270902" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-apple fa-fw"></i> <span class="network-name">App Store</span></a>
-                    </li>
-                    <li>
-                        <a href="https://play.google.com/store/apps/details?id=github.io.yggdrasilstudio.kndwteen" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-android fa-fw"></i> <span class="network-name">Google Play</span></a>
-                    </li>
-                    </ul>
-                    <h2 id="demo">Download Demo(TEEN)</h2>
-                    <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="steam://install/371130" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-steam fa-fw"></i><i class="fa fa-linux fa-fw"></i><i class="fa fa-apple fa-fw"></i><i class="fa fa-windows fa-fw"></i> <span class="network-name">Steam</span></a>
-                    </li>
-                    <li>
-                        <a href="http://www.amazon.com/s/ref=nb_sb_noss?url=srs%3D11505480011%26search-alias%3Dspecialty-aps&field-keywords=discouraged+workers+demo" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-amazon fa-fw"></i><i class="fa fa-apple fa-fw"></i><i class="fa fa-windows fa-fw"></i><i class="fa fa-android fa-fw"></i> <span class="network-name">Amazon</span></a>
-                    </li>
-                    <li>
-                        <a href="https://play.google.com/store/apps/details?id=github.io.yggdrasilstudio.kndwdemo" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-android fa-fw"></i> <span class="network-name">Google Play</span></a>
-                    </li>
-                    </ul>
-                    <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://gamejolt.com/games/KNDWTEEN/49444" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linux fa-fw"></i><i class="fa fa-apple fa-fw"></i><i class="fa fa-windows fa-fw"></i><i class="fa fa-android fa-fw"></i> <span class="network-name">Game Jolt</span></a>
-                    </li>
-                    <li>
-                        <a href="http://www.indiedb.com/games/discouraged-workers/downloads" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linux fa-fw"></i><i class="fa fa-apple fa-fw"></i><i class="fa fa-windows fa-fw"></i><i class="fa fa-android fa-fw"></i> <span class="network-name">IndieDB</span></a>
-                    </li>
-                    </ul>
-                    <ul class="list-inline banner-social-buttons">
-                    <li>
-                            <a href="https://bitbucket.org/yggdrasilstudio/discouraged-workers-demo" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-bitbucket fa-fw"></i><i class="fa fa-linux fa-fw"></i><i class="fa fa-apple fa-fw"></i><i class="fa fa-windows fa-fw"></i><i class="fa fa-android fa-fw"></i> <span class="network-name">Bitbucket</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/releases" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i><i class="fa fa-linux fa-fw"></i><i class="fa fa-apple fa-fw"></i><i class="fa fa-windows fa-fw"></i><i class="fa fa-android fa-fw"></i> <span class="network-name">GitHub</span></a>
-                    </li>
-                    </ul>
-                    <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="http://yggdrasilstudio.itch.io/discouraged-workers-demo" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linux fa-fw"></i><i class="fa fa-apple fa-fw"></i><i class="fa fa-windows fa-fw"></i><i class="fa fa-android fa-fw"></i> <span class="network-name">itch</span></a>
-                    </li>
-                    <li>
-                        <a href="https://www.ouya.tv/game/Discouraged-Workers-Demo/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-gamepad fa-fw"></i> <span class="network-name">OUYA</span></a>
-                    </li>
-                    </ul>
-                    <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="http://android.oms.apps.opera.com/en_us/discouraged_workers_demo.html" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-opera fa-fw"></i><i class="fa fa-android fa-fw"></i> <span class="network-name">Opera Mobile Store</span></a>
-                    </li>
-                    <li>
-                        <a href="http://yggdrasilstudio.store.aptoide.com/app/market/github.io.yggdrasilstudio.kndwdemo/2030001/19395514/Discouraged+Workers+Demo" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-android fa-fw"></i> <span class="network-name">Aptoide</span></a>
-                    </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="content-section text-center">
-        <div class="channel-section">
-            <div class="container ">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2 id="channel">Channel</h2>
-                    <p>Official channels of Discouraged Workers.</p>
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://www.facebook.com/YGGDRASILSTUDIO" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/+YGGDRASILSTUDIO" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google Plus</span></a>
-                        </li>
-                        <li>
-                            <a href="https://www.twitter.com/STUDIOYGGDRASIL" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                    </ul>
-                    <ul class="list-inline banner-social-buttons"> 
-                        <li>
-                            <a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span></a>
-                        </li>
-                        <li>
-                            <a href="http://www.indiedb.com/games/discouraged-workers/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-briefcase fa-fw"></i> <span class="network-name">IndieDB</span></a>
-                        </li>
-                        <li>
-                            <a href="http://steamcommunity.com/games/371120" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-steam fa-fw"></i> <span class="network-name">Steam Group</span></a>
-                        </li>
-                    </ul>
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://www.pinterest.com/YGGDRASILSTUDIO/discouraged-workers/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-pinterest fa-fw"></i> <span class="network-name">Pinterest</span></a>
-                        </li>
-                        <li>
-                            <a href="https://vimeo.com/channels/kndw" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-vimeo fa-fw"></i> <span class="network-name">Vimeo</span></a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/watch?list=PLabaFfshnrMV0NtngShfanjCR28DkHvEk&v=Byxo0f6m0fg" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-youtube fa-fw"></i> <span class="network-name">YouTube</span></a>
-                        </li>
-                    </ul>
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://yggdrasilstudio.bandcamp.com/album/discouraged-workers-ost" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-music fa-fw"></i> <span class="network-name">BandCamp</span></a>
-                        </li>
-                        <li>
-                            <a href="https://myspace.com/arisae/music/album/discouraged-workers-ost-19515168" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-music fa-fw"></i> <span class="network-name">Myspace</span></a>
-                        </li>
-                        <li>
-                            <a href="https://soundcloud.com/arisae/sets/discouraged-workers-ost" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-soundcloud fa-fw"></i> <span class="network-name">SoundCloud</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="content-section text-center">
-        <div class="thanks-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2 id="thanks">Thank You Letter</h2>
-                    <p>ACOC, Aiman Sharul, Axel Mertes, Bgame, Brandon Tanimoto,<br />
-                    Brian Connors, BRISAK Kim Doohyeon, cheif.choi, Choi Irang, Choi Jihye,<br />
-                    clôture, Danielle Bell, Edward N Puckering, Gary King, Gwak Jaeryeol,<br />
-                    Han Ihyeong, Hoe Namyoon, Hong Eunki, Hwang Daehoon, Hyojoon,<br />
-                    James Emmerson, Jeong Dongwon, Jeong Wookjin, Jeong Yoonsoo,<br />
-                    Jianmin Zhang, Karina Schulze, Keira Val'Azr, Kim Hanseol, Kim Hyeoncheol,<br />
-                    Kim Jaeseong, Kim Jeongwoong, Kim Myeongwook, Lee Changki, Lee Eunji,<br />
-                    Lee Gunhae, Lee Hyejin, Lee Jaewi, Light Twins, Lim Jisoo, Maddy Wootton,<br />
-                    Marshall Proudfoot, Mirumu, Mojaeng, Oh Hyeonjun, Park Hyeonjun,<br />
-                    Park JoonKoo, Rewind, Sander Tieleman, srwss, Sung Chanaul, YottaCho,<br />
-                    Zerial.net</p>
-                    <p>Christopher Rice, George Winston, Kim Sooyoung, Lee Illseong,<br />
-                    Pixabay, Shin Haechul, So Reyeon, Tom Rothamel, Valve Corporation</p>
-                    <p>This work was created by you. Yours Sincerely,<br />
-                    Lee Yunseok, Creator of YGGDRASIL STUDIO.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="content-section text-center">
-        <iframe src="https://gitter.im/YGGDRASIL-STUDIO/Lobby/~embed" width="80%" height="353"></iframe>
-    </section>
-    <footer>
-        <div class="container text-center">
-            <p><a href="https://yggdrasil-studio.github.io/presskit/discouraged_workers/index.html" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-archive fa-fw"></i> <span class="network-name">PressKit</a> <a href="https://yggdrasil-studio.github.io/Discouraged-Workers/index_ko.html" class="btn btn-default btn-lg"><i class="fa fa-language fa-fw"></i> <span class="network-name">한국어</a></p>
-            <p>Discouraged Workers &copy; <a href="https://yggdrasil-studio.github.io" target="_blank">YGGDRASIL STUDIO</a></p>
-            <p>Website hosted on <a href="https://pages.github.com/" target="_blank"><i class="fa fa-github"></i> GitHub Pages</a></p>
-        </div>
-    </footer>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/grayscale.js"></script>
-    <script src="https://widget.battleforthenet.com/widget.js" async></script>
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-40578670-8', 'auto');
-    ga('send', 'pageview');
-    </script>
+
+<body class="home page-template-default page page-id-8 nv-sidebar-full-width nv-without-title menu_sidebar_slide_left" >
+<div class="wrapper">
+	<header class="header" role="banner">
+		<a class="neve-skip-link show-on-focus" href="#content" tabindex="0">
+			Skip to content		</a>
+		<div id="header-grid"  class="hfg_header site-header">
+	
+<nav class="header--row header-main hide-on-mobile hide-on-tablet layout-full-contained nv-navbar header--row"
+	id="cb-row--header-main"
+	data-row-id="main" data-show-on="desktop">
+
+	<div
+		class="header--row-inner header-main-inner light-mode">
+		<div class="container">
+			<div class="row">
+				<div class="builder-item col-4 col-md-4 col-sm-4 hfg-item-left hfg-item-first"><div class="item--inner builder-item--logo"
+	data-section="title_tagline"
+	data-item-id="logo">
+	<div class="site-logo">
+	<a class="brand" href="https://yggdrasil-studio.github.io/Discouraged-Workers/" title="Discouraged Workers">
+											<p class="site-title"> Discouraged Workers </p>
+													<small>An Independent Progressive Kinetic Novel</small>
+							</a>
+</div>
+
+	</div>
+
+</div><div class="builder-item col-8 col-md-8 col-sm-8 hfg-item-right hfg-item-last"><div class="item--inner builder-item--primary-menu has_menu"
+	data-section="header_menu_primary"
+	data-item-id="primary-menu">
+	<div class="nv-nav-wrap">
+	<div role="navigation" class="style-plain nav-menu-primary"
+		aria-label="Primary Menu">
+
+		<ul id="nv-primary-navigation" class="primary-menu-ul"><li id="menu-item-17" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17"><a target="_blank" href="https://store.steampowered.com/app/371120/Discouraged_Workers/">Steam</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25"><a target="_blank" href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/wiki">Wiki</a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20"><a target="_blank" href="https://yggdrasil-studio.github.io/presskit/discouraged_workers/index.html">Presskit</a></li>
+<li id="menu-item-90" class="pll-parent-menu-item menu-item menu-item-type-custom menu-item-object-custom current-menu-parent menu-item-has-children menu-item-90"><a href="#pll_switcher"><span class="menu-item-title-wrap">English</span><div class="caret-wrap 4"><span class="caret"></span></div></a>
+<ul class="sub-menu">
+	<li class="lang-item lang-item-4 lang-item-en lang-item-first current-lang menu-item menu-item-type-custom menu-item-object-custom current_page_item menu-item-home menu-item-90-en"><a href="https://yggdrasil-studio.github.io/Discouraged-Workers/" hreflang="en-US" lang="en-US">English</a></li>
+	<li class="lang-item lang-item-7 lang-item-ko menu-item menu-item-type-custom menu-item-object-custom menu-item-90-ko"><a href="https://yggdrasil-studio.github.io/Discouraged-Workers/ko/" hreflang="ko-KR" lang="ko-KR">한국어</a></li>
+</ul>
+</li>
+</ul>	</div>
+</div>
+
+	</div>
+
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+
+<nav class="header--row header-main hide-on-desktop layout-full-contained nv-navbar header--row"
+	id="cb-row--header-main"
+	data-row-id="main" data-show-on="mobile">
+
+	<div
+		class="header--row-inner header-main-inner light-mode">
+		<div class="container">
+			<div class="row">
+				<div class="builder-item col-8 col-md-8 col-sm-8 hfg-item-left hfg-item-first"><div class="item--inner builder-item--logo"
+	data-section="title_tagline"
+	data-item-id="logo">
+	<div class="site-logo">
+	<a class="brand" href="https://yggdrasil-studio.github.io/Discouraged-Workers/" title="Discouraged Workers">
+											<p class="site-title"> Discouraged Workers </p>
+													<small>An Independent Progressive Kinetic Novel</small>
+							</a>
+</div>
+
+	</div>
+
+</div><div class="builder-item col-4 col-md-4 col-sm-4 hfg-item-right hfg-item-last"><div class="item--inner builder-item--nav-icon"
+	data-section="header_menu_icon"
+	data-item-id="nav-icon">
+	<div class="menu-mobile-toggle item-button navbar-toggle-wrapper">
+	<button class="navbar-toggle" 
+				aria-label="			Navigation Menu			">
+		<div class="bars">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</div>
+		<span class="screen-reader-text">Toggle Navigation</span>
+	</button>
+</div> <!--.navbar-toggle-wrapper-->
+
+
+	</div>
+
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<div id="header-menu-sidebar" class="header-menu-sidebar menu-sidebar-panel light-mode slide_left">
+	<div id="header-menu-sidebar-bg" class="header-menu-sidebar-bg">
+		<div class="close-sidebar-panel navbar-toggle-wrapper">
+			<button class="navbar-toggle active" 					aria-label="				Navigation Menu				">
+				<div class="bars">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</div>
+				<span class="screen-reader-text">
+				Toggle Navigation					</span>
+			</button>
+		</div>
+		<div id="header-menu-sidebar-inner" class="header-menu-sidebar-inner">
+			<div class="builder-item col-12 col-md-12 col-sm-12 hfg-item-right hfg-item-first hfg-item-last"><div class="item--inner builder-item--primary-menu has_menu"
+	data-section="header_menu_primary"
+	data-item-id="primary-menu">
+	<div class="nv-nav-wrap">
+	<div role="navigation" class="style-plain nav-menu-primary"
+		aria-label="Primary Menu">
+
+		<ul id="nv-primary-navigation" class="primary-menu-ul"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17"><a target="_blank" href="https://store.steampowered.com/app/371120/Discouraged_Workers/">Steam</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25"><a target="_blank" href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/wiki">Wiki</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20"><a target="_blank" href="https://yggdrasil-studio.github.io/presskit/discouraged_workers/index.html">Presskit</a></li>
+<li class="pll-parent-menu-item menu-item menu-item-type-custom menu-item-object-custom current-menu-parent menu-item-has-children menu-item-90"><a href="#pll_switcher"><span class="menu-item-title-wrap">English</span><div class="caret-wrap 4"><span class="caret"></span></div></a>
+<ul class="sub-menu">
+	<li class="lang-item lang-item-4 lang-item-en lang-item-first current-lang menu-item menu-item-type-custom menu-item-object-custom current_page_item menu-item-home menu-item-90-en"><a href="https://yggdrasil-studio.github.io/Discouraged-Workers/" hreflang="en-US" lang="en-US">English</a></li>
+	<li class="lang-item lang-item-7 lang-item-ko menu-item menu-item-type-custom menu-item-object-custom menu-item-90-ko"><a href="https://yggdrasil-studio.github.io/Discouraged-Workers/ko/" hreflang="ko-KR" lang="ko-KR">한국어</a></li>
+</ul>
+</li>
+</ul>	</div>
+</div>
+
+	</div>
+
+</div>		</div>
+	</div>
+</div>
+
+</div>
+	</header>
+	
+	<main id="content" class="neve-main" role="main">
+
+<div class="container single-page-container">
+	<div class="row">
+				<div class="nv-single-page-wrap col">
+			<div class="nv-content-wrap entry-content">
+<div class="wp-block-themeisle-blocks-advanced-columns alignfull has-1-columns has-desktop-equal-layout has-tablet-equal-layout has-mobile-equal-layout has-nogap-gap has-vertical-unset" id="wp-block-themeisle-blocks-advanced-columns-230557b5" style="background-image:url( 'https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/kndw_bg_00.png' );background-attachment:scroll;background-position:top center;background-repeat:no-repeat;background-size:cover;border-width:0px;border-style:solid;border-color:#000000;border-radius:0px;justify-content:center"><div class="wp-themeisle-block-overlay" style="background:#262732;opacity:0.85;mix-blend-mode:normal"></div><div class="innerblocks-wrap" style="max-width:1140px">
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-8b76982b" style="border-width:0px;border-style:solid;border-color:#000000;border-radius:0px">
+<h1 id="wp-block-themeisle-blocks-advanced-heading-6ec5d142" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-6ec5d142" style="color:#ffffff;font-family:Libre Baskerville;font-weight:normal;font-style:normal;text-transform:none"> An Independent Progressive Kinetic Novel </h1>
+
+
+
+<div id="wp-block-themeisle-blocks-button-group-2e130e38" class="wp-block-themeisle-blocks-button-group collapse-mobile" style="justify-content:center;align-items:center"><a href="https://store.steampowered.com/app/371120/Discouraged_Workers/" target="_blank" class="wp-block-themeisle-blocks-button wp-block-themeisle-blocks-button-0" style="font-size:16px;font-family:Poppins;font-weight:500;font-style:normal;text-transform:uppercase;line-height:50px;border-width:0px;border-radius:30px;padding:0px 40px " rel="noopener noreferrer"><span>BUY ON STEAM</span></a></div>
+
+
+
+<p class="ticss-7fa9453b"></p>
+</div>
+</div></div>
+
+
+
+<div class="wp-block-themeisle-blocks-advanced-columns alignfull has-2-columns has-desktop-equal-layout has-tablet-collapsedRows-layout has-mobile-collapsedRows-layout has-nogap-gap has-vertical-center" id="wp-block-themeisle-blocks-advanced-columns-79a69ad4" style="border-width:0px;border-style:solid;border-color:#000000;border-radius:0px;justify-content:center"><div class="wp-themeisle-block-overlay" style="opacity:0.5;mix-blend-mode:normal"></div><div class="innerblocks-wrap" style="max-width:1140px">
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-86b58acc" style="border-width:0px;border-style:solid;border-color:#000000;border-radius:0px">
+<div class="wp-block-themeisle-blocks-advanced-columns has-1-columns has-desktop-equal-layout hide-in-tablet hide-in-mobile has-default-gap has-vertical-unset" id="wp-block-themeisle-blocks-advanced-columns-09b8915d" style="border-width:0px;border-style:solid;border-color:#000000;border-radius:0px;justify-content:unset"><div class="wp-themeisle-block-overlay" style="opacity:0.5;mix-blend-mode:normal"></div><div class="innerblocks-wrap">
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-3f784b0a" style="border-width:0px;border-style:solid;border-color:#000000;border-radius:0px">
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/kndw_bg_over.png" alt="KNDW_SMOKING" class="wp-image-72" srcset="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/kndw_bg_over.png 600w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/kndw_bg_over-167x300.png 167w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/kndw_bg_over-569x1024.png 569w" sizes="(max-width: 600px) 100vw, 600px" /><figcaption>KNDW_SMOKING</figcaption></figure></div>
+
+
+
+<p></p>
+</div>
+</div></div>
+</div>
+
+
+
+<div class="wp-block-themeisle-blocks-advanced-column neve-about-content" id="wp-block-themeisle-blocks-advanced-column-b404c7b1" style="background:#ffffff;border-top-width:0px;border-right-width:0px;border-bottom-width:3px;border-left-width:0px;border-style:solid;border-color:#38c695;border-radius:0px;box-shadow:1px 1px 10px 0px rgba(0, 0, 0, 0.08)">
+<div id="wp-block-themeisle-blocks-advanced-heading-50a484ab" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-50a484ab" style="color:#ebebeb;font-family:Poppins;font-weight:700;font-style:normal;text-transform:none;line-height:200px">00</div>
+
+
+
+<h2 id="wp-block-themeisle-blocks-advanced-heading-aa3d097b" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-aa3d097b" style="color:#313131;font-family:Libre Baskerville;font-weight:700;font-style:normal;text-transform:capitalize">Overview</h2>
+
+
+
+<p id="wp-block-themeisle-blocks-advanced-heading-df7d277e" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-df7d277e" style="color:#616161;font-family:Poppins;font-weight:normal;font-style:normal;text-transform:none;line-height:27px"><strong>Discouraged Workers</strong> is an independent progressive kinetic novel created by YGGDRASIL STUDIO. The episode is the fifth in the Project DW series, a satirical story based on the popular Korean soap operas-styled plot. It compares Ga-yeon’s bleak everyday life to the dark side of youth.<br> <br><em>As a hospital coordinator, Ga-yeon fell in love with a doctor at the hospital she was working in and they had an affair even though the doctor was a married man. When the director found out, she was fired. For over a year she tried to find another job, but her mental uneasiness eventually made her give up and she became a recluse. <br><br>A year later, in the spring of 2013, her younger sister, Hye-na, and her first love Yunwoo come to her.<br> <br>A story about the dark side of today’s youth and serious life events happening around Ga-yeon.<br> <br>Discouraged Workers </em></p>
+</div>
+</div></div>
+
+
+
+<div class="wp-block-themeisle-blocks-advanced-columns alignfull has-1-columns has-desktop-equal-layout has-tablet-equal-layout has-mobile-equal-layout has-nogap-gap has-vertical-unset" id="wp-block-themeisle-blocks-advanced-columns-c6ff7827" style="background-image:url( 'https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/kndw_bg_02.png' );background-attachment:scroll;background-position:top center;background-repeat:no-repeat;background-size:cover;border-width:0px;border-style:solid;border-color:#000000;border-radius:0px;justify-content:center"><div class="wp-themeisle-block-overlay" style="background:#262732;opacity:0.85;mix-blend-mode:normal"></div><div class="innerblocks-wrap" style="max-width:1140px">
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-312574e6" style="border-width:0px;border-style:solid;border-color:#000000;border-radius:0px">
+<div id="wp-block-themeisle-blocks-advanced-heading-4b26b604" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-4b26b604" style="color:#646262;font-family:Poppins;font-weight:700;font-style:normal;text-transform:none;line-height:200px">01</div>
+
+
+
+<h2 id="wp-block-themeisle-blocks-advanced-heading-baf7430a" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-baf7430a" style="color:#ffffff;font-family:Libre Baskerville;font-weight:700;font-style:normal;text-transform:none;line-height:75px">Testimonials</h2>
+
+
+
+<div id="wp-block-themeisle-blocks-advanced-heading-a27bf7c2" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-a27bf7c2" style="color:#ffffff;font-family:Poppins;font-weight:300;font-style:normal;text-transform:none">December 12, 2015</div>
+
+
+
+<div class="wp-block-themeisle-blocks-testimonials">
+<div class="wp-block-themeisle-blocks-advanced-columns has-2-columns has-desktop-oneTwo-layout has-tablet-collapsedRows-layout has-mobile-collapsedRows-layout has-nogap-gap has-vertical-center" id="wp-block-themeisle-blocks-advanced-columns-09c0d29f" style="border-width:0px;border-style:solid;border-color:#000000;border-radius:0px;justify-content:unset"><div class="wp-themeisle-block-overlay" style="opacity:0.5;mix-blend-mode:normal"></div><div class="innerblocks-wrap">
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-6f2db88b" style="border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;border-style:solid;border-color:#2d2e33;border-radius:0px">
+<div class="wp-block-themeisle-blocks-advanced-columns has-1-columns has-desktop-equal-layout hide-in-tablet hide-in-mobile has-nogap-gap has-vertical-unset" id="wp-block-themeisle-blocks-advanced-columns-7378746f" style="border-width:0px;border-style:solid;border-color:#000000;border-radius:0px;justify-content:unset"><div class="wp-themeisle-block-overlay" style="opacity:0.5;mix-blend-mode:normal"></div><div class="innerblocks-wrap">
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-25cccd79" style="border-width:0px;border-style:solid;border-color:#000000;border-radius:0px"></div>
+</div></div>
+</div>
+
+
+
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-ddb7e66f" style="background:#ffffff;border-top-width:0px;border-right-width:0px;border-bottom-width:3px;border-left-width:0px;border-style:solid;border-color:#feb960;border-radius:0px">
+<p id="wp-block-themeisle-blocks-advanced-heading-6e344fdb" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-6e344fdb" style="color:#616161;font-family:Poppins;font-weight:300;font-style:normal;text-transform:none;line-height:27px">&#8220;The extremely dark atmosphere and realism make for an interesting departure that&#8217;s pretty far removed from what you&#8217;d normally expect out of a visual novel, and it&#8217;s worth giving a try for that alone.&#8221;</p>
+
+
+
+<h6 id="wp-block-themeisle-blocks-advanced-heading-c077b02f" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-c077b02f" style="color:#313131;font-family:Poppins;font-weight:500;font-style:normal;text-transform:none;line-height:26px">Brittany Vincent</h6>
+
+
+
+<p id="wp-block-themeisle-blocks-advanced-heading-4e03e3ca" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-4e03e3ca" style="color:#616161;font-family:Poppins;font-weight:300;font-style:normal;text-transform:none;line-height:27px">Editor of SyfyGames.com</p>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+</div>
+</div></div>
+
+
+
+<p></p>
+</div>
+</div>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-themeisle-blocks-advanced-columns alignfull has-1-columns has-desktop-equal-layout has-tablet-equal-layout has-mobile-equal-layout has-nogap-gap has-vertical-center" id="wp-block-themeisle-blocks-advanced-columns-a6bbeee7" style="background-image:url( 'https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/kndw_bg_01.png' );background-attachment:scroll;background-position:top center;background-repeat:no-repeat;background-size:cover;border-width:0px;border-style:solid;border-color:#000000;border-radius:0px;justify-content:center"><div class="wp-themeisle-block-overlay" style="background:#262732;opacity:0.85;mix-blend-mode:normal"></div><div class="innerblocks-wrap" style="max-width:1140px">
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-d4e609b5" style="border-width:0px;border-style:solid;border-color:#000000;border-radius:0px">
+<h3 id="wp-block-themeisle-blocks-advanced-heading-96a0b87c" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-96a0b87c" style="color:#ffffff;font-family:Poppins;font-weight:normal;font-style:normal;text-transform:none;line-height:48px">Discouraged Workers -Wail Trailer Final</h3>
+
+
+
+<figure class="wp-block-embed-vimeo aligncenter wp-block-embed is-type-video is-provider-vimeo wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe src="https://player.vimeo.com/video/247191774?dnt=1&#038;app_id=122963" width="750" height="422" frameborder="0" title="Discouraged Workers -Wail Trailer Final" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p></p>
+</div>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-themeisle-blocks-advanced-columns alignfull has-1-columns has-desktop-equal-layout has-tablet-equal-layout has-mobile-equal-layout has-nogap-gap has-vertical-unset" id="wp-block-themeisle-blocks-advanced-columns-e154bb96" style="background-image:url( 'https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/kndw_bg_03.png' );background-attachment:scroll;background-position:top center;background-repeat:no-repeat;background-size:cover;border-width:0px;border-style:solid;border-color:#000000;border-radius:0px;justify-content:center"><div class="wp-themeisle-block-overlay" style="background:#262732;opacity:0.85;mix-blend-mode:normal"></div><div class="innerblocks-wrap" style="max-width:1140px">
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-acafc04f" style="border-width:0px;border-style:solid;border-color:#000000;border-radius:0px">
+<div id="wp-block-themeisle-blocks-advanced-heading-07f5fc16" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-07f5fc16" style="color:#646262;font-family:Poppins;font-weight:700;font-style:normal;text-transform:none;line-height:200px">02</div>
+
+
+
+<h2 id="wp-block-themeisle-blocks-advanced-heading-c3e2a83f" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-c3e2a83f" style="color:#ffffff;font-family:Libre Baskerville;font-weight:700;font-style:normal;text-transform:none;line-height:75px">Testimonials</h2>
+
+
+
+<div id="wp-block-themeisle-blocks-advanced-heading-df797ac4" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-df797ac4" style="color:#ffffff;font-family:Poppins;font-weight:300;font-style:normal;text-transform:none">January 29, 2016</div>
+
+
+
+<div class="wp-block-themeisle-blocks-testimonials">
+<div class="wp-block-themeisle-blocks-advanced-columns has-2-columns has-desktop-oneTwo-layout has-tablet-collapsedRows-layout has-mobile-collapsedRows-layout has-nogap-gap has-vertical-center" id="wp-block-themeisle-blocks-advanced-columns-e58a1c6c" style="border-width:0px;border-style:solid;border-color:#000000;border-radius:0px;justify-content:unset"><div class="wp-themeisle-block-overlay" style="opacity:0.5;mix-blend-mode:normal"></div><div class="innerblocks-wrap">
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-222d97cf" style="border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;border-style:solid;border-color:#2d2e33;border-radius:0px">
+<div class="wp-block-themeisle-blocks-advanced-columns has-1-columns has-desktop-equal-layout hide-in-tablet hide-in-mobile has-nogap-gap has-vertical-unset" id="wp-block-themeisle-blocks-advanced-columns-d47ea3c8" style="border-width:0px;border-style:solid;border-color:#000000;border-radius:0px;justify-content:unset"><div class="wp-themeisle-block-overlay" style="opacity:0.5;mix-blend-mode:normal"></div><div class="innerblocks-wrap">
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-77002b8d" style="border-width:0px;border-style:solid;border-color:#000000;border-radius:0px"></div>
+</div></div>
+</div>
+
+
+
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-eb9ab0be" style="background:#ffffff;border-top-width:0px;border-right-width:0px;border-bottom-width:3px;border-left-width:0px;border-style:solid;border-color:#feb960;border-radius:0px">
+<p id="wp-block-themeisle-blocks-advanced-heading-79ba12f2" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-79ba12f2" style="color:#616161;font-family:Poppins;font-weight:300;font-style:normal;text-transform:none;line-height:27px">&#8220;This game, despite its frustrating design, will hit unemployed or underemployed millennial gamers right where it hurts. It’s a satirical take on Korean soap operas, but the plot — powerlessly navigating a sluggish economy with debt and a useless degree — feels distinctly American as well.&#8221;</p>
+
+
+
+<h6 id="wp-block-themeisle-blocks-advanced-heading-e09edd67" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-e09edd67" style="color:#313131;font-family:Poppins;font-weight:500;font-style:normal;text-transform:none;line-height:26px">Emily Gaudette</h6>
+
+
+
+<p id="wp-block-themeisle-blocks-advanced-heading-086b4a9b" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-086b4a9b" style="color:#616161;font-family:Poppins;font-weight:300;font-style:normal;text-transform:none;line-height:27px">Writer and editor of Inverse</p>
+</div>
+</div></div>
+</div>
+
+
+
+<p></p>
+</div>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<ul class="wp-block-gallery columns-2 is-cropped"><li class="blocks-gallery-item"><figure><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-01-1024x576.png" alt="" data-id="53" data-link="https://yggdrasil-studio.github.io/Discouraged-Workers/home/discouraged-workers-screenshot-01/" class="wp-image-53" srcset="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-01-1024x576.png 1024w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-01-300x169.png 300w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-01-768x432.png 768w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-01.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></li><li class="blocks-gallery-item"><figure><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-02-1024x576.png" alt="" data-id="54" data-link="https://yggdrasil-studio.github.io/Discouraged-Workers/home/discouraged-workers-screenshot-02/" class="wp-image-54" srcset="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-02-1024x576.png 1024w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-02-300x169.png 300w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-02-768x432.png 768w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-02.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></li><li class="blocks-gallery-item"><figure><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-03-1024x576.png" alt="" data-id="55" data-link="https://yggdrasil-studio.github.io/Discouraged-Workers/home/discouraged-workers-screenshot-03/" class="wp-image-55" srcset="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-03-1024x576.png 1024w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-03-300x169.png 300w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-03-768x432.png 768w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-03.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></li><li class="blocks-gallery-item"><figure><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-04-1024x576.png" alt="" data-id="56" data-link="https://yggdrasil-studio.github.io/Discouraged-Workers/home/discouraged-workers-screenshot-04/" class="wp-image-56" srcset="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-04-1024x576.png 1024w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-04-300x169.png 300w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-04-768x432.png 768w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-04.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></li><li class="blocks-gallery-item"><figure><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-05-1024x576.png" alt="" data-id="57" data-link="https://yggdrasil-studio.github.io/Discouraged-Workers/home/discouraged-workers-screenshot-05/" class="wp-image-57" srcset="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-05-1024x576.png 1024w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-05-300x169.png 300w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-05-768x432.png 768w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-05.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></li><li class="blocks-gallery-item"><figure><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-06-1024x576.png" alt="" data-id="58" data-link="https://yggdrasil-studio.github.io/Discouraged-Workers/home/discouraged-workers-screenshot-06/" class="wp-image-58" srcset="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-06-1024x576.png 1024w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-06-300x169.png 300w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-06-768x432.png 768w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-06.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></li><li class="blocks-gallery-item"><figure><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-07-1024x576.png" alt="" data-id="59" data-link="https://yggdrasil-studio.github.io/Discouraged-Workers/home/discouraged-workers-screenshot-07/" class="wp-image-59" srcset="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-07-1024x576.png 1024w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-07-300x169.png 300w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-07-768x432.png 768w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-07.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></li><li class="blocks-gallery-item"><figure><img src="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-08-1024x576.png" alt="" data-id="60" data-link="https://yggdrasil-studio.github.io/Discouraged-Workers/home/discouraged-workers-screenshot-08/" class="wp-image-60" srcset="https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-08-1024x576.png 1024w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-08-300x169.png 300w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-08-768x432.png 768w, https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/discouraged-workers-screenshot-08.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></li></ul>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-themeisle-blocks-advanced-columns alignfull has-1-columns has-desktop-equal-layout has-tablet-equal-layout has-mobile-equal-layout has-nogap-gap has-vertical-unset" id="wp-block-themeisle-blocks-advanced-columns-0c0cdc21" style="background-image:url( 'https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/uploads/sites/4/2019/05/kndw_bg_04.png' );background-attachment:scroll;background-position:top center;background-repeat:no-repeat;background-size:cover;border-width:0px;border-style:solid;border-color:#000000;border-radius:0px;justify-content:center"><div class="wp-themeisle-block-overlay" style="background:#262732;opacity:0.85;mix-blend-mode:normal"></div><div class="innerblocks-wrap" style="max-width:1140px">
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-4d167a99" style="border-width:0px;border-style:solid;border-color:#000000;border-radius:0px">
+<div id="wp-block-themeisle-blocks-advanced-heading-b593b9c2" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-b593b9c2" style="color:#646262;font-family:Poppins;font-weight:700;font-style:normal;text-transform:none;line-height:200px">03</div>
+
+
+
+<h2 id="wp-block-themeisle-blocks-advanced-heading-f3639e5f" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-f3639e5f" style="color:#ffffff;font-family:Libre Baskerville;font-weight:700;font-style:normal;text-transform:none;line-height:75px">Testimonials</h2>
+
+
+
+<div id="wp-block-themeisle-blocks-advanced-heading-adb3dc18" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-adb3dc18" style="color:#ffffff;font-family:Poppins;font-weight:300;font-style:normal;text-transform:none">July 26, 2016</div>
+
+
+
+<div class="wp-block-themeisle-blocks-testimonials">
+<div class="wp-block-themeisle-blocks-advanced-columns has-2-columns has-desktop-oneTwo-layout has-tablet-collapsedRows-layout has-mobile-collapsedRows-layout has-nogap-gap has-vertical-center" id="wp-block-themeisle-blocks-advanced-columns-2910d139" style="border-width:0px;border-style:solid;border-color:#000000;border-radius:0px;justify-content:unset"><div class="wp-themeisle-block-overlay" style="opacity:0.5;mix-blend-mode:normal"></div><div class="innerblocks-wrap">
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-bd55cf69" style="border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;border-style:solid;border-color:#2d2e33;border-radius:0px">
+<div class="wp-block-themeisle-blocks-advanced-columns has-1-columns has-desktop-equal-layout hide-in-tablet hide-in-mobile has-nogap-gap has-vertical-unset" id="wp-block-themeisle-blocks-advanced-columns-77cf4bd4" style="border-width:0px;border-style:solid;border-color:#000000;border-radius:0px;justify-content:unset"><div class="wp-themeisle-block-overlay" style="opacity:0.5;mix-blend-mode:normal"></div><div class="innerblocks-wrap">
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-2a6df918" style="border-width:0px;border-style:solid;border-color:#000000;border-radius:0px"></div>
+</div></div>
+</div>
+
+
+
+<div class="wp-block-themeisle-blocks-advanced-column" id="wp-block-themeisle-blocks-advanced-column-1b847492" style="background:#ffffff;border-top-width:0px;border-right-width:0px;border-bottom-width:3px;border-left-width:0px;border-style:solid;border-color:#feb960;border-radius:0px">
+<p id="wp-block-themeisle-blocks-advanced-heading-8ba86c5c" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-8ba86c5c" style="color:#616161;font-family:Poppins;font-weight:300;font-style:normal;text-transform:none;line-height:27px">&#8220;Depression and anxiety aren’t often well-represented in gaming. Enter Yggdrasil Studio’s VN to offer a glimpse behind the veil.<br><br>Such people exist everywhere in society, even if you cannot always see them. Depression is a silent killer. It is an incredibly severe and widespread condition. Anyone can be a victim to it. It can be someone you love, the person you yelled at this morning, it can be the nice girl you met on the way to work, it can be your old neighbor, it can even be you, or me. All of them deserve to get better and live their lives to the fullest. They deserve to be happy. Discouraged Workers reminds you that these people exist and give a glimpse into what it’s like to live as them. And that’s what’s most beautiful about this game.&#8221;</p>
+
+
+
+<h6 id="wp-block-themeisle-blocks-advanced-heading-66a40b97" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-66a40b97" style="color:#313131;font-family:Poppins;font-weight:500;font-style:normal;text-transform:none;line-height:26px">Aniket Majumdar</h6>
+
+
+
+<p id="wp-block-themeisle-blocks-advanced-heading-05eed190" class="wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-05eed190" style="color:#616161;font-family:Poppins;font-weight:300;font-style:normal;text-transform:none;line-height:27px">Writer of Haogamers</p>
+</div>
+</div></div>
+</div>
+
+
+
+<h2></h2>
+</div>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<iframe src="https://store.steampowered.com/widget/371120/" frameborder="0" width="100%" height="190"></iframe>
+
+
+
+<iframe src="https://store.steampowered.com/widget/432180/" frameborder="0" width="100%" height="190"></iframe>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 style="text-align:center">Thank You Letter</h2>
+
+
+
+<p style="text-align:center">ACOC, Aiman Sharul, Axel Mertes, Bgame, Brandon Tanimoto, Brian Connors, BRISAK Kim Doohyeon, cheif.choi, Choi Irang, Choi Jihye, clôture, Danielle Bell, Edward N Puckering, Gary King, Gwak Jaeryeol, Han Ihyeong, Hoe Namyoon, Hong Eunki, Hwang Daehoon, Hyojoon, James Emmerson, Jeong Dongwon, Jeong Wookjin, Jeong Yoonsoo, Jianmin Zhang, Karina Schulze, Keira Val&#8217;Azr, Kim Hanseol, Kim Hyeoncheol, Kim Jaeseong, Kim Jeongwoong, Kim Myeongwook, Lee Changki, Lee Eunji, Lee Gunhae, Lee Hyejin, Lee Jaewi, Light Twins, Lim Jisoo, Maddy Wootton, Marshall Proudfoot, Mirumu, Mojaeng, Oh Hyeonjun, Park Hyeonjun, Park JoonKoo, Rewind, Sander Tieleman, srwss, Sung Chanaul, YottaCho, Zerial.net</p>
+
+
+
+<p style="text-align:center">Christopher Rice, George Winston, Kim Sooyoung, Lee Illseong, Pixabay, Shin Haechul, So Reyeon, Tom Rothamel, Valve Corporation</p>
+
+
+
+<p style="text-align:center">This work was created by you. Yours Sincerely,<br>Lee Yunseok, Creator of YGGDRASIL STUDIO.</p>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+</div>		</div>
+			</div>
+</div>
+</main><!--/.neve-main-->
+
+
+<footer class="site-footer hfg_footer" id="site-footer">
+	<div class="footer--row footer-top layout-full-contained"
+	id="cb-row--footer-top"
+	data-row-id="top" data-show-on="desktop">
+	<div
+		class="footer--row-inner footer-top-inner light-mode footer-content-wrap">
+		<div class="container">
+			<div class="hfg-grid hfg-grid-top   nv-footer-content">
+				<div class="builder-item col-3 col-md-3 col-sm-3 hfg-item-left hfg-item-first"><div class="item--inner builder-item--footer-one-widgets"
+	data-section="sidebar-widgets-footer-one-widgets"
+	data-item-id="footer-one-widgets">
+		<div class="widget-area">
+		<div id="custom_html-3" class="widget_text widget widget_custom_html"><p class="widget-title">Purchase(Original)</p><div class="textwidget custom-html-widget"><ul>	
+	<li><a href="https://store.steampowered.com/app/371120/Discouraged_Workers/" target="_blank">Steam</a></li>
+	<li><a href="https://www.humblebundle.com/g/discouraged_workers_humblepage" target="_blank">Humble Bundle</a></li>
+	<li><a href="http://yggdrasilstudio.itch.io/discouraged-workers" target="_blank">itch</a></li>
+	<li><a href="https://www.amazon.com/gp/product/B015G8EJSE" target="_blank">Amazon</a></li>
+	<li><a href="https://www.fanatical.com/en/game/discouraged-workers" target="_blank">Fanatical</a></li>
+	<li><a href="https://www.indiegala.com/store/product/discouraged-workers/371120" target="_blank">IndieGala</a></li>
+	<li>Nintendo eShop (Coming 2019)</li>
+	<li><strike>YGGDRASIL STORE</strike></li>
+</ul></div></div>	</div>
+	</div>
+
+</div><div class="builder-item col-3 col-md-3 col-sm-3 hfg-item-left"><div class="item--inner builder-item--footer-two-widgets"
+	data-section="sidebar-widgets-footer-two-widgets"
+	data-item-id="footer-two-widgets">
+		<div class="widget-area">
+		<div id="custom_html-6" class="widget_text widget widget_custom_html"><p class="widget-title">Purchase(TEEN)</p><div class="textwidget custom-html-widget"><ul>
+	<li><a href="https://store.steampowered.com/app/432180/Discouraged_Workers_TEEN/" target="_blank">Steam</a></li>
+	<li><a href="https://www.humblebundle.com/store/p/discouraged_workers_teen_storefront" target="_blank">Humble Store</a></li>
+	<li><a href="http://yggdrasilstudio.itch.io/discouraged-workers-teen-version" target="_blank">itch</a></li>
+	<li><a href="https://gamejolt.com/games/KNDWTEEN/49444" target="_blank">Game Jolt</a></li>
+	<li><a href="http://www.onestore.co.kr/userpoc/game/view?pid=0000699360" target="_blank">ONE store</a></li>
+	<li><a href="https://itunes.apple.com/app/discouraged-workers/id1063270902" target="_blank">iTunes App Store</a></li>
+	<li><a href="https://play.google.com/store/apps/details?id=github.io.yggdrasilstudio.kndwteen" target="_blank">Google Play</a></li>
+	<li><a href="http://www.amazon.com/gp/product/B017L62P12" target="_blank">Amazon Appstore</a></li>
+	<li><a href="http://www.nutaku.net/games/download/discouraged-workers-teen/" target="_blank">Nutaku Game Store</a></li>
+</ul>
+</div></div>	</div>
+	</div>
+
+</div><div class="builder-item col-3 col-md-3 col-sm-3 hfg-item-left"><div class="item--inner builder-item--footer-three-widgets"
+	data-section="sidebar-widgets-footer-three-widgets"
+	data-item-id="footer-three-widgets">
+		<div class="widget-area">
+		<div id="custom_html-4" class="widget_text widget widget_custom_html"><p class="widget-title">Download Demo</p><div class="textwidget custom-html-widget"><ul>
+	<li><a href="steam://install/371130" target="_blank">Steam</a></li>
+	<li><a href="https://yggdrasilstudio.itch.io/discouraged-workers" target="_blank">itch</a></li>
+	<li><a href="http://www.onestore.co.kr/userpoc/game/view?pid=0000699347" target="_blank">ONE store</a></li>
+	<li><a href="https://play.google.com/store/apps/details?id=github.io.yggdrasilstudio.kndwdemo" target="_blank">Google Play</a></li>
+	<li><a href="https://www.amazon.com/dp/B00WQGAGBO" target="_blank">Amazon Appstore</a></li>
+	<li><a href="http://android.oms.apps.opera.com/en_us/discouraged_workers_demo.html" target="_blank">Opera Mobile Store</a></li>
+	<li><a href="http://www.indiedb.com/games/discouraged-workers/downloads" target="_blank">IndieDB</a></li>
+	<li><a href="https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/releases" target="_blank">GitHub</a></li>
+	<li><a href="https://bitbucket.org/yggdrasilstudio/discouraged-workers-demo" target="_blank">Bitbucket</a></li>
+</ul></div></div>	</div>
+	</div>
+
+</div><div class="builder-item col-3 col-md-3 col-sm-3 hfg-item-left hfg-item-last"><div class="item--inner builder-item--footer-four-widgets"
+	data-section="sidebar-widgets-footer-four-widgets"
+	data-item-id="footer-four-widgets">
+		<div class="widget-area">
+		<div id="custom_html-7" class="widget_text widget widget_custom_html"><p class="widget-title">Channels</p><div class="textwidget custom-html-widget"><ul>
+	<li><a href="https://www.facebook.com/YGGDRASILSTUDIO" target="_blank">Facebook</a></li>
+	<li><a href="https://www.twitter.com/STUDIOYGGDRASIL" target="_blank">Twitter</a></li>
+	<li><a href="http://www.indiedb.com/games/discouraged-workers/" target="_blank">IndieDB</a></li>
+	<li><a href="https://www.pinterest.com/YGGDRASILSTUDIO/discouraged-workers/" target="_blank">Pinterest</a></li>
+	<li><a href="https://vimeo.com/channels/kndw" target="_blank">Vimeo</a></li>
+	<li><a href="https://www.youtube.com/watch?list=PLabaFfshnrMV0NtngShfanjCR28DkHvEk&v=Byxo0f6m0fg" target="_blank">YouTube</a></li>
+	<li><a href="https://yggdrasilstudio.bandcamp.com/album/discouraged-workers-ost" target="_blank">Bandcamp</a></li>
+	<li><a href="https://soundcloud.com/arisae/sets/discouraged-workers-ost" target="_blank">SoundCloud</a></li>
+	<li><a href="https://myspace.com/arisae/music/album/discouraged-workers-ost-19515168" target="_blank">Myspace</a></li>
+</ul></div></div>	</div>
+	</div>
+
+</div>			</div>
+		</div>
+	</div>
+</div>
+
+<div class="footer--row footer-bottom layout-full-contained"
+	id="cb-row--footer-bottom"
+	data-row-id="bottom" data-show-on="desktop">
+	<div
+		class="footer--row-inner footer-bottom-inner dark-mode footer-content-wrap">
+		<div class="container">
+			<div class="hfg-grid hfg-grid-bottom   nv-footer-content">
+				<div class="builder-item col-12 col-md-12 col-sm-12 hfg-item-center hfg-item-first hfg-item-last"><div class="item--inner builder-item--footer_copyright"
+	data-section="footer_copyright"
+	data-item-id="footer_copyright">
+	<div class="component-wrap">
+	<p>© <a href="https://yggdrasil-studio.github.io/" target="_blank">YGGDRASIL STUDIO Co, Pte.</a> Website made with ❤ and <a href="https://www.wordpress.org/" target="blank"> WordPress</a>, <a href="https://themeisle.com/themes/neve/" rel="nofollow">Neve</a>, and <a href="http://dopresskit.com/" target="_blank">presskit()</a>. Proudly hosted on <a href="https://pages.github.com/" target="_blank"> GitHub Pages</a>.</p></div>
+
+	</div>
+
+</div>			</div>
+		</div>
+	</div>
+</div>
+
+</footer>
+
+</div><!--/.wrapper-->
+
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-40578670-8', 'auto');
+			ga('send', 'pageview');
+		</script>
+
+	<script type='text/javascript' src='https://yggdrasil-studio.github.io/Discouraged-Workers/wp-includes/js/comment-reply.min.js?ver=5.1.1'></script>
+<script type='text/javascript' src='https://yggdrasil-studio.github.io/Discouraged-Workers/wp-content/themes/neve/header-footer-grid/assets/js/theme.js?ver=1.0.3'></script>
+<script type='text/javascript' src='https://yggdrasil-studio.github.io/Discouraged-Workers/wp-includes/js/wp-embed.min.js?ver=5.1.1'></script>
+
 </body>
+
 </html>
