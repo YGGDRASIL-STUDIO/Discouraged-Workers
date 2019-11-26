@@ -2,11 +2,9 @@ if renpy.variant("small"):
     translate Chinese style thanks_text:
         yalign .85
 translate Korean python:
+    gui.system_font = gui.text_font = gui.interface_text_font = gui.button_text_font = "gui/fonts/NanumBarunGothic.ttf"
     gui.main_font = "gui/fonts/YiSunShinBold.ttf"
-    gui.text_font = "gui/fonts/NanumBarunGothic.ttf"
     gui.name_text_font = "gui/fonts/NanumBarunGothicBold.ttf"
-    gui.interface_text_font = "gui/fonts/NanumBarunGothic.ttf"
-    gui.button_text_font = "gui/fonts/NanumBarunGothic.ttf"
     config.name = "실망실업자"
     config.window_title = u"실망실업자"
     if renpy.variant("small"):

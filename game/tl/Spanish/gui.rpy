@@ -6,11 +6,9 @@ if renpy.variant("small"):
     translate Spanish style thanks_text:
         yalign .9
 translate Spanish python:
+    gui.system_font = gui.text_font = gui.interface_text_font = gui.button_text_font  = "gui/fonts/Merienda-Regular.ttf"
     gui.main_font = "gui/fonts/Edo.ttf"
-    gui.text_font = "gui/fonts/Merienda-Regular.ttf"
     gui.name_text_font = "gui/fonts/Merienda-Bold.ttf"
-    gui.interface_text_font = "gui/fonts/Merienda-Regular.ttf"
-    gui.button_text_font  = "gui/fonts/Merienda-Regular.ttf"
     gui.quick_hbox_xpos = .817
     gui.quick_hbox_ypos = .755
     config.name = "Trabajadores desanimados"

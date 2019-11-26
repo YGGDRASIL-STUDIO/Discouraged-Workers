@@ -4,11 +4,8 @@ if renpy.variant("small"):
     translate Chinese style thanks_text:
         yalign .9
 translate Chinese python:
+    gui.system_font = gui.text_font = gui.name_text_font = gui.interface_text_font = gui.button_text_font = "gui/fonts/DroidSansFallback.ttf"
     gui.main_font = "gui/fonts/ShuTiFangZhuoXiaoFengXingCaoTi.ttf"
-    gui.text_font = "gui/fonts/DroidSansFallback.ttf"
-    gui.name_text_font = "gui/fonts/DroidSansFallback.ttf"
-    gui.interface_text_font = "gui/fonts/DroidSansFallback.ttf"
-    gui.button_text_font = "gui/fonts/DroidSansFallback.ttf"
     config.name = "失望失业者"
     config.window_title = u"失望失业者"
     if renpy.variant("small"):

@@ -6,11 +6,9 @@ if renpy.variant("small"):
     translate Russian style thanks_text:
         yalign .85
 translate Russian python:
+    gui.system_font = gui.text_font = gui.interface_text_font = gui.button_text_font = "gui/fonts/DejaVuSans.ttf"
     gui.main_font = "gui/fonts/IntroCondBlackFree.otf"
-    gui.text_font = "gui/fonts/DejaVuSans.ttf"
     gui.name_text_font = "gui/fonts/DejaVuSans-Bold.ttf"
-    gui.interface_text_font = "gui/fonts/DejaVuSans.ttf"
-    gui.button_text_font = "gui/fonts/DejaVuSans.ttf"
     gui.quick_hbox_xpos = .809
     config.name = "Отчаявшиеся работники"
     config.window_title = u"Отчаявшиеся работники"
