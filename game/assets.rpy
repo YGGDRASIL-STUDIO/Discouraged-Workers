@@ -1497,7 +1497,11 @@ init:
         contains:
             'circle'
     image caress1:
-        im.Rotozoom((Composite((1550, 1500), (0, 0), 'images/caress.webp', (951, 612), 'images/caress1.webp')), 0, 1.24), xalign .6 yalign .5
+        size(1550, 1500), zoom 1.24 yalign .5
+        contains:
+            'images/caress.webp',
+        contains:
+            'images/caress1.webp', xpos .6135 ypos .408
     image self_gall:
         im.Crop('images/self.webp', 0, 0, 1920, 1080), yalign .4
     image photo:
