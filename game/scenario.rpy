@@ -2523,7 +2523,7 @@ label self_inflicted:
             pass
         else:
             hide blink2 with d5
-        if not achievement.has('KNDW_DIARY'):
+        if not achievement.has('KNDW_DIARY') or achievement.has('KNDW_DRAWER'):
             if not achievement.has('KNDW_ACCIDENT') or achievement.has('KNDW_ONLOOKER'):
                 $ persistent.unlock_13 = True
                 $ persistent.char += 1
