@@ -4,7 +4,6 @@
     config.window_title = u"Discouraged Workers"
     config.font_replacement_map["gui/fonts/NanumBarunGothic.ttf",  True,  False ]  =  ("gui/fonts/NanumBarunGothicBold.ttf",  False,  False)
     persistent.steam = False
-    persistent.build_mobile = False
 init -1 python:
     mod_name = [ ]
     mod_desc = [ ]
@@ -155,10 +154,10 @@ define config.save_directory = "Discouraged-Workers-saves"
 define config.window_icon = "gui/icon.webp"
 define config.windows_icon = "gui/icon.webp"
 define config.default_afm_enable = True
-define config.version = "1.8.4.21"
+define config.version = "1.8.4.212"
 define build.name = "Discouraged-Workers"
-define build_date = _("Nov 25, 2019")
-define copyright = _("©2019 YGGDRASIL STUDIO")
+define build_date = _("June 02, 2020")
+define copyright = _("©2020 YGGDRASIL STUDIO")
 define code.license = _("")
 define font.license = _("")
 define valve.license = _("")
@@ -251,26 +250,19 @@ init python:
     build.archive("translations", "all")
     build.classify('**~', None)
     build.classify('**.bak', None)
-    if persistent.steam is False:
-        build.classify('game/python-packages/OpenGL/**.**', None)
-        build.classify('game/python-packages/OpenGL_accelerate/**.**', None)
     build.classify('**/**.py', "android")
     build.classify('**/**.rpy', None)
     build.classify('saves/**.**', None)
     build.classify('**/.**', None)
     build.classify('**/#**', None)
     build.classify('**/thumbs.db', None)
-    if persistent.build_mobile is False:
-        build.classify('ouya-icon.png', None)
     build.classify('game/*.rpyc', 'script')
     build.classify('game/images/**.**', 'assets')
     build.classify('game/gui/**.**', 'assets')
     build.classify('**.opus', 'assets')
     build.classify('game/tl/**.**', 'translations')
-    build.classify('game/rig/**.**', None)
-    build.classify('game/mesh/**.**', None)
-    build.classify('game/shader/**.**', None)
-    build.classify('game/mods/solitaire/**.**', None)
+    build.classify('game/mods/solitaire/images/**.**', None)
+    build.classify('game/mods/solitaire/**.rpyc', None)
     build.classify('game/mods/fimbulvetr/**.**', None)
     build.classify('game/mods/wimcj/**.**', None)
     build.documentation('*.html')

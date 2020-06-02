@@ -16,8 +16,8 @@ translate Chinese python:
         config.translations['ACOC, Aiman Sharul, Axel Mertes, Bgame, Brandon Tanimoto, Brian Connors, BRISAK Kim Doohyeon, cheif.choi, Choi Irang, Choi Jihye, cloture, Danielle Bell, Edward N Puckering, Gary King, Gwak Jaeryeol, Han Ihyeong, Hoe Namyoon, Hong Eunki, Hwang Daehoon, Hyojoon, James Emmerson, Jeong Dongwon, Jeong Wookjin, Jeong Yoonsoo, Jianmin Zhang,\nKarina Schulze, Keira Val\'Azr, Kim Hanseol, Kim Hyeoncheol, Kim Jaeseong, Kim Jeongwoong, Kim Myeongwook,\nLee Changki, Lee Eunji, Lee Gunhae, Lee Hyejin, Lee Jaewi, Light Twins, Lim Jisoo, Maddy Wootton,\nMarshall Proudfoot, Mirumu, Mojaeng, Oh Hyeonjun, Park Hyeonjun, Park JoonKoo, Rewind, Sander Tieleman, srwss, Sung Chanaul, YottaCho, Zerial.net'] = u'ACOC, Aiman Sharul, Axel Mertes, Bgame,\nBrandon Tanimoto, Brian Connors,\nBRISAK Kim Doohyeon, cheif.choi, Choi Irang,\nChoi Jihye, cloture, Danielle Bell,\nEdward N Puckering, Gary King, Gwak Jaeryeol,\nHan Ihyeong, Hoe Namyoon, Hong Eunki,\nHwang Daehoon, Hyojoon, James Emmerson,\nJeong Dongwon, Jeong Wookjin, Jeong Yoonsoo,\nJianmin Zhang, Karina Schulze, Keira Val\'Azr,\nKim Hanseol, Kim Hyeoncheol, Kim Jaeseong,\nKim Jeongwoong, Kim Myeongwook,\nLee Changki, Lee Eunji, Lee Gunhae, Lee Hyejin,\nLee Jaewi, Light Twins, Lim Jisoo, Maddy Wootton,\nMarshall Proudfoot, Mirumu, Mojaeng,\nOh Hyeonjun, Park Hyeonjun, Park JoonKoo,\nRewind, Sander Tieleman, srwss, Sung Chanaul,\nYottaCho, Zerial.net'
         config.translations['Caz Woolley, Game Dev Robot, Gamsadev, Indie GameDev Bot, Indie Game Lover, Indie Games Devel, IndieVideoGames, Joachim Dimitri Jensen, Kim Kyeongtae, Kim Younghwan, Kurt Simon, Linda Lee King, Peter Christiansen, Sakimichi, Sebastian Haba, Spero Mcgee, The Indie Sloth, Vrachos, Xin Liu, Yu Shinhyeon'] = u'Caz Woolley, Game Dev Robot, Gamsadev,\nIndie GameDev Bot, Indie Game Lover,\nIndie Games Devel, IndieVideoGames,\nJoachim Dimitri Jensen, Kim Kyeongtae,\nKim Younghwan, Kurt Simon, Linda Lee King,\nPeter Christiansen, Sakimichi, Sebastian Haba,\nSpero Mcgee, The Indie Sloth, Vrachos, Xin Liu,\nYu Shinhyeon'
         config.translations['Christopher Rice, George Winston, Kim Sooyoung, Lee Illseong, Pixabay, Shin Haechul, So Reyeon, Tom Rothamel,\nValve Corporation'] = u"Christopher Rice, George Winston, Kim Sooyoung, Lee Illseong, Pixabay, Shin Haechul, So Reyeon,\nTom Rothamel, Valve Corporation"
-    build_date = "2019年02月21日"
-    copyright = "(c)2019 YGGDRASIL STUDIO"
+    build_date = "2020年06月02日"
+    copyright = "(c)2020 YGGDRASIL STUDIO"
     gui.attention = "警     告"
     gui.language = "此故事禁止未成年人观看。不建议儿童(青少年)、老弱者或者孕妇、身心较弱者观看。\n这个节目包含以下内容。\n\n性、菸酒、不當言語"
     gui.start = "开始游戏"
@@ -87,10 +87,10 @@ translate Chinese python:
     gui.bgm11 = "Track 11。 Summit showdown"
     gui.bgm12 = "Track 12。 Love song"
     gui.bgm13 = "Track 13。 Sea of nectar"
-    gui.about = "Discouraged Workers (c)2019 YGGDRASIL STUDIO Co, Pte。拥有所有权利。失望失业者的著作权归YGGDRASIL STUDIO所有。所有的著作/商标都属于所有者的财产。请禁止传播本公司的程序(program)及利用本公司程序(program)进行变更的程序(program)文件。最终用户的使用权合同请参考licenses目录的EULA.txt文件或{a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/gh-pages/EULA.txt}请访问此处{/a}"
+    gui.about = "Discouraged Workers (c)2020 YGGDRASIL STUDIO Co, Pte。拥有所有权利。失望失业者的著作权归YGGDRASIL STUDIO所有。所有的著作/商标都属于所有者的财产。请禁止传播本公司的程序(program)及利用本公司程序(program)进行变更的程序(program)文件。最终用户的使用权合同请参考licenses目录的EULA.txt文件或{a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/gh-pages/EULA.txt}请访问此处{/a}"
     code.license = "可根据GNU宽通用公共许可证v3.0条款使用失望失业者的源代码(source code)。源代码(source code)下载地址{a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/source-codes}请访问此处。{/a}"
     font.license = "在包括SIL开源字体授权在内的多种使用权下，本作品含有免费字体软件。使用的项目(project)目录和下载地址请参考licenses目录的fonts-LICENSE.txt文件或{a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/wiki/about#licenses}请访问此处。{/a}"
     renpy.license = "Ren'Py包含了由数个许可证授权的免费软件，包括 MIT 许可证和 GNU 宽通用公共许可证。完整软件列表及源代码链接，{a=https://www.renpy.org/l/license}请访问此处。{/a}"
-    valve.license = "(c)2019 Valve Corporation。Steam 和 Steam 徽标均为 Valve Corporation 在美国和/或其他国家（地区）的商标和/或注册商标。\n\n(c)2019 Valve Corporation。Steamworks 和 Steamworks 徽标均为 Valve Corporation 在美国和/或其他国家（地区）的商标和/或注册商标。"
+    valve.license = "(c)2020 Valve Corporation。Steam 和 Steam 徽标均为 Valve Corporation 在美国和/或其他国家（地区）的商标和/或注册商标。\n\n(c)2020 Valve Corporation。Steamworks 和 Steamworks 徽标均为 Valve Corporation 在美国和/或其他国家（地区）的商标和/或注册商标。"
     xbox.license = "本作品使用了Xbox 360控制器/按键图片。下载地址{a=http://xbox.create.msdn.com/en-us/education/catalog/utility/controller_buttons}请访问此处。{/a}"
     cc.license = "本作品使用了适用创作共用授权条款的各种资产。使用的资产目录和下载地址请参考licenses目录的assets-LICENSE.txt文件或{a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/wiki/about#licenses}请访问此处。{/a}"

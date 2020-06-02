@@ -1,5 +1,5 @@
 ﻿init python:
-    import subprocess, sys, os, shutil, math, pygame_sdl2 as pygame
+    import subprocess, sys, os, shutil, math
     class OpenDirectory(Action):
         def __init__(self, directory, absolute=False):
             if absolute:
