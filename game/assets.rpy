@@ -1424,7 +1424,7 @@ init:
         image riding1_movie = Movie(fps=60, channel='video', play='images/riding_1.webm', image='riding0', layer='screens')
         image riding2_movie = Movie(fps=60, channel='video', play='images/riding_2.webm', image='riding0', layer='screens')
         image riding3_movie = Movie(fps=60, channel='video', play='images/riding_3.webm', image='riding0', layer='screens')
-        image fellatio =  LiveComposite((2289, 1080), (0,0), 'images/fellatio.webp', (1222, 535), 'images/fellatio_uncensored.webp')
+        image fellatio =  Composite((2289, 1080), (0,0), 'images/fellatio.webp', (1222, 535), 'images/fellatio_uncensored.webp')
         image riding0:
             size(1920,1080)
             contains:
