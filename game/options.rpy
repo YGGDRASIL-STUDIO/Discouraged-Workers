@@ -168,11 +168,9 @@ init python:
     build.include_update = False
     build.allow_integrated_gpu = True
     build.archive("scripts", "all")
-    build.archive("scripts_dc", "all")
     build.archive("assets", "all")
     build.archive("translations", "all")
     build.archive("solimages", "windows")
-    build.archive("dc", "all")
     build.classify('**~', None)
     build.classify('**.bak', None)
     build.classify('**/**.py', "android")
@@ -181,6 +179,7 @@ init python:
     build.classify('**/.**', None)
     build.classify('**/#**', None)
     build.classify('**/thumbs.db', None)
+    build.classify('game/*.rpyc', 'scripts')
     build.classify('game/images/**.**', 'assets')
     build.classify('game/gui/**.**', 'assets')
     build.classify('game/bgm/**.opus', 'assets')
