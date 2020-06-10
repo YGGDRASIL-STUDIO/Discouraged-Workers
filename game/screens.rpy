@@ -141,46 +141,46 @@ screen quick_menu():
                         vbox xalign 0.5:
                             textbutton ('{font=[gui.fontawesome]}{size=96}{/size}{/font}') action [SetField(_preferences, 'afm_enable', False), SetField(_preferences, 'afm_after_click', False)] at menuback:
                                 xalign 0.5
-                            textbutton ('{size=[gui.quick_button_text_size]}[gui.stop]{/size}') action [SetField(_preferences, 'afm_enable', False), SetField(_preferences, 'afm_after_click', False)] at menuback:
+                            textbutton ('{size=[gui.quick_button_text_size]}Stop{/size}') action [SetField(_preferences, 'afm_enable', False), SetField(_preferences, 'afm_after_click', False)] at menuback:
                                 xalign 0.5
                 else:
                     button xsize 120:
                         vbox xalign 0.5:
                             textbutton ('{font=[gui.fontawesome]}{size=96}{/size}{/font}') action [SetField(_preferences, 'afm_enable', True), SetField(_preferences, 'afm_after_click', True)] at menuback:
                                 xalign 0.5
-                            textbutton ('{size=[gui.quick_button_text_size]}[gui.play]{/size}') action [SetField(_preferences, 'afm_enable', True), SetField(_preferences, 'afm_after_click', True)] at menuback:
+                            textbutton ('{size=[gui.quick_button_text_size]}Play{/size}') action [SetField(_preferences, 'afm_enable', True), SetField(_preferences, 'afm_after_click', True)] at menuback:
                                 xalign 0.5
                 button xsize 120:
                         vbox xalign 0.5:
                             textbutton ('{font=[gui.fontawesome]}{size=96}{/size}{/font}') action Skip() at menuback:
                                 xalign 0.5
-                            textbutton ('{size=[gui.quick_button_text_size]}[gui.skip]{/size}') action Skip() at menuback:
+                            textbutton ('{size=[gui.quick_button_text_size]}Skip{/size}') action Skip() at menuback:
                                 xalign 0.5
                 button xsize 120:
                         vbox xalign 0.5:
                             textbutton ('{font=[gui.fontawesome]}{size=96}{/size}{/font}') action ShowMenu('history') at menuback:
                                 xalign 0.5
-                            textbutton ('{size=[gui.quick_button_text_size]}[gui.hisq]{/size}') action ShowMenu('history') at menuback:
+                            textbutton ('{size=[gui.quick_button_text_size]}History{/size}') action ShowMenu('history') at menuback:
                                 xalign 0.5
                 button xsize 120:
                         vbox xalign 0.5:
                             textbutton ('{font=[gui.fontawesome]}{size=96}{/size}{/font}') at menuback:
                                 xalign 0.5
                                 action ShowMenu('save')
-                            textbutton ('{size=[gui.quick_button_text_size]}[gui.save]{/size}') at menuback:
+                            textbutton ('{size=[gui.quick_button_text_size]}Save{/size}') at menuback:
                                 xalign 0.5
                                 action ShowMenu('save')
                 button xsize 120:
                         vbox xalign 0.5:
                             textbutton ('{font=[gui.fontawesome]}{size=96}{/size}{/font}') action [SetField(persistent, 'archives', True), ShowMenu('archives')] at menuback:
                                 xalign 0.5
-                            textbutton ('{size=[gui.quick_button_text_size]}[gui.arcq]{/size}') action [SetField(persistent, 'archives', True), ShowMenu('archives')] at menuback:
+                            textbutton ('{size=[gui.quick_button_text_size]}Archives{/size}') action [SetField(persistent, 'archives', True), ShowMenu('archives')] at menuback:
                                 xalign 0.5
                 button xsize 120:
                         vbox xalign 0.5:
                             textbutton ('{font=[gui.fontawesome]}{size=96}{/size}{/font}') action ShowMenu('preferences') at menuback:
                                 xalign 0.5
-                            textbutton ('{size=[gui.quick_button_text_size]}[gui.conq]{/size}') action ShowMenu('preferences') at menuback:
+                            textbutton ('{size=[gui.quick_button_text_size]}Config{/size}') action ShowMenu('preferences') at menuback:
                                 xalign 0.5
     else:
         hbox xpos gui.quick_hbox_xpos ypos gui.quick_hbox_ypos:
@@ -190,38 +190,38 @@ screen quick_menu():
                         vbox xalign .5:
                             spacing 5
                             add 'controller_play' xalign .5
-                            text ('{size=[gui.quick_button_text_size]}[gui.stop]{/size}') xalign .5
+                            text ('{size=[gui.quick_button_text_size]}Stop{/size}') xalign .5
                 else:
                     button xsize 120:
                         vbox xalign 0.5:
                             spacing 5
                             add 'controller_play'  xalign .5
-                            text ('{size=[gui.quick_button_text_size]}[gui.play]{/size}') xalign .5
+                            text ('{size=[gui.quick_button_text_size]}Play{/size}') xalign .5
                 button xsize 120:
                     vbox xalign 0.5:
                         spacing 5
                         add 'controller_arc' xalign .5
-                        text ('{size=[gui.quick_button_text_size]}[gui.arcq]{/size}') xalign .5
+                        text ('{size=[gui.quick_button_text_size]}Archives{/size}') xalign .5
                 button xsize 120:
                     vbox xalign 0.5:
                         spacing 5
                         add 'controller_config' xalign .5
-                        text ('{size=[gui.quick_button_text_size]}[gui.conq]{/size}') xalign .5
+                        text ('{size=[gui.quick_button_text_size]}Config{/size}') xalign .5
                 button xsize 120:
                     vbox xalign 0.5:
                         spacing 5
                         add 'controller_save' xalign .5
-                        text ('{size=[gui.quick_button_text_size]}[gui.save]{/size}') xalign .5
+                        text ('{size=[gui.quick_button_text_size]}Save{/size}') xalign .5
                 button xsize 120:
                     vbox xalign 0.5:
                         spacing 5
                         add 'controller_hide' xalign .5
-                        text ('{size=[gui.quick_button_text_size]}[gui.hide]{/size}') xalign .5
+                        text ('{size=[gui.quick_button_text_size]}Hide{/size}') xalign .5
                 button xsize 120:
                     vbox xalign 0.5:
                         spacing 5
                         add 'controller_skip' xalign .5
-                        text ('{size=[gui.quick_button_text_size]}[gui.skip]{/size}') xalign .5
+                        text ('{size=[gui.quick_button_text_size]}Skip{/size}') xalign .5
 style quick_button is default
 style quick_button_text is button_text
 style quick_button:
@@ -237,14 +237,14 @@ screen navigation():
             if renpy.variant("pc"):
                 textbutton _("{font=[gui.fontawesome]}{/font} Help") action Show("help")
         elif persistent.archives is True:
-            textbutton ("{font=[gui.fontawesome]}{/font} [gui.arcq]") action Show("archives")
+            textbutton ("{font=[gui.fontawesome]}{/font} Archives") action Show("archives")
             textbutton _("{font=[gui.fontawesome]}{/font} Characters") action Show("characters")
             textbutton _("{font=[gui.fontawesome]}{/font} Concept") action Show("concept")
             textbutton _("{font=[gui.fontawesome]}{/font} Diary") action Show("diary")
             textbutton _("{font=[gui.fontawesome]}{/font} Gallery") action Show("gallery")
             textbutton _("{font=[gui.fontawesome]}{/font} Music") action Show("music_room")
             textbutton _("{font=[gui.fontawesome]}{/font} Replay") action Show("replay")
-            textbutton _("{font=[gui.fontawesome]}{/font} [gui.credits]") action Show("credits")
+            textbutton _("{font=[gui.fontawesome]}{/font} Credits") action Show("credits")
         elif persistent.downloadable is True:
             textbutton _("{font=[gui.fontawesome]}{/font} DLC") action SetScreenVariable("downloadable", "dlc")
             textbutton _("{font=[gui.fontawesome]}{/font} MOD") action SetScreenVariable("downloadable", "mod")
@@ -252,15 +252,15 @@ screen navigation():
             textbutton _("{font=[gui.fontawesome]}{/font} Fullscreen") action Preference("display", "fullscreen")
             textbutton _("{font=[gui.fontawesome]}{/font} Refresh") action Jump("refresh")
         elif persistent.part_clear is True:
-            textbutton ("{font=[gui.fontawesome]}{/font} [gui.unlocked]") action Show('part_clear')
-            textbutton ("{font=[gui.fontawesome]}{/font} [gui.history]") action Show("history")
+            textbutton ("{font=[gui.fontawesome]}{/font} Unlocked") action Show('part_clear')
+            textbutton ("{font=[gui.fontawesome]}{/font} History") action Show("history")
             textbutton _("{font=[gui.fontawesome]}{/font} Save") action Show("save")
-            textbutton ("{font=[gui.fontawesome]}{/font} [gui.arcq]") action Show("archives")
+            textbutton ("{font=[gui.fontawesome]}{/font} Archives") action Show("archives")
         else:
             if main_menu:
                 textbutton _("{font=[gui.fontawesome]}{/font} Start Reading") action Start()
             else:
-                textbutton ("{font=[gui.fontawesome]}{/font} [gui.history]") action ShowMenu("history")
+                textbutton ("{font=[gui.fontawesome]}{/font} History") action ShowMenu("history")
                 textbutton _("{font=[gui.fontawesome]}{/font} Save") action ShowMenu("save")
             textbutton _("{font=[gui.fontawesome]}{/font} Load") action ShowMenu("load")
             textbutton _("{font=[gui.fontawesome]}{/font} Basic Settings") action ShowMenu("default_language")
@@ -290,56 +290,56 @@ screen main_menu():
             style "main_menu_title"
     vbox xsize 960 xpos .5 yalign .68 spacing 30:
         if persistent.controllers == None:
-            textbutton _("[gui.start]") action Start()
+            textbutton _("{size=86}Start Reading{/size}") action Start()
             if persistent.blind is True:
-                textbutton _("[gui.load]") action QuickLoad() alt _("Load")
-                textbutton _("[gui.blind_char]") action [SetVariable('blind_set', 1), ShowMenu("blind_arc")]
-                textbutton _("[gui.blind_con]") action [SetVariable('blind_set', 2), ShowMenu("blind_arc")]
-                textbutton _("[gui.blind_diary]") action [SetVariable('blind_set', 0), ShowMenu("blind_arc")]
+                textbutton _("{size=86}Load{/size}") action QuickLoad() alt _("Load")
+                textbutton _("{size=86}Characters{/size}") action [SetVariable('blind_set', 1), ShowMenu("blind_arc")]
+                textbutton _("{size=86}Concept{/size}") action [SetVariable('blind_set', 2), ShowMenu("blind_arc")]
+                textbutton _("{size=86}Diary{/size}") action [SetVariable('blind_set', 0), ShowMenu("blind_arc")]
             else:
-                textbutton _("[gui.bookmarks]") action ShowMenu("load")
-                textbutton _("[gui.archives]") action [SetField(persistent, 'archives', True), ShowMenu("archives")]
+                textbutton _("{size=86}Bookmarks{/size}") action ShowMenu("load")
+                textbutton _("{size=86}Archives{/size}") action [SetField(persistent, 'archives', True), ShowMenu("archives")]
                 if persistent.steam is True:
-                    textbutton _("[gui.dlc]") action [SetField(persistent, 'downloadable', True), ShowMenu("downloadable")]
-                textbutton _("[gui.conf]") action ShowMenu("preferences")
+                    textbutton _("{size=86}DLC&MOD{/size}") action [SetField(persistent, 'downloadable', True), ShowMenu("downloadable")]
+                textbutton _("{size=86}Configuration{/size}") action ShowMenu("preferences")
             if renpy.variant("pc"):
-                textbutton _("[gui.quit]") action Quit()
+                textbutton _("{size=86}Quit{/size}") action Quit()
         else:
             if persistent.controllers == "steam":
-                textbutton _("{image=gui/controllers/[persistent.controllers]/grip_r.webp} [gui.start]") action Start()
+                textbutton _("{image=gui/controllers/[persistent.controllers]/grip_r.webp} {size=86}Start Reading{/size}") action Start()
             else:
-                textbutton _("{image=gui/controllers/[persistent.controllers]/guide.webp} [gui.start]") action Start()
+                textbutton _("{image=gui/controllers/[persistent.controllers]/guide.webp} {size=86}Start Reading{/size}") action Start()
             if persistent.controllers == "ouya":
                 if persistent.blind is True:
-                    textbutton _("{image=gui/controllers/[persistent.controllers]/shoulder_r.webp} [gui.load]") action QuickLoad() alt _("Load")
+                    textbutton _("{image=gui/controllers/[persistent.controllers]/shoulder_r.webp} {size=86}Load{/size}") action QuickLoad() alt _("Load")
                 else:
-                    textbutton _("{image=gui/controllers/[persistent.controllers]/shoulder_r.webp} [gui.bookmarks]") action ShowMenu("load")
+                    textbutton _("{image=gui/controllers/[persistent.controllers]/shoulder_r.webp} {size=86}Bookmarks{/size}") action ShowMenu("load")
             else:
                 if persistent.blind is True:
-                    textbutton _("{image=gui/controllers/[persistent.controllers]/button_start.webp} [gui.load]") action QuickLoad() alt _("Load")
+                    textbutton _("{image=gui/controllers/[persistent.controllers]/button_start.webp} {size=86}Load{/size}") action QuickLoad() alt _("Load")
                 else:
-                    textbutton _("{image=gui/controllers/[persistent.controllers]/button_start.webp} [gui.bookmarks]") action ShowMenu("load")
+                    textbutton _("{image=gui/controllers/[persistent.controllers]/button_start.webp} {size=86}Bookmarks{/size}") action ShowMenu("load")
             if persistent.blind is True:
-                textbutton _("{image=gui/controllers/[persistent.controllers]/button_b.webp} [gui.blind_char]") action [SetVariable('blind_set', 1), ShowMenu("blind_arc")]
-                textbutton _("{image=gui/controllers/[persistent.controllers]/button_x.webp} [gui.blind_con]") action [SetVariable('blind_set', 2), ShowMenu("blind_arc")]
-                textbutton _("{image=gui/controllers/[persistent.controllers]/button_y.webp} [gui.blind_diary]") action [SetVariable('blind_set', 0), ShowMenu("blind_arc")]
+                textbutton _("{image=gui/controllers/[persistent.controllers]/button_b.webp} {size=86}Characters{/size}") action [SetVariable('blind_set', 1), ShowMenu("blind_arc")]
+                textbutton _("{image=gui/controllers/[persistent.controllers]/button_x.webp} {size=86}Concept{/size}") action [SetVariable('blind_set', 2), ShowMenu("blind_arc")]
+                textbutton _("{image=gui/controllers/[persistent.controllers]/button_y.webp} {size=86}Diary{/size}") action [SetVariable('blind_set', 0), ShowMenu("blind_arc")]
             else:
-                textbutton _("{image=gui/controllers/[persistent.controllers]/button_b.webp} [gui.archives]") action [SetField(persistent, 'archives', True), ShowMenu("archives")]
+                textbutton _("{image=gui/controllers/[persistent.controllers]/button_b.webp} {size=86}Archives{/size}") action [SetField(persistent, 'archives', True), ShowMenu("archives")]
                 if persistent.steam is True:
-                    textbutton _("{image=gui/controllers/[persistent.controllers]/button_x.webp} [gui.dlc]")  action [SetField(persistent, 'downloadable', True), ShowMenu("downloadable")]
-                textbutton _("{image=gui/controllers/[persistent.controllers]/button_y.webp} [gui.conf]") action ShowMenu("preferences")
+                    textbutton _("{image=gui/controllers/[persistent.controllers]/button_x.webp} {size=86}DLC&MOD{/size}")  action [SetField(persistent, 'downloadable', True), ShowMenu("downloadable")]
+                textbutton _("{image=gui/controllers/[persistent.controllers]/button_y.webp} {size=86}Configuration{/size}") action ShowMenu("preferences")
             if renpy.variant("pc"):
                 if persistent.controllers == "ouya":
-                    textbutton _("{image=gui/controllers/[persistent.controllers]/shoulder_l.webp} [gui.quit]") action Quit()
+                    textbutton _("{image=gui/controllers/[persistent.controllers]/shoulder_l.webp} {size=86}Quit{/size}") action Quit()
                 else:
-                    textbutton _("{image=gui/controllers/[persistent.controllers]/button_select.webp} [gui.quit]") action Quit()
+                    textbutton _("{image=gui/controllers/[persistent.controllers]/button_select.webp} {size=86}Quit{/size}") action Quit()
     add gui.gradiant
     if gui.show_name:
         vbox:
             imagebutton idle NewsThumb() action ShowNews()
-            text "[build_date] - V[config.version]":
+            text "June 06, 2020 - V[config.version]":
                 style "main_menu_version"
-            text "[copyright]":
+            text "©2020 YGGDRASIL STUDIO":
                 style "main_menu_version"
     key "game_menu" action ShowMenu('load')
     if persistent.blind is True:
@@ -465,12 +465,11 @@ screen about():
         vbox:
             label "[config.name!t]"
             text _("Version [config.version!t]\n")
-            if gui.about:
-                text "[gui.about!t]\n\n[code.license]\n"
-            text _("Created with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]\n")
-            text "[font.license]\n\n[cc.license]\n"
-            text "[xbox.license]\n"
-            text "[valve.license]"
+            text _("Discouraged Workers ©2020 YGGDRASIL STUDIO Co, Pte. All Rights Reserved. All literary works/trademarks are property of their respective owners. Do not distribute our program or any alterations of our program files. For the End User License Agreement, please view the EULA.txt file in the licenses directory, or visit {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/gh-pages/EULA.txt}here{/a}.\n\nThe source code of Discouraged Workers is covered by the terms of the GNU Lesser General Public License v3.0. The source code can be found {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/source-codes}here{/a}.\n")
+            text _("Created with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\nThis program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license/}here{/a}.\n")
+            text _("This program contains free font software under a number of licenses, including the SIL Open Font License. A complete list of font software, including links to download can be found {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/wiki/about#licenses}here{/a}, or please view the fonts-LICENSE.txt file in the licenses directory.\n\nThis program contains a number of assets that are covered by the terms of the Creative Commons License. For a list of assets, and a location where the original assets can be downloaded from, please view the assets-LICENSE.txt file in the licenses directory or visit {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/wiki/about#licenses}here{/a}.\n")
+            text _("This program contains Xbox 360 Controller/Button images. The asset pack can be found {a=http://xbox.create.msdn.com/en-us/education/catalog/utility/controller_buttons}here{/a}.\n")
+            text _("©2020 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.\n\n©2020 Valve Corporation. Steamworks and the Steamworks logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.")
 style about_label is gui_label
 style about_label_text is gui_label_text
 style about_text is gui_text
@@ -658,7 +657,7 @@ screen history():
     tag menu
     modal True
     predict False
-    use game_menu(_("{font=[gui.fontawesome]}{/font} [gui.history]"), scroll=("vpgrid" if gui.history_height else "viewport")):
+    use game_menu(_("{font=[gui.fontawesome]}{/font} History"), scroll=("vpgrid" if gui.history_height else "viewport")):
         style_prefix "history"
         for h in _history_list:
             window:
@@ -847,35 +846,35 @@ screen self_inflicted():
                 vbox xalign .5:
                     textbutton ('{font=[gui.fontawesome]}{size=192}{/size}{/font}') action [SetVariable('sicount', 1), Jump('self_inflicted')] at menuback:
                         xalign .5
-                    textbutton ('{size=[gui.interface_text_size]}[gui.heal]{/size}') action [SetVariable('sicount', 1), Jump('self_inflicted')] at menuback:
+                    textbutton ('{size=[gui.interface_text_size]}Healing{/size}') action [SetVariable('sicount', 1), Jump('self_inflicted')] at menuback:
                         xalign .5
         if sicount == 1:
             button xsize 256:
                 vbox xalign .5:
                     textbutton ('{font=[gui.fontawesome]}{size=192}{/size}{/font}') action [SetVariable('sicount', 2), Jump('self_inflicted')] at menuback:
                         xalign .5
-                    textbutton ('{size=[gui.interface_text_size]}[gui.heal]{/size}') action [SetVariable('sicount', 2), Jump('self_inflicted')] at menuback:
+                    textbutton ('{size=[gui.interface_text_size]}Healing{/size}') action [SetVariable('sicount', 2), Jump('self_inflicted')] at menuback:
                         xalign .5
         elif sicount == 2:
             button xsize 256:
                 vbox xalign .5:
                     textbutton ('{font=[gui.fontawesome]}{size=192}{/size}{/font}') action [SetVariable('sicount', 3), Jump('self_inflicted')] at menuback:
                         xalign .5
-                    textbutton ('{size=[gui.interface_text_size]}[gui.heal]{/size}') action [SetVariable('sicount', 3), Jump('self_inflicted')] at menuback:
+                    textbutton ('{size=[gui.interface_text_size]}Healing{/size}') action [SetVariable('sicount', 3), Jump('self_inflicted')] at menuback:
                         xalign .5
         if sicount == 2:
             button xsize 256:
                 vbox xalign .5 :
                     textbutton ('{font=[gui.fontawesome]}{size=192}{/size}{/font}') action [SetVariable('sigiveup', 1), Jump('self_inflicted')] at menuback:
                         xalign .5
-                    textbutton ('{size=[gui.interface_text_size]}[gui.judge]{/size}') action [SetVariable('sigiveup', 1), Jump('self_inflicted')] at menuback:
+                    textbutton ('{size=[gui.interface_text_size]}Onlooking{/size}') action [SetVariable('sigiveup', 1), Jump('self_inflicted')] at menuback:
                         xalign .5
         else:
             button xsize 256:
                 vbox xalign .5:
                     textbutton ('{font=[gui.fontawesome]}{size=192}{/size}{/font}') action [SetVariable('sigiveup', -1), Jump('self_inflicted')] at menuback:
                         xalign 0.5
-                    textbutton ('{size=[gui.interface_text_size]}[gui.judge]{/size}') action [SetVariable('sigiveup', -1), Jump('self_inflicted')] at menuback:
+                    textbutton ('{size=[gui.interface_text_size]}Onlooking{/size}') action [SetVariable('sigiveup', -1), Jump('self_inflicted')] at menuback:
                         xalign .5
     if sicount == 0:
         key 'pad_leftx_neg' action [SetVariable('sicount', 1), Jump('self_inflicted')]
@@ -892,7 +891,7 @@ screen self_inflicted():
     else:
         key 'pad_leftx_pos' action [SetVariable('sigiveup', -1), Jump('self_inflicted')]
         key 'K_RIGHT' action [SetVariable('sigiveup', -1), Jump('self_inflicted')]
-screen bridge:
+screen bridge():
     tag menu
     if go == 0:
         add 'bridge' at bridge_left
@@ -906,7 +905,7 @@ screen bridge:
         add 'bridge_handrail' at bridge_right ypos .3365
     add 'bridge_light' xalign .5 yalign .35
     add 'night'
-screen bridge_control:
+screen bridge_control():
     add 'dialoguer' ypos .649
     style_prefix "quick"
     hbox xalign .5 yalign .99 spacing 250:
@@ -915,104 +914,104 @@ screen bridge_control:
                 vbox xalign .5:
                     textbutton ('{font=[gui.fontawesome]}{size=192}{/size}{/font}') action [SetVariable('go', 0), SetVariable('gocount', -3), Jump('bridge_control')] at menuback:
                         xalign .5
-                    textbutton ('{size=[gui.interface_text_size]}[gui.left]{/size}') action [SetVariable('go', 0), SetVariable('gocount', -3), Jump('bridge_control')] at menuback:
+                    textbutton ('{size=[gui.interface_text_size]}Back home{/size}') action [SetVariable('go', 0), SetVariable('gocount', -3), Jump('bridge_control')] at menuback:
                         xalign .5
             button xsize 256:
                 vbox xalign .5:
                     textbutton ('{font=[gui.fontawesome]}{size=192}{/size}{/font}') action [SetVariable('go', 1), SetVariable('gocount', 1), Jump('bridge_control')] at menuback:
                         xalign .5
-                    textbutton ('{size=[gui.interface_text_size]}[gui.right]{/size}') action [SetVariable('go', 1), SetVariable('gocount', 1), Jump('bridge_control')] at menuback:
+                    textbutton ('{size=[gui.interface_text_size]}Road not taken{/size}') action [SetVariable('go', 1), SetVariable('gocount', 1), Jump('bridge_control')] at menuback:
                         xalign .5
         elif gocount == -1:
             button xsize 256:
                 vbox xalign .5:
                     textbutton ('{font=[gui.fontawesome]}{size=192}{/size}{/font}') action [SetVariable('go', 0), SetVariable('gocount', -2), Jump('bridge_control')] at menuback:
                         xalign .5
-                    textbutton ('{size=[gui.interface_text_size]}[gui.left]{/size}') action [SetVariable('go', 0), SetVariable('gocount', -2), Jump('bridge_control')] at menuback:
+                    textbutton ('{size=[gui.interface_text_size]}Back home{/size}') action [SetVariable('go', 0), SetVariable('gocount', -2), Jump('bridge_control')] at menuback:
                         xalign .5
             button xsize 256:
                 vbox xalign .5:
                     textbutton ('{font=[gui.fontawesome]}{size=192}{/size}{/font}') action [SetVariable('go', 1), SetVariable('gocount', 1), Jump('bridge_control')] at menuback:
                         xalign .5
-                    textbutton ('{size=[gui.interface_text_size]}[gui.right]{/size}') action [SetVariable('go', 1), SetVariable('gocount', 1), Jump('bridge_control')] at menuback:
+                    textbutton ('{size=[gui.interface_text_size]}Road not taken{/size}') action [SetVariable('go', 1), SetVariable('gocount', 1), Jump('bridge_control')] at menuback:
                         xalign .5
         elif gocount == 0:
             button xsize 256:
                 vbox xalign .5:
                     textbutton ('{font=[gui.fontawesome]}{size=192}{/size}{/font}') action [SetVariable('go', 0), SetVariable('gocount', -1), Jump('bridge_control')] at menuback:
                         xalign .5
-                    textbutton ('{size=[gui.interface_text_size]}[gui.left]{/size}') action [SetVariable('go', 0), SetVariable('gocount', -1), Jump('bridge_control')] at menuback:
+                    textbutton ('{size=[gui.interface_text_size]}Back home{/size}') action [SetVariable('go', 0), SetVariable('gocount', -1), Jump('bridge_control')] at menuback:
                         xalign .5
             button xsize 256:
                 vbox xalign .5:
                     textbutton ('{font=[gui.fontawesome]}{size=192}{/size}{/font}') action [SetVariable('go', 1), SetVariable('gocount', 1), Jump('bridge_control')] at menuback:
                         xalign .5
-                    textbutton ('{size=[gui.interface_text_size]}[gui.right]{/size}') action [SetVariable('go', 1), SetVariable('gocount', 1), Jump('bridge_control')] at menuback:
+                    textbutton ('{size=[gui.interface_text_size]}Road not taken{/size}') action [SetVariable('go', 1), SetVariable('gocount', 1), Jump('bridge_control')] at menuback:
                         xalign .5
         elif gocount == 1 or gocount == -4:
             button xsize 256:
                 vbox xalign .5:
                     textbutton ('{font=[gui.fontawesome]}{size=192}{/size}{/font}') action [SetVariable('go', 0), SetVariable('gocount', -1), Jump('bridge_control')] at menuback:
                         xalign .5
-                    textbutton ('{size=[gui.interface_text_size]}[gui.left]{/size}') action [SetVariable('go', 0), SetVariable('gocount', -1), Jump('bridge_control')] at menuback:
+                    textbutton ('{size=[gui.interface_text_size]}Back home{/size}') action [SetVariable('go', 0), SetVariable('gocount', -1), Jump('bridge_control')] at menuback:
                         xalign .5
             button xsize 256:
                 vbox xalign .5:
                     textbutton ('{font=[gui.fontawesome]}{size=192}{/size}{/font}') action [SetVariable('go', 1), SetVariable('gocount', 2), Jump('bridge_control')] at menuback:
                         xalign .5
-                    textbutton ('{size=[gui.interface_text_size]}[gui.right]{/size}') action [SetVariable('go', 1), SetVariable('gocount', 2), Jump('bridge_control')] at menuback:
+                    textbutton ('{size=[gui.interface_text_size]}Road not taken{/size}') action [SetVariable('go', 1), SetVariable('gocount', 2), Jump('bridge_control')] at menuback:
                         xalign .5
         elif gocount == 2 or gocount == -5:
             button xsize 256:
                 vbox xalign .5:
                     textbutton ('{font=[gui.fontawesome]}{size=192}{/size}{/font}') action [SetVariable('go', 0), SetVariable('gocount', -4), Jump('bridge_control')] at menuback:
                         xalign .5
-                    textbutton ('{size=[gui.interface_text_size]}[gui.left]{/size}') action [SetVariable('go', 0), SetVariable('gocount', -4), Jump('bridge_control')] at menuback:
+                    textbutton ('{size=[gui.interface_text_size]}Back home{/size}') action [SetVariable('go', 0), SetVariable('gocount', -4), Jump('bridge_control')] at menuback:
                         xalign .5
             button xsize 256:
                 vbox xalign .5:
                     textbutton ('{font=[gui.fontawesome]}{size=192}{/size}{/font}') action [SetVariable('go', 1), SetVariable('gocount', 3), Jump('bridge_control')] at menuback:
                         xalign .5
-                    textbutton ('{size=[gui.interface_text_size]}[gui.right]{/size}') action [SetVariable('go', 1), SetVariable('gocount', 3), Jump('bridge_control')] at menuback:
+                    textbutton ('{size=[gui.interface_text_size]}Road not taken{/size}') action [SetVariable('go', 1), SetVariable('gocount', 3), Jump('bridge_control')] at menuback:
                         xalign .5
         elif gocount == 3 or gocount == -6:
             button xsize 256:
                 vbox xalign .5:
                     textbutton ('{font=[gui.fontawesome]}{size=192}{/size}{/font}') action [SetVariable('go', 0), SetVariable('gocount', -5), Jump('bridge_control')] at menuback:
                         xalign .5
-                    textbutton ('{size=[gui.interface_text_size]}[gui.left]{/size}') action [SetVariable('go', 0), SetVariable('gocount', -5), Jump('bridge_control')] at menuback:
+                    textbutton ('{size=[gui.interface_text_size]}Back home{/size}') action [SetVariable('go', 0), SetVariable('gocount', -5), Jump('bridge_control')] at menuback:
                         xalign .5
             button xsize 256:
                 vbox xalign .5:
                     textbutton ('{font=[gui.fontawesome]}{size=192}{/size}{/font}') action [SetVariable('go', 1), SetVariable('gocount', 4), Jump('bridge_control')] at menuback:
                         xalign .5
-                    textbutton ('{size=[gui.interface_text_size]}[gui.right]{/size}') action [SetVariable('go', 1), SetVariable('gocount', 4), Jump('bridge_control')] at menuback:
+                    textbutton ('{size=[gui.interface_text_size]}Road not taken{/size}') action [SetVariable('go', 1), SetVariable('gocount', 4), Jump('bridge_control')] at menuback:
                         xalign .5
         elif gocount == 4 or gocount == -7:
             button xsize 256:
                 vbox xalign .5:
                     textbutton ('{font=[gui.fontawesome]}{size=192}{/size}{/font}') action [SetVariable('go', 0), SetVariable('gocount', -6), Jump('bridge_control')] at menuback:
                         xalign .5
-                    textbutton ('{size=[gui.interface_text_size]}[gui.left]{/size}') action [SetVariable('go', 0), SetVariable('gocount', -6), Jump('bridge_control')] at menuback:
+                    textbutton ('{size=[gui.interface_text_size]}Back home{/size}') action [SetVariable('go', 0), SetVariable('gocount', -6), Jump('bridge_control')] at menuback:
                         xalign .5
             button xsize 256:
                 vbox xalign .5:
                     textbutton ('{font=[gui.fontawesome]}{size=192}{/size}{/font}') action [SetVariable('go', 1), SetVariable('gocount', 5), Jump('bridge_control')] at menuback:
                         xalign .5
-                    textbutton ('{size=[gui.interface_text_size]}[gui.right]{/size}') action [SetVariable('go', 1), SetVariable('gocount', 5), Jump('bridge_control')] at menuback:
+                    textbutton ('{size=[gui.interface_text_size]}Road not taken{/size}') action [SetVariable('go', 1), SetVariable('gocount', 5), Jump('bridge_control')] at menuback:
                         xalign .5
         elif gocount == 5:
             button xsize 256:
                 vbox xalign .5:
                     textbutton ('{font=[gui.fontawesome]}{size=192}{/size}{/font}') action [SetVariable('go', 0), SetVariable('gocount', -7), Jump('bridge_control')] at menuback:
                         xalign .5
-                    textbutton ('{size=[gui.interface_text_size]}[gui.left]{/size}') action [SetVariable('go', 0), SetVariable('gocount', -7), Jump('bridge_control')] at menuback:
+                    textbutton ('{size=[gui.interface_text_size]}Back home{/size}') action [SetVariable('go', 0), SetVariable('gocount', -7), Jump('bridge_control')] at menuback:
                         xalign .5
             button xsize 256:
                 vbox xalign .5:
                     textbutton ('{font=[gui.fontawesome]}{size=192}{/size}{/font}') action [SetVariable('go', 1), SetVariable('gocount', 6), Jump('bridge_control')] at menuback:
                         xalign .5
-                    textbutton ('{size=[gui.interface_text_size]}[gui.right]{/size}') action [SetVariable('go', 1), SetVariable('gocount', 6), Jump('bridge_control')] at menuback:
+                    textbutton ('{size=[gui.interface_text_size]}Road not taken{/size}') action [SetVariable('go', 1), SetVariable('gocount', 6), Jump('bridge_control')] at menuback:
                         xalign .5
     if gocount == -2:
         key 'pad_leftx_neg' action [SetVariable('go', 0), SetVariable('gocount', -3), Jump('bridge_control')]
@@ -1054,7 +1053,7 @@ screen bridge_control:
         key 'pad_leftx_pos' action [SetVariable('go', 1), SetVariable('gocount', 6), Jump('bridge_control')]
         key 'K_LEFT' action [SetVariable('go', 0), SetVariable('gocount', -7), Jump('bridge_control')]
         key 'K_RIGHT' action [SetVariable('go', 1), SetVariable('gocount', 6), Jump('bridge_control')]
-screen wallet:
+screen wallet():
     hbox xpos .6 ypos .65:
         imagebutton idle 'wallet' hover 'wallet' action [SetVariable('wallet', 1), Hide('wallet')]
     key 'pad_a_press' action [SetVariable('wallet', 1), Hide('wallet')]
@@ -1066,14 +1065,14 @@ screen wallet:
         key 'K_RIGHT' action Return()
     if persistent.controllers is not None:
         use a_press
-screen anxiety:
+screen anxiety():
     hbox xpos .459 ypos .87:
         imagebutton idle 'nebulizer' hover 'nebulizer' action Return()
     key 'pad_a_press' action Return()
     key 'K_o' action Return()
     if persistent.controllers is not None:
         use a_press
-screen obdrawer:
+screen obdrawer():
     hbox xpos .1 ypos .74:
         if persistent.obdrawer is None:
             button background '#f7f7f7' xsize 680 ysize 282 action [SetField(persistent, 'obdrawer', True), Return()] at obalpha
@@ -1085,24 +1084,24 @@ screen obdrawer:
             key 'K_o' action Return()
     if persistent.controllers is not None:
         use a_press
-screen holder:
+screen holder():
     hbox ypos .743:
         imagebutton idle 'holder' hover 'holder' action Return()
     key 'pad_a_press' action Return()
     key 'K_o' action Return()
     if persistent.controllers is not None:
         use a_press
-screen a_press:
+screen a_press():
     hbox xalign .99 yalign .99:
         add "gui/controllers/[persistent.controllers]/button_a.webp"
-screen teddy:
+screen teddy():
     hbox xpos .53 ypos .53:
         imagebutton idle 'teddy' hover 'teddy' action [Hide('teddy'), Jump('teddy')]
     key 'pad_a_press' action [Hide('teddy'), Jump('teddy')]
     key 'K_o' action [Hide('teddy'), Jump('teddy')]
     if persistent.controllers is not None:
         use a_press
-screen key_screen:
+screen key_screen():
     if persistent.blind is True:
         key 'K_UP' action MainMenu()
         key 'K_DOWN' action QuickSave()
@@ -1124,7 +1123,7 @@ screen key_screen:
 screen part_clear():
     tag menu
     style_prefix "part_clear"
-    use game_menu(_("{font=[gui.fontawesome]}{/font} [gui.unlocked]"), scroll="viewport"):
+    use game_menu(_("{font=[gui.fontawesome]}{/font} Unlocked"), scroll="viewport"):
         vbox:
             if gp == 1:
                 label _("{font=[gui.fontawesome]}{/font} Characters")
@@ -1262,27 +1261,27 @@ screen part_clear():
                 label _("{font=[gui.fontawesome]}{/font} Music")
                 hbox:
                     if progress == 1:
-                        textbutton "[gui.bgm02]" action mr.Play("bgm/Sigh day.opus")
+                        textbutton "Track 2. Sigh day" action mr.Play("bgm/Sigh day.opus")
                     if progress == 2:
-                        textbutton "[gui.bgm03]" action mr.Play("bgm/Mare tranquillitatis.opus")
-                        textbutton "[gui.bgm07]" action mr.Play("bgm/Unknown mist.opus")
+                        textbutton "Track 3. Mare tranquillitatis" action mr.Play("bgm/Mare tranquillitatis.opus")
+                        textbutton "Track 7. Unknown mist" action mr.Play("bgm/Unknown mist.opus")
                     if progress == 3:
-                        textbutton "[gui.bgm04]" action mr.Play("bgm/CCCanon.opus")
+                        textbutton "Track 4. CCCanon" action mr.Play("bgm/CCCanon.opus")
                     if progress == 4:
-                        textbutton "[gui.bgm05]" action mr.Play("bgm/Let's game.opus")
+                        textbutton "Track 5. Let's game" action mr.Play("bgm/Let's game.opus")
                     if progress == 6:
-                        textbutton "[gui.bgm06]" action mr.Play("bgm/Peace.opus")
+                        textbutton "Track 6. Peace" action mr.Play("bgm/Peace.opus")
                     if progress == 8:
-                        textbutton "[gui.bgm08]" action mr.Play("bgm/Lush garden.opus")
-                        textbutton "[gui.bgm09]" action mr.Play("bgm/Jormungandr.opus")
+                        textbutton "Track 8. Lush garden" action mr.Play("bgm/Lush garden.opus")
+                        textbutton "Track 9. Jormungandr" action mr.Play("bgm/Jormungandr.opus")
                     if progress == 9:
-                        textbutton "[gui.bgm10]" action mr.Play("bgm/Nyx.opus")
+                        textbutton "Track 10. Nyx" action mr.Play("bgm/Nyx.opus")
                     if progress == 17:
-                        textbutton "[gui.bgm11]" action mr.Play("bgm/Summit showdown.opus")
+                        textbutton "Track 11. Summit showdown" action mr.Play("bgm/Summit showdown.opus")
                     if progress == 20:
-                        textbutton "[gui.bgm13]" action mr.Play("bgm/Sea of nectar.opus")
+                        textbutton "Track 13. Sea of nectar" action mr.Play("bgm/Sea of nectar.opus")
                     if progress == 25:
-                        textbutton "[gui.bgm12]" action mr.Play("bgm/Love song.opus")
+                        textbutton "Track 12. Love song" action mr.Play("bgm/Love song.opus")
                 null height (4 * gui.pref_spacing)
             if gr == 1:
                 label _("{font=[gui.fontawesome]}{/font} Replay")
@@ -1418,7 +1417,7 @@ screen archives():
         $ arc_diary = 16
     elif persistent.obdrawer is True:
         $ arc_diary = 15
-    use game_menu(_("{font=[gui.fontawesome]}{/font} [gui.arcq]"), scroll="viewport"):
+    use game_menu(_("{font=[gui.fontawesome]}{/font} Archives"), scroll="viewport"):
         hbox:
             style_prefix "slider"
             vbox:
@@ -2341,19 +2340,19 @@ screen music_room():
         hbox spacing 100:
             if not renpy.variant("small"):
                 vbox:
-                    textbutton _("[gui.bgm01]") action mr.Play("bgm/Pandemic.opus")
-                    textbutton _("[gui.bgm02]") action mr.Play("bgm/Sigh day.opus")
-                    textbutton _("[gui.bgm03]") action mr.Play("bgm/Mare tranquillitatis.opus")
-                    textbutton _("[gui.bgm04]") action mr.Play("bgm/CCCanon.opus")
-                    textbutton _("[gui.bgm05]") action mr.Play("bgm/Let's game.opus")
-                    textbutton _("[gui.bgm06]") action mr.Play("bgm/Peace.opus")
-                    textbutton _("[gui.bgm07]") action mr.Play("bgm/Unknown mist.opus")
-                    textbutton _("[gui.bgm08]") action mr.Play("bgm/Lush garden.opus")
-                    textbutton _("[gui.bgm09]") action mr.Play("bgm/Jormungandr.opus")
-                    textbutton _("[gui.bgm10]") action mr.Play("bgm/Nyx.opus")
-                    textbutton _("[gui.bgm11]") action mr.Play("bgm/Summit showdown.opus")
-                    textbutton _("[gui.bgm12]") action mr.Play("bgm/Love song.opus")
-                    textbutton _("[gui.bgm13]") action mr.Play("bgm/Sea of nectar.opus")
+                    textbutton _("Track 1. Pandemic") action mr.Play("bgm/Pandemic.opus")
+                    textbutton _("Track 2. Sigh day") action mr.Play("bgm/Sigh day.opus")
+                    textbutton _("Track 3. Mare tranquillitatis") action mr.Play("bgm/Mare tranquillitatis.opus")
+                    textbutton _("Track 4. CCCanon") action mr.Play("bgm/CCCanon.opus")
+                    textbutton _("Track 5. Let's game") action mr.Play("bgm/Let's game.opus")
+                    textbutton _("Track 6. Peace") action mr.Play("bgm/Peace.opus")
+                    textbutton _("Track 7. Unknown mist") action mr.Play("bgm/Unknown mist.opus")
+                    textbutton _("Track 8. Lush garden") action mr.Play("bgm/Lush garden.opus")
+                    textbutton _("Track 9. Jormungandr") action mr.Play("bgm/Jormungandr.opus")
+                    textbutton _("Track 10. Nyx") action mr.Play("bgm/Nyx.opus")
+                    textbutton _("Track 11. Summit showdown") action mr.Play("bgm/Summit showdown.opus")
+                    textbutton _("Track 12. Love song") action mr.Play("bgm/Love song.opus")
+                    textbutton _("Track 13. Sea of nectar") action mr.Play("bgm/Sea of nectar.opus")
             else:
                 vbox:
                     null width 0
@@ -2417,7 +2416,7 @@ screen music_room():
                             textbutton _("{font=[gui.fontawesome]}{/font} Bandcamp") action OpenURL('https://yggdrasilstudio.bandcamp.com/album/discouraged-workers-ost')
                             textbutton _("{font=[gui.fontawesome]}{/font} Soundcloud") action OpenURL('https://soundcloud.com/arisae/sets/discouraged-workers-ost')
                             if persistent.steam is True:
-                                if steam.dlc_installed(375160):
+                                if _renpysteam.dlc_installed(375160):
                                     textbutton _("{font=[gui.fontawesome]}{/font} Manual"):
                                         if _preferences.language == 'Korean':
                                             action OpenDirectory('Soundtrack/manual/discouraged_workers_ost_readme_ko.pdf')
@@ -2520,10 +2519,10 @@ screen replay():
 screen credits():
     tag menu
     default credits = "credits"
-    use game_menu(_("{font=[gui.fontawesome]}{/font} [gui.credits]"), scroll="viewport"):
+    use game_menu(_("{font=[gui.fontawesome]}{/font} Credits"), scroll="viewport"):
         vbox:
             hbox:
-                textbutton _("{font=[gui.fontawesome]}{/font} [gui.credits]") action SetScreenVariable("credits", "credits")
+                textbutton _("{font=[gui.fontawesome]}{/font} Credits") action SetScreenVariable("credits", "credits")
                 textbutton _("{font=[gui.fontawesome]}{/font} Authors") action SetScreenVariable("credits", "author")
                 textbutton _("{font=[gui.fontawesome]}{/font} Photographers") action SetScreenVariable("credits", "photo")
             null height (4 * gui.pref_spacing)
@@ -2735,7 +2734,7 @@ screen dlc():
     vbox:
         style_prefix "dlc"
         hbox:
-            if steam.dlc_installed(404910):
+            if _renpysteam.dlc_installed(404910):
                 add '404910_header'
             else:
                 add '404910_header_sepia'
@@ -2743,7 +2742,7 @@ screen dlc():
             vbox:
                 label _("Extras")
                 hbox:
-                    if steam.dlc_installed(404910):
+                    if _renpysteam.dlc_installed(404910):
                         textbutton _("{font=[gui.fontawesome]}{/font} Open") action OpenDirectory('Extras/')
                         textbutton _("{font=[gui.fontawesome]}{/font} Gift") action [SetField(persistent, 'dlc', 'buy'), SetVariable('dlc_key', 404910), Jump('dlc')]
                         textbutton _("{font=[gui.fontawesome]}{/font} Delete") action [SetField(persistent, 'dlc', 'delete'), SetVariable('dlc_key', 404910), Jump('dlc')]
@@ -2752,7 +2751,7 @@ screen dlc():
                         textbutton _("{font=[gui.fontawesome]}{/font} Add to cart") action [SetField(persistent, 'dlc', 'buy'), SetVariable('dlc_key', 404910), Jump('dlc')]
         null height (4 * gui.pref_spacing)
         hbox:
-            if steam.dlc_installed(375160):
+            if _renpysteam.dlc_installed(375160):
                 add '375160_header'
             else:
                 add '375160_header_sepia'
@@ -2760,10 +2759,10 @@ screen dlc():
             vbox:
                 label _("Original Sound Track")
                 hbox:
-                    if steam.dlc_installed(375160):
+                    if _renpysteam.dlc_installed(375160):
                         textbutton _("{font=[gui.fontawesome]}{/font} Open") action OpenDirectory('Soundtrack/')
                         textbutton _("{font=[gui.fontawesome]}{/font} Manual"):
-                            if steam.get_current_game_language() == 'koreana':
+                            if _renpysteam.get_current_game_language() == 'koreana':
                                 action OpenDirectory('Soundtrack/manual/discouraged_workers_ost_readme_ko.pdf')
                             else:
                                 action OpenDirectory('Soundtrack/manual/discouraged_workers_ost_readme.pdf')
@@ -2774,7 +2773,7 @@ screen dlc():
                         textbutton _("{font=[gui.fontawesome]}{/font} Add to cart") action [SetField(persistent, 'dlc', 'buy'), SetVariable('dlc_key', 375160), Jump('dlc')]
         null height (4 * gui.pref_spacing)
         hbox:
-            if steam.dlc_installed(382390):
+            if _renpysteam.dlc_installed(382390):
                 add '382390_header'
             else:
                 add '382390_header_sepia'
@@ -2782,7 +2781,7 @@ screen dlc():
             vbox:
                 label _("Digital Art Book")
                 hbox:
-                    if steam.dlc_installed(382390):
+                    if _renpysteam.dlc_installed(382390):
                         textbutton _("{font=[gui.fontawesome]}{/font} View") action OpenDirectory('Books/discouraged_workers_art_book.pdf')
                         textbutton _("{font=[gui.fontawesome]}{/font} Gift") action [SetField(persistent, 'dlc', 'buy'), SetVariable('dlc_key', 382390), Jump('dlc')]
                         textbutton _("{font=[gui.fontawesome]}{/font} Delete") action [SetField(persistent, 'dlc', 'delete'), SetVariable('dlc_key', 382390), Jump('dlc')]
@@ -2791,7 +2790,7 @@ screen dlc():
                         textbutton _("{font=[gui.fontawesome]}{/font} Add to cart") action [SetField(persistent, 'dlc', 'buy'), SetVariable('dlc_key', 382390), Jump('dlc')]
         null height (4 * gui.pref_spacing)
         hbox:
-            if steam.dlc_installed(384650):
+            if _renpysteam.dlc_installed(384650):
                 add '384650_header'
             else:
                 add '384650_header_sepia'
@@ -2799,15 +2798,15 @@ screen dlc():
             vbox:
                 label _("Digital Concept Book")
                 hbox:
-                    if steam.dlc_installed(384650):
+                    if _renpysteam.dlc_installed(384650):
                         textbutton _("{font=[gui.fontawesome]}{/font} View"):
-                            if steam.get_current_game_language() == 'koreana':
+                            if _renpysteam.get_current_game_language() == 'koreana':
                                 action OpenDirectory('Books/discouraged_workers_concept_book_ko.pdf')
-                            elif steam.get_current_game_language() == 'russian':
+                            elif _renpysteam.get_current_game_language() == 'russian':
                                 action OpenDirectory('Books/discouraged_workers_concept_book_ru.pdf')
-                            elif steam.get_current_game_language() == 'schinese':
+                            elif _renpysteam.get_current_game_language() == 'schinese':
                                 action OpenDirectory('Books/discouraged_workers_concept_book_zh.pdf')
-                            elif steam.get_current_game_language() == 'spanish':
+                            elif _renpysteam.get_current_game_language() == 'spanish':
                                 action OpenDirectory('Books/discouraged_workers_concept_book_es.pdf')
                             else:
                                 action OpenDirectory('Books/discouraged_workers_concept_book.pdf')
@@ -2818,7 +2817,7 @@ screen dlc():
                         textbutton _("{font=[gui.fontawesome]}{/font} Add to cart") action [SetField(persistent, 'dlc', 'buy'), SetVariable('dlc_key', 384650), Jump('dlc')]
         null height (4 * gui.pref_spacing)
         hbox:
-            if steam.dlc_installed(407760):
+            if _renpysteam.dlc_installed(407760):
                 add '407760_header'
             else:
                 add '407760_header_sepia'
@@ -2826,7 +2825,7 @@ screen dlc():
             vbox:
                 label _("MOD Creator Development Kit")
                 hbox:
-                    if steam.dlc_installed(407760):
+                    if _renpysteam.dlc_installed(407760):
                         textbutton _("{font=[gui.fontawesome]}{/font} Open") action OpenDirectory(renpy.config.basedir + '/MCDK/')
                         textbutton _("{font=[gui.fontawesome]}{/font} Gift") action [SetField(persistent, 'dlc', 'buy'), SetVariable('dlc_key', 407760), Jump('dlc')]
                         textbutton _("{font=[gui.fontawesome]}{/font} Delete") action [SetField(persistent, 'dlc', 'delete'), SetVariable('dlc_key', 407760), Jump('dlc')]
@@ -2835,7 +2834,7 @@ screen dlc():
                         textbutton _("{font=[gui.fontawesome]}{/font} Add to cart") action [SetField(persistent, 'dlc', 'buy'), SetVariable('dlc_key', 407760), Jump('dlc')]
         null height (4 * gui.pref_spacing)
         hbox:
-            if steam.dlc_installed(375161):
+            if _renpysteam.dlc_installed(375161):
                 add '375161_header'
             else:
                 add '375161_header_sepia'
@@ -2843,17 +2842,17 @@ screen dlc():
             vbox:
                 label _("Tarot PNP Pack")
                 hbox:
-                    if steam.dlc_installed(375161):
+                    if _renpysteam.dlc_installed(375161):
                         textbutton _("{font=[gui.fontawesome]}{/font} Open"):
-                            if steam.get_current_game_language() == 'koreana':
+                            if _renpysteam.get_current_game_language() == 'koreana':
                                 action OpenDirectory('Books/kndw_tarot_ko.pdf')
-                            elif steam.get_current_game_language() == 'russian':
+                            elif _renpysteam.get_current_game_language() == 'russian':
                                 action OpenDirectory('Books/kndw_tarot_ru.pdf')
-                            elif steam.get_current_game_language() == 'schinese':
+                            elif _renpysteam.get_current_game_language() == 'schinese':
                                 action OpenDirectory('Books/kndw_tarot_zh.pdf')
-                            elif steam.get_current_game_language() == 'spanish':
+                            elif _renpysteam.get_current_game_language() == 'spanish':
                                 action OpenDirectory('Books/kndw_tarot_es.pdf')
-                            elif steam.get_current_game_language() == 'english':
+                            elif _renpysteam.get_current_game_language() == 'english':
                                 action OpenDirectory('Books/kndw_tarot.pdf')
                             else:
                                 action OpenDirectory('Books/')
@@ -2864,7 +2863,7 @@ screen dlc():
                         textbutton _("{font=[gui.fontawesome]}{/font} Add to cart") action [SetField(persistent, 'dlc', 'buy'), SetVariable('dlc_key', 375161), Jump('dlc')]
         null height (4 * gui.pref_spacing)
         hbox:
-            if steam.dlc_installed(558690):
+            if _renpysteam.dlc_installed(558690):
                 add '558690_header'
             else:
                 add '558690_header_sepia'
@@ -2872,7 +2871,7 @@ screen dlc():
             vbox:
                 label _("Back to the Basic")
                 hbox:
-                    if steam.dlc_installed(558690):
+                    if _renpysteam.dlc_installed(558690):
                         textbutton _("{font=[gui.fontawesome]}{/font} Open") action OpenDirectory('BTTB/')
                         textbutton _("{font=[gui.fontawesome]}{/font} Gift") action [SetField(persistent, 'dlc', 'buy'), SetVariable('dlc_key', 558690), Jump('dlc')]
                         textbutton _("{font=[gui.fontawesome]}{/font} Delete") action [SetField(persistent, 'dlc', 'delete'), SetVariable('dlc_key', 558690), Jump('dlc')]
@@ -3128,7 +3127,7 @@ screen esteregg_04():
             child "lock"
             draggable False
             xpos 1280 ypos 540
-screen wimcj_detail_001:
+screen wimcj_detail_001():
     tag menu
     add gui.main_menu_background
     style_prefix "main_menu"
@@ -3146,10 +3145,10 @@ screen wimcj_detail_001:
             bar value AnimatedValue(value=1.0, range=2.5, delay=3.0, old_value=0.0)
             hbox:
                 style_prefix "return_button"
-                textbutton _("{font=[gui.fontawesome]}{/font} [gui.play]") action Return()
+                textbutton _("{font=[gui.fontawesome]}{/font} Play") action Return()
                 textbutton _("{font=[gui.fontawesome]}{/font} Return") action [mr.Stop(), MainMenu(confirm=False)]
         image 'wimcj_level_001'
-screen wimcj_countdown:
+screen wimcj_countdown():
     if wimcj_level == 1:
         timer 1 repeat True action If(wimcj_time > 30, true=SetVariable('wimcj_time', wimcj_time - 1), false=If(wimcj_time == 30, true=[Hide('wimcj_countdown'), Jump('wimcj_001_play')], false=If(wimcj_time > 10, true=SetVariable('wimcj_time', wimcj_time - 1), false=If(wimcj_time == 10, true=[Hide('wimcj_countdown'), Jump('wimcj_001_play')], false=If(wimcj_time > 0, true=SetVariable('wimcj_time', wimcj_time - 1), false=[Hide('wimcj_countdown'), Jump(wimcj_timer_jump)])))))
     else:
@@ -3160,7 +3159,7 @@ screen wimcj_countdown:
         text str(wimcj_time) color "#FF0000" font "gui/fonts/BrokenGlass.ttf" outlines[(1, "#000000cf", 0, 0)] size 256 at wimcj_timer_hurry
     else:
         text str(wimcj_time) xpos .01 ypos .01 color "#000" outlines[(1, "#ffffffcf", 0, 0)] font "gui/fonts/BrokenGlass.ttf" size 256 at wimcj_timer_normal
-screen wimcj_level_nav:
+screen wimcj_level_nav():
     if renpy.variant("small"):
         textbutton '{font=[gui.fontawesome]}{/font}' text_color '#000' text_size 256 text_xalign .5 text_yalign .5 xsize 1920 ysize 128 background None hover_background 'wimcj_system_white' activate_sound 'se/wimcj_walk.opus' xalign .5 yalign 0:
             if wimcj_level == 1:
@@ -3507,7 +3506,7 @@ screen wimcj_level_nav:
             key 'pad_dpdown_press' action [Play("sound", 'se/wimcj_walk.opus'), SetVariable('wimcj_level_001_move', 6), SetVariable('wimcj_time', wimcj_time - 1), Jump('wimcj_001_play')]
             key 'pad_dpleft_press' action [Play("sound", 'se/wimcj_walk.opus'), SetVariable('wimcj_level_001_move', 4), SetVariable('wimcj_time', wimcj_time - 1), Jump('wimcj_001_play')]
             key 'pad_dpright_press' action [Play("sound", 'se/wimcj_walk.opus'), SetVariable('wimcj_level_001_move', 1), SetVariable('wimcj_time', wimcj_time - 1), Jump('wimcj_001_play')]
-screen wimcj_level_001:
+screen wimcj_level_001():
     style_prefix 'wimcj_level_say'
     if wimcj_level_001_move == 0:
         add 'wimcj_level_001_01'

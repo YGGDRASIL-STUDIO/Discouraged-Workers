@@ -1419,20 +1419,51 @@ init:
     image photop = 'images/photo.webp'
     if achievement.has('KNDW_SPONSOR') and persistent.esteregg is True:
         image video = Composite((1920, 1080), (0,0), 'images/hospital.webp', (0, 0), 'images/video.webp')
+        image girl_walk = Movie(fps=60, channel='video', play='images/girl.webm', mask_channel='mask', image='images/girl.webp', side_mask=True, layer='screens')
         image video_play = Movie(fps=60, channel='video', play='images/video.webm', image='video', layer='screens')
         image y_dakimakura_1 = Composite((1920, 5760), (0,0), 'images/y_dakimakura_1.webp', (816, 1793), 'images/y_dakimakura_uncensored.webp')
-        image riding0 = Composite((1920, 2226), (0,0), 'images/riding_0_mask.webp', (893, 1587), 'images/riding_0_uncensored.webp')
-        image riding1 = Movie(fps=60, channel='video', play='images/riding_1.webm', image='riding0', layer='screens')
-        image riding2 = Movie(fps=60, channel='video', play='images/riding_2.webm', image='riding0', layer='screens')
-        image riding3 = Movie(fps=60, channel='video', play='images/riding_3.webm', image='riding0', layer='screens')
-        image fellatio =  Composite((2289, 1080), (0,0), 'images/fellatio.webp', (1222, 535), 'images/fellatio_uncensored.webp')
+        image riding1_movie = Movie(fps=60, channel='video', play='images/riding_1.webm', image='riding0', layer='screens')
+        image riding2_movie = Movie(fps=60, channel='video', play='images/riding_2.webm', image='riding0', layer='screens')
+        image riding3_movie = Movie(fps=60, channel='video', play='images/riding_3.webm', image='riding0', layer='screens')
+        image fellatio =  LiveComposite((2289, 1080), (0,0), 'images/fellatio.webp', (1222, 535), 'images/fellatio_uncensored.webp')
+        image riding0:
+            size(1920,1080)
+            contains:
+                'images/riding_0_mask.webp', center
+            contains:
+                'images/riding_0_uncensored.webp', xpos .4632 ypos .6682
+            contains:
+                'circle'
     else:
         image video = Composite((1920, 1080), (0,0), 'images/hospital.webp', (0, 0), 'images/video.webp', (260, 870), 'images/video_mask.webp')
         image video_play = Movie(fps=60, channel='video', play='images/video_mask.webm', image='video', layer='screens')
-        image riding0 = 'images/riding_0_mask.webp'
-        image riding1 = Movie(fps=60, channel='video', play='images/riding_1_mask.webm', image='riding_0_mask', layer='screens')
-        image riding2 = Movie(fps=60, channel='video', play='images/riding_2_mask.webm', image='riding_0_mask', layer='screens')
-        image riding3 = Movie(fps=60, channel='video', play='images/riding_3_mask.webm', image='riding_0_mask', layer='screens')
+        image riding1_movie = Movie(fps=60, channel='video', play='images/riding_1_mask.webm', image='riding_0', layer='screens')
+        image riding2_movie = Movie(fps=60, channel='video', play='images/riding_2_mask.webm', image='riding_0', layer='screens')
+        image riding3_movie = Movie(fps=60, channel='video', play='images/riding_3_mask.webm', image='riding_0', layer='screens')
+        image riding0:
+            size(1920,1080)
+            contains:
+                'images/riding_0_mask.webp', center
+            contains:
+                'circle'
+    image riding1:
+        size(1920,1080)
+        contains:
+            'riding1_movie', center
+        contains:
+            'circle'
+    image riding2:
+        size(1920,1080)
+        contains:
+            'riding2_movie', center
+        contains:
+            'circle'
+    image riding3:
+        size(1920,1080)
+        contains:
+            'riding3_movie', center
+        contains:
+            'circle'
     image mas_1:
         contains:
             'video_play', video_divide_0
@@ -2361,11 +2392,8 @@ init:
     $ g.button('riding')
     $ g.condition('persistent.unlock_11==True')
     $ g.image('riding1')
-    $ g.transform(bottomtotop)
     $ g.image('riding2')
-    $ g.transform(bottomtotop)
     $ g.image('riding3')
-    $ g.transform(bottomtotop)
     $ g.button('serving')
     $ g.condition('persistent.unlock_26==True')
     $ g.image('serving')

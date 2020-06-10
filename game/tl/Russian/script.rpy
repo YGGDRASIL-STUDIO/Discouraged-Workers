@@ -145,6 +145,8 @@
     new "Я хочу тебя."
     old "Yunwoo's view"
     new "Взгляд Янву"
+    old "Ga-yeon's view"
+    new "Взгляд Гайан"
     old "Ga-yeon and Yunwoo"
     new "Взгляд Га-Йан"
     old "Bridge of the life"
@@ -153,6 +155,14 @@
     new "Край света"
     old "Flowery mornings and moonlit nights"
     new "Утра, полные цветов, и ночи, залитые лунным светом"
+    old "Unlocked"
+    new "Открывать"
+    old "Game Over"
+    new "Игра окончена"
+    old "Find Teddy"
+    new "Найдите Тедди"
+    old "Attention"
+    new "ВНИМАНИЕ"
     old '{b}Lee Yunseok{/b}\n\nDirecting, Design, Programming,\nMusic, Sound, Writing,\nUI Design, Background CG, Object Sprites,\nPackaging, Video, Website\n-From April 21, 2013'
     new '{b}Lee Yunseok{/b}\n\nрежиссура, дизайн,\nпрограммирование,\nмузыка, звук, сюжет,\nпользовательский интерфейс,\nбэкграунды и комьютерная\nграфика, спрайты, упаковка\nфайлов, видео, работа с сайтов\n- с 21 апреля 2013'
     old '{b}chibilis studio{/b}\n\nAnimation, Character Sprites, CG Sprites\n-From March 10, 2015'

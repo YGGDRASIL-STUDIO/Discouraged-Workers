@@ -145,6 +145,8 @@
     new "我要你。"
     old "Yunwoo's view"
     new "允宇的角度"
+    old "Ga-yeon's view"
+    new "佳妍的角度"
     old "Ga-yeon and Yunwoo"
     new "佳妍和允宇"
     old "Bridge of the life"
@@ -153,6 +155,14 @@
     new "世界的尽头"
     old "Flowery mornings and moonlit nights"
     new "花朝月夕"
+    old "Unlocked"
+    new "解锁"
+    old "Game Over"
+    new "游戏结束"
+    old "Find Teddy"
+    new "请寻找玩具熊。"
+    old "Attention"
+    new "警     告"
     old 'Old Version'
     new '旧版'
     old 'Contributors'

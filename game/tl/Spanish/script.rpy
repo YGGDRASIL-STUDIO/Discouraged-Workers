@@ -145,6 +145,8 @@
     new "Te quiero."
     old "Yunwoo's view"
     new "Vista de Yunwoo"
+    old "Ga-yeon's view"
+    new "Vista de Ga-yeon"
     old "Ga-yeon and Yunwoo"
     new "Ga-yeon y Yunwoo"
     old "Bridge of the life"
@@ -153,6 +155,14 @@
     new "Borde del mundo"
     old "Flowery mornings and moonlit nights"
     new "Mañanas floridas y noches iluminadas por la luna"
+    old "Unlocked"
+    new "Desbloqueado"
+    old "Game Over"
+    new "Juego terminado"
+    old "Find Teddy"
+    new "Encuentra a Teddy"
+    old "Attention"
+    new "Advertencia"
     old '{b}Lee Yunseok{/b}\n\nDirecting, Design, Programming,\nMusic, Sound, Writing,\nUI Design, Background CG, Object Sprites,\nPackaging, Video, Website\n-From April 21, 2013'
     new '{b}Lee Yunseok{/b}\n\nDirecting, Design, Programming,\nMusic, Sound, Writing, UI Design,\nBackground CG, Object Sprites,\nPackaging, Video, Website\n-From April 21, 2013'
     old '{b}chibilis studio{/b}\n\nAnimation, Character Sprites, CG Sprites\n-From March 10, 2015'

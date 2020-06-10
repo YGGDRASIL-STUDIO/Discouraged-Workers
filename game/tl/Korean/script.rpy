@@ -147,6 +147,8 @@
     new "너를 원해."
     old "Yunwoo's view"
     new "윤우의 시점"
+    old "Ga-yeon's view"
+    new "가연의 시점"
     old "Ga-yeon and Yunwoo"
     new "가연과 윤우"
     old "Bridge of the life"
@@ -155,6 +157,14 @@
     new "세상의 끝자락"
     old "Flowery mornings and moonlit nights"
     new "꽃이 핀 아침과 달 밝은 저녁"
+    old "Unlocked"
+    new "잠금해제"
+    old "Game Over"
+    new "게임오버"
+    old "Find Teddy"
+    new "테디를 찾으시오"
+    old "Attention"
+    new "주     의"
     old '{b}Lee Yunseok{/b}\n\nDirecting, Design, Programming,\nMusic, Sound, Writing,\nUI Design, Background CG, Object Sprites,\nPackaging, Video, Website\n-From April 21, 2013'
     new '{b}이윤석{/b}\n\n디렉팅, 디자인, 프로그래밍,\n음악, 음향, 극본,\nUI 디자인, 백그라운드 CG, 오브젝트 스프라이트,\n패키징, 영상, 웹사이트\n-2013년 04월 21일부터'
     old '{b}chibilis studio{/b}\n\nAnimation, Character Sprites, CG Sprites\n-From March 10, 2015'

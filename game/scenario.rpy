@@ -15,11 +15,11 @@ label start:
         show born_balls at main_balls
         show gradiant
         with centerblind
-        show expression Text ('[gui.part01]', style='part_title')
+        show expression Text ('Are you alright?', style='part_title')
         with d
     else:
         scene black
-        show expression Text ('[gui.part01]', style='centered_text')
+        show expression Text ('Are you alright?', style='centered_text')
     pause 3
     scene black with d
     if persistent.dw2017 is True and persistent.teddy is None and persistent.blind is not True:
@@ -29,7 +29,7 @@ label start:
     else:
         scene room with blind
     $ show_quick_menu = True
-    $ save_name = "[gui.part01]"
+    $ save_name = "Are you alright?"
     play sound 'se/bell.opus'
     play music 'bgm/Sigh day.opus' fadein 3
     na "The doorbell rings and wakes me up."
@@ -207,12 +207,12 @@ label mono0:
         show born_balls at main_balls
         show gradiant
         with centerblind
-        show expression Text ('[gui.part02]', style='part_title')
+        show expression Text ('Monologue', style='part_title')
         with d
         pause 3
     else:
         scene black
-        show expression Text ('[gui.part02]', style='centered_text')
+        show expression Text ('Monologue', style='centered_text')
     scene black with d
     pause 1
     $ progress += 1
@@ -394,11 +394,11 @@ label caffe:
         show born_balls at main_balls
         show gradiant
         with centerblind
-        show expression Text ('[gui.part03]', style='part_title')
+        show expression Text ('Do you remember first love?', style='part_title')
         with d
     else:
         scene black
-        show expression Text ('[gui.part03]', style='centered_text')
+        show expression Text ('Do you remember first love?', style='centered_text')
     pause 3
     scene black with d
     $ progress += 1
@@ -515,11 +515,11 @@ label shinchon:
         show born_balls at main_balls
         show gradiant
         with centerblind
-        show expression Text ('[gui.part04]', style='part_title')
+        show expression Text ('Shin-Chon Street', style='part_title')
         with d
     else:
         scene black
-        show expression Text ('[gui.part04]', style='centered_text')
+        show expression Text ('Shin-Chon Street', style='centered_text')
     $ progress += 1
     pause 3
     scene black with d
@@ -679,11 +679,11 @@ label food:
         show born_balls at main_balls
         show gradiant
         with centerblind
-        show expression Text ('[gui.part05]', style='part_title')
+        show expression Text ('Sad lunch', style='part_title')
         with d
     else:
         scene black
-        show expression Text ('[gui.part05]', style='centered_text')
+        show expression Text ('Sad lunch', style='centered_text')
     $ progress += 1
     pause 3
     scene black with d
@@ -809,11 +809,11 @@ label food1:
         show born_balls at main_balls
         show gradiant
         with centerblind
-        show expression Text ('[gui.part07]', style='part_title')
+        show expression Text ('Calm afternoon', style='part_title')
         with d
     else:
         scene black
-        show expression Text ('[gui.part07]', style='centered_text')
+        show expression Text ('Calm afternoon', style='centered_text')
     $ progress += 1
     pause 3
     scene black with d
@@ -949,11 +949,11 @@ label cheon:
         show born_balls at main_balls
         show gradiant
         with centerblind
-        show expression Text ('[gui.part08]', style='part_title')
+        show expression Text ('Questionable feelings', style='part_title')
         with d
     else:
         scene black
-        show expression Text ('[gui.part08]', style='centered_text')
+        show expression Text ('Questionable feelings', style='centered_text')
     $ progress += 1
     pause 3
     scene black with d
@@ -1062,11 +1062,11 @@ label hyena:
         show born_balls at main_balls
         show gradiant
         with centerblind
-        show expression Text ('[gui.part09]', style='part_title')
+        show expression Text ('Circumstances', style='part_title')
         with d
     else:
         scene black
-        show expression Text ('[gui.part09]', style='centered_text')
+        show expression Text ('Circumstances', style='centered_text')
     $ progress += 1
     pause 3
     scene black with d
@@ -1274,11 +1274,11 @@ label tears:
         show born_balls at main_balls
         show gradiant
         with centerblind
-        show expression Text ('[gui.part10]', style='part_title')
+        show expression Text ('Distortion', style='part_title')
         with d
     else:
         scene black
-        show expression Text ('[gui.part10]', style='centered_text')
+        show expression Text ('Distortion', style='centered_text')
     $ progress += 1
     pause 3
     scene black with d
@@ -1505,11 +1505,11 @@ label mono3:
         show born_balls at main_balls
         show gradiant
         with centerblind
-        show expression Text ('[gui.part11]', style='part_title')
+        show expression Text ('Monologue', style='part_title')
         with d
     else:
         scene black
-        show expression Text ('[gui.part11]', style='centered_text')
+        show expression Text ('Monologue', style='centered_text')
     $ progress += 1
     pause 3
     scene black with d
@@ -1613,11 +1613,11 @@ label hospital:
         show born_balls at main_balls
         show gradiant
         with centerblind
-        show expression Text ('[gui.part12]', style='part_title')
+        show expression Text ('Broken heart', style='part_title')
         with d
     else:
         scene black
-        show expression Text ('[gui.part12]', style='centered_text')
+        show expression Text ('Broken heart', style='centered_text')
     $ progress += 1
     pause 3
     scene black with d
@@ -1719,11 +1719,11 @@ label life:
         show born_balls at main_balls
         show gradiant
         with centerblind
-        show expression Text ('[gui.part13]', style='part_title')
+        show expression Text ('How alive are you?', style='part_title')
         with d
     else:
         scene black
-        show expression Text ('[gui.part13]', style='centered_text')
+        show expression Text ('How alive are you?', style='centered_text')
     $ progress += 1
     pause 3
     scene black with d
@@ -2217,11 +2217,11 @@ label discouraged:
         show born_balls at main_balls
         show gradiant
         with centerblind
-        show expression Text ('[gui.part14]', style='part_title')
+        show expression Text ('Grasping reality', style='part_title')
         with d
     else:
         scene black
-        show expression Text ('[gui.part14]', style='centered_text')
+        show expression Text ('Grasping reality', style='centered_text')
     $ progress += 1
     pause 3
     scene black with d
@@ -2455,11 +2455,11 @@ label discouraged:
         show born_balls at main_balls
         show gradiant
         with centerblind
-        show expression Text ('[gui.part15]', style='part_title')
+        show expression Text ('Self-inflicted', style='part_title')
         with d
     else:
         scene black
-        show expression Text ('[gui.part15]', style='centered_text')
+        show expression Text ('Self-inflicted', style='centered_text')
     $ progress += 1
     pause 3
     scene black with d
@@ -2660,8 +2660,8 @@ label self_inflicted:
                 pass
             else:
                 show blink2 with d5
-        sv "[gui.choice]"
-        sv "Left arrow key: [gui.heal] Right arrow key: [gui.judge]"
+        sv "You can make a choice here. Listen to the following explanation and choose what you want."
+        sv "Left arrow key: Healing, Right arrow key: Onlooking"
         call screen self_inflicted
     else:
         play sound 'se/flash.opus'
@@ -2672,8 +2672,8 @@ label self_inflicted:
             pass
         else:
             show blink2 with d5
-        sv "[gui.choice]"
-        sv "Left arrow key: [gui.heal] Right arrow key: [gui.judge]"
+        sv "You can make a choice here. Listen to the following explanation and choose what you want."
+        sv "Left arrow key: Healing, Right arrow key: Onlooking"
         call screen self_inflicted
 label love:
     $ gp = 0
@@ -2688,11 +2688,11 @@ label love:
         show born_balls at main_balls
         show gradiant
         with centerblind
-        show expression Text ('[gui.part17]', style='part_title')
+        show expression Text ('Madness', style='part_title')
         with d
     else:
         scene black
-        show expression Text ('[gui.part17]', style='centered_text')
+        show expression Text ('Madness', style='centered_text')
     $ progress = 17
     pause 3
     scene black with d
@@ -2893,7 +2893,7 @@ label love:
     na "We groan with pain and pleasure almost at the same time."
     pause 1
     na "I slightly release my inner muscle which has tightly held his penis.{w=.3} Then,{w=.3} I pull back my butt slowly,{w=.3} and then,{w=.3} stick it deep inside me."
-    scene expression 'riding1' at bottomtotop
+    scene expression 'riding1'
     with d5
     pause 5
     $ show_quick_menu = False
@@ -2905,7 +2905,7 @@ label love:
     pause 6
     $ show_quick_menu = True
     na "Until Yunwoo ejaculates into me."
-    scene expression 'riding2' at bottomtotop
+    scene expression 'riding2'
     with d5
     pause 5
     $ show_quick_menu = False
@@ -2917,7 +2917,7 @@ label love:
     pause 6
     $ show_quick_menu = True
     na "He and I have made love."
-    scene expression 'riding3' at bottomtotop
+    scene expression 'riding3'
     with d5
     pause 12
     $ show_quick_menu = False
@@ -3036,11 +3036,11 @@ label yunwoo0:
         show born_balls at main_balls
         show gradiant
         with centerblind
-        show expression Text ('[gui.part18]', style='part_title')
+        show expression Text ("Yunwoo's view", style='part_title')
         with d
     else:
         scene black
-        show expression Text ('[gui.part18]', style='centered_text')
+        show expression Text ("Yunwoo's view", style='centered_text')
     $ progress = 18
     pause 3
     scene black with d
@@ -3177,11 +3177,11 @@ label gayeon:
         show born_balls at main_balls
         show gradiant
         with centerblind
-        show expression Text ('[gui.part19]', style='part_title')
+        show expression Text ("Ga-yeon's view", style='part_title')
         with d
     else:
         scene black
-        show expression Text ('[gui.part19]', style='centered_text')
+        show expression Text ("Ga-yeon's view", style='centered_text')
     $ progress = 19
     pause 3
     scene black with d
@@ -3350,11 +3350,11 @@ label yunwoo2:
         show born_balls at main_balls
         show gradiant
         with centerblind
-        show expression Text ('[gui.part20]', style='part_title')
+        show expression Text ('Ga-yeon and Yunwoo', style='part_title')
         with d
     else:
         scene black
-        show expression Text ('[gui.part20]', style='centered_text')
+        show expression Text ('Ga-yeon and Yunwoo', style='centered_text')
     $ progress = 20
     pause 3
     scene black with d
@@ -3377,7 +3377,7 @@ label yunwoo2:
         sv "Left arrow key: Yes, Right arrow key: No."
         call screen save_confirm
     scene rooml
-    sv "[gui.choice]"
+    sv "You can make a choice here. Listen to the following explanation and choose what you want."
     sv "Left arrow key: Take a closer look at Ga-yeon's room. Right arrow key: Let's get out of here."
     if not persistent.blind is True and _preferences.transitions == 0:
         system 'Find Your Wallet'
@@ -3453,6 +3453,7 @@ label yunwoo2:
     if persistent.part20 is True and persistent.con03 is None:
         $ persistent.con03 = True
         $ persistent.con += 1
+        $ achievement.progress('KNDW_CONCEPT', 7)
 label unme:
     $ gp = 0
     $ gc = 0
@@ -3594,11 +3595,11 @@ label bridge:
         show born_balls at main_balls
         show gradiant
         with centerblind
-        show expression Text ('[gui.part21]', style='part_title')
+        show expression Text ('Bridge of the life', style='part_title')
         with d
     else:
         scene black
-        show expression Text ('[gui.part21]', style='centered_text')
+        show expression Text ('Bridge of the life', style='centered_text')
     $ progress = 21
     pause 3
     scene black with blind
@@ -3617,23 +3618,23 @@ label bridge_control:
         na "While I'm walking along the way,{w=.3} a light shines down onto the handrail.{w=.3} And I can see the words that were probably written by some celebrities.{w=.3} I think about what they say…."
     elif gocount == -7:
         na "Yunwoo…."
-        sv "[gui.choice]"
-        sv "Left arrow key: [gui.left] Right arrow key: [gui.right]"
+        sv "You can make a choice here. Listen to the following explanation and choose what you want."
+        sv "Left arrow key: Back home, Right arrow key: Road not taken"
         call screen bridge_control
     elif gocount == -6:
         na "Mommy…."
-        sv "[gui.choice]"
-        sv "Left arrow key: [gui.left] Right arrow key: [gui.right]"
+        sv "You can make a choice here. Listen to the following explanation and choose what you want."
+        sv "Left arrow key: Back home, Right arrow key: Road not taken"
         call screen bridge_control
     elif gocount == -5:
         na "Daddy…."
-        sv "[gui.choice]"
-        sv "Left arrow key: [gui.left] Right arrow key: [gui.right]"
+        sv "You can make a choice here. Listen to the following explanation and choose what you want."
+        sv "Left arrow key: Back home, Right arrow key: Road not taken"
         call screen bridge_control
     elif gocount == -4:
         na "Hye-na…."
-        sv "[gui.choice]"
-        sv "Left arrow key: [gui.left] Right arrow key: [gui.right]"
+        sv "You can make a choice here. Listen to the following explanation and choose what you want."
+        sv "Left arrow key: Back home, Right arrow key: Road not taken"
         call screen bridge_control
     elif gocount == -3:
         na "What if I just go back…?"
@@ -3659,14 +3660,14 @@ label bridge_control:
     elif gocount == -2:
         na "What's the use of thinking now?"
         $ achievement.progress('KNDW_LEFT', 2)
-        sv "[gui.choice]"
-        sv "Left arrow key: [gui.left] Right arrow key: [gui.right]"
+        sv "You can make a choice here. Listen to the following explanation and choose what you want."
+        sv "Left arrow key: Back home, Right arrow key: Road not taken"
         call screen bridge_control
     elif gocount == -1:
         na "No,{w=.3} I can't go back."
         $ achievement.progress('KNDW_LEFT', 1)
-        sv "[gui.choice]"
-        sv "Left arrow key: [gui.left] Right arrow key: [gui.right]"
+        sv "You can make a choice here. Listen to the following explanation and choose what you want."
+        sv "Left arrow key: Back home, Right arrow key: Road not taken"
         call screen bridge_control
     if gocount == 6:
         na "Well,{w=.3} yes,{w=.3} if I continue to be alive,{w=.3} maybe I could have some days full of hope,{w=.3} someday in the future."
@@ -3693,36 +3694,36 @@ label bridge_control:
     elif gocount == 5:
         na "What the hell is there beyond this deep and hopeless tunnel?"
         $ achievement.progress('KNDW_RIGHT', 5)
-        sv "[gui.choice]"
-        sv "Left arrow key: [gui.left] Right arrow key: [gui.right]"
+        sv "You can make a choice here. Listen to the following explanation and choose what you want."
+        sv "Left arrow key: Back home, Right arrow key: Road not taken"
         call screen bridge_control
     elif gocount == 4:
         na "I didn't even dream of such a good life.{w=.3} It's like a happy movie."
         $ achievement.progress('KNDW_RIGHT', 4)
-        sv "[gui.choice]"
-        sv "Left arrow key: [gui.left] Right arrow key: [gui.right]"
+        sv "You can make a choice here. Listen to the following explanation and choose what you want."
+        sv "Left arrow key: Back home, Right arrow key: Road not taken"
         call screen bridge_control
     elif gocount == 3:
         na "I didn't expect such good luck."
         $ achievement.progress('KNDW_RIGHT', 3)
-        sv "[gui.choice]"
-        sv "Left arrow key: [gui.left] Right arrow key: [gui.right]"
+        sv "You can make a choice here. Listen to the following explanation and choose what you want."
+        sv "Left arrow key: Back home, Right arrow key: Road not taken"
         call screen bridge_control
     elif gocount == 2:
         na "There's no reversal in my life - it's done."
         $ achievement.progress('KNDW_RIGHT', 2)
-        sv "[gui.choice]"
-        sv "Left arrow key: [gui.left] Right arrow key: [gui.right]"
+        sv "You can make a choice here. Listen to the following explanation and choose what you want."
+        sv "Left arrow key: Back home, Right arrow key: Road not taken"
         call screen bridge_control
     elif gocount == 1:
         na "If your spring day is like this, can you really bear it?"
         $ achievement.progress('KNDW_RIGHT', 1)
-        sv "[gui.choice]"
-        sv "Left arrow key: [gui.left] Right arrow key: [gui.right]"
+        sv "You can make a choice here. Listen to the following explanation and choose what you want."
+        sv "Left arrow key: Back home, Right arrow key: Road not taken"
         call screen bridge_control
     else:
-        sv "[gui.choice]"
-        sv "Left arrow key: [gui.left] Right arrow key: [gui.right]"
+        sv "You can make a choice here. Listen to the following explanation and choose what you want."
+        sv "Left arrow key: Back home, Right arrow key: Road not taken"
         call screen bridge_control
     hide screen bridge
     scene black with d
@@ -3753,11 +3754,11 @@ label edge:
         show born_balls at main_balls
         show gradiant
         with centerblind
-        show expression Text ('[gui.part22]', style='part_title')
+        show expression Text ('Edge of the world', style='part_title')
         with d
     else:
         scene black
-        show expression Text ('[gui.part22]', style='centered_text')
+        show expression Text ('Edge of the world', style='centered_text')
     $ progress = 22
     pause 3
     scene black with blind
@@ -3913,11 +3914,11 @@ label edge:
             show born_balls at main_balls
             show gradiant
             with centerblind
-            show expression Text ('[gui.part23]', style='part_title')
+            show expression Text ('Accident', style='part_title')
             with d
         else:
             scene black
-            show expression Text ('[gui.part23]', style='centered_text')
+            show expression Text ('Accident', style='centered_text')
         $ progress = 23
         pause 3
         scene black with d
@@ -3963,11 +3964,11 @@ label epilogue:
         show born_balls at main_balls
         show gradiant
         with centerblind
-        show expression Text ('[gui.part24]', style='part_title')
+        show expression Text ('Epilogue', style='part_title')
         with d
     else:
         scene black
-        show expression Text ('[gui.part24]', style='centered_text')
+        show expression Text ('Epilogue', style='centered_text')
     pause 3
     scene black with d
     $ progress = 24
@@ -4054,11 +4055,11 @@ label ending:
             show born_balls at main_balls
             show gradiant
             with centerblind
-            show expression Text ('[gui.part25]', style='part_title')
+            show expression Text ('Flowery mornings and moonlit nights', style='part_title')
             with d
         else:
             scene black
-            show expression Text ('[gui.part25]', style='centered_text')
+            show expression Text ('Flowery mornings and moonlit nights', style='centered_text')
         $ progress = 25
         $ save_name = "Flowery mornings and moonlit nights"
         pause 3
@@ -4380,7 +4381,7 @@ label credits:
     sv "Thank you for playing Discouraged Workers. We are YGGDRASIL STUDIO."
     if persistent.blind is not True:
         scene expression 'ending' with d
-        show expression Text ('[gui.credits]', style='credits_title')
+        show expression Text ('Credits', style='credits_title')
         if renpy.variant("small"):
             show expression Text ('{b}Lee Yunseok{/b}\n\nDirecting, Design, Programming,\nMusic, Sound, Writing,\nUI Design, Background CG,\nObject Sprites, Packaging, Video,\nWebsite\n-From April 21, 2013', style='credits_text')
         else:
@@ -4427,7 +4428,7 @@ label credits:
             show expression Text ('{b}IVY{/b}\n\nChinese Translator\n-July 25, 2016~February 10, 2018\n\n{b}Roman Koledin{/b}\n\nRussian Translator\n-August 28, 2016~December 7, 2017', style='credits_text')
         with blind
         $ renpy.pause(5, hard = True)
-        hide expression Text ('[gui.credits]', style='credits_title')
+        hide expression Text ('Credits', style='credits_title')
         if renpy.variant("small") and _preferences.language == 'Russian':
             hide expression Text ("Hey Ren'Py, please translate this to russian..", style='credits_text')
         else:
@@ -4515,11 +4516,11 @@ label gameover:
         show born_balls at main_balls
         show gradiant
         with centerblind
-        show expression Text ('[gui.game_over]', style='part_title')
+        show expression Text ("Game Over", style='part_title')
         with d
     else:
         scene black
-        show expression Text ('[gui.game_over]', style='centered_text')
+        show expression Text ("Game Over", style='centered_text')
     pause 3
     scene black with d
     $ achievement.grant('KNDW_GAMEOVER')
@@ -4532,7 +4533,7 @@ label gameover:
         scene main_menu
         show gradiant
         with blind
-        show expression Text('[gui.teddy]', style='unlocked_title') as text at spread
+        show expression Text('Find Teddy', style='unlocked_title') as text at spread
         show teddy at unlocked_center:
             zoom 2
         $ renpy.pause(3, hard = True)
@@ -4543,7 +4544,7 @@ label unlocked:
     scene main_menu
     show gradiant
     with blind
-    show expression Text('[gui.unlocked]', style='unlocked_title') as text at spread
+    show expression Text('Unlocked', style='unlocked_title') as text at spread
     pause 1
     if persistent.part01 is None:
         $ gp = 1
@@ -4555,12 +4556,12 @@ label unlocked:
         pause 1.5
         hide expression 'arc_char_01'
         hide expression 'arc_char_03'
-        show expression Text ("[gui.bgm02]", color='#000', style="centered_text")
+        show expression Text ("Track 2. Sigh day", color='#000', style="centered_text")
         show expression Text ("{font=[gui.fontawesome]}{/font} Music +1", color='#000') at unlocked_text
         pause 1.5
         scene main_menu
         show gradiant
-        show expression Text('[gui.unlocked]', style='unlocked_title') as text
+        show expression Text('Unlocked', style='unlocked_title') as text
         show expression 'part_01' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Replay +1", color='#000') at unlocked_text
         pause 1.5
@@ -4587,12 +4588,12 @@ label unlocked:
         hide expression 'arc_gall_01'
         hide expression 'arc_gall_02'
         hide expression 'arc_gall_03'
-        show expression Text ("[gui.bgm03]\n[gui.bgm07]", color='#000', style="centered_text")
+        show expression Text ("Track 3. Mare tranquillitatis\nTrack 7. Unknown mist", color='#000', style="centered_text")
         show expression Text ("{font=[gui.fontawesome]}{/font} Music +2", color='#000') at unlocked_text
         pause 1.5
         scene main_menu
         show gradiant
-        show expression Text('[gui.unlocked]', style='unlocked_title') as text
+        show expression Text('Unlocked', style='unlocked_title') as text
         show expression 'part_02' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Replay +1", color='#000') at unlocked_text
         pause 1.5
@@ -4605,12 +4606,12 @@ label unlocked:
         show expression Text ("{font=[gui.fontawesome]}{/font} Characters +1", color='#000') at unlocked_text
         pause 1.5
         hide expression 'arc_char_02'
-        show expression Text ("[gui.bgm04]", color='#000', style="centered_text")
+        show expression Text ("Track 4. CCCanon", color='#000', style="centered_text")
         show expression Text ("{font=[gui.fontawesome]}{/font} Music +1", color='#000') at unlocked_text
         pause 1.5
         scene main_menu
         show gradiant
-        show expression Text('[gui.unlocked]', style='unlocked_title') as text
+        show expression Text('Unlocked', style='unlocked_title') as text
         show expression 'part_03' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Replay +1", color='#000') at unlocked_text
         pause 1.5
@@ -4628,12 +4629,12 @@ label unlocked:
         show expression Text ("{font=[gui.fontawesome]}{/font} Gallery +1", color='#000') at unlocked_text
         pause 1.5
         hide expression 'arc_gall_04'
-        show expression Text ("[gui.bgm05]", color='#000', style="centered_text")
+        show expression Text ("Track 5. Let's game", color='#000', style="centered_text")
         show expression Text ("{font=[gui.fontawesome]}{/font} Music +1", color='#000') at unlocked_text
         pause 1.5
         scene main_menu
         show gradiant
-        show expression Text('[gui.unlocked]', style='unlocked_title') as text
+        show expression Text('Unlocked', style='unlocked_title') as text
         show expression 'part_04' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Replay +1", color='#000') at unlocked_text
         pause 1.5
@@ -4650,12 +4651,12 @@ label unlocked:
         hide expression 'arc_gall_05'
         hide expression 'arc_gall_06'
         hide expression 'arc_gall_07'
-        show expression Text ("[gui.bgm06]", color='#000', style="centered_text")
+        show expression Text ("Track 6. Peace", color='#000', style="centered_text")
         show expression Text ("{font=[gui.fontawesome]}{/font} Music +1", color='#000') at unlocked_text
         pause 1.5
         scene main_menu
         show gradiant
-        show expression Text('[gui.unlocked]', style='unlocked_title') as text
+        show expression Text('Unlocked', style='unlocked_title') as text
         show expression 'part_05' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Replay +1", color='#000') at unlocked_text
         pause 1.5
@@ -4674,12 +4675,12 @@ label unlocked:
     elif persistent.part08 is None:
         $ gm = 1
         $ gr = 1
-        show expression Text ("[gui.bgm08]\n[gui.bgm09]", color='#000', style="centered_text")
+        show expression Text ("Track 8. Lush garden\nTrack 9. Jormungandr", color='#000', style="centered_text")
         show expression Text ("{font=[gui.fontawesome]}{/font} Music +2", color='#000') at unlocked_text
         pause 1.5
         scene main_menu
         show gradiant
-        show expression Text('[gui.unlocked]', style='unlocked_title') as text
+        show expression Text('Unlocked', style='unlocked_title') as text
         show expression 'part_08' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Replay +1", color='#000') at unlocked_text
         pause 1.5
@@ -4694,12 +4695,12 @@ label unlocked:
         pause 1.5
         hide expression 'arc_gall_08'
         hide expression 'arc_gall_09'
-        show expression Text ("[gui.bgm10]", color='#000', style="centered_text")
+        show expression Text ("Track 10. Nyx", color='#000', style="centered_text")
         show expression Text ("{font=[gui.fontawesome]}{/font} Music +1", color='#000') at unlocked_text
         pause 1.5
         scene main_menu
         show gradiant
-        show expression Text('[gui.unlocked]', style='unlocked_title') as text
+        show expression Text('Unlocked', style='unlocked_title') as text
         show expression 'part_09' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Replay +1", color='#000') at unlocked_text
         pause 1.5
@@ -4866,12 +4867,12 @@ label unlocked:
         hide expression 'arc_gall_22'
         hide expression 'arc_gall_23'
         hide expression 'arc_gall_24'
-        show expression Text ("[gui.bgm11]", color='#000', style="centered_text")
+        show expression Text ("Track 11. Summit showdown", color='#000', style="centered_text")
         show expression Text ("{font=[gui.fontawesome]}{/font} Music +1", color='#000') at unlocked_text
         pause 1.5
         scene main_menu
         show gradiant
-        show expression Text('[gui.unlocked]', style='unlocked_title') as text
+        show expression Text('Unlocked', style='unlocked_title') as text
         show expression 'part_17' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Replay +1", color='#000') at unlocked_text
         pause 1.5
@@ -4898,12 +4899,12 @@ label unlocked:
             show expression Text ("{font=[gui.fontawesome]}{/font} Gallery +1", color='#000') at unlocked_text
             pause 1.5
             hide expression 'arc_gall_25'
-        show expression Text ("[gui.bgm13]", color='#000', style="centered_text")
+        show expression Text ("Track 13. Sea of nectar", color='#000', style="centered_text")
         show expression Text ("{font=[gui.fontawesome]}{/font} Music +1", color='#000') at unlocked_text
         pause 1.5
         scene main_menu
         show gradiant
-        show expression Text('[gui.unlocked]', style='unlocked_title') as text
+        show expression Text('Unlocked', style='unlocked_title') as text
         if not sigiveup <= -1:
             show expression 'part_18' at unlocked_three_left
             show expression 'part_19' at unlocked_center
@@ -4954,7 +4955,7 @@ label unlocked:
         pause 1.5
         scene main_menu
         show gradiant
-        show expression Text('[gui.unlocked]', style='unlocked_title') as text
+        show expression Text('Unlocked', style='unlocked_title') as text
         show expression 'part_24' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Replay +1", color='#000') at unlocked_text
         pause 1.5
@@ -4976,12 +4977,12 @@ label unlocked:
         pause 1.5
         hide expression 'arc_gall_31'
         hide expression 'arc_gall_32'
-        show expression Text ("[gui.bgm12]", color='#000', style="centered_text")
+        show expression Text ("Track 12. Love song", color='#000', style="centered_text")
         show expression Text ("{font=[gui.fontawesome]}{/font} Music +1", color='#000') at unlocked_text
         pause 1.5
         scene main_menu
         show gradiant
-        show expression Text('[gui.unlocked]', style='unlocked_title') as text
+        show expression Text('Unlocked', style='unlocked_title') as text
         show expression 'part_25' at unlocked_center
         show expression Text ("{font=[gui.fontawesome]}{/font} Replay +1", color='#000') at unlocked_text
         pause 1.5
@@ -5094,7 +5095,7 @@ label esteregg_01_win:
         scene main_menu
         show gradiant
         with blind
-        show expression Text("[gui.unlocked]", style='unlocked_title') as text at spread
+        show expression Text("Unlocked", style='unlocked_title') as text at spread
         pause 1
         show expression '1m_gold' at unlocked_center
         $ persistent.introduction = True
@@ -5129,7 +5130,7 @@ label esteregg_02:
         scene main_menu
         show gradiant
         with blind
-        show expression Text("[gui.unlocked]", style='unlocked_title') as text at spread
+        show expression Text("Unlocked", style='unlocked_title') as text at spread
         pause 1
         show expression '2m_gold' at unlocked_center
         $ persistent.development = True
@@ -5230,7 +5231,7 @@ label esteregg_03_win:
         scene main_menu
         show gradiant
         with blind
-        show expression Text("[gui.unlocked]", style='unlocked_title') as text at spread
+        show expression Text("Unlocked", style='unlocked_title') as text at spread
         pause 1
         show expression '3m_gold' at unlocked_center
         $ persistent.turn = True
@@ -5265,7 +5266,7 @@ label esteregg_04:
         scene main_menu
         show gradiant
         with blind
-        show expression Text("[gui.unlocked]", style='unlocked_title') as text at spread
+        show expression Text("Unlocked", style='unlocked_title') as text at spread
         pause 1
         show expression '4m_gold' at unlocked_center
         $ persistent.conclusion = True
@@ -5445,7 +5446,7 @@ label wimcj_001_bag:
         scene main_menu
         show gradiant
         with blind
-        show expression Text("[gui.unlocked]", style='unlocked_title') as text at spread
+        show expression Text("Unlocked", style='unlocked_title') as text at spread
         pause 1
         show expression '5m_gold' at unlocked_center
         $ persistent.esteregg = True
@@ -5584,11 +5585,11 @@ label leannoth:
     show expression Text('{font=gui/fonts/YiSunShinBold.ttf}Mahalath\nLeannoth{/font}', size=256, color='#fff', style="centered_text")
     $ renpy.pause(5, hard = True)
     $ persistent.mahalath = True
-    if not achievement.has('KNDW_DETECTIVE') and not achievement.has('KNDW_MOD_PLAYER'):
+    if not achievement.has('KNDW_DETECTIVE'):
         scene main_menu
         show gradiant
         with blind
-        show expression Text("[gui.unlocked]", style='unlocked_title') as text at spread
+        show expression Text("Unlocked", style='unlocked_title') as text at spread
         pause 1
         show expression '6m_gold' at unlocked_center
         $ achievement.grant('KNDW_DETECTIVE')
@@ -5600,50 +5601,50 @@ label dlc:
     show gradiant
     if persistent.dlc == 'buy':
         if dlc_key == 404910:
-            $ steam.activate_overlay_to_store(404910, flag=steam.STORE_NONE)
+            $ _renpysteam.activate_overlay_to_store(404910, flag=_renpysteam.STORE_NONE)
         if dlc_key == 375160:
-            $ steam.activate_overlay_to_store(375160, flag=steam.STORE_ADD_TO_CART_AND_SHOW)
+            $ _renpysteam.activate_overlay_to_store(375160, flag=_renpysteam.STORE_ADD_TO_CART_AND_SHOW)
             call screen music_room
         if dlc_key == 382390:
-            $ steam.activate_overlay_to_store(382390, flag=steam.STORE_ADD_TO_CART_AND_SHOW)
+            $ _renpysteam.activate_overlay_to_store(382390, flag=_renpysteam.STORE_ADD_TO_CART_AND_SHOW)
         if dlc_key == 384650:
-            $ steam.activate_overlay_to_store(384650, flag=steam.STORE_ADD_TO_CART_AND_SHOW)
+            $ _renpysteam.activate_overlay_to_store(384650, flag=_renpysteam.STORE_ADD_TO_CART_AND_SHOW)
         if dlc_key == 407760:
-            $ steam.activate_overlay_to_store(407760, flag=steam.STORE_NONE)
+            $ _renpysteam.activate_overlay_to_store(407760, flag=_renpysteam.STORE_NONE)
         if dlc_key == 375161:
-            $ steam.activate_overlay_to_store(375161, flag=steam.STORE_ADD_TO_CART_AND_SHOW)
+            $ _renpysteam.activate_overlay_to_store(375161, flag=_renpysteam.STORE_ADD_TO_CART_AND_SHOW)
         if dlc_key == 558690:
-            $ steam.activate_overlay_to_store(558690, flag=steam.STORE_ADD_TO_CART_AND_SHOW)
+            $ _renpysteam.activate_overlay_to_store(558690, flag=_renpysteam.STORE_ADD_TO_CART_AND_SHOW)
     elif persistent.dlc == 'install':
         if dlc_key == 404910:
-            $ steam.install_dlc(404910)
+            $ _renpysteam.install_dlc(404910)
         if dlc_key == 375160:
-            $ steam.install_dlc(375160)
+            $ _renpysteam.install_dlc(375160)
         if dlc_key == 382390:
-            $ steam.install_dlc(382390)
+            $ _renpysteam.install_dlc(382390)
         if dlc_key == 384650:
-            $ steam.install_dlc(384650)
+            $ _renpysteam.install_dlc(384650)
         if dlc_key == 407760:
-            $ steam.install_dlc(407760)
+            $ _renpysteam.install_dlc(407760)
         if dlc_key == 375161:
-            $ steam.install_dlc(375161)
+            $ _renpysteam.install_dlc(375161)
         if dlc_key == 558690:
-            $ steam.install_dlc(558690)
+            $ _renpysteam.install_dlc(558690)
     elif persistent.dlc == 'delete':
         if dlc_key == 404910:
-            $ steam.uninstall_dlc(404910)
+            $ _renpysteam.uninstall_dlc(404910)
         if dlc_key == 375160:
-            $ steam.uninstall_dlc(375160)
+            $ _renpysteam.uninstall_dlc(375160)
         if dlc_key == 382390:
-            $ steam.uninstall_dlc(382390)
+            $ _renpysteam.uninstall_dlc(382390)
         if dlc_key == 384650:
-            $ steam.uninstall_dlc(384650)
+            $ _renpysteam.uninstall_dlc(384650)
         if dlc_key == 407760:
-            $ steam.uninstall_dlc(407760)
+            $ _renpysteam.uninstall_dlc(407760)
         if dlc_key == 375161:
-            $ steam.uninstall_dlc(375161)
+            $ _renpysteam.uninstall_dlc(375161)
         if dlc_key == 558690:
-            $ steam.uninstall_dlc(558690)
+            $ _renpysteam.uninstall_dlc(558690)
     call screen downloadable
 label refresh:
     $ renpy.restart_interaction()

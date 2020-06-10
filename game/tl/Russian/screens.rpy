@@ -5,6 +5,106 @@
     new "Левая клавиша: Да, Правая клавиша: Нет"
     old "Left arrow key: Previous, Right arrow key: Next."
     new "Левая клавиша: Пред, Правая клавиша: След."
+    old "Left arrow key: Healing, Right arrow key: Onlooking"
+    new "Левая клавиша: целебный, Правая клавиша: смотрящий"
+    old "Left arrow key: Back home, Right arrow key: Road not taken"
+    new "Левая клавиша: восвояси, Правая клавиша: Дорога не Взятые"
+    old "You can make a choice here. Listen to the following explanation and choose what you want."
+    new "Здесь вы можете сделать выбор. Прослушайте описание и выберите понравившийся вас вариант."
+    old "©2020 YGGDRASIL STUDIO"
+    new "©2020 YGGDRASIL STUDIO"
+    old "June 06, 2020 - V[config.version]"
+    new "06 Июн 2020 - V[config.version]"
+    old "{size=86}Start Reading{/size}"
+    new "Начать"
+    old "{size=86}Bookmarks{/size}"
+    new "Закладки"
+    old "{size=86}Load{/size}"
+    new "Загрузить"
+    old "{size=86}Archives{/size}"
+    new "Архив"
+    old "{size=86}DLC&MOD{/size}"
+    new "DLC и MOD"
+    old "{size=86}Configuration{/size}"
+    new "Настройки"
+    old "{size=86}Characters{/size}"
+    new "Персонажи"
+    old "{size=86}Concept{/size}"
+    new "Концепция"
+    old "{size=86}Diary{/size}"
+    new "Дневник"
+    old "{size=86}Quit{/size}"
+    new "Выход"
+    old '{size=[gui.quick_button_text_size]}Config{/size}'
+    new '{size=[gui.quick_button_text_size]}Настройки{/size}'
+    old '{size=[gui.quick_button_text_size]}Play{/size}'
+    new '{size=[gui.quick_button_text_size]}Авто{/size}'
+    old "{font=[gui.fontawesome]}{/font} Play"
+    new "{font=[gui.fontawesome]}{/font} Авто"
+    old '{size=[gui.quick_button_text_size]}Skip{/size}'
+    new '{size=[gui.quick_button_text_size]}Пропуск{/size}'
+    old "{font=[gui.fontawesome]}{/font} Archives"
+    new "{font=[gui.fontawesome]}{/font} Архив"
+    old '{size=[gui.quick_button_text_size]}Archives{/size}'
+    new '{size=[gui.quick_button_text_size]}Архив{/size}'
+    old "{font=[gui.fontawesome]}{/font} History"
+    new "{font=[gui.fontawesome]}{/font} История"
+    old '{size=[gui.quick_button_text_size]}History{/size}'
+    new '{size=[gui.quick_button_text_size]}История{/size}'
+    old '{size=[gui.quick_button_text_size]}Hide{/size}'
+    new '{size=[gui.quick_button_text_size]}Спрятать{/size}'
+    old '{size=[gui.quick_button_text_size]}Save{/size}'
+    new '{size=[gui.quick_button_text_size]}Сохранить{/size}'
+    old "{font=[gui.fontawesome]}{/font} Credits"
+    new "{font=[gui.fontawesome]}{/font} Кредиты"
+    old "{font=[gui.fontawesome]}{/font} Unlocked"
+    new "{font=[gui.fontawesome]}{/font} Открывать"
+    old '{size=[gui.interface_text_size]}Healing{/size}'
+    new '{size=[gui.interface_text_size]}целебный{/size}'
+    old '{size=[gui.interface_text_size]}Onlooking{/size}'
+    new '{size=[gui.interface_text_size]}смотрящий{/size}'
+    old '{size=[gui.interface_text_size]}Back home{/size}'
+    new '{size=[gui.interface_text_size]}восвояси{/size}'
+    old '{size=[gui.interface_text_size]}Road not taken{/size}'
+    new '{size=[gui.interface_text_size]}Дорога не Взятые{/size}'
+    old "{image=gui/controllers/[persistent.controllers]/grip_r.webp} {size=86}Start Reading{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/grip_r.webp} Начать"
+    old "{image=gui/controllers/[persistent.controllers]/guide.webp} {size=86}Start Reading{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/guide.webp} Начать"
+    old "{image=gui/controllers/[persistent.controllers]/shoulder_r.webp} {size=86}Load{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/shoulder_r.webp} Загрузить"
+    old "{image=gui/controllers/[persistent.controllers]/button_start.webp} {size=86}Load{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/button_start.webp} Загрузить"
+    old "{image=gui/controllers/[persistent.controllers]/shoulder_r.webp} {size=86}Bookmarks{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/shoulder_r.webp} Закладки"
+    old "{image=gui/controllers/[persistent.controllers]/button_start.webp} {size=86}Bookmarks{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/button_start.webp} Закладки"
+    old "{image=gui/controllers/[persistent.controllers]/button_b.webp} {size=86}Archives{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/button_b.webp} Архив"
+    old "{image=gui/controllers/[persistent.controllers]/button_b.webp} {size=86}Characters{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/button_b.webp} Персонажи"
+    old "{image=gui/controllers/[persistent.controllers]/button_x.webp} {size=86}Concept{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/button_x.webp} Концепция"
+    old "{image=gui/controllers/[persistent.controllers]/button_y.webp} {size=86}Diary{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/button_y.webp} Дневник"
+    old "{image=gui/controllers/[persistent.controllers]/button_x.webp} {size=86}DLC&MOD{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/button_x.webp} DLC и MOD"
+    old "{image=gui/controllers/[persistent.controllers]/button_y.webp} {size=86}Configuration{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/button_y.webp} Настройки"
+    old "{image=gui/controllers/[persistent.controllers]/shoulder_l.webp} {size=86}Quit{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/shoulder_l.webp} Выход"
+    old "{image=gui/controllers/[persistent.controllers]/button_select.webp} {size=86}Quit{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/button_select.webp} Выход"
+    old "Credits"
+    new "Кредиты"
+    old "Discouraged Workers ©2020 YGGDRASIL STUDIO Co, Pte. All Rights Reserved. All literary works/trademarks are property of their respective owners. Do not distribute our program or any alterations of our program files. For the End User License Agreement, please view the EULA.txt file in the licenses directory, or visit {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/gh-pages/EULA.txt}here{/a}.\n\nThe source code of Discouraged Workers is covered by the terms of the GNU Lesser General Public License v3.0. The source code can be found {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/source-codes}here{/a}.\n"
+    new "Discouraged Workers ©2020 YGGDRASIL STUDIO Co, Pte. Все права защищены. Все литературные произведения/товарные знаки являются собственностью соответствующих владельцев. Не распространяйте нашу программу или какие-либо изменения в программных файлах. Для Лицензионного соглашения с конечным пользователем, пожалуйста, просмотрите файл EULA.txt в каталоге лицензий или посетите {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/gh-pages/EULA.txt}данную страницу{/a}.\n\nИсходный код Disouraged Workers распространяется на условия GNU Lesser General Public License v3.0. Исходный код можно найти {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/source-codes}здесь{/a}.\n"
+    old "This program contains free font software under a number of licenses, including the SIL Open Font License. A complete list of font software, including links to download can be found {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/wiki/about#licenses}here{/a}, or please view the fonts-LICENSE.txt file in the licenses directory.\n\nThis program contains a number of assets that are covered by the terms of the Creative Commons License. For a list of assets, and a location where the original assets can be downloaded from, please view the assets-LICENSE.txt file in the licenses directory or visit {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/wiki/about#licenses}here{/a}.\n"
+    new "Эта программа содержит бесплатное программное обеспечение для шрифтов по ряду лицензий, включая SIL Open Font License. Полный список программного обеспечения для шрифтов, включая ссылки для загрузки, можно найти{a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/wiki/about#licenses}здесь{/a} или в файле fonts-LICENSE.txt из каталога лицензий.\n\nЭта программа содержит ряд активов, которые охватываются условиями Creative Commons License. Для получения списка активов и ссылок для загрузки просмотрите файл assets-LICENSE.txt в каталоге лицензий или посетите{a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/wiki/about#licenses}данную страницу{/a}.\n"
+    old "This program contains Xbox 360 Controller/Button images. The asset pack can be found {a=http://xbox.create.msdn.com/en-us/education/catalog/utility/controller_buttons}here{/a}.\n"
+    new "Эта программа содержит изображения контроллера Xbox 360 и его кнопок. Пакет изображений можно найти {a=http://xbox.create.msdn.com/en-us/education/catalog/utility/controller_buttons}здесь{/a}.\n"
+    old "©2020 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.\n\n©2020 Valve Corporation. Steamworks and the Steamworks logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries."
+    new "©2020 Valve Corporation. Название и логотип Steam являются торговыми знаками и/или зарегистрированными торговыми знаками Valve Corporation в США и/или других странах.\n\n©2020 Valve Corporation. Название и логотип Steamworks являются торговыми знаками и/или зарегистрированными торговыми знаками Valve Corporation в США и/или других странах."
     old "{font=[gui.fontawesome]}{/font} Basic Settings"
     new "{font=[gui.fontawesome]}{/font} Базовые настройки"
     old "{font=[gui.fontawesome]}{/font} About"
@@ -57,8 +157,8 @@
     new "{font=[gui.fontawesome]}{/font} Нет"
     old "Version [config.version!t]\n"
     new "Версия [config.version!t]\n"
-    old "Created with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]\n"
-    new "Созданный с {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]\n"
+    old "Created with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\nThis program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license/}here{/a}.\n"
+    new "Созданный с {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\nЭта программа содержит свободное и открытое программное обеспечение под несколькими лицензиями, включая лицензию MIT и GNU Lesser General Public. Полный список лицензий, включая ссылки на полный исходный код, можно найти {a=https://www.renpy.org/l/license}здесь{/a}.\n"
     old "empty slot"
     new "Пустой слот"
     old "{#auto_page}A"

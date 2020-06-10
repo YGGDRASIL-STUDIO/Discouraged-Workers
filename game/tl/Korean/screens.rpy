@@ -5,6 +5,138 @@
     new "왼쪽 방향쇠: 네, 오른쪽 방향쇠: 아니오."
     old "Left arrow key: Previous, Right arrow key: Next."
     new "왼쪽 방향쇠: 이전, 오른쪽 방향쇠: 다음."
+    old "Left arrow key: Healing, Right arrow key: Onlooking"
+    new "왼쪽 방향쇠: 치료하기, 오른쪽 방향쇠: 방관하기"
+    old "Left arrow key: Back home, Right arrow key: Road not taken"
+    new "왼쪽 방향쇠: 집으로 돌아가기, 오른쪽 방향쇠: 가보지 않은 길"
+    old "You can make a choice here. Listen to the following explanation and choose what you want."
+    new "여기서 선택을 할 수 있습니다. 다음 설명을 듣고 원하는 것을 선택하십시오."
+    old "©2020 YGGDRASIL STUDIO"
+    new "©2020 익드라실 스튜디오"
+    old "June 06, 2020 - V[config.version]"
+    new "2020년 06월 06일 - V[config.version]"
+    old "{size=86}Start Reading{/size}"
+    new "처음부터 읽기"
+    old "{size=86}Bookmarks{/size}"
+    new "책갈피"
+    old "{size=86}Load{/size}"
+    new "불러오기"
+    old "{size=86}Archives{/size}"
+    new "기록 보관소"
+    old "{size=86}DLC&MOD{/size}"
+    new "DLC&MOD"
+    old "{size=86}Configuration{/size}"
+    new "환경설정"
+    old "{size=86}Characters{/size}"
+    new "등장인물"
+    old "{size=86}Concept{/size}"
+    new "해설 모음"
+    old "{size=86}Diary{/size}"
+    new "가연의 일기"
+    old "{size=86}Quit{/size}"
+    new "책장 덮기"
+    old '{size=[gui.quick_button_text_size]}Config{/size}'
+    new '{size=[gui.quick_button_text_size]}환경설정{/size}'
+    old '{size=[gui.quick_button_text_size]}Play{/size}'
+    new '{size=[gui.quick_button_text_size]}계속 읽기{/size}'
+    old "{font=[gui.fontawesome]}{/font} Play"
+    new "{font=[gui.fontawesome]}{/font} 계속 읽기"
+    old '{size=[gui.quick_button_text_size]}Stop{/size}'
+    new '{size=[gui.quick_button_text_size]}일시정지{/size}'
+    old '{size=[gui.quick_button_text_size]}Skip{/size}'
+    new '{size=[gui.quick_button_text_size]}넘기기{/size}'
+    old "{font=[gui.fontawesome]}{/font} Archives"
+    new "{font=[gui.fontawesome]}{/font} 기록 보관소"
+    old '{size=[gui.quick_button_text_size]}Archives{/size}'
+    new '{size=[gui.quick_button_text_size]}기록 보관소{/size}'
+    old "{font=[gui.fontawesome]}{/font} History"
+    new "{font=[gui.fontawesome]}{/font} 극본"
+    old '{size=[gui.quick_button_text_size]}History{/size}'
+    new '{size=[gui.quick_button_text_size]}극본 열기{/size}'
+    old '{size=[gui.quick_button_text_size]}Hide{/size}'
+    new '{size=[gui.quick_button_text_size]}숨기기{/size}'
+    old '{size=[gui.quick_button_text_size]}Save{/size}'
+    new '{size=[gui.quick_button_text_size]}책갈피 꽂기{/size}'
+    old "{font=[gui.fontawesome]}{/font} Credits"
+    new "{font=[gui.fontawesome]}{/font} 만든이"
+    old "{font=[gui.fontawesome]}{/font} Unlocked"
+    new "{font=[gui.fontawesome]}{/font} 잠금해제"
+    old '{size=[gui.interface_text_size]}Healing{/size}'
+    new '{size=[gui.interface_text_size]}치료하기{/size}'
+    old '{size=[gui.interface_text_size]}Onlooking{/size}'
+    new '{size=[gui.interface_text_size]}방관하기{/size}'
+    old '{size=[gui.interface_text_size]}Back home{/size}'
+    new '{size=[gui.interface_text_size]}집으로 돌아가기{/size}'
+    old '{size=[gui.interface_text_size]}Road not taken{/size}'
+    new '{size=[gui.interface_text_size]}가보지 않은 길{/size}'
+    old "{image=gui/controllers/[persistent.controllers]/grip_r.webp} {size=86}Start Reading{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/grip_r.webp} 처음부터 읽기"
+    old "{image=gui/controllers/[persistent.controllers]/guide.webp} {size=86}Start Reading{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/guide.webp} 처음부터 읽기"
+    old "{image=gui/controllers/[persistent.controllers]/shoulder_r.webp} {size=86}Load{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/shoulder_r.webp} 불러오기"
+    old "{image=gui/controllers/[persistent.controllers]/button_start.webp} {size=86}Load{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/button_start.webp} 불러오기"
+    old "{image=gui/controllers/[persistent.controllers]/shoulder_r.webp} {size=86}Bookmarks{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/shoulder_r.webp} 책갈피"
+    old "{image=gui/controllers/[persistent.controllers]/button_start.webp} {size=86}Bookmarks{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/button_start.webp} 책갈피"
+    old "{image=gui/controllers/[persistent.controllers]/button_b.webp} {size=86}Archives{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/button_b.webp} 기록 보관소"
+    old "{image=gui/controllers/[persistent.controllers]/button_b.webp} {size=86}Characters{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/button_b.webp} 등장인물"
+    old "{image=gui/controllers/[persistent.controllers]/button_x.webp} {size=86}Concept{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/button_x.webp} 해설 모음"
+    old "{image=gui/controllers/[persistent.controllers]/button_y.webp} {size=86}Diary{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/button_y.webp} 가연의 일기"
+    old "{image=gui/controllers/[persistent.controllers]/button_x.webp} {size=86}DLC&MOD{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/button_x.webp} DLC&MOD"
+    old "{image=gui/controllers/[persistent.controllers]/button_y.webp} {size=86}Configuration{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/button_y.webp} 환경설정"
+    old "{image=gui/controllers/[persistent.controllers]/shoulder_l.webp} {size=86}Quit{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/shoulder_l.webp} 책장 덮기"
+    old "{image=gui/controllers/[persistent.controllers]/button_select.webp} {size=86}Quit{/size}"
+    new "{image=gui/controllers/[persistent.controllers]/button_select.webp} 책장 덮기"
+    old "Track 1. Pandemic"
+    new "트랙 01. 팬더믹"
+    old "Track 2. Sigh day"
+    new "트랙 02. 탄식의 나날"
+    old "Track 3. Mare tranquillitatis"
+    new "트랙 03. 고요의 바다"
+    old "Track 4. CCCanon"
+    new "트랙 04. 트리플 캐논"
+    old "Track 5. Let's game"
+    new "트랙 05. 게임하자!"
+    old "Track 6. Peace"
+    new "트랙 06. 평화"
+    old "Track 7. Unknown mist"
+    new "트랙 07. 알 수 없는 안개"
+    old "Track 8. Lush garden"
+    new "트랙 08. 푸른 정원"
+    old "Track 9. Jormungandr"
+    new "트랙 09. 요르문간드"
+    old "Track 10. Nyx"
+    new "트랙 10. 밤의 여신"
+    old "Track 11. Summit showdown"
+    new "트랙 11. 정상결전"
+    old "Track 12. Love song"
+    new "트랙 12. 연가"
+    old "Track 13. Sea of nectar"
+    new "트랙 13. 넥타르의 평원"
+    old "Track 3. Mare tranquillitatis\nTrack 7. Unknown mist"
+    new "트랙 03. 고요의 바다\n트랙 07. 알 수 없는 안개"
+    old "Track 8. Lush garden\nTrack 9. Jormungandr"
+    new "트랙 08. 푸른 정원\n트랙 09. 요르문간드"
+    old "Credits"
+    new "만든이"
+    old "Discouraged Workers ©2020 YGGDRASIL STUDIO Co, Pte. All Rights Reserved. All literary works/trademarks are property of their respective owners. Do not distribute our program or any alterations of our program files. For the End User License Agreement, please view the EULA.txt file in the licenses directory, or visit {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/gh-pages/EULA.txt}here{/a}.\n\nThe source code of Discouraged Workers is covered by the terms of the GNU Lesser General Public License v3.0. The source code can be found {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/source-codes}here{/a}.\n"
+    new "Discouraged Workers ©2020 YGGDRASIL STUDIO Co, Pte. 모든 권리 보유. 실망실업자의 저작권은 익드라실 스튜디오에 있습니다. 모든 저작물/상표는 해당하는 소유자의 재산입니다. 우리의 프로그램이나 우리의 프로그램 파일의 변경을 배포하지 마십시오. 최종 사용자 사용권 계약은 licenses 디렉토리의 EULA_ko.txt 문서 또는 {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/blob/gh-pages/EULA_ko.txt}여기{/a}를 확인하세요.\n\n실망실업자의 소스 코드는 GNU 약소 일반 공중 사용권 v3.0 조항에 따라 이용할 수 있습니다. 소스 코드의 다운로드 위치는 {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/tree/source-codes}여기{/a}를 확인하세요.\n"
+    old "This program contains free font software under a number of licenses, including the SIL Open Font License. A complete list of font software, including links to download can be found {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/wiki/about#licenses}here{/a}, or please view the fonts-LICENSE.txt file in the licenses directory.\n\nThis program contains a number of assets that are covered by the terms of the Creative Commons License. For a list of assets, and a location where the original assets can be downloaded from, please view the assets-LICENSE.txt file in the licenses directory or visit {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/wiki/about#licenses}here{/a}.\n"
+    new "이 작품은 SIL 열린 글꼴 사용권을 포함한 여러 사용권하에 무료 글꼴 소프트웨어가 포함돼 있습니다. 사용한 프로젝트 목록과 다운로드 위치는 licenses 디렉토리의 fonts-LICENSE.txt 문서 또는 {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/wiki/about#licenses}여기{/a}를 확인하세요.\n\n이 작품은 창작 공유 사용권이 적용되는 다양한 자산을 사용합니다. 사용한 자산 목록과 다운로드 위치는 licenses 디렉토리의 assets-LICENSE.txt 문서 또는 {a=https://github.com/YGGDRASIL-STUDIO/Discouraged-Workers/wiki/about#licenses}여기{/a}를 확인하세요.\n"
+    old "This program contains Xbox 360 Controller/Button images. The asset pack can be found {a=http://xbox.create.msdn.com/en-us/education/catalog/utility/controller_buttons}here{/a}.\n"
+    new "이 작품은 Xbox 360 컨트롤러/버튼 이미지를 사용합니다. 다운로드 위치는 {a=http://xbox.create.msdn.com/en-us/education/catalog/utility/controller_buttons}여기{/a}를 확인하세요.\n"
+    old "©2020 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.\n\n©2020 Valve Corporation. Steamworks and the Steamworks logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries."
+    new "©2020 Valve Corporation. Steam과 Steam 로고는 미국 및 기타 국가에서 등록된 Valve Corporation의 상표들입니다.\n\n©2020 Valve Corporation. Steamworks와 Steamworks 로고는 미국 및 기타 국가에서 등록된 Valve Corporation의 상표들입니다."
     old "{font=[gui.fontawesome]}{/font} Basic Settings"
     new "{font=[gui.fontawesome]}{/font} 기본설정"
     old "{font=[gui.fontawesome]}{/font} About"
@@ -57,8 +189,8 @@
     new "{font=[gui.fontawesome]}{/font} 아니오"
     old "Version [config.version!t]\n"
     new "버전 [config.version!t]\n"
-    old "Created with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]\n"
-    new "이 작품은 시각 소설 엔진 {a=https://www.renpy.org/}렌파이{/a} [renpy.version_only]로 창작됐습니다.\n\n[renpy.license!t]\n"
+    old "Created with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\nThis program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license/}here{/a}.\n"
+    new "이 작품은 시각 소설 엔진 {a=https://www.renpy.org/}렌파이{/a} [renpy.version_only]로 창작됐습니다.\n\n렌파이 엔진은 MIT 사용권 및 GNU 약소 일반 공중 사용권을 포함한 여러 사용권하에 무료 소프트웨어가 포함돼 있습니다. 사용한 프로젝트 목록과 다운로드 위치는 {a=https://www.renpy.org/l/license/}여기{/a}를 확인하세요.\n"
     old "empty slot"
     new "책갈피 가능"
     old "{#auto_page}A"
@@ -435,8 +567,6 @@
     new "{font=[gui.fontawesome]}{/font} 사운드클라우드"
     old "{font=[gui.fontawesome]}{/font} Add to cart"
     new "{font=[gui.fontawesome]}{/font} 장바구니 담기"
-    old '{size=[gui.quick_button_text_size]}Stop{/size}'
-    new '{size=[gui.quick_button_text_size]}재생중지{/size}'
     old '{size=[gui.quick_button_text_size]}Previous{/size}'
     new '{size=[gui.quick_button_text_size]}이전{/size}'
     old '{size=[gui.quick_button_text_size]}Next{/size}'
