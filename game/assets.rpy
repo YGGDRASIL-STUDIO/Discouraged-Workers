@@ -1419,7 +1419,6 @@ init:
     image photop = 'images/photo.webp'
     if achievement.has('KNDW_SPONSOR') and persistent.esteregg is True:
         image video = Composite((1920, 1080), (0,0), 'images/hospital.webp', (0, 0), 'images/video.webp')
-        image girl_walk = Movie(fps=60, channel='video', play='images/girl.webm', mask_channel='mask', image='images/girl.webp', side_mask=True, layer='screens')
         image video_play = Movie(fps=60, channel='video', play='images/video.webm', image='video', layer='screens')
         image y_dakimakura_1 = Composite((1920, 5760), (0,0), 'images/y_dakimakura_1.webp', (816, 1793), 'images/y_dakimakura_uncensored.webp')
         image riding1_movie = Movie(fps=60, channel='video', play='images/riding_1.webm', image='riding0', layer='screens')
