@@ -38,7 +38,7 @@
     old '{size=[gui.quick_button_text_size]}Config{/size}'
     new '{size=[gui.quick_button_text_size]}Config{/size}'
     old '{size=[gui.quick_button_text_size]}Play{/size}'
-    new '{size=[gui.quick_button_text_size]}계속 읽기{/size}'
+    new '{size=[gui.quick_button_text_size]}Auto{/size}'
     old "{font=[gui.fontawesome]}{/font} Play"
     new "{font=[gui.fontawesome]}{/font} Auto"
     old '{size=[gui.quick_button_text_size]}Skip{/size}'
