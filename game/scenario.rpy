@@ -1613,11 +1613,11 @@ label hospital:
         show born_balls at main_balls
         show gradiant
         with centerblind
-        show expression Text ('Broken heart', style='part_title')
+        show expression Text ('Broken mind', style='part_title')
         with d
     else:
         scene black
-        show expression Text ('Broken heart', style='centered_text')
+        show expression Text ('Broken mind', style='centered_text')
     $ progress += 1
     pause 3
     scene black with d

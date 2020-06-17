@@ -13,7 +13,7 @@
     new "You can make a choice here. Listen to the following explanation and choose what you want."
     old "©2020 YGGDRASIL STUDIO"
     new "©2020 YGGDRASIL STUDIO"
-    old "June 06, 2020 - V[config.version]"
+    old "Jun 18, 2020 - V[config.version]"
     new "06 Jun. 2020 - V[config.version]"
     old "{size=86}Start Reading{/size}"
     new "Empieza a leer"

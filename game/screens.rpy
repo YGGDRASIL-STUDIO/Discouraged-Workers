@@ -337,7 +337,7 @@ screen main_menu():
     if gui.show_name:
         vbox:
             imagebutton idle NewsThumb() action ShowNews()
-            text "June 06, 2020 - V[config.version]":
+            text "Jun 18, 2020 - V[config.version]":
                 style "main_menu_version"
             text "©2020 YGGDRASIL STUDIO":
                 style "main_menu_version"
