@@ -14,7 +14,7 @@
     old "©2020 YGGDRASIL STUDIO"
     new "©2020 YGGDRASIL STUDIO"
     old "Jun 18, 2020 - V[config.version]"
-    new "06 Jun. 2020 - V[config.version]"
+    new "18 Jun. 2020 - V[config.version]"
     old "{size=86}Start Reading{/size}"
     new "Empieza a leer"
     old "{size=86}Bookmarks{/size}"
