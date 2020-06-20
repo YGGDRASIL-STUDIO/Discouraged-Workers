@@ -2653,6 +2653,9 @@ screen authors():
             label _("Tom Rothamel")
             text _("Ren'Py Visual Novel Engine")
         hbox:
+            label _("Tristan Salvador Ceja Valencia")
+            text _("Roxie's N64 General MIDI Soundfont")
+        hbox:
             label _("Valve Corporation")
             text _("Steam, Steamworks")
         hbox:
